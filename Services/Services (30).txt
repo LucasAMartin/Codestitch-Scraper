@@ -1,0 +1,421 @@
+<!-- ============================================ -->
+<!--                   Services                   -->
+<!-- ============================================ -->
+
+<section id="services-18">
+    <div class="cs-container">
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Services/red-bolt.svg" loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Food Shipped to You</h3>
+                    <p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Services/red-bolt.svg" loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Orders Stored Safely</h3>
+                    <p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Services/red-bolt.svg" loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Regular Shipments</h3>
+                    <p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Services/red-bolt.svg" loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Constant Direct Contact</h3>
+                    <p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Services/red-bolt.svg" loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Biodegradable Flatware</h3>
+                    <p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Services/red-bolt.svg" loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Food Shipped to You</h3>
+                    <p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </li>
+        </ul>
+        <a href="" class="cs-button-solid">Get Free Quote</a>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #AD0D00;
+    --primaryLight: #FF5547;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #services-18 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #services-18 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #services-18 .cs-card-group {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 56.25rem;
+    margin: 0;
+    padding: 2.5rem 0 4.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-top: 1px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
+  }
+  #services-18 .cs-item {
+    text-align: left;
+    list-style: none;
+    width: 100%;
+    max-width: 23rem;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  #services-18 .cs-picture {
+    margin-right: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* 60px - 68px */
+    width: clamp(3.75rem, 6vw, 4.25rem);
+    height: clamp(3.75rem, 6vw, 4.25rem);
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+    /* prevents border from affecting height and width */
+    box-sizing: border-box;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #services-18 .cs-icon {
+    width: 1.875rem;
+    height: auto;
+    display: block;
+  }
+  #services-18 .cs-h3 {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    margin: 0;
+    margin-bottom: 1rem;
+    color: var(--headerColor);
+  }
+  #services-18 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #services-18 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #services-18 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #services-18 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #services-18 .cs-button-solid {
+    /* button override */
+    margin-top: -4.5rem;
+    /* creates illusion of 2 separate lines */
+    outline: 1.25rem solid #ffffff;
+  }
+}
+/* Tablet - 600px */
+@media only screen and (min-width: 37.5rem) {
+  #services-18 .cs-card-group {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 2.5rem;
+    row-gap: 2.5rem;
+  }
+  #services-18 .cs-item {
+    margin: 0;
+    width: 46%;
+  }
+  #services-18 .cs-button-solid {
+    margin-top: calc(clamp(4.5rem, 9vw, 5.625rem)*-1);
+  }
+}
+/* Desktop - 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #services-18 .cs-card-group {
+    max-width: 80rem;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #AD0D00;
+    --primaryLight: #FF5547;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #services-18 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #services-18 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #services-18 .cs-card-group {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 56.25rem;
+    margin: 0;
+    padding: 2.5rem 0 4.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-top: 1px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
+  }
+  #services-18 .cs-item {
+    text-align: left;
+    list-style: none;
+    width: 100%;
+    max-width: 23rem;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  #services-18 .cs-picture {
+    margin-right: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* 60px - 68px */
+    width: clamp(3.75rem, 6vw, 4.25rem);
+    height: clamp(3.75rem, 6vw, 4.25rem);
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+    /* prevents border from affecting height and width */
+    box-sizing: border-box;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #services-18 .cs-icon {
+    width: 1.875rem;
+    height: auto;
+    display: block;
+  }
+  #services-18 .cs-h3 {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    margin: 0;
+    margin-bottom: 1rem;
+    color: var(--headerColor);
+  }
+  #services-18 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #services-18 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #services-18 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #services-18 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #services-18 .cs-button-solid {
+    /* button override */
+    margin-top: -4.5rem;
+    /* creates illusion of 2 separate lines */
+    outline: 1.25rem solid #ffffff;
+  }
+}
+/* Tablet - 600px */
+@media only screen and (min-width: 37.5rem) {
+  #services-18 .cs-card-group {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 2.5rem;
+    row-gap: 2.5rem;
+  }
+  #services-18 .cs-item {
+    margin: 0;
+    width: 46%;
+  }
+  #services-18 .cs-button-solid {
+    margin-top: calc(clamp(4.5rem, 9vw, 5.625rem)*-1);
+  }
+}
+/* Desktop - 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #services-18 .cs-card-group {
+    max-width: 80rem;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #services-18 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #services-18 .cs-text,
+  body.dark-mode #services-18 .cs-item-text {
+    opacity: .8;
+  }
+  body.dark-mode #services-18 .cs-icon {
+    /* turns it white */
+    filter: grayscale(1) brightness(1000%);
+  }
+  body.dark-mode #services-18 .cs-button-solid {
+    	outline-color: var(--dark);
+  }
+  body.dark-mode #services-18 .cs-title,
+  body.dark-mode #services-18 .cs-text,
+  body.dark-mode #services-18 .cs-h3,
+  body.dark-mode #services-18 .cs-item-text {
+    color: var(--bodyTextColorWhite);
+  }
+}
+                                

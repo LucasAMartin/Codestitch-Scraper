@@ -1,0 +1,232 @@
+<!--                   
+    These "Micro Stitches" are to be placed inside the .cs-content group of Side By Side Stitches. This one is supposed to go under the cs-text. 
+-->
+
+<div id="button-box-839">
+    <a href="" class="cs-button-solid">Get Started</a>
+    <a href="" class="cs-button-transparent">
+        <picture class="cs-picture">
+            <img class="cs-img" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/chevron-right.svg" alt="icon" width="12" height="12" aria-hidden="true">
+        </picture>
+        See Prices
+    </a>
+</div>
+                                
+/* you can copy and paste this into your global stylesheet to be used everywhere in your site */
+#button-box-839 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+#button-box-839 .cs-button-solid {
+  text-align: center;
+  font-size: 1rem;
+  /* 46px - 56px */
+  line-height: clamp(2.875em, 5.5vw, 3.5em);
+  min-width: 11.25rem;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  /* clips corners of the before element */
+  overflow: hidden;
+  margin: 0;
+  color: #fff;
+  padding: 0;
+  background-color: var(--secondary);
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+#button-box-839 .cs-button-solid:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 0%;
+  background: #000;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: width .3s;
+}
+#button-box-839 .cs-button-solid:hover:before {
+  width: 100%;
+}
+#button-box-839 .cs-button-transparent {
+  font-size: 1rem;
+  /* 46px - 56px */
+  line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+  width: 11.25rem;
+  /* 46px - 56px */
+  height: clamp(2.875rem, 5.5vw, 3.5rem);
+  text-decoration: none;
+  font-weight: 700;
+  margin: 0;
+  color: var(--primaryLight);
+  padding: 0;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+#button-box-839 .cs-button-transparent:before {
+  /* white hover box */
+  content: '';
+  /* 46px - 56px */
+  width: clamp(2.875rem, 5.5vw, 3.5rem);
+  background: #fff;
+  border-radius: 1.75rem;
+  opacity: 1;
+  position: absolute;
+  display: block;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  transition: width 0.3s, box-shadow 0.3s;
+}
+#button-box-839 .cs-button-transparent:hover:before {
+  width: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#button-box-839 .cs-picture {
+  /* 46px - 56px */
+  width: clamp(2.875rem, 5.5vw, 3.5rem);
+  height: clamp(2.875rem, 5.5vw, 3.5rem);
+  margin-right: 0.5rem;
+  background-color: var(--primaryLight);
+  border-radius: 50%;
+  border: 6px solid #fff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#button-box-839 .cs-image {
+  width: 0.75rem;
+  height: auto;
+}
+                                
+/* you can copy and paste this into your global stylesheet to be used everywhere in your site */
+#button-box-839 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+#button-box-839 .cs-button-solid {
+  text-align: center;
+  font-size: 1rem;
+  /* 46px - 56px */
+  line-height: clamp(2.875em, 5.5vw, 3.5em);
+  min-width: 11.25rem;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  /* clips corners of the before element */
+  overflow: hidden;
+  margin: 0;
+  color: #fff;
+  padding: 0;
+  background-color: var(--secondary);
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+#button-box-839 .cs-button-solid:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 0%;
+  background: #000;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: width .3s;
+}
+#button-box-839 .cs-button-solid:hover:before {
+  width: 100%;
+}
+#button-box-839 .cs-button-transparent {
+  font-size: 1rem;
+  /* 46px - 56px */
+  line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+  width: 11.25rem;
+  /* 46px - 56px */
+  height: clamp(2.875rem, 5.5vw, 3.5rem);
+  text-decoration: none;
+  font-weight: 700;
+  margin: 0;
+  color: var(--primaryLight);
+  padding: 0;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+#button-box-839 .cs-button-transparent:before {
+  /* white hover box */
+  content: '';
+  /* 46px - 56px */
+  width: clamp(2.875rem, 5.5vw, 3.5rem);
+  background: #fff;
+  border-radius: 1.75rem;
+  opacity: 1;
+  position: absolute;
+  display: block;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  transition: width 0.3s, box-shadow 0.3s;
+}
+#button-box-839 .cs-button-transparent:hover:before {
+  width: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#button-box-839 .cs-picture {
+  /* 46px - 56px */
+  width: clamp(2.875rem, 5.5vw, 3.5rem);
+  height: clamp(2.875rem, 5.5vw, 3.5rem);
+  margin-right: 0.5rem;
+  background-color: var(--primaryLight);
+  border-radius: 50%;
+  border: 6px solid #fff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#button-box-839 .cs-image {
+  width: 0.75rem;
+  height: auto;
+}
+/* Dark Mode */
+body.dark-mode #button-box-839 .cs-button-transparent {
+  color: var(--bodyTextColorWhite);
+}
+body.dark-mode #button-box-839 .cs-button-transparent:before {
+  background-color: var(--accent);
+}
+body.dark-mode #button-box-839 .cs-picture {
+  border-color: var(--accent);
+}
+body.dark-mode #button-box-839 .cs-icon {
+  /* makes icons that are not black turn white */
+  filter: grayscale(1) brightness(1000%);
+}
+                                

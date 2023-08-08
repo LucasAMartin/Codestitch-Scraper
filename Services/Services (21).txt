@@ -1,0 +1,452 @@
+<!-- ============================================ -->
+<!--                   Services                   -->
+<!-- ============================================ -->
+
+<section id="services-38">
+    <div class="cs-container">
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/floral-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/floral.jpg">
+                    <img loading="lazy" decoding="https://csimg.nyc3.digitaloceanspaces.com/Services/floral.jpg" alt="living room" width="348" height="433" aria-hidden="true">
+                </picture>
+                <div class="cs-box">
+                    <h3 class="cs-h3">Floral <span>Arrangements</span></h3>
+                    <p class="cs-item-text">
+                        Ut enim ad minim veniam, quis nostrud exercitation laboris nisi ut aliquip ex ea commodo.
+                    </p>
+                    <a class="cs-link" aria-label="read more about floral arrangements" href="">Read More</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/wedding-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/wedding.jpg">
+                    <img loading="lazy" decoding="https://csimg.nyc3.digitaloceanspaces.com/Services/wedding.jpg" alt="living room" width="348" height="433" aria-hidden="true">
+                </picture>
+                <div class="cs-box">
+                    <h3 class="cs-h3">Wedding <span>Photography</span></h3>
+                    <p class="cs-item-text">
+                        Ut enim ad minim veniam, quis nostrud exercitation laboris nisi ut aliquip ex ea commodo.
+                    </p>
+                    <a class="cs-link" aria-label="read more about Wedding Photography" href="">Read More</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/wedding-cake-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/wedding-cake.jpg">
+                    <img loading="lazy" decoding="https://csimg.nyc3.digitaloceanspaces.com/Services/wedding-cake.jpg" alt="living room" width="348" height="433" aria-hidden="true">
+                </picture>
+                <div class="cs-box">
+                    <h3 class="cs-h3">Wedding <span>Cakes</span></h3>
+                    <p class="cs-item-text">
+                        Ut enim ad minim veniam, quis nostrud exercitation laboris nisi ut aliquip ex ea commodo.
+                    </p>
+                    <a class="cs-link" aria-label="read more about wedding cakes" href="">Read More</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #9E6400;
+    --primaryLight: #e59f25;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #services-38 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #services-38 .cs-container {
+    width: 100%;
+    /* changes to 1280pc at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #services-38 .cs-content {
+    /* in case you add a .cs-content to this stitch */
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #services-38 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.25rem;
+    row-gap: 3.75rem;
+  }
+  #services-38 .cs-item {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+  }
+  #services-38 .cs-item:hover .cs-picture:before {
+    height: 100%;
+  }
+  #services-38 .cs-item:hover .cs-picture img {
+    transform: scale(1.1);
+  }
+  #services-38 .cs-picture {
+    aspect-ratio: 0.91111111;
+    position: relative;
+    display: block;
+    /* Keeps image from bleeding outside the picture element */
+    overflow: hidden;
+  }
+  #services-38 .cs-picture:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 0%;
+    width: 100%;
+    background: var(--primaryLight);
+    opacity: .8;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: height .3s;
+  }
+  #services-38 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes img tag act like a background image */
+    object-fit: cover;
+    transition: transform .7s;
+  }
+  #services-38 .cs-box {
+    /* Centers the button */
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    /* -32px to 48px */
+    margin-top: calc(clamp(2rem, 7vw, 3rem)*-1);
+    padding: 1.5rem 1rem 0;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+    /* Prevents padding from adding to the total width */
+    box-sizing: border-box;
+  }
+  #services-38 .cs-h3 {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 2vw, 1.5625rem);
+    text-align: center;
+    line-height: 1.2em;
+    font-weight: bold;
+    color: var(--headerColor);
+    margin: 0 0 1rem;
+  }
+  #services-38 .cs-item-text {
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 0 0 0.25rem;
+    padding: 0;
+    color: var(--bodyTextColor);
+  }
+  #services-38 .cs-link {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875em, 5.5vw, 3.5em);
+    text-decoration: none;
+    font-weight: 700;
+    margin: auto;
+    color: var(--primary);
+    background-color: transparent;
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  #services-38 .cs-link:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 0.1875rem;
+    width: 0%;
+    background: var(--primary);
+    opacity: 1;
+    bottom: 0.375rem;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #services-38 .cs-link:hover:before {
+    width: 100%;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #services-38 .cs-container {
+    max-width: 80rem;
+  }
+  #services-38 .cs-card-group {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  #services-38 .cs-item {
+    margin: 0;
+  }
+  #services-38 .cs-picture {
+    /* 360px - 430px */
+    height: clamp(22.5rem, 42vw, 26.875rem);
+    /* reset aspect ratio, don't need it anymore */
+    aspect-ratio: initial;
+  }
+  #services-38 .cs-box {
+    width: 90%;
+    padding: 1.5rem 0.75rem;
+  }
+  #services-38 .cs-h3 {
+    /* force heading to 2 lines for consistent spacing */
+  }
+  #services-38 .cs-h3 span {
+    display: block;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #9E6400;
+    --primaryLight: #e59f25;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #services-38 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #services-38 .cs-container {
+    width: 100%;
+    /* changes to 1280pc at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #services-38 .cs-content {
+    /* in case you add a .cs-content to this stitch */
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #services-38 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.25rem;
+    row-gap: 3.75rem;
+  }
+  #services-38 .cs-item {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+  }
+  #services-38 .cs-item:hover .cs-picture:before {
+    height: 100%;
+  }
+  #services-38 .cs-item:hover .cs-picture img {
+    transform: scale(1.1);
+  }
+  #services-38 .cs-picture {
+    aspect-ratio: 0.91111111;
+    position: relative;
+    display: block;
+    /* Keeps image from bleeding outside the picture element */
+    overflow: hidden;
+  }
+  #services-38 .cs-picture:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 0%;
+    width: 100%;
+    background: var(--primaryLight);
+    opacity: .8;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: height .3s;
+  }
+  #services-38 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes img tag act like a background image */
+    object-fit: cover;
+    transition: transform .7s;
+  }
+  #services-38 .cs-box {
+    /* Centers the button */
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    /* -32px to 48px */
+    margin-top: calc(clamp(2rem, 7vw, 3rem)*-1);
+    padding: 1.5rem 1rem 0;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+    /* Prevents padding from adding to the total width */
+    box-sizing: border-box;
+  }
+  #services-38 .cs-h3 {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 2vw, 1.5625rem);
+    text-align: center;
+    line-height: 1.2em;
+    font-weight: bold;
+    color: var(--headerColor);
+    margin: 0 0 1rem;
+  }
+  #services-38 .cs-item-text {
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 0 0 0.25rem;
+    padding: 0;
+    color: var(--bodyTextColor);
+  }
+  #services-38 .cs-link {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875em, 5.5vw, 3.5em);
+    text-decoration: none;
+    font-weight: 700;
+    margin: auto;
+    color: var(--primary);
+    background-color: transparent;
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  #services-38 .cs-link:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 0.1875rem;
+    width: 0%;
+    background: var(--primary);
+    opacity: 1;
+    bottom: 0.375rem;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #services-38 .cs-link:hover:before {
+    width: 100%;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #services-38 .cs-container {
+    max-width: 80rem;
+  }
+  #services-38 .cs-card-group {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  #services-38 .cs-item {
+    margin: 0;
+  }
+  #services-38 .cs-picture {
+    /* 360px - 430px */
+    height: clamp(22.5rem, 42vw, 26.875rem);
+    /* reset aspect ratio, don't need it anymore */
+    aspect-ratio: initial;
+  }
+  #services-38 .cs-box {
+    width: 90%;
+    padding: 1.5rem 0.75rem;
+  }
+  #services-38 .cs-h3 {
+    /* force heading to 2 lines for consistent spacing */
+  }
+  #services-38 .cs-h3 span {
+    display: block;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #services-38 .cs-box {
+    background: var(--dark);
+  }
+  body.dark-mode #services-38 .cs-h3,
+  body.dark-mode #services-38 .cs-item-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #services-38 .cs-link {
+    color: var(--primaryLight);
+  }
+}
+                                

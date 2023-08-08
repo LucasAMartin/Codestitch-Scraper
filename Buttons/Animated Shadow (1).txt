@@ -1,0 +1,57 @@
+<a href="" class="cs-button-4" aria-label="read more about us">Read More</a>
+                                
+.cs-button-4 {
+  /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+  font-family: 'Roboto', 'Arial', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  /* 46px - 56px */
+  line-height: clamp(2.875rem, 8vw, 3.5rem);
+  text-decoration: none;
+  font-weight: 700;
+  min-width: 10.875rem;
+  margin: auto;
+  color: #fff;
+  padding: 0 1.5rem;
+  /* prevents padding from affecting height and width */
+  box-sizing: border-box;
+  background-color: #F15A24;
+  box-shadow: 4px 4px 0px 0px #1A1A1A;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.cs-button-4:hover {
+  background-color: #1a1a1a;
+  box-shadow: 4px 4px 0px 0px var(--primary);
+}
+                                
+.cs-button-4 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    text-align: center;
+    font-size: (16/16rem);
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 8vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    min-width: (174/16rem);
+    margin: auto;
+    color: #fff;
+    padding: 0 (24/16rem);
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    background-color: #F15A24;
+    box-shadow: 4px 4px 0px 0px #1A1A1A;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: background-color .3s, box-shadow .3s;
+
+    &:hover {
+        background-color: #1a1a1a;
+        box-shadow: 4px 4px 0px 0px var(--primary);
+    }
+}
+                                

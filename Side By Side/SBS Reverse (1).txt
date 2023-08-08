@@ -1,0 +1,447 @@
+<!-- ============================================ -->
+<!--            Side By Side Reverse              -->
+<!-- ============================================ -->
+
+<section id="sbsr-1134">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Why Choose Us</span>
+            <h2 class="cs-title">Expert House Cleaning Service Can Trust</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in. Diam ut venenatis tellus in metus vulputate eu. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in. Diam ut venenatis tellus in metus vulputate eu. Massa vitae tortor condimentum lacinia quis vel eros donec ac.
+            </p>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in. Diam ut venenatis tellus in metus vulputate eu. Massa vitae tortor condimentum lacinia quis vel eros donec ac.
+            </p>
+            <a href="" class="cs-button-solid">Discover More</a>
+        </div>
+        <!--Left Image Group-->
+        <div class="cs-image-group">
+            <!--Seeds-->
+            <img class="cs-graphic1" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/seeds-reverse.svg" aria-hidden="true" loading="lazy" decoding="async" alt="seeds" width="134" height="137">
+
+            <!--Green SVG Shape-->
+            <img class="cs-graphic2" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/green-line-reverse.svg" aria-hidden="true" loading="lazy" decoding="async" alt="blob icon" width="514" height="341">
+
+            <!--Image Mask-->
+            <svg class="cs-mask" aria-hidden="true" width="557" height="697" viewBox="0 0 557 697" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M311.345 0.445363L556.681 0.445374L556.681 488.452C556.679 471.266 553.566 454.309 547.175 438.817C539.102 419.208 526.121 402.497 508.721 392.275C492.138 382.526 472.642 380.036 453.5 383.382C439.13 382.082 424.413 383.04 409.803 384.919C400.423 386.127 391.053 387.655 381.682 389.183C376.997 389.947 372.311 390.711 367.625 391.435C354.54 393.482 341.331 395.067 328.396 393.483C314.352 391.738 301.397 386.37 290.111 377.823C285.374 374.242 280.864 370.348 276.357 366.457C269.818 360.812 263.283 355.171 256.069 350.493C236.497 337.786 212.177 331.621 188.97 329.86C145.532 326.549 97.6058 339.439 63.4939 373.975C46.8407 390.836 34.9839 412.54 29.2089 435.912C22.5316 462.993 24.1926 491.111 28.8727 517.418C37.5972 566.472 62.0629 608.931 97.5592 638.692C115.364 653.624 135.352 665.411 156.438 674.469C178.181 683.813 201.612 691.374 225.193 694.77C251.894 698.629 279.77 694.147 306.555 687.442C327.783 682.131 348.715 675.205 369.653 668.278C375.612 666.306 381.572 664.334 387.539 662.399C413.405 654.015 439.008 643.706 463.208 629.84C487.251 616.037 510.659 598.674 528.096 575.362C546.838 550.316 556.678 519.036 556.681 488.477L556.681 696.583L0 696.583L-4.03791e-05 214.589C0.940206 227.155 3.6075 239.459 8.07961 251.004C15.7282 270.79 28.3454 287.79 45.5206 298.402C61.8892 308.523 81.3264 311.453 100.536 308.54C114.875 310.163 129.609 309.538 144.256 307.989C153.659 306.993 163.061 305.677 172.462 304.361C177.163 303.703 181.863 303.045 186.564 302.427C199.69 300.676 212.929 299.389 225.828 301.264C239.831 303.326 252.667 308.985 263.765 317.784C268.424 321.472 272.848 325.466 277.271 329.458C283.687 335.249 290.098 341.037 297.209 345.876C316.503 359.022 340.683 365.734 363.847 368.018C407.202 372.309 455.395 360.503 490.244 326.746C507.257 310.264 519.579 288.833 525.857 265.597C533.117 238.674 532.063 210.525 527.952 184.118C520.288 134.879 496.745 91.8784 461.899 61.3237C444.421 45.994 424.692 33.7589 403.807 24.2275C382.27 14.3945 359.008 6.30633 335.507 2.37914C327.553 1.04595 319.477 0.455312 311.345 0.445363ZM310.926 0.445363C291.987 0.468494 272.744 3.6248 254.006 7.86992C232.669 12.7005 211.593 19.152 190.511 25.6052C184.51 27.4421 178.509 29.279 172.501 31.0788C146.461 38.8767 120.642 48.6057 96.1486 61.9227C71.8133 75.1791 48.0366 92.0097 30.1006 114.923C12.3786 137.553 2.0638 165.62 -3.94855e-05 193.739L-3.12019e-05 0.445349L310.926 0.445363Z" fill="#FFFBEF"/>
+                </svg>
+                
+            <!--Main Person Image-->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids.jpg" alt="kids" width="554" height="693" aria-hidden="true">
+            </picture>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #00715D;
+    --primaryLight: #d8673d;
+    --secondary: #FDD65B;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbsr-1134 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #FFFBEF;
+  }
+  #sbsr-1134 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* 48px - 56px */
+    gap: clamp(3rem, 3vw, 3.5rem);
+  }
+  #sbsr-1134 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 33.875rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbsr-1134 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbsr-1134 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbsr-1134 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbsr-1134 .cs-topper {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    color: #767676;
+  }
+  #sbsr-1134 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #sbsr-1134 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbsr-1134 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 12.5rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.5rem;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbsr-1134 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.5rem;
+    transition: width .3s;
+  }
+  #sbsr-1134 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbsr-1134 .cs-image-group {
+    /* everything in the group is in ems so we can scale them down with this min/max font size tied to the view width */
+    font-size: min(2.2vw, .77em);
+    width: 40.625em;
+    height: 45em;
+    position: relative;
+    z-index: 1;
+    /* sends it to the top above the content */
+    order: -1;
+  }
+  #sbsr-1134 .cs-graphic1 {
+    width: 8.125em;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 17.3125em;
+    z-index: 10;
+  }
+  #sbsr-1134 .cs-graphic2 {
+    width: 32.125em;
+    height: auto;
+    position: absolute;
+    left: 1.875em;
+    bottom: 0em;
+    z-index: 10;
+  }
+  #sbsr-1134 .cs-mask {
+    width: 34.8125em;
+    height: 43.5em;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  #sbsr-1134 .cs-picture {
+    width: 34.625em;
+    height: 43.3125em;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    z-index: -1;
+  }
+  #sbsr-1134 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #sbsr-1134 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #sbsr-1134 .cs-image-group {
+    font-size: min(1.2vw, 1em);
+    /* prevents flexbox from squishing it */
+    flex: none;
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #00715D;
+    --primaryLight: #d8673d;
+    --secondary: #FDD65B;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbsr-1134 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #FFFBEF;
+  }
+  #sbsr-1134 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* 48px - 56px */
+    gap: clamp(3rem, 3vw, 3.5rem);
+  }
+  #sbsr-1134 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 33.875rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbsr-1134 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbsr-1134 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbsr-1134 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbsr-1134 .cs-topper {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    color: #767676;
+  }
+  #sbsr-1134 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #sbsr-1134 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbsr-1134 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 12.5rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.5rem;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbsr-1134 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.5rem;
+    transition: width .3s;
+  }
+  #sbsr-1134 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbsr-1134 .cs-image-group {
+    /* everything in the group is in ems so we can scale them down with this min/max font size tied to the view width */
+    font-size: min(2.2vw, .77em);
+    width: 40.625em;
+    height: 45em;
+    position: relative;
+    z-index: 1;
+    /* sends it to the top above the content */
+    order: -1;
+  }
+  #sbsr-1134 .cs-graphic1 {
+    width: 8.125em;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 17.3125em;
+    z-index: 10;
+  }
+  #sbsr-1134 .cs-graphic2 {
+    width: 32.125em;
+    height: auto;
+    position: absolute;
+    left: 1.875em;
+    bottom: 0em;
+    z-index: 10;
+  }
+  #sbsr-1134 .cs-mask {
+    width: 34.8125em;
+    height: 43.5em;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  #sbsr-1134 .cs-picture {
+    width: 34.625em;
+    height: 43.3125em;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    z-index: -1;
+  }
+  #sbsr-1134 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #sbsr-1134 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #sbsr-1134 .cs-image-group {
+    font-size: min(1.2vw, 1em);
+    /* prevents flexbox from squishing it */
+    flex: none;
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #sbsr-1134 {
+    background-color: var(--dark);
+  }
+  body.dark-mode #sbsr-1134 .cs-topper {
+    color: var(--secondary);
+  }
+  body.dark-mode #sbsr-1134 .cs-title,
+  body.dark-mode #sbsr-1134 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #sbsr-1134 .cs-text {
+    opacity: .8;
+  }
+  body.dark-mode #sbsr-1134 .cs-mask path {
+    fill: var(--dark);
+  }
+}
+                                

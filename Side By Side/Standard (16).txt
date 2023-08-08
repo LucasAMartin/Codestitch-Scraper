@@ -1,0 +1,691 @@
+<!--Note: we used a flexbox on the image container instead of grid because this makes it more repsonsive to changes in the contact box. We set it up so if you add another .cs-link inside the contact-group div, the box grows in height to accommadate the new link and the image above it adjusts its height to be smaller proportional to how much taller the contact-group div grew from the new link. We needed it to be "flexible" so we used flexbox. -->
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-955">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Left Image-->
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair5.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair5.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair5.jpg" alt="hair salon" width="349" height="590">
+            </picture>
+            <div class="cs-flex">
+                <!--right image-->
+                <picture class="cs-picture cs-picture2">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair6.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair6.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair6.jpg" alt="hair salon" width="281" height="387">
+                </picture>
+                <div class="cs-contact-group">
+                    <a class="cs-link" href="mailto:Info@health&wellness.com">
+                        <picture class="cs-wrapper">
+                            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-hair.svg" alt="icon" width="24" height="24">
+                        </picture>
+                        <div class="cs-info">
+                            <span class="cs-header">Send A Message</span>
+                            <span class="cs-link-content">Info@hairstyle.com</span>
+                        </div>
+                    </a>
+                    <a class="cs-link" href="">
+                        <picture class="cs-wrapper">
+                            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-hair.svg" alt="icon" width="24" height="24">
+                        </picture>
+                        <div class="cs-info">
+                            <span class="cs-header">Visit Us At</span>
+                            <span class="cs-link-content">123 Fake St, Highland, IN</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Hair Salon Services</span>
+            <h2 class="cs-title">Life Is More Beautiful When You Meet The Right Hairdresser</h2>
+            <p class="cs-text">
+                The Hair salon Stitch pack is designed specifically for a hairdressers, salons, and beauty centers, with a modern high end feel to match the expectations for design in this industry. These Stitches are great for anything and everything hair and beauty but can also be repurposed for anything high end or luxury.
+            </p>
+            <a href="" class="cs-button-solid" aria-label="learn more about us">Learn More</a>
+        </div>
+    </div>
+    <!--Zen Leaf Group-->
+    <img class="cs-floater" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair-tools.png" alt="hair tools" width="445" height="310">
+</section>
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #AC8856;
+    --primaryLight: #8c9f97;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbs-955 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #1a1a1a;
+    /* clips anything overflowing */
+    overflow: hidden;
+    position: relative;
+  }
+  #sbs-955 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #sbs-955 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 33.875rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbs-955 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbs-955 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbs-955 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbs-955 .cs-title,
+  #sbs-955 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+  #sbs-955 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+    opacity: .8;
+  }
+  #sbs-955 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbs-955 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 2rem;
+    background-color: var(--primary);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbs-955 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width .3s;
+  }
+  #sbs-955 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbs-955 .cs-image-group {
+    width: 100%;
+    max-width: 40.625rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* 16px - 20px */
+    gap: clamp(1rem, 1.5vw, 1.25rem);
+  }
+  #sbs-955 .cs-picture {
+    width: 100%;
+    grid-column: span 12;
+    position: relative;
+  }
+  #sbs-955 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #sbs-955 .cs-picture1 {
+    height: 26.25rem;
+  }
+  #sbs-955 .cs-picture2 {
+    height: 21.75rem;
+  }
+  #sbs-955 .cs-floater {
+    display: none;
+  }
+  #sbs-955 .cs-flex {
+    width: 100%;
+    /* breaks up the container so the browser treats its children as if they are not inside this container. They are considered children of the .cs-image-group and makes it easier to space everything this way on mobile */
+    display: contents;
+  }
+  #sbs-955 .cs-contact-group {
+    width: 100%;
+    margin: 0;
+    /* 24px - 40px */
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    border: 1px solid #484848;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    grid-column: span 12;
+  }
+  #sbs-955 .cs-link {
+    text-decoration: none;
+    margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid #484848;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    z-index: 1;
+  }
+  #sbs-955 .cs-link:hover .cs-wrapper {
+    transform: scale(1.2);
+  }
+  #sbs-955 .cs-link:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  #sbs-955 .cs-wrapper {
+    /* 44px - 56px */
+    width: clamp(2.75rem, 4.3vw, 3.5rem);
+    height: clamp(2.75rem, 4.3vw, 3.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* prevents flexbox from squishing it */
+    flex: none;
+    position: relative;
+    transition: transform .3s;
+  }
+  #sbs-955 .cs-wrapper:before {
+    /* light grey circle that animates on hover */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #484848;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width .3s, height .3s;
+  }
+  #sbs-955 .cs-icon {
+    width: 1.5rem;
+    height: auto;
+    display: block;
+    transition: transform .3s;
+  }
+  #sbs-955 .cs-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  #sbs-955 .cs-header {
+    font-size: 1rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    color: var(--bodyTextColorWhite);
+    display: block;
+  }
+  #sbs-955 .cs-link-content {
+    font-size: 0.875rem;
+    line-height: 1.2em;
+    font-weight: 400;
+    margin: 0;
+    color: var(--bodyTextColorWhite);
+    opacity: .8;
+    display: block;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbs-955 .cs-image-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  #sbs-955 .cs-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 16px - 20px */
+    gap: clamp(1rem, 2vw, 1.25rem);
+  }
+  #sbs-955 .cs-contact-group {
+    /* 32px - 64px */
+    margin-bottom: clamp(2rem, 6vw, 4rem);
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #sbs-955 .cs-picture1 {
+    width: 100%;
+    height: auto;
+    /* 32px - 64px */
+    margin-top: clamp(2rem, 6vw, 4rem);
+  }
+  #sbs-955 .cs-flex {
+    /* 267px - 325px */
+    width: clamp(16.6875rem, 25vw, 20.3125rem);
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #sbs-955 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #sbs-955 .cs-image-group {
+    width: 50%;
+    flex: none;
+  }
+}
+/* Large Desktop - 1800px */
+@media only screen and (min-width: 112.5rem) {
+  #sbs-955 .cs-floater {
+    width: 27.8125rem;
+    height: auto;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 1.25rem;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #AC8856;
+    --primaryLight: #8c9f97;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbs-955 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #1a1a1a;
+    /* clips anything overflowing */
+    overflow: hidden;
+    position: relative;
+  }
+  #sbs-955 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #sbs-955 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 33.875rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbs-955 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbs-955 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbs-955 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbs-955 .cs-title,
+  #sbs-955 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+  #sbs-955 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+    opacity: .8;
+  }
+  #sbs-955 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbs-955 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 2rem;
+    background-color: var(--primary);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbs-955 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width .3s;
+  }
+  #sbs-955 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbs-955 .cs-image-group {
+    width: 100%;
+    max-width: 40.625rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* 16px - 20px */
+    gap: clamp(1rem, 1.5vw, 1.25rem);
+  }
+  #sbs-955 .cs-picture {
+    width: 100%;
+    grid-column: span 12;
+    position: relative;
+  }
+  #sbs-955 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #sbs-955 .cs-picture1 {
+    height: 26.25rem;
+  }
+  #sbs-955 .cs-picture2 {
+    height: 21.75rem;
+  }
+  #sbs-955 .cs-floater {
+    display: none;
+  }
+  #sbs-955 .cs-flex {
+    width: 100%;
+    /* breaks up the container so the browser treats its children as if they are not inside this container. They are considered children of the .cs-image-group and makes it easier to space everything this way on mobile */
+    display: contents;
+  }
+  #sbs-955 .cs-contact-group {
+    width: 100%;
+    margin: 0;
+    /* 24px - 40px */
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    border: 1px solid #484848;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    grid-column: span 12;
+  }
+  #sbs-955 .cs-link {
+    text-decoration: none;
+    margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid #484848;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    z-index: 1;
+  }
+  #sbs-955 .cs-link:hover .cs-wrapper {
+    transform: scale(1.2);
+  }
+  #sbs-955 .cs-link:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  #sbs-955 .cs-wrapper {
+    /* 44px - 56px */
+    width: clamp(2.75rem, 4.3vw, 3.5rem);
+    height: clamp(2.75rem, 4.3vw, 3.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* prevents flexbox from squishing it */
+    flex: none;
+    position: relative;
+    transition: transform .3s;
+  }
+  #sbs-955 .cs-wrapper:before {
+    /* light grey circle that animates on hover */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #484848;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width .3s, height .3s;
+  }
+  #sbs-955 .cs-icon {
+    width: 1.5rem;
+    height: auto;
+    display: block;
+    transition: transform .3s;
+  }
+  #sbs-955 .cs-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  #sbs-955 .cs-header {
+    font-size: 1rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    color: var(--bodyTextColorWhite);
+    display: block;
+  }
+  #sbs-955 .cs-link-content {
+    font-size: 0.875rem;
+    line-height: 1.2em;
+    font-weight: 400;
+    margin: 0;
+    color: var(--bodyTextColorWhite);
+    opacity: .8;
+    display: block;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbs-955 .cs-image-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  #sbs-955 .cs-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 16px - 20px */
+    gap: clamp(1rem, 2vw, 1.25rem);
+  }
+  #sbs-955 .cs-contact-group {
+    /* 32px - 64px */
+    margin-bottom: clamp(2rem, 6vw, 4rem);
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #sbs-955 .cs-picture1 {
+    width: 100%;
+    height: auto;
+    /* 32px - 64px */
+    margin-top: clamp(2rem, 6vw, 4rem);
+  }
+  #sbs-955 .cs-flex {
+    /* 267px - 325px */
+    width: clamp(16.6875rem, 25vw, 20.3125rem);
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #sbs-955 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #sbs-955 .cs-image-group {
+    width: 50%;
+    flex: none;
+  }
+}
+/* Large Desktop - 1800px */
+@media only screen and (min-width: 112.5rem) {
+  #sbs-955 .cs-floater {
+    width: 27.8125rem;
+    height: auto;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 1.25rem;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #sbs-955 {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+                                

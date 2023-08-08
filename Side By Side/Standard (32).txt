@@ -1,0 +1,658 @@
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-418">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Features</span>
+            <h2 class="cs-title">Professional Landscaping Services</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="cs-button-group">
+                <a href="" class="cs-button-solid">Learn More</a>
+                <a href="" class="cs-button-transparent">Get In Touch</a>
+            </div>
+        </div>
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/yard-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/yard.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/yard.jpg" alt="yard" width="558" height="496">
+            </picture>
+            <!--Info Box-->
+            <div class="cs-info">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/tree.svg" alt="icon" width="48" height="48">
+                <div class="cs-flex">
+                    <span class="cs-header">Full Remodel</span>
+                    <span class="cs-desc">Sod, plants, driveway, hedges</span>
+                </div>
+            </div>
+            <!--Svg Green Trapezpid-->
+            <img class="cs-trapezoid" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/trapezoid.svg" alt="yard" width="558" height="496">
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #1F861D;
+    --primaryLight: #62aa61;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbs-418 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #sbs-418 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 48px - 76px */
+    gap: clamp(3rem, 9vw, 4.75rem);
+  }
+  #sbs-418 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 32.625rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbs-418 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbs-418 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbs-418 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbs-418 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #sbs-418 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbs-418 .cs-button-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+  }
+  #sbs-418 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbs-418 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbs-418 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbs-418 .cs-button-transparent {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: var(--primary);
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+    transition: color 0.3s, border-color 0.3s, background-color 0.3s;
+  }
+  #sbs-418 .cs-button-transparent:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbs-418 .cs-button-transparent:hover {
+    color: #fff;
+    border-color: #000;
+    background-color: #000;
+  }
+  #sbs-418 .cs-button-transparent:hover:before {
+    width: 100%;
+  }
+  #sbs-418 .cs-image-group {
+    width: 100%;
+    /* changes to 650px at desktop */
+    max-width: 34.375rem;
+    height: auto;
+    /* removed at desktop */
+    padding-top: 1.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    order: -1;
+  }
+  #sbs-418 .cs-info {
+    /* 12px - 20px */
+    padding: clamp(0.75rem, 1.5vw, 1.25rem);
+    /*260px - 360px */
+    min-width: clamp(16.25rem, 30vw, 22.5rem);
+    background-color: #fff;
+    border: 1px solid #B4B2C7;
+    border-radius: 0.75rem;
+    box-shadow: 0 12px 28px -8px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    /* next two properties centers it horizontally */
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1.25rem;
+  }
+  #sbs-418 .cs-icon {
+    /* 32px - 48px */
+    width: clamp(2rem, 4vw, 3rem);
+    height: auto;
+    margin-right: 0.75rem;
+  }
+  #sbs-418 .cs-header {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 0.25rem;
+    color: var(--headerColor);
+    display: block;
+  }
+  #sbs-418 .cs-desc {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.2em;
+    color: var(--bodyTextColor);
+  }
+  #sbs-418 .cs-picture {
+    width: 85%;
+    max-width: 34.875rem;
+    margin-bottom: 2.5rem;
+    border-radius: 0.75rem;
+    /* removed at tablet */
+    aspect-ratio: 1.01115242;
+    /* clips img corners */
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+  #sbs-418 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it act like a background image */
+    object-fit: cover;
+  }
+  #sbs-418 .cs-trapezoid {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbs-418 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  #sbs-418 .cs-content {
+    width: 50%;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #sbs-418 .cs-image-group {
+    max-width: 41.1875rem;
+  }
+  #sbs-418 .cs-picture {
+    /* 269px - 496px changes at desktop */
+    height: clamp(16.8125rem, 35vw, 31rem);
+    aspect-ratio: none;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #sbs-418 .cs-container {
+    align-items: center;
+  }
+  #sbs-418 .cs-image-group {
+    max-width: 40.625rem;
+    padding: 0;
+  }
+  #sbs-418 .cs-picture {
+    /* 421px - 496px changes at desktop */
+    height: clamp(26.3125rem, 40vw, 31rem);
+  }
+  #sbs-418 .cs-info {
+    left: auto;
+    right: 1.125rem;
+    transform: none;
+  }
+  #sbs-418 .cs-trapezoid {
+    height: 80%;
+    bottom: 0;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #1F861D;
+    --primaryLight: #62aa61;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbs-418 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #sbs-418 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 48px - 76px */
+    gap: clamp(3rem, 9vw, 4.75rem);
+  }
+  #sbs-418 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 32.625rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbs-418 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbs-418 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbs-418 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbs-418 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #sbs-418 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbs-418 .cs-button-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+  }
+  #sbs-418 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbs-418 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbs-418 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbs-418 .cs-button-transparent {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: var(--primary);
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+    transition: color 0.3s, border-color 0.3s, background-color 0.3s;
+  }
+  #sbs-418 .cs-button-transparent:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbs-418 .cs-button-transparent:hover {
+    color: #fff;
+    border-color: #000;
+    background-color: #000;
+  }
+  #sbs-418 .cs-button-transparent:hover:before {
+    width: 100%;
+  }
+  #sbs-418 .cs-image-group {
+    width: 100%;
+    /* changes to 650px at desktop */
+    max-width: 34.375rem;
+    height: auto;
+    /* removed at desktop */
+    padding-top: 1.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    order: -1;
+  }
+  #sbs-418 .cs-info {
+    /* 12px - 20px */
+    padding: clamp(0.75rem, 1.5vw, 1.25rem);
+    /*260px - 360px */
+    min-width: clamp(16.25rem, 30vw, 22.5rem);
+    background-color: #fff;
+    border: 1px solid #B4B2C7;
+    border-radius: 0.75rem;
+    box-shadow: 0 12px 28px -8px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    /* next two properties centers it horizontally */
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1.25rem;
+  }
+  #sbs-418 .cs-icon {
+    /* 32px - 48px */
+    width: clamp(2rem, 4vw, 3rem);
+    height: auto;
+    margin-right: 0.75rem;
+  }
+  #sbs-418 .cs-header {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 0.25rem;
+    color: var(--headerColor);
+    display: block;
+  }
+  #sbs-418 .cs-desc {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.2em;
+    color: var(--bodyTextColor);
+  }
+  #sbs-418 .cs-picture {
+    width: 85%;
+    max-width: 34.875rem;
+    margin-bottom: 2.5rem;
+    border-radius: 0.75rem;
+    /* removed at tablet */
+    aspect-ratio: 1.01115242;
+    /* clips img corners */
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+  #sbs-418 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it act like a background image */
+    object-fit: cover;
+  }
+  #sbs-418 .cs-trapezoid {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbs-418 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  #sbs-418 .cs-content {
+    width: 50%;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #sbs-418 .cs-image-group {
+    max-width: 41.1875rem;
+  }
+  #sbs-418 .cs-picture {
+    /* 269px - 496px changes at desktop */
+    height: clamp(16.8125rem, 35vw, 31rem);
+    aspect-ratio: none;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #sbs-418 .cs-container {
+    align-items: center;
+  }
+  #sbs-418 .cs-image-group {
+    max-width: 40.625rem;
+    padding: 0;
+  }
+  #sbs-418 .cs-picture {
+    /* 421px - 496px changes at desktop */
+    height: clamp(26.3125rem, 40vw, 31rem);
+  }
+  #sbs-418 .cs-info {
+    left: auto;
+    right: 1.125rem;
+    transform: none;
+  }
+  #sbs-418 .cs-trapezoid {
+    height: 80%;
+    bottom: 0;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #sbs-418 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #sbs-418 .cs-title,
+  body.dark-mode #sbs-418 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #sbs-418 .cs-text {
+    opacity: .8;
+  }
+  body.dark-mode #sbs-418 .cs-button-transparent {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #sbs-418 .cs-button-transparent:hover {
+    color: #fff;
+  }
+  body.dark-mode #sbs-418 .cs-trapezoid {
+    filter: grayscale(1) brightness(150%);
+    opacity: .3;
+  }
+}
+                                

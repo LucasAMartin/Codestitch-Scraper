@@ -1,0 +1,662 @@
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-246">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/hiking.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/hiking.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/hiking.jpg" alt="hiker" width="434" height="434" aria-hidden="true">
+        </picture>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Mountain Hiking Society</span>
+            <h2 class="cs-title">Explore the World with Exciting People</h2>
+            <p class="cs-text">
+                Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh condimentum.
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+        </div>
+        <!-- Creates the faded lines on tablet -->
+        <span aria-hidden="true" class="cs-lines"></span>
+    </div>
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Hero/Background-m.jpg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Hero/Background.jpg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/Background.jpg" alt="mountains" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #D98900;
+    --primaryLight: #FFC156;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbs-246 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: 0 1em;
+    position: relative;
+    z-index: 1;
+  }
+  #sbs-246 .cs-container {
+    width: 100%;
+    /* changes to 1280px on tablet */
+    max-width: 34.375rem;
+    padding: var(--sectionPadding);
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 108px */
+    gap: clamp(3rem, 8vw, 6.75rem);
+    position: relative;
+  }
+  #sbs-246 .cs-container:before {
+    /* Left Line */
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(top, rgba(250, 251, 252, 0.5) 0%, rgba(250, 251, 252, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(250, 251, 252, 0.5) 0%, rgba(250, 251, 252, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+  }
+  #sbs-246 .cs-container:after {
+    /* Right Line */
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: -moz-linear-gradient(top, rgba(250, 251, 252, 0.5) 0%, rgba(250, 251, 252, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(250, 251, 252, 0.5) 0%, rgba(250, 251, 252, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    /* flips vertically */
+    transform: scaleY(-1);
+  }
+  #sbs-246 .cs-lines {
+    display: none;
+  }
+  #sbs-246 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    /* changes at tablet */
+    max-width: 27.125rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbs-246 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbs-246 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbs-246 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbs-246 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 20ch;
+    color: var(--bodyTextColorWhite);
+  }
+  #sbs-246 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+    color: var(--bodyTextColorWhite);
+    opacity: .8;
+  }
+  #sbs-246 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbs-246 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbs-246 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbs-246 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbs-246 .cs-picture {
+    width: 100%;
+    max-width: 27.125rem;
+    margin: 0;
+    border: 1px solid #F1F1F4;
+    position: relative;
+    display: block;
+    /* width divided by height */
+    aspect-ratio: 1;
+    /* prevents border from adding to height and width */
+    box-sizing: border-box;
+  }
+  #sbs-246 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #sbs-246 .cs-background {
+    /* Background Image */
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+  }
+  #sbs-246 .cs-background:before {
+    /* Black Color Overlay */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .6;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* prevents the cursor from interacting with it */
+    pointer-events: none;
+  }
+  #sbs-246 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes image act like a background-image */
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbs-246 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #sbs-246 .cs-lines {
+    height: 100%;
+    width: 35%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  #sbs-246 .cs-lines:before {
+    /* Right Line */
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: -moz-linear-gradient(top, rgba(250, 251, 252, 0.5) 0%, rgba(250, 251, 252, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(250, 251, 252, 0.5) 0%, rgba(250, 251, 252, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    /* flips vertically */
+    transform: scaleY(-1);
+  }
+  #sbs-246 .cs-lines:after {
+    /* Right Line */
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: -moz-linear-gradient(top, rgba(250, 251, 252, 0.5) 0%, rgba(250, 251, 252, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(250, 251, 252, 0.5) 0%, rgba(250, 251, 252, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    /* flips vertically */
+    transform: scaleY(-1);
+  }
+  #sbs-246 .cs-picture {
+    /* 344px - 434px */
+    width: clamp(21.5rem, 37.5vw, 27.125rem);
+    flex: none;
+  }
+  #sbs-246 .cs-content {
+    max-width: 33.875rem;
+    margin: 0;
+    width: 45%;
+  }
+}
+/* Desktop - 1300px (Parallax Effect) */
+@media only screen and (min-width: 81.25rem) {
+  #sbs-246 {
+    background: url("https://csimg.nyc3.digitaloceanspaces.com/Hero/Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* creates the parallax effect */
+    background-attachment: fixed;
+  }
+  #sbs-246 .cs-background img {
+    display: none;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #D98900;
+        --primaryLight: #FFC156;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #sbs-246 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding:0 (16/16em);
+        position: relative;
+        z-index: 1;
+
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px on tablet */
+            max-width: (550/16rem);
+            padding: var(--sectionPadding);
+            padding-left: 0;
+            padding-right: 0;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 108px */
+            gap: clamp(3rem, 8vw, 6.75rem);
+            position: relative;
+
+            &:before {
+                /* Left Line */
+                content: '';
+                width: 1px;
+                height: 100%;
+                background: linear-gradient(top, rgba(250,251,252,0.5) 0%, rgba(250,251,252,0) 100%);
+                background: -webkit-linear-gradient(top, rgba(250,251,252,0.5) 0%,rgba(250,251,252,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+            }
+
+            &:after {
+                /* Right Line */
+                content: '';
+                width: 1px;
+                height: 100%;
+                background: -moz-linear-gradient(top, rgba(250,251,252,0.5) 0%, rgba(250,251,252,0) 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top, rgba(250,251,252,0.5) 0%,rgba(250,251,252,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: 0;
+                right: 0;
+                /* flips vertically */
+                transform: scaleY(-1);
+            }
+        }
+
+        .cs-lines {
+            display: none;
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            /* changes at tablet */
+            max-width: (434/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-title {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            max-width: 20ch;
+            color: var(--bodyTextColorWhite);
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            margin-bottom: (16/16rem);
+            color: var(--bodyTextColorWhite);
+            opacity: .8;
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-picture {
+            width: 100%;
+            max-width: (434/16rem);
+            margin: 0;
+            border: 1px solid #F1F1F4;
+            position: relative;
+            display: block;
+            /* width divided by height */
+            aspect-ratio: 1/1;
+            /* prevents border from adding to height and width */
+            box-sizing: border-box;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .cs-background {
+            /* Background Image */
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -2;
+
+            &:before {
+                /* Black Color Overlay */
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: #000;
+                opacity: .6;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                /* prevents the cursor from interacting with it */
+                pointer-events: none;
+            }
+            
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes image act like a background-image */
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #sbs-246 {
+        .cs-container {
+            max-width: (1280/16rem);
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cs-lines {
+            height: 100%;
+            width: 35%;
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1;
+
+            &:before {
+                /* Right Line */
+                content: '';
+                width: 1px;
+                height: 100%;
+                background: -moz-linear-gradient(top, rgba(250,251,252,0.5) 0%, rgba(250,251,252,0) 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top, rgba(250,251,252,0.5) 0%,rgba(250,251,252,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                /* flips vertically */
+                transform: scaleY(-1);
+            }
+
+            &:after {
+                /* Right Line */
+                content: '';
+                width: 1px;
+                height: 100%;
+                background: -moz-linear-gradient(top, rgba(250,251,252,0.5) 0%, rgba(250,251,252,0) 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top, rgba(250,251,252,0.5) 0%,rgba(250,251,252,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: 0;
+                right: 0;
+                /* flips vertically */
+                transform: scaleY(-1);
+            }
+        }
+
+        .cs-picture {
+            /* 344px - 434px */ 
+            width: clamp(21.5rem, 37.5vw, 27.125rem);
+            flex: none;
+        }
+
+        .cs-content {
+            max-width: (542/16rem);
+            margin: 0;
+            width: 45%;
+        }
+    }
+}
+
+/* Desktop - 1300px (Parallax Effect) */
+@media only screen and (min-width: 81.25rem) {
+    #sbs-246 {
+        background: url("https://csimg.nyc3.digitaloceanspaces.com/Hero/Background.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+        /* creates the parallax effect */
+        background-attachment: fixed;
+
+        .cs-background {
+            img {
+                display: none;
+            }
+        }
+    }
+}
+                                

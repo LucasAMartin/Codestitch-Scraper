@@ -1,0 +1,68 @@
+<!--                   
+    These "Micro Stitches" are to be placed inside the .cs-content group of Side By Side Stitches. This one is supposed to go on top of the cs-title. 
+-->
+
+<span class="cs-topper">Sustainable Overhead</span>
+                                
+/* you can copy and paste this into your global stylesheet to be used everywhere there's a cs-topper in your site */
+.cs-topper {
+  /* 16px - 20px */
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.2em;
+  text-transform: uppercase;
+  text-align: inherit;
+  letter-spacing: .1em;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  position: relative;
+}
+.cs-topper:before {
+  /* decorative line */
+  content: '';
+  /* 16px - 32px */
+  width: clamp(1rem, 3vw, 2rem);
+  height: 2px;
+  background: var(--secondary);
+  opacity: 1;
+  position: relative;
+  display: block;
+}
+                                
+/* you can copy and paste this into your global stylesheet to be used everywhere there's a cs-topper in your site */
+.cs-topper {
+  /* 16px - 20px */
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.2em;
+  text-transform: uppercase;
+  text-align: inherit;
+  letter-spacing: .1em;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  position: relative;
+}
+.cs-topper:before {
+  /* decorative line */
+  content: '';
+  /* 16px - 32px */
+  width: clamp(1rem, 3vw, 2rem);
+  height: 2px;
+  background: var(--secondary);
+  opacity: 1;
+  position: relative;
+  display: block;
+}
+/* Dark Mode */
+body.dark-mode .cs-topper {
+  color: var(--bodyTextColorWhite);
+}
+                                

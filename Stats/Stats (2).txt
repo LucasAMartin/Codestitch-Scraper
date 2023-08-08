@@ -1,0 +1,274 @@
+<!-- ============================================ -->
+<!--                   Stats                      -->
+<!-- ============================================ -->
+
+<!-- No headers, so no section tag -->
+<div id="stats-315">
+    <ul class="cs-card-group">
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/person-grey.svg" alt="icon" width="35" height="40" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">50+</span>
+                <span class="cs-stat">Attorneys</span>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/group-grey.svg" alt="icon" width="40" height="35" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">850+</span>
+                <span class="cs-stat">Global Customers</span>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/award-grey.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">12</span>
+                <span class="cs-stat">Winning Awards</span>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/check-grey.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">98%</span>
+                <span class="cs-stat">Success Rate</span>
+            </div>
+        </li>
+    </ul>
+</div>
+                                
+/*-- -------------------------- -->
+<---           Stats            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #001F3F;
+    --primaryLight: #001F3F;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #stats-315 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #F7F7F7;
+  }
+  #stats-315 .cs-card-group {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 37.5rem;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  #stats-315 .cs-item {
+    list-style: none;
+    /* set fixed width so they can all be aligned on the left */
+    width: 14.6875rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #stats-315 .cs-picture {
+    width: 5rem;
+    height: 5rem;
+    /* 12px - 20px */
+    margin-right: clamp(0.75rem, 3vw, 1.25rem);
+    border-radius: 50%;
+    border: 1px solid #BABABA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #stats-315 .cs-icon {
+    width: 2.5rem;
+    height: auto;
+  }
+  #stats-315 .cs-flex-group {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  #stats-315 .cs-number {
+    font-size: var(--headerFontSize);
+    color: var(--headerColor);
+    font-weight: 900;
+    line-height: 1.2em;
+    margin: 0;
+    display: block;
+  }
+  #stats-315 .cs-stat {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    color: var(--bodyTextColor);
+    display: block;
+  }
+}
+/* Tablet - 650px */
+@media only screen and (min-width: 40.625rem) {
+  #stats-315 .cs-card-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1.25rem;
+    row-gap: 2rem;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #stats-315 .cs-card-group {
+    max-width: 80rem;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---           Stats            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #001F3F;
+    --primaryLight: #001F3F;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #stats-315 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #F7F7F7;
+  }
+  #stats-315 .cs-card-group {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 37.5rem;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  #stats-315 .cs-item {
+    list-style: none;
+    /* set fixed width so they can all be aligned on the left */
+    width: 14.6875rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #stats-315 .cs-picture {
+    width: 5rem;
+    height: 5rem;
+    /* 12px - 20px */
+    margin-right: clamp(0.75rem, 3vw, 1.25rem);
+    border-radius: 50%;
+    border: 1px solid #BABABA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #stats-315 .cs-icon {
+    width: 2.5rem;
+    height: auto;
+  }
+  #stats-315 .cs-flex-group {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  #stats-315 .cs-number {
+    font-size: var(--headerFontSize);
+    color: var(--headerColor);
+    font-weight: 900;
+    line-height: 1.2em;
+    margin: 0;
+    display: block;
+  }
+  #stats-315 .cs-stat {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    color: var(--bodyTextColor);
+    display: block;
+  }
+}
+/* Tablet - 650px */
+@media only screen and (min-width: 40.625rem) {
+  #stats-315 .cs-card-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1.25rem;
+    row-gap: 2rem;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #stats-315 .cs-card-group {
+    max-width: 80rem;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #stats-315 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  body.dark-mode #stats-315 .cs-number,
+  body.dark-mode #stats-315 .cs-stat {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #stats-315 .cs-icon {
+    /* make so bright it turns white */
+    filter: brightness(1000%);
+  }
+}
+                                

@@ -1,0 +1,594 @@
+<!-- ============================================ -->
+<!--                    CTA                       -->
+<!-- ============================================ -->
+
+<section id="cta-96">
+    <!-- Need this to create a stage for the stripes, and use overflow: hidden on
+            this container so the stripes don't overlap the sections above and below #cta -->
+    <div aria-hidden="true" class="cs-stripes"></div>
+    <div class="cs-container">
+        <!-- Left Section -->
+        <div class="cs-content">
+            <span class="cs-topper">Contact us</span>
+            <h2 class="cs-title">Ready To Get Started?</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas adipiscing nulla suspendisse bibendum arcu diam, pellentesque lorem. Amet hac et sed rhoncus magna. Nisl neque ut varius volutpat morbi.
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Contact Us</a>
+        </div>
+        <!-- Right Section -->
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/phone-m.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/phone.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/CTA/phone.jpg" alt="phone in hand" width="457" height="632">
+        </picture>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---            CTA             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #3F88F5;
+    --primaryLight: #001F3F;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #cta-96 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    position: relative;
+    z-index: 1;
+  }
+  #cta-96:before {
+    /* black background on mobile */
+    content: '';
+    width: 100%;
+    height: 50%;
+    background: #1a1a1a;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #cta-96 .cs-stripes {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* prevent stripes from overlapping sections above and below */
+    overflow: hidden;
+    /* Makes it so your cursor acts like it doesn't exist */
+    pointer-events: none;
+  }
+  #cta-96 .cs-stripes:before {
+    /* Stripe 1 */
+    content: '';
+    width: 8.25rem;
+    height: 56.25rem;
+    background: -moz-linear-gradient(top, #ffffff 0%, rgba(255, 255, 255, 0.45) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%, rgba(255, 255, 255, 0.45) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%, rgba(255, 255, 255, 0.45) 100%);
+    opacity: .08;
+    transform: rotate(-25deg);
+    position: absolute;
+    display: block;
+    top: -9.375rem;
+    /* position in the middle, 50% from the left, no matter how wide 
+                   the screen gets, it will be placed on the center line of the div */
+    left: 50%;
+    /* push X amount of pixels from this 50% midpoint */
+    margin-left: -6.25rem;
+  }
+  #cta-96 .cs-stripes:after {
+    /* Stripe 2 */
+    content: '';
+    width: 8.25rem;
+    height: 62.5rem;
+    background: -moz-linear-gradient(top, #ffffff 0%, rgba(255, 255, 255, 0.45) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%, rgba(255, 255, 255, 0.45) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%, rgba(255, 255, 255, 0.45) 100%);
+    opacity: .08;
+    transform: rotate(-25deg);
+    position: absolute;
+    display: block;
+    top: -6.25rem;
+    /* position in the middle, 50% from the left, no matter how wide 
+                   the screen gets, it will be placed on the center line of the div */
+    left: 50%;
+    /* push X amount of pixels from this 50% midpoint */
+    margin-left: -15rem;
+  }
+  #cta-96 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #cta-96 .cs-content {
+    /* set text align to left or center if content needs to be aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* aligns the content */
+    align-items: center;
+  }
+  #cta-96 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #cta-96 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--bodyTextColorWhite);
+    position: relative;
+  }
+  #cta-96 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0 0 2rem 0;
+    color: var(--bodyTextColorWhite);
+  }
+  #cta-96 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875em, 5.5vw, 3.5em);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #cta-96 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #cta-96 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #cta-96 .cs-picture {
+    width: 100%;
+    max-width: 28.5625rem;
+    margin: auto;
+    position: relative;
+    display: block;
+    /* moves it to the 1st position at the top */
+    order: -1;
+    aspect-ratio: 0.63157895;
+  }
+  #cta-96 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #cta-96 {
+    /* 144px - 225px - creates the white space above */
+    margin-top: clamp(9rem, 9.9vw, 14.0625rem);
+    padding-bottom: 0;
+    position: relative;
+    z-index: 1;
+    background-color: #1a1a1a;
+  }
+  #cta-96:before {
+    display: none;
+  }
+  #cta-96 .cs-stripes {
+    /* flips the element horizontally, creating a mirror of it's 
+               original orientation */
+    transform: scaleX(-1);
+  }
+  #cta-96 .cs-stripes:before {
+    margin-left: -7.5em;
+  }
+  #cta-96 .cs-stripes:after {
+    margin-left: -15.9375em;
+  }
+  #cta-96 .cs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+  }
+  #cta-96 .cs-content {
+    text-align: left;
+    width: 50%;
+    max-width: 39.375rem;
+    margin: 0;
+    /* 60px - 100px - this gives us the space on the bottom without padding  */
+    margin-bottom: clamp(3.75rem, 6.2vw, 6.25rem);
+    align-items: flex-start;
+  }
+  #cta-96 .cs-picture {
+    width: 41vw;
+    max-width: 28.5625rem;
+    /* height is a percentage of parent container height. When the cs-content height changes from extra text, the height of the image adjusts. Since the container is now longer/shorter, 150% of that height with also be longer/shorter */
+    height: clamp(145%, 44vw, 160%);
+    /* 500px - 578px */
+    max-height: clamp(31.25rem, 44vw, 36.125rem);
+    margin: 0;
+    /* position absolute so we can have the cs-content centered inside the black section and have it respond to different heights of the cs-content */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /* reset */
+    aspect-ratio: none;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #cta-96 {
+    /* 144px - 200px */
+    margin-top: clamp(9em, 12.9vw, 12.5em);
+  }
+  #cta-96 .cs-stripes:before {
+    margin-left: -13.75rem;
+    width: 12.1875rem;
+  }
+  #cta-96 .cs-stripes:after {
+    margin-left: -26.875rem;
+    width: 12.125rem;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---            CTA             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #3F88F5;
+        --primaryLight: #001F3F;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #cta-96 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        position: relative;
+        z-index: 1;
+        &:before {
+            /* black background on mobile */
+            content: '';
+            width: 100%;
+            height: 50%;
+            background: #1a1a1a;
+            opacity: 1;
+            position: absolute;
+            display: block;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .cs-stripes {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            /* prevent stripes from overlapping sections above and below */
+            overflow: hidden;
+            /* Makes it so your cursor acts like it doesn't exist */
+            pointer-events: none;
+
+            &:before {
+                /* Stripe 1 */
+                content: '';
+                width: (132/16rem);
+                height: (900/16rem);
+                background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0.45) 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.45) 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.45) 100%);
+                opacity: .08;
+                transform: rotate(-25deg);
+                position: absolute;
+                display: block;
+                top: (-150/16rem);
+                /* position in the middle, 50% from the left, no matter how wide 
+                   the screen gets, it will be placed on the center line of the div */
+                left: 50%;
+                /* push X amount of pixels from this 50% midpoint */
+                margin-left: (-100/16rem);
+            }
+
+            &:after {
+                /* Stripe 2 */
+                content: '';
+                width: (132/16rem);
+                height: (1000/16rem);
+                background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0.45) 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.45) 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.45) 100%);
+                opacity: .08;
+                transform: rotate(-25deg);
+                position: absolute;
+                display: block;
+                top: (-100/16rem);
+                /* position in the middle, 50% from the left, no matter how wide 
+                   the screen gets, it will be placed on the center line of the div */
+                left: 50%;
+                /* push X amount of pixels from this 50% midpoint */
+                margin-left: (-240/16rem);
+            }
+        }
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left or center if content needs to be aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* aligns the content */
+            align-items: center;
+        }
+
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--bodyTextColorWhite);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0 0 (32/16rem) 0;
+            color: var(--bodyTextColorWhite);
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875em, 5.5vw, 3.5em);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-picture {
+            width: 100%;
+            max-width: (457/16rem);
+            margin: auto;
+            position: relative;
+            display: block;
+            /* moves it to the 1st position at the top */
+            order: -1;
+            aspect-ratio: 300/475;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                border-radius: (8/16rem) (8/16rem) 0 0;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #cta-96 {
+        /* 144px - 225px - creates the white space above */
+        margin-top: clamp(9rem, 9.9vw, 14.0625rem);
+        padding-bottom: 0;
+        position: relative;
+        z-index: 1;
+        background-color: #1a1a1a;
+
+        &:before {
+            display: none;
+        }
+
+        .cs-stripes {
+            /* flips the element horizontally, creating a mirror of it's 
+               original orientation */
+            transform: scaleX(-1);
+            &:before {
+                margin-left: (-120/16em);
+            }
+
+            &:after {
+                margin-left: (-255/16em);
+            }
+        }
+
+        .cs-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            position: relative;
+        }
+
+        .cs-content {
+            text-align: left;
+            width: 50%;
+            max-width: (630/16rem);
+            margin: 0;
+            /* 60px - 100px - this gives us the space on the bottom without padding  */
+            margin-bottom: clamp(3.75rem, 6.2vw, 6.25rem);
+            align-items: flex-start;
+        }
+
+        .cs-picture {
+            width: 41vw;
+            max-width: (457/16rem);
+            /* height is a percentage of parent container height. When the cs-content height changes from extra text, the height of the image adjusts. Since the container is now longer/shorter, 150% of that height with also be longer/shorter */
+            height: clamp(145%, 44vw, 160%);
+            /* 500px - 578px */
+            max-height: clamp(31.25rem, 44vw, 36.125rem);
+            margin: 0;
+            /* position absolute so we can have the cs-content centered inside the black section and have it respond to different heights of the cs-content */
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            /* reset */
+            aspect-ratio: none;
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #cta-96 {
+        /* 144px - 200px */
+        margin-top: clamp(9em, 12.9vw, 12.5em);
+        .cs-stripes {
+            &:before {
+                margin-left: (-220/16rem);
+                width: (195/16rem);
+            }
+
+            &:after {
+                margin-left: (-430/16rem);
+                width: (194/16rem);
+            }
+        }
+    }
+}
+                                

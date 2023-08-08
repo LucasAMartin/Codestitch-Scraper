@@ -1,0 +1,535 @@
+<!-- ============================================ -->
+<!--                   Contact                    -->
+<!-- ============================================ -->
+
+<section id="contact-590">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Contact-Page/room2-m.jpg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Contact-Page/room2.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Contact-Page/room2.jpg" alt="room" width="841" height="877">
+        </picture>
+        <div class="cs-right">
+            <div class="cs-content">
+                <span class="cs-topper">Contact Us</span>
+                <h2 class="cs-title">Get In Touch</h2>
+                <p class="cs-text">
+                    Pellentesque sit amet porttitor eget dolor morbi non arcu. Vitae justo eget magna fermentum iaculis eu non
+                </p>
+            </div>
+            <!--Form-->
+            <form class="cs-form" id="cs-form-590" name="Contact Form" method="post">
+                <label class="cs-label">
+                    Name
+                    <input class="cs-input" required type="text" id="name-590" name="name" placeholder="Name">
+                </label>
+                <label class="cs-label">
+                    Phone
+                    <input class="cs-input" required type="text" id="phone-590" name="phone" placeholder="Phone">
+                </label>
+                <label class="cs-label">
+                    Email
+                    <input class="cs-input" required type="text" id="email-590" name="email" placeholder="Email">
+                </label>
+                <label class="cs-label">
+                    How did you hear about us?
+                    <input class="cs-input" required type="text" id="hear-590" name="heat" placeholder="Google">
+                </label>
+                <label class="cs-label cs-message">
+                    Message
+                    <textarea class="cs-input cs-textarea" required name="Message" id="message-590" placeholder="Write message..."></textarea>
+                </label>
+                <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Contact           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #D98900;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #contact-590 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    background-color: #FAFBFC;
+    position: relative;
+    z-index: 1;
+  }
+  #contact-590 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* changes to 20px at desktop */
+    gap: 3rem;
+  }
+  #contact-590 .cs-picture {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 18.75rem;
+  }
+  #contact-590 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #contact-590 .cs-right {
+    /* moved section padding to the content so the picture can be full width */
+    padding: var(--sectionPadding);
+    padding-top: 0;
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  #contact-590 .cs-content {
+    /* set text aling to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #contact-590 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #contact-590 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    /* changes to 522px on desktop */
+    max-width: 23.875rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #contact-590 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5rem;
+    text-align: inherit;
+    width: 100%;
+    max-width: 26.25rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #contact-590 .cs-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  #contact-590 .cs-label {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    width: 100%;
+    color: var(--headerColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  #contact-590 .cs-input {
+    font-size: 1rem;
+    width: 100%;
+    height: 3.5rem;
+    padding: 0;
+    padding-left: 1.5rem;
+    color: var(--headerColor);
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    /* prevents padding from adding to height and width */
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  #contact-590 .cs-input:hover {
+    border-color: var(--secondary);
+  }
+  #contact-590 .cs-input:focus {
+    outline: 1px solid var(--secondary);
+  }
+  #contact-590 .cs-input::placeholder {
+    color: #7D799C;
+    opacity: .6;
+  }
+  #contact-590 .cs-textarea {
+    /* 120px - 192px */
+    min-height: clamp(7.5rem, 28vw, 12rem);
+    padding-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-family: inherit;
+  }
+  #contact-590 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #contact-590 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #contact-590 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #contact-590 .cs-submit {
+    text-transform: uppercase;
+    line-height: 3.5rem;
+    min-width: 13.375rem;
+    border: none;
+    border-radius: 0;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #contact-590 {
+    padding: var(--sectionPadding);
+    position: relative;
+  }
+  #contact-590 .cs-container {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #contact-590 .cs-picture {
+    position: absolute;
+    height: 100%;
+    width: 44%;
+    left: 50%;
+    /* 84px - 120px */
+    margin-left: clamp(5.25rem, 12vw, 7.5rem);
+  }
+  #contact-590 .cs-right {
+    width: 56%;
+    max-width: 39.375rem;
+    padding: 0;
+  }
+  #contact-590 .cs-label {
+    width: 48%;
+  }
+  #contact-590 .cs-message {
+    width: 100%;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Contact           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #D98900;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #contact-590 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    background-color: #FAFBFC;
+    position: relative;
+    z-index: 1;
+  }
+  #contact-590 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* changes to 20px at desktop */
+    gap: 3rem;
+  }
+  #contact-590 .cs-picture {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 18.75rem;
+  }
+  #contact-590 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #contact-590 .cs-right {
+    /* moved section padding to the content so the picture can be full width */
+    padding: var(--sectionPadding);
+    padding-top: 0;
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  #contact-590 .cs-content {
+    /* set text aling to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #contact-590 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #contact-590 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    /* changes to 522px on desktop */
+    max-width: 23.875rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #contact-590 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5rem;
+    text-align: inherit;
+    width: 100%;
+    max-width: 26.25rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #contact-590 .cs-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  #contact-590 .cs-label {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    width: 100%;
+    color: var(--headerColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  #contact-590 .cs-input {
+    font-size: 1rem;
+    width: 100%;
+    height: 3.5rem;
+    padding: 0;
+    padding-left: 1.5rem;
+    color: var(--headerColor);
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    /* prevents padding from adding to height and width */
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  #contact-590 .cs-input:hover {
+    border-color: var(--secondary);
+  }
+  #contact-590 .cs-input:focus {
+    outline: 1px solid var(--secondary);
+  }
+  #contact-590 .cs-input::placeholder {
+    color: #7D799C;
+    opacity: .6;
+  }
+  #contact-590 .cs-textarea {
+    /* 120px - 192px */
+    min-height: clamp(7.5rem, 28vw, 12rem);
+    padding-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-family: inherit;
+  }
+  #contact-590 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #contact-590 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #contact-590 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #contact-590 .cs-submit {
+    text-transform: uppercase;
+    line-height: 3.5rem;
+    min-width: 13.375rem;
+    border: none;
+    border-radius: 0;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #contact-590 {
+    padding: var(--sectionPadding);
+    position: relative;
+  }
+  #contact-590 .cs-container {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #contact-590 .cs-picture {
+    position: absolute;
+    height: 100%;
+    width: 44%;
+    left: 50%;
+    /* 84px - 120px */
+    margin-left: clamp(5.25rem, 12vw, 7.5rem);
+  }
+  #contact-590 .cs-right {
+    width: 56%;
+    max-width: 39.375rem;
+    padding: 0;
+  }
+  #contact-590 .cs-label {
+    width: 48%;
+  }
+  #contact-590 .cs-message {
+    width: 100%;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #contact-590 {
+    background-color: var(--dark);
+  }
+  body.dark-mode #contact-590 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #contact-590 .cs-title,
+  body.dark-mode #contact-590 .cs-text,
+  body.dark-mode #contact-590 .cs-label,
+  body.dark-mode #contact-590 .cs-link {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #contact-590 .cs-text {
+    opacity: .8;
+  }
+  body.dark-mode #contact-590 .cs-input {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--bodyTextColorWhite);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  body.dark-mode #contact-590 .cs-input:hover {
+    border-color: var(--secondary);
+  }
+  body.dark-mode #contact-590 .cs-input::placeholder {
+    color: #fff;
+    opacity: .5;
+  }
+}
+                                

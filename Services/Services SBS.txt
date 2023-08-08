@@ -1,0 +1,549 @@
+<!-- ============================================ -->
+<!--                   Services                   -->
+<!-- ============================================ -->
+
+<section id="services-676">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Who We Are</span>
+            <h2 class="cs-title">Our Weight Loss <span class="cs-color">Services</span></h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <a href="" class="cs-button-solid">Contact Us</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fhealth1.svg" alt="icon" aria-hidden="true" decoding="async" width="52" height="52">
+                </picture>
+                <h2 class="cs-h2">Semaglutide</h2>
+                <a href="" class="cs-link" aria-label="read mroe about Semaglutide">Read More</a>
+                <!--SVG Waves-->
+                <img class="cs-waves" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fgrey-waves.svg" alt="waves graphic" aria-hidden="true" decoding="async" width="480" height="331">
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fhealth2.svg" alt="icon" aria-hidden="true" decoding="async" width="52" height="52">
+                </picture>
+                <h2 class="cs-h2">Dermal Filler</h2>
+                <a href="" class="cs-link" aria-label="read mroe about Dermal Filler">Read More</a>
+                <!--SVG Waves-->
+                <img class="cs-waves" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fgrey-waves.svg" alt="waves graphic" aria-hidden="true" decoding="async" width="480" height="331">
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fhealth3.svg" alt="icon" aria-hidden="true" decoding="async" width="52" height="52">
+                </picture>
+                <h2 class="cs-h2">Tirezapetide</h2>
+                <a href="" class="cs-link" aria-label="read mroe about Tirezapetide">Read More</a>
+                <!--SVG Waves-->
+                <img class="cs-waves" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fgrey-waves.svg" alt="waves graphic" aria-hidden="true" decoding="async" width="480" height="331">
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fhealth4.svg" alt="icon" aria-hidden="true" decoding="async" width="52" height="52">
+                </picture>
+                <h2 class="cs-h2">Neurotoxins</h2>
+                <a href="" class="cs-link" aria-label="read mroe about Neurotoxins">Read More</a>
+                <!--SVG Waves-->
+                <img class="cs-waves" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fgrey-waves.svg" alt="waves graphic" aria-hidden="true" decoding="async" width="480" height="331">
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---         Services           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #5A766A;
+    --primaryLight: #8c9f97;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+  }
+  #services-676 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #services-676 .cs-container {
+    width: 100%;
+    /* changes to 1440px at desktop */
+    max-width: 62rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* 48px - 64px */
+    gap: clamp(3rem, 8vw, 6.25rem);
+  }
+  #services-676 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 30.4375rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #services-676 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #services-676 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #services-676 .cs-color {
+    color: var(--primary);
+  }
+  #services-676 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0 0 2rem 0;
+    color: var(--bodyTextColor);
+  }
+  #services-676 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875em, 5.5vw, 3.5em);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #services-676 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #services-676 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #services-676 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  #services-676 .cs-item {
+    list-style: none;
+    /* 40px - 64px */
+    padding: clamp(2.5rem, 6.3vw, 4rem);
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    background-color: #EFF1F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    transition: filter .3s;
+  }
+  #services-676 .cs-item:hover {
+    filter: brightness(70%);
+  }
+  #services-676 .cs-item:nth-of-type(even) {
+    background-color: var(--primary);
+  }
+  #services-676 .cs-item:nth-of-type(even) .cs-link,
+  #services-676 .cs-item:nth-of-type(even) .cs-h2 {
+    color: #F7F7F7;
+  }
+  #services-676 .cs-item:nth-of-type(even) .cs-waves {
+    display: none;
+  }
+  #services-676 .cs-picture {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: 0 0 1.25rem 0;
+    background-color: #FDFAF8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #services-676 .cs-icon {
+    width: 3.25rem;
+    height: auto;
+    display: block;
+  }
+  #services-676 .cs-h2 {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2em;
+    /* 20px - 32px */
+    margin: 0 0 clamp(1.25rem, 3vw, 2rem);
+    color: var(--headerColor);
+    display: block;
+  }
+  #services-676 .cs-link {
+    font-size: 1rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0;
+    color: var(--primary);
+    display: inline-block;
+    position: relative;
+  }
+  #services-676 .cs-link:before {
+    /* underline */
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: -1px;
+    left: 0;
+  }
+  #services-676 .cs-waves {
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* prevents the mouse from interacting with it */
+    pointer-events: none;
+    /* makes it act like a background images */
+    object-fit: cover;
+    z-index: -1;
+  }
+}
+/* Tablet - 650px */
+@media only screen and (min-width: 40.625rem) {
+  #services-676 .cs-card-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #services-676 .cs-item {
+    width: 50%;
+  }
+  #services-676 .cs-item:nth-of-type(3) {
+    order: 4;
+  }
+}
+/* Large Desktop 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #services-676 .cs-container {
+    max-width: 90rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #services-676 .cs-card-group {
+    /* sends it to the left in the first position */
+    order: -1;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---         Services           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #5A766A;
+    --primaryLight: #8c9f97;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+  }
+  #services-676 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #services-676 .cs-container {
+    width: 100%;
+    /* changes to 1440px at desktop */
+    max-width: 62rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* 48px - 64px */
+    gap: clamp(3rem, 8vw, 6.25rem);
+  }
+  #services-676 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 30.4375rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #services-676 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #services-676 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #services-676 .cs-color {
+    color: var(--primary);
+  }
+  #services-676 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0 0 2rem 0;
+    color: var(--bodyTextColor);
+  }
+  #services-676 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875em, 5.5vw, 3.5em);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #services-676 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #services-676 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #services-676 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  #services-676 .cs-item {
+    list-style: none;
+    /* 40px - 64px */
+    padding: clamp(2.5rem, 6.3vw, 4rem);
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    background-color: #EFF1F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    transition: filter .3s;
+  }
+  #services-676 .cs-item:hover {
+    filter: brightness(70%);
+  }
+  #services-676 .cs-item:nth-of-type(even) {
+    background-color: var(--primary);
+  }
+  #services-676 .cs-item:nth-of-type(even) .cs-link,
+  #services-676 .cs-item:nth-of-type(even) .cs-h2 {
+    color: #F7F7F7;
+  }
+  #services-676 .cs-item:nth-of-type(even) .cs-waves {
+    display: none;
+  }
+  #services-676 .cs-picture {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: 0 0 1.25rem 0;
+    background-color: #FDFAF8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #services-676 .cs-icon {
+    width: 3.25rem;
+    height: auto;
+    display: block;
+  }
+  #services-676 .cs-h2 {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2em;
+    /* 20px - 32px */
+    margin: 0 0 clamp(1.25rem, 3vw, 2rem);
+    color: var(--headerColor);
+    display: block;
+  }
+  #services-676 .cs-link {
+    font-size: 1rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0;
+    color: var(--primary);
+    display: inline-block;
+    position: relative;
+  }
+  #services-676 .cs-link:before {
+    /* underline */
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: -1px;
+    left: 0;
+  }
+  #services-676 .cs-waves {
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* prevents the mouse from interacting with it */
+    pointer-events: none;
+    /* makes it act like a background images */
+    object-fit: cover;
+    z-index: -1;
+  }
+}
+/* Tablet - 650px */
+@media only screen and (min-width: 40.625rem) {
+  #services-676 .cs-card-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #services-676 .cs-item {
+    width: 50%;
+  }
+  #services-676 .cs-item:nth-of-type(3) {
+    order: 4;
+  }
+}
+/* Large Desktop 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #services-676 .cs-container {
+    max-width: 90rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #services-676 .cs-card-group {
+    /* sends it to the left in the first position */
+    order: -1;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #services-676 .cs-topper,
+  body.dark-mode #services-676 .cs-color {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #services-676 .cs-title,
+  body.dark-mode #services-676 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #services-676 .cs-text {
+    opacity: .8;
+  }
+}
+                                

@@ -1,0 +1,964 @@
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="RPsbs-361">
+    <div class="cs-container">
+        <!--Left Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Who We Are</span>
+            <h2 class="cs-title">Expert Cleaning Service You Can Trust</h2>
+            <p class="cs-text">
+                At Stitch Cleaning Service, let us help you solve problems so that you can focus on your mission. We support businesses through periods.
+            </p>
+            <!--Image of cleaners-->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/cleaners-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/cleaners.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/cleaners.jpg" alt="cleaners" width="275" height="132">
+            </picture>
+        </div>
+        <!--Cards-->
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-icon-wrapper">
+                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/person-blue.svg" alt="icon" width="48" height="48">
+                    <!--Create a span to make more bubbles with pesudo elements-->
+                    <span class="cs-bubble" aria-hidden="true"></span>
+                </div>
+                <div class="cs-flex">
+                    <h3 class="cs-h3">Expert Employee</h3>
+                    <p class="cs-item-text">
+                        We’ve helped thousands of organizations to transform their company to become relevant of helped thousands.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-icon-wrapper">
+                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/hand-blue.svg" alt="icon" width="48" height="48">
+                    <!--Create a span to make more bubbles with pesudo elements-->
+                    <span class="cs-bubble" aria-hidden="true"></span>
+                </div>
+                <div class="cs-flex">
+                    <h3 class="cs-h3">Affordable Package</h3>
+                    <p class="cs-item-text">
+                        We’ve helped thousands of organizations to transform their company to become relevant of helped thousands.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-icon-wrapper">
+                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/stars-thumbs.svg" alt="icon" width="48" height="48">
+                    <!--Create a span to make more bubbles with pesudo elements-->
+                    <span class="cs-bubble" aria-hidden="true"></span>
+                </div>
+                <div class="cs-flex">
+                    <h3 class="cs-h3">100% Satisfaction</h3>
+                    <p class="cs-item-text">
+                        We’ve helped thousands of organizations to transform their company to become relevant of helped thousands.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-361">
+    <div class="cs-container">
+        <!--Left Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Who We Are</span>
+            <h2 class="cs-title">Expert Cleaning Service You Can Trust</h2>
+            <p class="cs-text">
+                At Stitch Cleaning Service, let us help you solve problems so that you can focus on your mission. We support businesses through periods.
+            </p>
+            <!--Image of cleaners-->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/cleaners-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/cleaners.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/cleaners.jpg" alt="cleaners" width="275" height="132">
+            </picture>
+        </div>
+        <!--Cards-->
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-icon-wrapper">
+                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/person-blue.svg" alt="icon" width="48" height="48">
+                    <!--Create a span to make more bubbles with pesudo elements-->
+                    <span class="cs-bubble" aria-hidden="true"></span>
+                </div>
+                <div class="cs-flex">
+                    <h3 class="cs-h3">Expert Employee</h3>
+                    <p class="cs-item-text">
+                        We’ve helped thousands of organizations to transform their company to become relevant of helped thousands.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-icon-wrapper">
+                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/hand-blue.svg" alt="icon" width="48" height="48">
+                    <!--Create a span to make more bubbles with pesudo elements-->
+                    <span class="cs-bubble" aria-hidden="true"></span>
+                </div>
+                <div class="cs-flex">
+                    <h3 class="cs-h3">Affordable Package</h3>
+                    <p class="cs-item-text">
+                        We’ve helped thousands of organizations to transform their company to become relevant of helped thousands.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-icon-wrapper">
+                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/stars-thumbs.svg" alt="icon" width="48" height="48">
+                    <!--Create a span to make more bubbles with pesudo elements-->
+                    <span class="cs-bubble" aria-hidden="true"></span>
+                </div>
+                <div class="cs-flex">
+                    <h3 class="cs-h3">100% Satisfaction</h3>
+                    <p class="cs-item-text">
+                        We’ve helped thousands of organizations to transform their company to become relevant of helped thousands.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---         Why Choose         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #007CFB;
+    --primaryLight: #4da3fc;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #RPsbs-361,
+  #RPsbsr-361 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  @keyframes floatAnimation2 {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-4px);
+    }
+    70% {
+      transform: translateY(4px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes InAndOut {
+    0% {
+      transform: translateY(2.5rem) scale(1);
+      opacity: 1;
+    }
+    30% {
+      transform: translateY(1.25rem) scale(0.8);
+      opacity: 1;
+    }
+    60% {
+      transform: translateY(0.625rem) scale(0.5);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(0rem) scale(0.5);
+      opacity: 0;
+    }
+  }
+  @keyframes InAndOut2 {
+    0% {
+      transform: translateY(3.125rem) scale(1);
+      opacity: 1;
+    }
+    30% {
+      transform: translateY(2.5rem) scale(1);
+      opacity: 1;
+    }
+    60% {
+      transform: translateY(1.25rem) scale(0.6);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(0rem) scale(0.4);
+      opacity: 0;
+    }
+  }
+  #RPsbs-361 .cs-container,
+  #RPsbsr-361 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 34.375em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 48px - 56px */
+    gap: clamp(3rem, 7vw, 3.5rem);
+  }
+  #RPsbs-361 .cs-container,
+  #RPsbsr-361 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #RPsbs-361 .cs-content,
+  #RPsbsr-361 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #RPsbs-361 .cs-topper,
+  #RPsbsr-361 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #RPsbs-361 .cs-title,
+  #RPsbsr-361 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #RPsbs-361 .cs-text,
+  #RPsbsr-361 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-361 .cs-title,
+  #RPsbsr-361 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 20ch;
+  }
+  #RPsbs-361 .cs-text,
+  #RPsbsr-361 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #RPsbs-361 .cs-text:last-of-type,
+  #RPsbsr-361 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #RPsbs-361 .cs-picture,
+  #RPsbsr-361 .cs-picture {
+    width: 100%;
+    height: 25rem;
+    border-radius: 1rem;
+    /* clips the corners of rhe image */
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+  #RPsbs-361 .cs-picture img,
+  #RPsbsr-361 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* change to "top" if you don't want the top of the image cur off */
+    object-position: center;
+  }
+  #RPsbs-361 .cs-card-group,
+  #RPsbsr-361 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 16px - 20px */
+    gap: clamp(1rem, 2vw, 1.25rem);
+  }
+  #RPsbs-361 .cs-item,
+  #RPsbsr-361 .cs-item {
+    list-style: none;
+    width: 100%;
+    /* 24px - 32px */
+    padding: clamp(1.5rem, 4.3vw, 2rem);
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border: 1px solid #E8E8E8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #RPsbs-361 .cs-icon-wrapper,
+  #RPsbsr-361 .cs-icon-wrapper {
+    width: 4.0625rem;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+  }
+  #RPsbs-361 .cs-icon-wrapper:before,
+  #RPsbsr-361 .cs-icon-wrapper:before {
+    /* Small Bubble */
+    content: '';
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 50%;
+    background: #E5F2FF;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0.1875rem;
+    animation-name: InAndOut;
+    animation-duration: 1.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  #RPsbs-361 .cs-icon-wrapper:after,
+  #RPsbsr-361 .cs-icon-wrapper:after {
+    /* Small Bubble */
+    content: '';
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 50%;
+    background: #E5F2FF;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0.6875rem;
+    right: 0.3125rem;
+    animation-name: InAndOut2;
+    animation-duration: 2s;
+    animation-delay: .3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  #RPsbs-361 .cs-bubble,
+  #RPsbsr-361 .cs-bubble {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  #RPsbs-361 .cs-bubble:before,
+  #RPsbsr-361 .cs-bubble:before {
+    /* Big Bubble */
+    content: '';
+    width: 2.6875rem;
+    height: 2.6875rem;
+    border-radius: 50%;
+    background: #E5F2FF;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0.25rem;
+    left: 0rem;
+    animation-name: floatAnimation2;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #RPsbs-361 .cs-bubble:after,
+  #RPsbsr-361 .cs-bubble:after {
+    /* Big Bubble */
+    content: '';
+    width: 1.9375rem;
+    height: 1.9375rem;
+    border-radius: 50%;
+    background: #E5F2FF;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: -0.25rem;
+    right: 0rem;
+    animation-name: floatAnimation2;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #RPsbs-361 .cs-icon,
+  #RPsbsr-361 .cs-icon {
+    width: 3rem;
+    height: auto;
+    position: relative;
+    z-index: 10;
+  }
+  #RPsbs-361 .cs-h3,
+  #RPsbsr-361 .cs-h3 {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 2.5vw, 1.5625rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0.75rem;
+    color: var(--headerColor);
+  }
+  #RPsbs-361 .cs-item-text,
+  #RPsbsr-361 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.6vw, 1rem);
+    line-height: 1.5em;
+    text-align: center;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #RPsbs-361 .cs-item,
+  #RPsbsr-361 .cs-item {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #RPsbs-361 .cs-icon-wrapper,
+  #RPsbsr-361 .cs-icon-wrapper {
+    margin-right: 1.5rem;
+  }
+  #RPsbs-361 .cs-h3,
+  #RPsbsr-361 .cs-h3,
+  #RPsbs-361 .cs-item-text,
+  #RPsbsr-361 .cs-item-text {
+    text-align: left;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #RPsbs-361 .cs-container,
+  #RPsbsr-361 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  #RPsbs-361 .cs-content,
+  #RPsbsr-361 .cs-content {
+    max-width: 32.625rem;
+  }
+  #RPsbs-361 .cs-picture,
+  #RPsbsr-361 .cs-picture {
+    height: 17.5rem;
+  }
+  #RPsbs-361 .cs-card-group,
+  #RPsbsr-361 .cs-card-group {
+    width: 50%;
+    max-width: 39.375rem;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+}
+
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #RPsbsr-361 {
+    background-color: #f7f7f7;
+  }
+  #RPsbsr-361 .cs-item {
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #RPsbsr-361 .cs-content {
+    /* sends it to the right */
+    order: 1;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---         Why Choose         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #007CFB;
+    --primaryLight: #4da3fc;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #RPsbs-361,
+  #RPsbsr-361 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  @keyframes floatAnimation2 {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-4px);
+    }
+    70% {
+      transform: translateY(4px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes InAndOut {
+    0% {
+      transform: translateY(2.5rem) scale(1);
+      opacity: 1;
+    }
+    30% {
+      transform: translateY(1.25rem) scale(0.8);
+      opacity: 1;
+    }
+    60% {
+      transform: translateY(0.625rem) scale(0.5);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(0rem) scale(0.5);
+      opacity: 0;
+    }
+  }
+  @keyframes InAndOut2 {
+    0% {
+      transform: translateY(3.125rem) scale(1);
+      opacity: 1;
+    }
+    30% {
+      transform: translateY(2.5rem) scale(1);
+      opacity: 1;
+    }
+    60% {
+      transform: translateY(1.25rem) scale(0.6);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(0rem) scale(0.4);
+      opacity: 0;
+    }
+  }
+  #RPsbs-361 .cs-container,
+  #RPsbsr-361 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 34.375em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 48px - 56px */
+    gap: clamp(3rem, 7vw, 3.5rem);
+  }
+  #RPsbs-361 .cs-container,
+  #RPsbsr-361 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #RPsbs-361 .cs-content,
+  #RPsbsr-361 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #RPsbs-361 .cs-topper,
+  #RPsbsr-361 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #RPsbs-361 .cs-title,
+  #RPsbsr-361 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #RPsbs-361 .cs-text,
+  #RPsbsr-361 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-361 .cs-title,
+  #RPsbsr-361 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 20ch;
+  }
+  #RPsbs-361 .cs-text,
+  #RPsbsr-361 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #RPsbs-361 .cs-text:last-of-type,
+  #RPsbsr-361 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #RPsbs-361 .cs-picture,
+  #RPsbsr-361 .cs-picture {
+    width: 100%;
+    height: 25rem;
+    border-radius: 1rem;
+    /* clips the corners of rhe image */
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+  #RPsbs-361 .cs-picture img,
+  #RPsbsr-361 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* change to "top" if you don't want the top of the image cur off */
+    object-position: center;
+  }
+  #RPsbs-361 .cs-card-group,
+  #RPsbsr-361 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 16px - 20px */
+    gap: clamp(1rem, 2vw, 1.25rem);
+  }
+  #RPsbs-361 .cs-item,
+  #RPsbsr-361 .cs-item {
+    list-style: none;
+    width: 100%;
+    /* 24px - 32px */
+    padding: clamp(1.5rem, 4.3vw, 2rem);
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border: 1px solid #E8E8E8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #RPsbs-361 .cs-icon-wrapper,
+  #RPsbsr-361 .cs-icon-wrapper {
+    width: 4.0625rem;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+  }
+  #RPsbs-361 .cs-icon-wrapper:before,
+  #RPsbsr-361 .cs-icon-wrapper:before {
+    /* Small Bubble */
+    content: '';
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 50%;
+    background: #E5F2FF;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0.1875rem;
+    animation-name: InAndOut;
+    animation-duration: 1.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  #RPsbs-361 .cs-icon-wrapper:after,
+  #RPsbsr-361 .cs-icon-wrapper:after {
+    /* Small Bubble */
+    content: '';
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 50%;
+    background: #E5F2FF;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0.6875rem;
+    right: 0.3125rem;
+    animation-name: InAndOut2;
+    animation-duration: 2s;
+    animation-delay: .3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  #RPsbs-361 .cs-bubble,
+  #RPsbsr-361 .cs-bubble {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  #RPsbs-361 .cs-bubble:before,
+  #RPsbsr-361 .cs-bubble:before {
+    /* Big Bubble */
+    content: '';
+    width: 2.6875rem;
+    height: 2.6875rem;
+    border-radius: 50%;
+    background: #E5F2FF;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0.25rem;
+    left: 0rem;
+    animation-name: floatAnimation2;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #RPsbs-361 .cs-bubble:after,
+  #RPsbsr-361 .cs-bubble:after {
+    /* Big Bubble */
+    content: '';
+    width: 1.9375rem;
+    height: 1.9375rem;
+    border-radius: 50%;
+    background: #E5F2FF;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: -0.25rem;
+    right: 0rem;
+    animation-name: floatAnimation2;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #RPsbs-361 .cs-icon,
+  #RPsbsr-361 .cs-icon {
+    width: 3rem;
+    height: auto;
+    position: relative;
+    z-index: 10;
+  }
+  #RPsbs-361 .cs-h3,
+  #RPsbsr-361 .cs-h3 {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 2.5vw, 1.5625rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0.75rem;
+    color: var(--headerColor);
+  }
+  #RPsbs-361 .cs-item-text,
+  #RPsbsr-361 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.6vw, 1rem);
+    line-height: 1.5em;
+    text-align: center;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #RPsbs-361 .cs-item,
+  #RPsbsr-361 .cs-item {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #RPsbs-361 .cs-icon-wrapper,
+  #RPsbsr-361 .cs-icon-wrapper {
+    margin-right: 1.5rem;
+  }
+  #RPsbs-361 .cs-h3,
+  #RPsbsr-361 .cs-h3,
+  #RPsbs-361 .cs-item-text,
+  #RPsbsr-361 .cs-item-text {
+    text-align: left;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #RPsbs-361 .cs-container,
+  #RPsbsr-361 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  #RPsbs-361 .cs-content,
+  #RPsbsr-361 .cs-content {
+    max-width: 32.625rem;
+  }
+  #RPsbs-361 .cs-picture,
+  #RPsbsr-361 .cs-picture {
+    height: 17.5rem;
+  }
+  #RPsbs-361 .cs-card-group,
+  #RPsbsr-361 .cs-card-group {
+    width: 50%;
+    max-width: 39.375rem;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #RPsbs-361 .cs-topper,
+  body.dark-mode #RPsbsr-361 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #RPsbs-361 .cs-title,
+  body.dark-mode #RPsbsr-361 .cs-title,
+  body.dark-mode #RPsbs-361 .cs-text,
+  body.dark-mode #RPsbsr-361 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #RPsbs-361 .cs-icon-wrapper:before,
+  body.dark-mode #RPsbsr-361 .cs-icon-wrapper:before,
+  body.dark-mode #RPsbs-361 .cs-bubble:before,
+  body.dark-mode #RPsbsr-361 .cs-bubble:before,
+  body.dark-mode #RPsbs-361 .cs-icon-wrapper:after,
+  body.dark-mode #RPsbsr-361 .cs-icon-wrapper:after,
+  body.dark-mode #RPsbs-361 .cs-bubble:after,
+  body.dark-mode #RPsbsr-361 .cs-bubble:after {
+    background-color: var(--accent);
+  }
+  body.dark-mode #RPsbs-361 .cs-icon,
+  body.dark-mode #RPsbsr-361 .cs-icon {
+    /* turns the icon white */
+    filter: grayscale(1) brightness(1000%);
+  }
+  body.dark-mode #RPsbs-361 .cs-h3,
+  body.dark-mode #RPsbsr-361 .cs-h3 {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #RPsbs-361 .cs-item-text,
+  body.dark-mode #RPsbsr-361 .cs-item-text {
+    color: var(--bodyTextColorWhite);
+    opacity: .8;
+  }
+}
+
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #RPsbsr-361 {
+    background-color: #f7f7f7;
+  }
+  #RPsbsr-361 .cs-item {
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #RPsbsr-361 .cs-content {
+    /* sends it to the right */
+    order: 1;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #RPsbsr-361 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+                                

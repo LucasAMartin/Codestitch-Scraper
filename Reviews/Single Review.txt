@@ -1,0 +1,390 @@
+<!-- ============================================ -->
+<!--                 Reviews                      -->
+<!-- ============================================ -->
+
+<section id="reviews-972">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <picture class="cs-background">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair-coloring.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair-coloring.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair-coloring.jpg" alt="hair coloring" width="782" height="770">
+            </picture>
+            <!--Person-->
+            <picture class="cs-person">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair-model2.png">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair-model2.png">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair-model2.png" alt="hair model" width="618" height="722">
+            </picture>
+            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/circles.svg" alt="circles graphic" width="490" height="490">
+        </div>
+        <div class="cs-content">
+            <p class="cs-review">
+                “Life is an endless struggle full of frustrations and challenges, but eventually you find a hairstylist you like.”
+            </p>
+            <span class="cs-name">Darlene Robertson</span>
+            <span class="cs-desc">CEO of Hair Salon</span>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #AC8856;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #reviews-972 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #FBF9F7;
+  }
+  #reviews-972 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 88px */
+    gap: clamp(3rem, 6vw, 5.5rem);
+  }
+  #reviews-972 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    max-width: 27.0625rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #reviews-972 .cs-review {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    /* 24px - 32px */
+    margin: 0 0 clamp(1.25rem, 2vw, 2rem);
+  }
+  #reviews-972 .cs-name {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 2vw, 1.5625rem);
+    line-height: 1.2em;
+    text-align: inherit;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    color: var(--primary);
+    display: block;
+  }
+  #reviews-972 .cs-desc {
+    font-size: 1rem;
+    line-height: 1.5em;
+    text-align: inherit;
+    margin: 0;
+    color: var(--bodyTextColor);
+    display: block;
+  }
+  #reviews-972 .cs-image-group {
+    /* resets at tablet */
+    font-size: min(1.96vw, .6em);
+    width: 46.125em;
+    /* changes at tablet */
+    height: 54.375em;
+    /* clip the cs-picture from overflowing the container */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #reviews-972 .cs-person {
+    width: auto;
+    height: 45.125em;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 1.875em;
+  }
+  #reviews-972 .cs-person img {
+    width: auto;
+    height: 100%;
+  }
+  #reviews-972 .cs-background {
+    /* changes at tablet */
+    width: 65%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    /* changes at tablet */
+    top: 0;
+    /* changes at tablet */
+    left: 0;
+    z-index: -1;
+  }
+  #reviews-972 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes img tag act as a background image */
+    object-fit: cover;
+  }
+  #reviews-972 .cs-icon {
+    /* changes at tablet */
+    width: 24.375em;
+    height: auto;
+    display: block;
+    position: absolute;
+    /* changes at tablet */
+    top: 8.125em;
+    right: 0;
+    z-index: -2;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #reviews-972 {
+    /* clips the cs-picture when it overflows the top of the this container */
+    overflow: hidden;
+    padding-bottom: 0;
+  }
+  #reviews-972 .cs-container {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  #reviews-972 .cs-content {
+    text-align: left;
+    align-items: flex-start;
+  }
+  #reviews-972 .cs-image-group {
+    font-size: min(1.1vw, 1em);
+    height: 45.125em;
+    /* undo the clipping because now we want the cs-picture to overflow this container */
+    overflow: visible;
+    flex: none;
+  }
+  #reviews-972 .cs-background {
+    height: auto;
+    width: 50vw;
+    left: auto;
+    /* purposefully make the top value overflow outside the section container so it is always touching the top of it where it gets clipped by overflow hidden on the section container. Makes a nice masking effect */
+    top: -7.5em;
+    bottom: 0;
+    right: 50%;
+    margin: 0 -7.5em 0 0;
+  }
+  #reviews-972 .cs-icon {
+    /* 390px - 490px */
+    width: clamp(24.375em, 33vw, 30.625em);
+    top: -1.875em;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #AC8856;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #reviews-972 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #FBF9F7;
+  }
+  #reviews-972 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 88px */
+    gap: clamp(3rem, 6vw, 5.5rem);
+  }
+  #reviews-972 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    max-width: 27.0625rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #reviews-972 .cs-review {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    /* 24px - 32px */
+    margin: 0 0 clamp(1.25rem, 2vw, 2rem);
+  }
+  #reviews-972 .cs-name {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 2vw, 1.5625rem);
+    line-height: 1.2em;
+    text-align: inherit;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    color: var(--primary);
+    display: block;
+  }
+  #reviews-972 .cs-desc {
+    font-size: 1rem;
+    line-height: 1.5em;
+    text-align: inherit;
+    margin: 0;
+    color: var(--bodyTextColor);
+    display: block;
+  }
+  #reviews-972 .cs-image-group {
+    /* resets at tablet */
+    font-size: min(1.96vw, .6em);
+    width: 46.125em;
+    /* changes at tablet */
+    height: 54.375em;
+    /* clip the cs-picture from overflowing the container */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #reviews-972 .cs-person {
+    width: auto;
+    height: 45.125em;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 1.875em;
+  }
+  #reviews-972 .cs-person img {
+    width: auto;
+    height: 100%;
+  }
+  #reviews-972 .cs-background {
+    /* changes at tablet */
+    width: 65%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    /* changes at tablet */
+    top: 0;
+    /* changes at tablet */
+    left: 0;
+    z-index: -1;
+  }
+  #reviews-972 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes img tag act as a background image */
+    object-fit: cover;
+  }
+  #reviews-972 .cs-icon {
+    /* changes at tablet */
+    width: 24.375em;
+    height: auto;
+    display: block;
+    position: absolute;
+    /* changes at tablet */
+    top: 8.125em;
+    right: 0;
+    z-index: -2;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #reviews-972 {
+    /* clips the cs-picture when it overflows the top of the this container */
+    overflow: hidden;
+    padding-bottom: 0;
+  }
+  #reviews-972 .cs-container {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  #reviews-972 .cs-content {
+    text-align: left;
+    align-items: flex-start;
+  }
+  #reviews-972 .cs-image-group {
+    font-size: min(1.1vw, 1em);
+    height: 45.125em;
+    /* undo the clipping because now we want the cs-picture to overflow this container */
+    overflow: visible;
+    flex: none;
+  }
+  #reviews-972 .cs-background {
+    height: auto;
+    width: 50vw;
+    left: auto;
+    /* purposefully make the top value overflow outside the section container so it is always touching the top of it where it gets clipped by overflow hidden on the section container. Makes a nice masking effect */
+    top: -7.5em;
+    bottom: 0;
+    right: 50%;
+    margin: 0 -7.5em 0 0;
+  }
+  #reviews-972 .cs-icon {
+    /* 390px - 490px */
+    width: clamp(24.375em, 33vw, 30.625em);
+    top: -1.875em;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #reviews-972 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  body.dark-mode #reviews-972 .cs-review {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #reviews-972 .cs-desc {
+    color: var(--bodyTextColorWhite);
+    opacity: .8;
+  }
+  body.dark-mode #reviews-972 .cs-icon {
+    opacity: .3;
+  }
+}
+                                

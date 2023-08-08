@@ -1,0 +1,109 @@
+<a href="" class="cs-button-5" aria-label="read more about us">
+                <span class="cs-button-text">Read More</span>
+            </a>
+                                
+.cs-button-5 {
+  /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+  font-family: 'Roboto', 'Arial', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  /* 46px - 56px */
+  line-height: clamp(2.875rem, 8vw, 3.5rem);
+  text-decoration: none;
+  font-weight: 700;
+  min-width: 10.875rem;
+  margin: auto;
+  color: #1a1a1a;
+  padding: 0 1.5rem;
+  /* prevents padding from affecting height and width */
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 2px solid #1a1a1a;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  transition: color .3s;
+}
+.cs-button-5 .cs-button-text {
+  display: block;
+  /* we translate it up so it looks centered in the white space. The black :before element takes up space at the bottom and makes it looks off-center */
+  transform: translateY(-0.125rem);
+  transition: transform .3s;
+}
+.cs-button-5:before {
+  content: '';
+  width: 100%;
+  height: 0.375rem;
+  background: #1a1a1a;
+  opacity: 1;
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  transition: height .3s;
+  z-index: -1;
+}
+.cs-button-5:hover {
+  color: #fff;
+}
+.cs-button-5:hover .cs-button-text {
+  transform: translateY(0);
+}
+.cs-button-5:hover:before {
+  height: 100%;
+}
+                                
+.cs-button-5 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    text-align: center;
+    font-size: (16/16rem);
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 8vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    min-width: (174/16rem);
+    margin: auto;
+    color: #1a1a1a;
+    padding: 0 (24/16rem);
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 2px solid #1a1a1a;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: color .3s;
+
+    .cs-button-text {
+        display: block;
+        /* we translate it up so it looks centered in the white space. The black :before element takes up space at the bottom and makes it looks off-center */
+        transform: translateY(-2/16rem);
+        transition: transform .3s;
+    }
+
+    &:before {
+        content: '';
+        width: 100%;
+        height: (6/16rem);
+        background: #1a1a1a;
+        opacity: 1;
+        position: absolute;
+        display: block;
+        bottom: 0;
+        left: 0;
+        transition: height .3s;
+        z-index: -1;
+    }
+
+    &:hover {
+        color: #fff;
+        .cs-button-text {
+            transform: translateY(0);
+        }
+        &:before {
+            height: 100%;
+        }
+    }
+}
+                                

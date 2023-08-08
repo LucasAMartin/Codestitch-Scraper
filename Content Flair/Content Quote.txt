@@ -1,0 +1,86 @@
+<!--                   
+    These "Micro Stitches" are to be placed inside the .cs-content group of Side By Side Stitches.  Typically after the .cs-title or .cs-text. They are used to add more design flair to a Stitch as well as convey more information in a different way.
+-->
+
+<p id="quote-828">
+    Lorem ipsum dolor sit amet, consectetur adipiscing. Orci odio morbi vel ut lectus risus dis. Euismod dui etiam sed posuere odio tortor vitae ultrices. Ultrices sem et at egestas turpis scelerisque.
+    <span class="cs-name">Marie-Claire</span>
+</p>
+                                
+/* Mobile - 360px */
+/* you can copy and paste these styles into the section CSS where you placed the #list-828 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+#quote-828 {
+  /* 15px - 17px */
+  font-size: clamp(0.9375rem, 5vw, 1.0625rem);
+  line-height: 1.5em;
+  width: 100%;
+  max-width: 39.375rem;
+  margin: 0 auto 2rem 0;
+  padding: 0.75rem 0 0.75rem 1.5rem;
+  color: var(--headerColor);
+  /* Prevents padding from affecting height & width */
+  box-sizing: border-box;
+  position: relative;
+}
+#quote-828:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 0.3125rem;
+  background: var(--primaryLight);
+  opacity: 1;
+  top: 0;
+  left: 0;
+}
+#quote-828 .cs-name {
+  font-size: 1.0625rem;
+  line-height: 1.2em;
+  font-weight: 700;
+  margin: 0.75rem 0 0;
+  display: block;
+  color: var(--headerColor);
+}
+                                
+/* Mobile - 360px */
+/* you can copy and paste these styles into the section CSS where you placed the #list-828 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+#quote-828 {
+  /* 15px - 17px */
+  font-size: clamp(0.9375rem, 5vw, 1.0625rem);
+  line-height: 1.5em;
+  width: 100%;
+  max-width: 39.375rem;
+  margin: 0 auto 2rem 0;
+  padding: 0.75rem 0 0.75rem 1.5rem;
+  color: var(--headerColor);
+  /* Prevents padding from affecting height & width */
+  box-sizing: border-box;
+  position: relative;
+}
+#quote-828:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 0.3125rem;
+  background: var(--primaryLight);
+  opacity: 1;
+  top: 0;
+  left: 0;
+}
+#quote-828 .cs-name {
+  font-size: 1.0625rem;
+  line-height: 1.2em;
+  font-weight: 700;
+  margin: 0.75rem 0 0;
+  display: block;
+  color: var(--headerColor);
+}
+/* Dark Mode, copy and paste only the styles inside the #list-828 brackets into your section's dark mode media query */
+body.dark-mode #quote-828 {
+  color: var(--bodyTextColorWhite);
+}
+body.dark-mode #quote-828 .cs-name {
+  color: var(--bodyTextColorWhite);
+}
+                                

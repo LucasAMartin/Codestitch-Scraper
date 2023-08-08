@@ -1,0 +1,793 @@
+<!-- ============================================ -->
+<!--                   Contact                    -->
+<!-- ============================================ -->
+
+<section id="contact-321">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Contact Us</span>
+            <h2 class="cs-title">We Are Always Ready To Hear For You.</h2>
+            <!--Form-->
+            <form class="cs-form" id="cs-form-321" name="Contact Form" method="post">
+                <label class="cs-label">
+                    Name
+                    <input class="cs-input" required type="text" id="name-321" name="name" placeholder="Name">
+                </label>
+                <label class="cs-label cs-email">
+                    Email
+                    <input class="cs-input" required type="text" id="email-321" name="email" placeholder="Email">
+                </label>
+                <label class="cs-label cs-phone">
+                    Phone
+                    <input class="cs-input" required type="text" id="phone-321" name="phone" placeholder="Phone">
+                </label>
+                <label class="cs-label">
+                    Message
+                    <textarea class="cs-input cs-textarea" required name="Message" id="message-321" placeholder="Write message..."></textarea>
+                </label>
+                <button class="cs-button-solid cs-submit" type="submit">Make an Appointment</button>
+            </form>
+        </div>
+        <div class="cs-right">
+            <!--Map Image, pin is made in the CSS-->
+            <picture class="cs-map">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/map.png">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/map.png">
+                <img decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/map.png" alt="map" width="610" height="425" aria-hidden="true">
+            </picture>
+            <ul class="cs-contact-group">
+                <li class="cs-item">
+                    <span class="cs-header">
+                        <img class="cs-icon" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone-gold.svg" alt="icon" width="20" height="20">
+                        Phone
+                    </span>
+                    <a href="tel:555-456 7899" class="cs-link">(555) 456 7899</a>
+                    <a href="tel:555-456 7899" class="cs-link">(555) 456 7898</a>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-header">
+                        <img class="cs-icon" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin-gold.svg" alt="icon" width="20" height="20">
+                        Address
+                    </span>
+                    <a href="" class="cs-link">121 Fake St, Melbourne<br> VIC 300, Australia</a>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-header">
+                        <img class="cs-icon" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/clock-gold.svg" alt="icon" width="20" height="20">
+                        Our Hours
+                    </span>
+                    <span class="cs-link">Monday To Saturday</span>
+                    <span class="cs-link">9:00 AM - 10:30 PM</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--background image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/round-table-m.jpg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/round-table.jpg">
+        <img decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/round-table.jpg" alt="round table" width="275" height="132" aria-hidden="true">
+    </picture>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Contact           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #042925;
+    --primaryLight: #001F3F;
+    --secondary: #EDB86F;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #contact-321 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    position: relative;
+    z-index: 1;
+  }
+  #contact-321 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.25rem;
+  }
+  #contact-321 .cs-content {
+    text-align: left;
+  }
+  #contact-321 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #contact-321 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #contact-321 .cs-topper {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    color: var(--secondary);
+  }
+  #contact-321 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    color: var(--bodyTextColorWhite);
+  }
+  #contact-321 .cs-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  #contact-321 .cs-label {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  #contact-321 .cs-input {
+    font-size: 1rem;
+    width: 100%;
+    height: 3.5rem;
+    padding: 0;
+    padding-left: 1.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(15px);
+    border: none;
+    /* prevents padding from adding to height and width */
+    box-sizing: border-box;
+  }
+  #contact-321 .cs-input::placeholder {
+    color: #F7F7F7;
+    opacity: .5;
+  }
+  #contact-321 .cs-textarea {
+    min-height: 7.5rem;
+    padding-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-family: inherit;
+  }
+  #contact-321 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #contact-321 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #contact-321 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #contact-321 .cs-submit {
+    width: 17.6875rem;
+    text-transform: uppercase;
+    color: var(--headerColor);
+    background-color: var(--secondary);
+    border: none;
+    transition: color .3s;
+  }
+  #contact-321 .cs-submit:hover {
+    cursor: pointer;
+    color: #fff;
+  }
+  #contact-321 .cs-right {
+    width: 100%;
+    /* 16px - 24px */
+    padding: clamp(1rem, 3.5vw, 1.5rem);
+    border-radius: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.12);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    display: flex;
+    /* prevents padding from adding to height and width */
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* 24px - 32px */
+    gap: clamp(1.5rem, 4vw, 2rem);
+  }
+  #contact-321 .cs-map {
+    width: 100%;
+    /* 300px - 425px */
+    height: clamp(18.75rem, 63.4vw, 26.5625rem);
+    border-radius: 1.5rem;
+    /* clips the corners of the img tag */
+    overflow: hidden;
+    position: relative;
+    display: block;
+  }
+  #contact-321 .cs-map:before {
+    content: '';
+    position: absolute;
+    display: block;
+    /* 32px - 48px */
+    width: clamp(2rem, 4vw, 3rem);
+    height: clamp(2rem, 4vw, 3rem);
+    background: url("https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin-red.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    /* 148px - 220px */
+    top: clamp(9.25rem, 30.7vw, 13.75rem);
+    /* push to the center line of the div */
+    left: 50%;
+    /* push X amount of pixels from it's current position off the center line */
+    margin-left: 0.625rem;
+    z-index: 10;
+  }
+  #contact-321 .cs-map img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #contact-321 .cs-contact-group {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #contact-321 .cs-item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #contact-321 .cs-header {
+    font-size: 1.25rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--secondary);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  #contact-321 .cs-link {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    text-decoration: none;
+    color: var(--bodyTextColorWhite);
+    transition: color .3s;
+  }
+  #contact-321 .cs-link:hover {
+    color: var(--secondary);
+  }
+  #contact-321 .cs-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: -1;
+  }
+  #contact-321 .cs-background:before {
+    /* top right box */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: .92;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  #contact-321 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+/* Tablet - 650px */
+@media only screen and (min-width: 40.625rem) {
+  #contact-321 .cs-contact-group {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #contact-321 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3.25rem;
+  }
+  #contact-321 .cs-content {
+    max-width: 32.625rem;
+  }
+  #contact-321 .cs-title,
+  #contact-321 .cs-topper {
+    text-align: left;
+    margin-left: 0;
+  }
+  #contact-321 .cs-title {
+    max-width: 32.625rem;
+  }
+  #contact-321 .cs-email,
+  #contact-321 .cs-phone {
+    width: 48%;
+  }
+  #contact-321 .cs-button-solid {
+    margin-left: 0;
+  }
+  #contact-321 .cs-right {
+    width: 51.6%;
+    max-width: 41.125rem;
+    /* prevent flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Desktop - 1300px - Parallax Effect */
+@media only screen and (min-width: 81.25rem) {
+  #contact-321 {
+    background: url("https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/round-table.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* makes parallax effect */
+    background-attachment: fixed;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Contact           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #042925;
+        --primaryLight: #001F3F;
+        --secondary: #EDB86F;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #contact-321 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        position: relative;
+        z-index: 1;
+        
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at desktop */
+            max-width: (550/16rem);
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: (52/16rem);
+        }
+
+        .cs-content {
+            text-align: left;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+
+        .cs-topper {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            color: var(--secondary);
+        }
+
+        .cs-title {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            color: var(--bodyTextColorWhite);
+        }
+
+        .cs-form {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: (12/16rem);
+        }
+
+        .cs-label {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            width: 100%;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: (4/16rem);
+        }
+
+        .cs-input {
+            font-size: (16/16rem);
+            width: 100%;
+            height: (56/16rem);
+            padding: 0;
+            padding-left: (24/16rem);
+            border-radius: (8/16rem);
+            color: #fff;
+            background: rgba(255, 255, 255, .12);
+            backdrop-filter: blur(15px);
+            border: none;
+            /* prevents padding from adding to height and width */
+            box-sizing: border-box;
+            &::placeholder {
+                color: #F7F7F7;
+                opacity: .5;
+            }
+        }
+
+        .cs-textarea {
+            min-height: (120/16rem);
+            padding-top: (24/16rem);
+            margin-bottom: (12/16rem);
+            font-family: inherit;
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-submit {
+            width: (283/16rem);
+            text-transform: uppercase;
+            color: var(--headerColor);
+            background-color: var(--secondary);
+            border: none;
+            transition: color .3s;
+            &:hover {
+                cursor: pointer;
+                color: #fff;
+            }
+        }
+
+        .cs-right {
+            width: 100%;
+            /* 16px - 24px */
+            padding: clamp(1rem, 3.5vw, 1.5rem);
+            border-radius: (24/16rem);
+            background-color: rgba(255, 255, 255, .12);
+            -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
+            display: flex;
+            /* prevents padding from adding to height and width */
+            box-sizing: border-box;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            /* 24px - 32px */
+            gap: clamp(1.5rem, 4vw, 2rem);
+        }
+
+        .cs-map {
+            width: 100%;
+            /* 300px - 425px */
+            height: clamp(18.75rem, 63.4vw, 26.5625rem);
+            border-radius: (24/16rem);
+            /* clips the corners of the img tag */
+            overflow: hidden;
+            position: relative;
+            display: block;
+
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                /* 32px - 48px */
+                width: clamp(2rem, 4vw, 3rem);
+                height: clamp(2rem, 4vw, 3rem);
+                background: url("https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin-red.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                opacity: 1;
+                /* 148px - 220px */
+                top: clamp(9.25rem, 30.7vw, 13.75rem);
+                /* push to the center line of the div */
+                left: 50%;
+                /* push X amount of pixels from it's current position off the center line */
+                margin-left: (10/16rem);
+                z-index: 10;
+             }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .cs-contact-group {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: (16/16rem);
+        }
+
+        .cs-item {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .cs-header {
+            font-size: (20/16rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin-bottom: (12/16rem);
+            color: var(--secondary);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: (4/16rem);
+        }
+
+        .cs-link {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            text-decoration: none;
+            color: var(--bodyTextColorWhite);
+            transition: color .3s;
+
+            &:hover {
+                color: var(--secondary);
+            }
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            z-index: -1;
+
+            &:before {
+                /* top right box */
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: var(--primary);
+                opacity: .92;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+/* Tablet - 650px */
+@media only screen and (min-width: 40.625rem) {
+    #contact-321 {
+        .cs-contact-group {
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #contact-321 {
+        .cs-container {
+            max-width: (1280/16rem);
+            flex-direction: row;
+            justify-content: space-between;
+            gap: (52/16rem);
+        }
+
+        .cs-content {
+            max-width: (522/16rem);
+        }
+
+        .cs-title, .cs-topper {
+            text-align: left;
+            margin-left: 0;
+        }
+
+        .cs-title {
+            max-width: (522/16rem);
+        }
+
+        .cs-email, .cs-phone {
+            width: 48%;
+        }
+
+        .cs-button-solid {
+            margin-left: 0;
+        }
+
+        .cs-right {
+            width: 51.6%;
+            max-width: (658/16rem);
+            /* prevent flexbox from squishing it */
+            flex: none;
+        }
+    }
+}
+
+/* Desktop - 1300px - Parallax Effect */
+@media only screen and (min-width: 81.25rem) {
+    #contact-321 {
+        background: url("https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/round-table.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+        /* makes parallax effect */
+        background-attachment: fixed;
+    }
+}
+                                

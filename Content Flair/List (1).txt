@@ -1,0 +1,86 @@
+<ul id="list-1074" class="cs-ul">
+    <li class="cs-li">We handle all makes and models</li>
+    <li class="cs-li">We are endorsed by the local trading standards office</li>
+    <li class="cs-li">All our technicians are equipped with the latest portable</li>
+    <li class="cs-li">Proven results for setting exceptional standards</li>
+    <li class="cs-li">Same day service for most repairs</li>
+</ul>
+                                
+/* Mobile - 360px */
+/* you can copy and paste these styles into the section CSS where you placed the #list-1074 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+@media only screen and (min-width: 0rem) {
+  #list-1074 {
+    max-width: 39.375rem;
+    margin: 0 0 2rem 0;
+    padding: 0;
+    /* clips the bullets to create the half circle */
+    overflow: hidden;
+  }
+  #list-1074 .cs-li {
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    color: var(--bodyTextColor);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.75rem;
+    position: relative;
+  }
+  #list-1074 .cs-li:before {
+    /* bullet */
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.1875rem;
+    /* make it overflow the parent by half it's width to make an eclipse */
+    margin-left: -0.5rem;
+    background: var(--secondary);
+    border-radius: 50%;
+    display: block;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+}
+                                
+/* Mobile - 360px */
+/* you can copy and paste these styles into the section CSS where you placed the #list-1074 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+@media only screen and (min-width: 0rem) {
+  #list-1074 {
+    max-width: 39.375rem;
+    margin: 0 0 2rem 0;
+    padding: 0;
+    /* clips the bullets to create the half circle */
+    overflow: hidden;
+  }
+  #list-1074 .cs-li {
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    color: var(--bodyTextColor);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.75rem;
+    position: relative;
+  }
+  #list-1074 .cs-li:before {
+    /* bullet */
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.1875rem;
+    /* make it overflow the parent by half it's width to make an eclipse */
+    margin-left: -0.5rem;
+    background: var(--secondary);
+    border-radius: 50%;
+    display: block;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Dark Mode, copy and paste only the styles inside the #list-1074 brackets into your section's dark mode media query */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #list-1074 .cs-li {
+    color: var(--bodyTextColorWhite);
+  }
+}
+                                

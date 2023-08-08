@@ -1,0 +1,379 @@
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-930">
+    <ul class="cs-card-group">
+        <li class="cs-item">
+            <span class="cs-letter">H</span>
+            <h2 class="cs-h2">Cuts & Colors</h2>
+            <p class="cs-item-text">
+                From barely there pink to balayage blonde, our colour experts will nail any tone you can imagine.
+            </p>
+            <a href="" class="cs-link">Read More</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair1.jpg" alt="hair cut" width="480" height="425">
+            </picture>
+        </li>
+        <li class="cs-item">
+            <span class="cs-letter">A</span>
+            <h2 class="cs-h2">Natural products</h2>
+            <p class="cs-item-text">
+                From barely there pink to balayage blonde, our colour experts will nail any tone you can imagine.
+            </p>
+            <a href="" class="cs-link">Read More</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair2.jpg" alt="hair cut" width="480" height="425">
+            </picture>
+        </li>
+        <li class="cs-item">
+            <span class="cs-letter">I</span>
+            <h2 class="cs-h2">Hightlight Styles</h2>
+            <p class="cs-item-text">
+                From barely there pink to balayage blonde, our colour experts will nail any tone you can imagine.
+            </p>
+            <a href="" class="cs-link">Read More</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair3.jpg" alt="hair cut" width="480" height="425">
+            </picture>
+        </li>
+        <li class="cs-item">
+            <span class="cs-letter">R</span>
+            <h2 class="cs-h2">Hairstyle Experts</h2>
+            <p class="cs-item-text">
+                From barely there pink to balayage blonde, our colour experts will nail any tone you can imagine.
+            </p>
+            <a href="" class="cs-link">Read More</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair4.jpg" alt="hair cut" width="480" height="425">
+            </picture>
+        </li>
+    </ul>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #AC8856;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #services-930 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+  }
+  #services-930 .cs-card-group {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #services-930 .cs-item {
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 4rem 2rem;
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  #services-930 .cs-item:hover .cs-background:before {
+    opacity: .96;
+  }
+  #services-930 .cs-letter {
+    font-size: 5.75rem;
+    line-height: 1.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 0 1.25rem 0;
+    color: var(--primary);
+  }
+  #services-930 .cs-h2 {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 3vw, 1.5625rem);
+    line-height: 1.2em;
+    font-weight: bold;
+    margin: 0 0 0.75rem 0;
+    color: var(--bodyTextColorWhite);
+  }
+  #services-930 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    max-width: 18.75rem;
+    margin: 0 0 2rem 0;
+    padding: 0;
+    color: #f7f7f7;
+  }
+  #services-930 .cs-link {
+    text-decoration: none;
+    font-size: 0.8rem;
+    line-height: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: var(--primary);
+    position: relative;
+    transition: color .3s;
+  }
+  #services-930 .cs-link:hover {
+    color: #fff;
+  }
+  #services-930 .cs-link:before {
+    /* underline */
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0rem;
+    left: 0;
+  }
+  #services-930 .cs-background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #services-930 .cs-background:before {
+    /* background color overlay */
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #1A1A1A;
+    opacity: .8;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: opacity .3s;
+  }
+  #services-930 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes img tag act as a background image */
+    object-fit: cover;
+  }
+}
+/* Tablet - 666px */
+@media only screen and (min-width: 41.625rem) {
+  #services-930 .cs-item {
+    width: 50%;
+  }
+}
+/* Large Desktop 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #services-930 .cs-item {
+    width: 25%;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #AC8856;
+        --primaryLight: #d8673d;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #services-930 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        
+        .cs-card-group {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .cs-item {
+            width: 100%;
+            text-align: center;
+            list-style: none;
+            margin: 0;
+            padding: (64/16rem) (32/16rem);
+            /* prevents padding from affecting height and width */
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            &:hover {
+                .cs-background {
+                    &:before {
+                        opacity: .96;
+                    }
+                }
+            }
+        }
+
+        .cs-letter {
+            font-size: (92/16rem);
+            line-height: 1.2em;
+            font-weight: 300;
+            text-transform: uppercase;
+            margin: 0 0 (20/16rem) 0;
+            color: var(--primary);
+        }
+
+        .cs-h2 {
+            /* 20px - 25px */
+            font-size: clamp(1.25rem, 3vw, 1.5625rem);
+            line-height: 1.2em;
+            font-weight: bold;
+            margin: 0 0 (12/16rem) 0;
+            color: var(--bodyTextColorWhite);
+        }
+
+        .cs-item-text {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            max-width: (300/16rem);
+            margin: 0 0 (32/16rem) 0;
+            padding: 0;
+            color: #f7f7f7;
+        }
+
+        .cs-link {
+            text-decoration: none;
+            font-size: (16/20rem);
+            line-height: 1.2em;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+            color: var(--primary);
+            position: relative;
+            transition: color .3s;
+
+            &:hover {
+                color: #fff;
+            }
+
+            &:before {
+                /* underline */
+                content: '';
+                width: 100%;
+                height: 1px;
+                background: currentColor;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                bottom: (0/16rem);
+                left: 0;
+            }
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            &:before {
+                /* background color overlay */
+                content: '';
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 100%;
+                background: #1A1A1A;
+                opacity: .8;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                transition: opacity .3s;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes img tag act as a background image */
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+/* Tablet - 666px */
+@media only screen and (min-width: 41.625rem) {
+    #services-930 {
+        .cs-item {
+            width: 50%;
+        }
+    }
+}
+
+/* Large Desktop 1300px */
+@media only screen and (min-width: 81.25rem) {
+    #services-930 {
+        .cs-item {
+            width: 25%;
+        }
+    }
+}
+                                

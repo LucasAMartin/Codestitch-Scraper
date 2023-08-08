@@ -1,0 +1,503 @@
+<!-- ============================================ -->
+<!--                 Why Choose                   -->
+<!-- ============================================ -->
+
+<section id="why-choose-890">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Specialties</span>
+            <h2 class="cs-title">Why Choose Us</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia incidunt quia enim mollitia delectus? Perferendis sapiente quaerat quos. Odit quasi similique nobis earum laudantium ad doloribus quos eos quod. Delectus?
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fballs1.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48" aria-hidden="true">
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Highly Experienced Therapists</h3>
+                    <p class="cs-item-text">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa fugiat impedit molestias vitae voluptatibus sed enim! Cupiditate ab praesentium dolorem libero veritatis beatae assumenda totam, in, nemo quis consectetur labore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, quam?
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fballs1.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48" aria-hidden="true">
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">No one does outpatient like us</h3>
+                    <p class="cs-item-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa fugiat impedit molestias vitae voluptatibus sed enim! Cupiditate ab praesentium dolorem libero veritatis beatae assumenda totam, in, nemo quis consectetur labore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, quam?
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fballs1.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48" aria-hidden="true">
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Perfectly Structured Sessions</h3>
+                    <p class="cs-item-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa fugiat impedit molestias vitae voluptatibus sed enim! Cupiditate ab praesentium dolorem libero veritatis beatae assumenda totam, in, nemo quis consectetur labore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, quam?
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fballs1.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48" aria-hidden="true">
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Unique and adaptive equipment</h3>
+                    <p class="cs-item-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa fugiat impedit molestias vitae voluptatibus sed enim! Cupiditate ab praesentium dolorem libero veritatis beatae assumenda totam, in, nemo quis consectetur labore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, quam?
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <a href="" class="cs-button-solid">Contact Us</a>
+        <!--Floating Arrow Graphic-->
+        <img class="cs-floater" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FGraphics%2Forange-arrow.svg" alt="arrow" loading="lazy" decoding="async" aria-hidden="true">
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---         Why Choose         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #F15A24;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #why-choose-890 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* Centers Button */
+    text-align: center;
+    padding: var(--sectionPadding);
+    /* prevents the arrow from causing an overflow */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #why-choose-890:before {
+    /* background color, done in a pseudo so it pulls from the variable color */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: .03;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #why-choose-890 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+    position: relative;
+  }
+  #why-choose-890 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #why-choose-890 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #why-choose-890 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #why-choose-890 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #why-choose-890 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 62.5rem;
+  }
+  #why-choose-890 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 16px - 20px */
+    gap: clamp(1rem, 2vw, 1.25rem);
+  }
+  #why-choose-890 .cs-item {
+    width: 100%;
+    text-align: left;
+    list-style: none;
+    /* 20px - 32px */
+    padding: clamp(1.25rem, 2.3vw, 2rem);
+    background-color: #fff;
+    border-radius: 1rem;
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-column: span 2;
+    position: relative;
+    z-index: 1;
+  }
+  #why-choose-890 .cs-icon {
+    width: 3rem;
+    height: auto;
+    margin: 0 0 1.25rem 0;
+    display: block;
+  }
+  #why-choose-890 .cs-h3 {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    margin: 0 0 0.75rem 0;
+    color: var(--headerColor);
+    transition: color .3s;
+  }
+  #why-choose-890 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--bodyTextColor);
+    transition: color .3s;
+  }
+  #why-choose-890 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875em, 5.5vw, 3.5em);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #why-choose-890 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #why-choose-890 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #why-choose-890 .cs-floater {
+    width: 21.9375rem;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: -13.75rem;
+    right: -3.75rem;
+    transform: rotate(-66deg);
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #why-choose-890 .cs-container {
+    max-width: 80rem;
+  }
+  #why-choose-890 .cs-item {
+    grid-column: span 1;
+  }
+  #why-choose-890 .cs-floater {
+    display: block;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---         Why Choose         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #F15A24;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #why-choose-890 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* Centers Button */
+    text-align: center;
+    padding: var(--sectionPadding);
+    /* prevents the arrow from causing an overflow */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #why-choose-890:before {
+    /* background color, done in a pseudo so it pulls from the variable color */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: .03;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #why-choose-890 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+    position: relative;
+  }
+  #why-choose-890 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #why-choose-890 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #why-choose-890 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #why-choose-890 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #why-choose-890 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 62.5rem;
+  }
+  #why-choose-890 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 16px - 20px */
+    gap: clamp(1rem, 2vw, 1.25rem);
+  }
+  #why-choose-890 .cs-item {
+    width: 100%;
+    text-align: left;
+    list-style: none;
+    /* 20px - 32px */
+    padding: clamp(1.25rem, 2.3vw, 2rem);
+    background-color: #fff;
+    border-radius: 1rem;
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-column: span 2;
+    position: relative;
+    z-index: 1;
+  }
+  #why-choose-890 .cs-icon {
+    width: 3rem;
+    height: auto;
+    margin: 0 0 1.25rem 0;
+    display: block;
+  }
+  #why-choose-890 .cs-h3 {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    margin: 0 0 0.75rem 0;
+    color: var(--headerColor);
+    transition: color .3s;
+  }
+  #why-choose-890 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--bodyTextColor);
+    transition: color .3s;
+  }
+  #why-choose-890 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875em, 5.5vw, 3.5em);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #why-choose-890 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #why-choose-890 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #why-choose-890 .cs-floater {
+    width: 21.9375rem;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: -13.75rem;
+    right: -3.75rem;
+    transform: rotate(-66deg);
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #why-choose-890 .cs-container {
+    max-width: 80rem;
+  }
+  #why-choose-890 .cs-item {
+    grid-column: span 1;
+  }
+  #why-choose-890 .cs-floater {
+    display: block;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #why-choose-890:before {
+    opacity: .2;
+    background-color: #000;
+  }
+  body.dark-mode #why-choose-890 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #why-choose-890 .cs-title,
+  body.dark-mode #why-choose-890 .cs-text,
+  body.dark-mode #why-choose-890 .cs-heading3 {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #why-choose-890 .cs-item {
+    background-color: var(--accent);
+  }
+  body.dark-mode #why-choose-890 .cs-h3,
+  body.dark-mode #why-choose-890 .cs-item-text,
+  body.dark-mode #why-choose-890 .cs-link {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #why-choose-890 .cs-floater {
+    opacity: .5;
+  }
+}
+                                

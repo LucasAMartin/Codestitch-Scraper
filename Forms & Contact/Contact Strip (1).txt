@@ -1,0 +1,313 @@
+<!-- ============================================ -->
+<!--                   Stats                      -->
+<!-- ============================================ -->
+
+<!-- No headers, so no section tag -->
+<div id="contact-strip-719">
+    <ul class="cs-stat-group">
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fphone-stroke-light.svg" alt="icon" width="35" height="40" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-header">Phone</span>
+                <a href="tel:555-456-7899" class="cs-link">+1 (555) 456 7899</a>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fmail-stroke-light.svg" alt="icon" width="40" height="35" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-header">Email</span>
+                <a href="mailto:Info@email.com" class="cs-link">Info@email.com</a>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fpin-stroke-light.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-header">Address</span>
+                <span class="cs-address">121 King St, Melbourne VIC 300, 
+                    Australia</span>
+            </div>
+        </li>
+    </ul>
+    <!--SVG Waves Background-->
+    <img class="cs-background" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FGraphics%2Fwaves-3.svg" alt="wave graphic" width="1920" height="318" loading="lazy" decoding="async" aria-hidden="true">
+</div>
+                                
+/*-- -------------------------- -->
+<---           Stats            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #5A766A;
+    --primaryLight: #5A766A;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #contact-strip-719 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: var(--primary);
+    position: relative;
+    z-index: 1;
+  }
+  #contact-strip-719 .cs-stat-group {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 37.5rem;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  #contact-strip-719 .cs-item {
+    list-style: none;
+    width: 18.125rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #contact-strip-719 .cs-item:hover .cs-picture {
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: scale(1.1);
+  }
+  #contact-strip-719 .cs-picture {
+    width: 5rem;
+    height: 5rem;
+    /* 12px - 20px */
+    margin-right: clamp(0.75rem, 3vw, 1.25rem);
+    border-radius: 50%;
+    border: 1px solid #F6E5DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* prevents flexbox from squishing it */
+    flex: none;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.6s;
+  }
+  #contact-strip-719 .cs-flex-group {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  #contact-strip-719 .cs-icon {
+    width: 2.5rem;
+    height: auto;
+  }
+  #contact-strip-719 .cs-header {
+    font-size: 1.25rem;
+    color: var(--bodyTextColorWhite);
+    font-weight: 900;
+    line-height: 1.2em;
+    margin: 0;
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+  #contact-strip-719 .cs-link,
+  #contact-strip-719 .cs-address {
+    /* 14px - 16px */
+    font-size: clamp(.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    text-decoration: none;
+    color: var(--bodyTextColorWhite);
+    display: block;
+  }
+  #contact-strip-719 .cs-link:hover {
+    text-decoration: underline;
+  }
+  #contact-strip-719 .cs-background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* makes it act like a background image */
+    object-fit: cover;
+  }
+}
+/* Tablet - 650px */
+@media only screen and (min-width: 40.625rem) {
+  #contact-strip-719 .cs-stat-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1.25rem;
+    row-gap: 2rem;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #contact-strip-719 .cs-stat-group {
+    max-width: 80rem;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---           Stats            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #5A766A;
+    --primaryLight: #5A766A;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #contact-strip-719 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: var(--primary);
+    position: relative;
+    z-index: 1;
+  }
+  #contact-strip-719 .cs-stat-group {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 37.5rem;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  #contact-strip-719 .cs-item {
+    list-style: none;
+    width: 18.125rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #contact-strip-719 .cs-item:hover .cs-picture {
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: scale(1.1);
+  }
+  #contact-strip-719 .cs-picture {
+    width: 5rem;
+    height: 5rem;
+    /* 12px - 20px */
+    margin-right: clamp(0.75rem, 3vw, 1.25rem);
+    border-radius: 50%;
+    border: 1px solid #F6E5DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* prevents flexbox from squishing it */
+    flex: none;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.6s;
+  }
+  #contact-strip-719 .cs-flex-group {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  #contact-strip-719 .cs-icon {
+    width: 2.5rem;
+    height: auto;
+  }
+  #contact-strip-719 .cs-header {
+    font-size: 1.25rem;
+    color: var(--bodyTextColorWhite);
+    font-weight: 900;
+    line-height: 1.2em;
+    margin: 0;
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+  #contact-strip-719 .cs-link,
+  #contact-strip-719 .cs-address {
+    /* 14px - 16px */
+    font-size: clamp(.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    text-decoration: none;
+    color: var(--bodyTextColorWhite);
+    display: block;
+  }
+  #contact-strip-719 .cs-link:hover {
+    text-decoration: underline;
+  }
+  #contact-strip-719 .cs-background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* makes it act like a background image */
+    object-fit: cover;
+  }
+}
+/* Tablet - 650px */
+@media only screen and (min-width: 40.625rem) {
+  #contact-strip-719 .cs-stat-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1.25rem;
+    row-gap: 2rem;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #contact-strip-719 .cs-stat-group {
+    max-width: 80rem;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #contact-strip-719 {
+    background-color: var(--medium);
+  }
+  body.dark-mode #contact-strip-719 .cs-header,
+  body.dark-mode #contact-strip-719 .cs-link,
+  body.dark-mode #contact-strip-719 .cs-hours {
+    color: var(--bodyTextColorWhite);
+  }
+}
+                                

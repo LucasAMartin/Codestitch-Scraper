@@ -1,0 +1,1324 @@
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-455">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Portfolio</span>
+                <h2 class="cs-title">Our Gallery</h2>
+            </div>
+            <div class="cs-button-group">
+                <!--When adding extra galleries, copy and paste the button and make data-filter equal to four, then five, etc. Do the same for the corresponding gallery and it's data attribute-->
+                <button class="cs-button" data-filter="one">
+                    Renovations
+                </button>
+                <button class="cs-button" data-filter="two">
+                    Sod
+                </button>
+                <button class="cs-button" data-filter="three">
+                    Fencing
+                </button>
+            </div>
+        </div>
+        <!--Gallery 1-->
+        <div class="cs-gallery" data-category="one">
+            <!--Picture 1-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 2-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 3-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 4-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery" width="305" height="400">
+            </picture>
+        </div>
+        <!--Gallery 2-->
+        <div class="cs-gallery cs-hidden" data-category="two">
+            <!--Picture 1-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves3.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves3.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves3.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 2-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves3.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves3.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves3.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 3-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves3.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves3.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves3.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 4-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves3.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves3.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves3.jpg" alt="gallery" width="305" height="400">
+            </picture>
+        </div>
+        <!--Gallery 3-->
+        <div class="cs-gallery cs-hidden" data-category="three">
+            <!--Picture 1-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 2-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 3-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 4-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery" width="305" height="400">
+            </picture>
+        </div>
+    </div>
+</section>                               
+                                
+<!-- ============================================ -->
+<!--               Meet The Team                  -->
+<!-- ============================================ -->
+
+<section id="meet-team-455">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Team</span>
+            <h2 class="cs-title">Meet Our Staff</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="" class="cs-button-solid">More About Us</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet5.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet5.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet5.jpg" alt="staff" width="305" height="424">
+                </picture>
+                <h3 class="cs-h3">Wahid Keito</h3>
+                <span class="cs-desc">Creative Director</span>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet5.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet5.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet5.jpg" alt="staff" width="305" height="424">
+                </picture>
+                <h3 class="cs-h3">Claudio Arthur</h3>
+                <span class="cs-desc">Creative Director</span>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet5.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet5.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet5.jpg" alt="staff" width="305" height="424">
+                </picture>
+                <h3 class="cs-h3">Phillip Walker</h3>
+                <span class="cs-desc">Creative Director</span>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet5.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet5.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet5.jpg" alt="staff" width="305" height="424">
+                </picture>
+                <h3 class="cs-h3">Thomas Castro</h3>
+                <span class="cs-desc">Creative Director</span>
+            </li>
+            <!--SVG Ripple-->
+            <li class="cs-ripple" aria-hidden="true">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/ripple2.svg" alt="ripple" width="967" height="650">
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #229521;
+    --primaryLight: #64b564;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #gallery-455 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    padding-bottom: 0;
+    position: relative;
+  }
+  #gallery-455:before {
+    /* light grey bottom box */
+    content: '';
+    width: 100%;
+    height: 45%;
+    background: #FAFBFC;
+    border-top: 1px solid #B4B2C7;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: -1px;
+    left: 0;
+  }
+  #gallery-455 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+    position: relative;
+  }
+  #gallery-455 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #gallery-455 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #gallery-455 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #gallery-455 .cs-button-group {
+    width: 100%;
+    max-width: 37.5rem;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+    column-gap: 1.5rem;
+  }
+  #gallery-455 .cs-button {
+    font-size: 1rem;
+    line-height: 1.5em;
+    padding: 0 0 0 1rem;
+    color: var(--bodyTextColor);
+    background-color: transparent;
+    border: none;
+    position: relative;
+    transition: color .3s;
+  }
+  #gallery-455 .cs-button:before {
+    content: '';
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--primary);
+    /* starting value, this will animate to 1 when the button is hovered, and when the active class is on it */
+    opacity: 0;
+    /* prevents mouse from interacting with it */
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    top: 50%;
+    /* start -20px left of the button */
+    left: -1.25rem;
+    transform: translateY(-50%);
+    /* transition to and from the active class styles on hover*/
+    transition: opacity .3s, left .3s;
+  }
+  #gallery-455 .cs-button:hover {
+    color: var(--primary);
+    cursor: pointer;
+  }
+  #gallery-455 .cs-button:hover:before {
+    left: 0;
+    opacity: 1;
+  }
+  #gallery-455 .cs-button.cs-active {
+    /* when the button is active, add these styles to the button and its pseudo */
+    font-weight: 700;
+    color: var(--primary);
+  }
+  #gallery-455 .cs-button.cs-active:before {
+    /* animate to these values when the cs-active class is added to the button and on hover */
+    left: 0;
+    opacity: 1;
+  }
+  #gallery-455 .cs-gallery {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    left: 0;
+    /* 16px - 20px */
+    gap: clamp(1rem, 1vw, 1.25rem);
+    transition: transform .7s, opacity .3s, visibility .5s, top .3s, left .3s;
+    /* makes the transform scaling origin the top left corner, dictates the direction by which the scale transforms animate towards */
+    transform-origin: left top;
+  }
+  #gallery-455 .cs-gallery.cs-hidden {
+    /* by using visibility:hidden instead of display:none, we can see the animations from the opacity and transforms, display:none won't render animations. */
+    visibility: hidden;
+    /* prevents the mouse from interacting with it */
+    pointer-events: none;
+    /* hidden galleries have a 0 opacity, and we animate the opacity to 1 when they become active */
+    opacity: 0;
+    /* this top and left value help control the animation, by setting it to position absolute and left 0, the gallery won't fly off screen to the left, it will stop its position to be at the left edge of the .cs-container (left: 0). Same for the bottom:0 value, the gallery won't go past that position when it animates */
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    /* prevents the hidden galleries from overflowing the section, and makes a nice animations to transition to and from */
+    transform: scaleY(0) scaleX(0);
+  }
+  #gallery-455 .cs-gallery.cs-hidden .cs-image {
+    /* when gallery is hidden, add these styles to the cs-image to animate from when cs-hidden is removed from the .cs-gallery */
+    transform: translateY(2.1875rem);
+    opacity: 0;
+  }
+  #gallery-455 .cs-image {
+    border-radius: 0.25rem;
+    width: clamp(47%, 42.5vw, 48.5%);
+    /* changes at tablet */
+    aspect-ratio: 0.72985782;
+    /* clips the image corners */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    /* when .cs-hidden is removed from the .cs-gallery, reset these values and animate from their hidden styles */
+    transform: translateY(0rem);
+    opacity: 1;
+    transition: opacity .6s, transform .6s;
+  }
+  #gallery-455 .cs-image:nth-of-type(1) {
+    /* these delays stagger the reveal of each image so they all go one after the other and not all at once */
+    transition-delay: .15s;
+  }
+  #gallery-455 .cs-image:nth-of-type(2) {
+    transition-delay: .3s;
+  }
+  #gallery-455 .cs-image:nth-of-type(3) {
+    transition-delay: .45s;
+  }
+  #gallery-455 .cs-image:nth-of-type(4) {
+    transition-delay: .6s;
+  }
+  #gallery-455 .cs-image:nth-of-type(5) {
+    transition-delay: .75s;
+  }
+  #gallery-455 .cs-image:nth-of-type(6) {
+    transition-delay: .9s;
+  }
+  #gallery-455 .cs-image:nth-of-type(7) {
+    transition-delay: 1.05s;
+  }
+  #gallery-455 .cs-image:nth-of-type(8) {
+    transition-delay: 1.20s;
+  }
+  #gallery-455 .cs-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it act like a background image */
+    object-fit: cover;
+  }
+}
+/* Tablet - 600px */
+@media only screen and (min-width: 48rem) {
+  #gallery-455:before {
+    height: 35%;
+  }
+  #gallery-455 .cs-container {
+    max-width: 80rem;
+  }
+  #gallery-455 .cs-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  #gallery-455 .cs-flex {
+    width: 50%;
+  }
+  #gallery-455 .cs-title {
+    margin: 0;
+  }
+  #gallery-455 .cs-button-group {
+    width: auto;
+  }
+  #gallery-455 .cs-gallery {
+    justify-content: space-between;
+  }
+  #gallery-455 .cs-image {
+    /* 171px - 305px */
+    width: clamp(10.6875rem, 23.3%, 19.0625rem);
+    aspect-ratio: 0.71529412;
+  }
+}
+
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #meet-team-455 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #FAFBFC;
+    /* prevents the ripple graphic from causing an overflow issues */
+    overflow: hidden;
+  }
+  #meet-team-455 .cs-container {
+    width: 100%;
+    /* changes to 1440px at tablet */
+    max-width: 34.375em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  #meet-team-455 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #meet-team-455 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #meet-team-455 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #meet-team-455 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #meet-team-455 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #meet-team-455 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #meet-team-455 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #meet-team-455 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #meet-team-455 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #meet-team-455 .cs-card-group {
+    width: 100%;
+    max-width: 62.1875rem;
+    /* pushes up by the same amount as the 2nd & 4th cs-item translates up */
+    margin: clamp(2rem, 9vw, 3rem) 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* 14px - 40px */
+    row-gap: clamp(0.875rem, 3vw, 2.5rem);
+    position: relative;
+    z-index: 1;
+  }
+  #meet-team-455 .cs-item {
+    list-style: none;
+    /* changes at desktop */
+    width: 47.5%;
+    margin: 0;
+    padding: 0 0 1.5rem 0;
+    border: 1px solid #B4B2C7;
+    background-color: #fff;
+    /* 12px - 16px */
+    border-radius: clamp(0.875rem, 1.5vw, 1rem);
+    /* clips img tag corners */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  #meet-team-455 .cs-item:before,
+  #meet-team-455 .cs-item:after {
+    /* green boxes */
+    content: '';
+    width: 0;
+    height: 100%;
+    background: var(--primary);
+    opacity: .9;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform-origin: left bottom;
+    transition: width .5s;
+  }
+  #meet-team-455 .cs-item:after {
+    bottom: 0rem;
+    left: auto;
+    right: 0rem;
+    z-index: -1;
+  }
+  #meet-team-455 .cs-item:hover:before,
+  #meet-team-455 .cs-item:hover:after {
+    width: 100%;
+  }
+  #meet-team-455 .cs-item:hover .cs-picture img {
+    transform: scale(1.1);
+    filter: brightness(50%);
+  }
+  #meet-team-455 .cs-item:hover .cs-h3,
+  #meet-team-455 .cs-item:hover .cs-desc {
+    color: var(--bodyTextColorWhite);
+  }
+  #meet-team-455 .cs-item:nth-of-type(2),
+  #meet-team-455 .cs-item:nth-of-type(4) {
+    /* 32px - 48px */
+    /* wrapped in a calc function to make clamp value negative */
+    transform: translateY(calc(clamp(2rem, 9vw, 3rem)*-1));
+  }
+  #meet-team-455 .cs-picture {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #B4B2C7;
+    /* prevents img from overflowing container on hover */
+    overflow: hidden;
+    aspect-ratio: 1.18518519;
+    display: block;
+    position: relative;
+  }
+  #meet-team-455 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it act like a background image */
+    object-fit: cover;
+    transition: transform .6s, filter .3s;
+  }
+  #meet-team-455 .cs-ripple {
+    list-style: none;
+    /* changes at desktop */
+    width: 120vw;
+    height: auto;
+    /* prevents mouse from interacting with it */
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+  }
+  #meet-team-455 .cs-ripple img {
+    width: 100%;
+    height: auto;
+  }
+  #meet-team-455 .cs-h3 {
+    /* 16px - 25px */
+    font-size: clamp(1rem, 1.5vw, 1.5625rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0 0 0.25rem 0;
+    color: var(--headerColor);
+    display: block;
+    transition: color .3s;
+  }
+  #meet-team-455 .cs-desc {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    text-align: center;
+    margin: 0;
+    color: var(--primary);
+    display: block;
+    transition: color .3s;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #meet-team-455 .cs-container {
+    max-width: 90rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #meet-team-455 .cs-content {
+    text-align: left;
+    width: 50%;
+    align-items: flex-start;
+  }
+  #meet-team-455 .cs-card-group {
+    width: calc(73%);
+  }
+  #meet-team-455 .cs-ripple {
+    width: 120%;
+  }
+}
+/* Small Desktop - 1200px */
+@media only screen and (min-width: 75rem) {
+  #meet-team-455 .cs-content {
+    /* 24px - 80px */
+    margin-left: clamp(1.5rem, 5.5vw, 5rem);
+  }
+  #meet-team-455 .cs-card-group {
+    justify-content: center;
+    margin: 0;
+    /* 20px - 40px */
+    column-gap: clamp(1.5rem, 2.5vw, 2.5rem);
+    flex: none;
+  }
+  #meet-team-455 .cs-card-group:hover .cs-ripple {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  #meet-team-455 .cs-item {
+    width: calc(30%);
+    max-width: 19.0625rem;
+  }
+  #meet-team-455 .cs-item:nth-of-type(2),
+  #meet-team-455 .cs-item:nth-of-type(4) {
+    transform: none;
+  }
+  #meet-team-455 .cs-item:nth-of-type(1) {
+    transform: translateY(19.4375rem);
+  }
+  #meet-team-455 .cs-item:nth-of-type(3) {
+    transform: translateY(13.3125rem);
+  }
+  #meet-team-455 .cs-picture {
+    height: 15.125rem;
+    aspect-ratio: 1.26033058;
+  }
+  #meet-team-455 .cs-ripple {
+    width: 90%;
+    transition: transform .3s;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #229521;
+    --primaryLight: #64b564;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #gallery-455 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    padding-bottom: 0;
+    position: relative;
+  }
+  #gallery-455:before {
+    /* light grey bottom box */
+    content: '';
+    width: 100%;
+    height: 45%;
+    background: #FAFBFC;
+    border-top: 1px solid #B4B2C7;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: -1px;
+    left: 0;
+  }
+  #gallery-455 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+    position: relative;
+  }
+  #gallery-455 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #gallery-455 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #gallery-455 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #gallery-455 .cs-button-group {
+    width: 100%;
+    max-width: 37.5rem;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+    column-gap: 1.5rem;
+  }
+  #gallery-455 .cs-button {
+    font-size: 1rem;
+    line-height: 1.5em;
+    padding: 0 0 0 1rem;
+    color: var(--bodyTextColor);
+    background-color: transparent;
+    border: none;
+    position: relative;
+    transition: color .3s;
+  }
+  #gallery-455 .cs-button:before {
+    content: '';
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--primary);
+    /* starting value, this will animate to 1 when the button is hovered, and when the active class is on it */
+    opacity: 0;
+    /* prevents mouse from interacting with it */
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    top: 50%;
+    /* start -20px left of the button */
+    left: -1.25rem;
+    transform: translateY(-50%);
+    /* transition to and from the active class styles on hover*/
+    transition: opacity .3s, left .3s;
+  }
+  #gallery-455 .cs-button:hover {
+    color: var(--primary);
+    cursor: pointer;
+  }
+  #gallery-455 .cs-button:hover:before {
+    left: 0;
+    opacity: 1;
+  }
+  #gallery-455 .cs-button.cs-active {
+    /* when the button is active, add these styles to the button and its pseudo */
+    font-weight: 700;
+    color: var(--primary);
+  }
+  #gallery-455 .cs-button.cs-active:before {
+    /* animate to these values when the cs-active class is added to the button and on hover */
+    left: 0;
+    opacity: 1;
+  }
+  #gallery-455 .cs-gallery {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    left: 0;
+    /* 16px - 20px */
+    gap: clamp(1rem, 1vw, 1.25rem);
+    transition: transform .7s, opacity .3s, visibility .5s, top .3s, left .3s;
+    /* makes the transform scaling origin the top left corner, dictates the direction by which the scale transforms animate towards */
+    transform-origin: left top;
+  }
+  #gallery-455 .cs-gallery.cs-hidden {
+    /* by using visibility:hidden instead of display:none, we can see the animations from the opacity and transforms, display:none won't render animations. */
+    visibility: hidden;
+    /* prevents the mouse from interacting with it */
+    pointer-events: none;
+    /* hidden galleries have a 0 opacity, and we animate the opacity to 1 when they become active */
+    opacity: 0;
+    /* this top and left value help control the animation, by setting it to position absolute and left 0, the gallery won't fly off screen to the left, it will stop its position to be at the left edge of the .cs-container (left: 0). Same for the bottom:0 value, the gallery won't go past that position when it animates */
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    /* prevents the hidden galleries from overflowing the section, and makes a nice animations to transition to and from */
+    transform: scaleY(0) scaleX(0);
+  }
+  #gallery-455 .cs-gallery.cs-hidden .cs-image {
+    /* when gallery is hidden, add these styles to the cs-image to animate from when cs-hidden is removed from the .cs-gallery */
+    transform: translateY(2.1875rem);
+    opacity: 0;
+  }
+  #gallery-455 .cs-image {
+    border-radius: 0.25rem;
+    width: clamp(47%, 42.5vw, 48.5%);
+    /* changes at tablet */
+    aspect-ratio: 0.72985782;
+    /* clips the image corners */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    /* when .cs-hidden is removed from the .cs-gallery, reset these values and animate from their hidden styles */
+    transform: translateY(0rem);
+    opacity: 1;
+    transition: opacity .6s, transform .6s;
+  }
+  #gallery-455 .cs-image:nth-of-type(1) {
+    /* these delays stagger the reveal of each image so they all go one after the other and not all at once */
+    transition-delay: .15s;
+  }
+  #gallery-455 .cs-image:nth-of-type(2) {
+    transition-delay: .3s;
+  }
+  #gallery-455 .cs-image:nth-of-type(3) {
+    transition-delay: .45s;
+  }
+  #gallery-455 .cs-image:nth-of-type(4) {
+    transition-delay: .6s;
+  }
+  #gallery-455 .cs-image:nth-of-type(5) {
+    transition-delay: .75s;
+  }
+  #gallery-455 .cs-image:nth-of-type(6) {
+    transition-delay: .9s;
+  }
+  #gallery-455 .cs-image:nth-of-type(7) {
+    transition-delay: 1.05s;
+  }
+  #gallery-455 .cs-image:nth-of-type(8) {
+    transition-delay: 1.20s;
+  }
+  #gallery-455 .cs-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it act like a background image */
+    object-fit: cover;
+  }
+}
+/* Tablet - 600px */
+@media only screen and (min-width: 48rem) {
+  #gallery-455:before {
+    height: 35%;
+  }
+  #gallery-455 .cs-container {
+    max-width: 80rem;
+  }
+  #gallery-455 .cs-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  #gallery-455 .cs-flex {
+    width: 50%;
+  }
+  #gallery-455 .cs-title {
+    margin: 0;
+  }
+  #gallery-455 .cs-button-group {
+    width: auto;
+  }
+  #gallery-455 .cs-gallery {
+    justify-content: space-between;
+  }
+  #gallery-455 .cs-image {
+    /* 171px - 305px */
+    width: clamp(10.6875rem, 23.3%, 19.0625rem);
+    aspect-ratio: 0.71529412;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #gallery-455:before {
+    background-color: var(--medium);
+  }
+  body.dark-mode #gallery-455 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #gallery-455 .cs-title,
+  body.dark-mode #gallery-455 .cs-text,
+  body.dark-mode #gallery-455 .cs-button {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #gallery-455 .cs-title.cs-active,
+  body.dark-mode #gallery-455 .cs-text.cs-active,
+  body.dark-mode #gallery-455 .cs-button.cs-active {
+    color: var(--primaryLight);
+  }
+}
+
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #meet-team-455 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #FAFBFC;
+    /* prevents the ripple graphic from causing an overflow issues */
+    overflow: hidden;
+  }
+  #meet-team-455 .cs-container {
+    width: 100%;
+    /* changes to 1440px at tablet */
+    max-width: 34.375em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  #meet-team-455 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #meet-team-455 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #meet-team-455 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #meet-team-455 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #meet-team-455 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #meet-team-455 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #meet-team-455 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #meet-team-455 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #meet-team-455 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #meet-team-455 .cs-card-group {
+    width: 100%;
+    max-width: 62.1875rem;
+    /* pushes up by the same amount as the 2nd & 4th cs-item translates up */
+    margin: clamp(2rem, 9vw, 3rem) 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* 14px - 40px */
+    row-gap: clamp(0.875rem, 3vw, 2.5rem);
+    position: relative;
+    z-index: 1;
+  }
+  #meet-team-455 .cs-item {
+    list-style: none;
+    /* changes at desktop */
+    width: 47.5%;
+    margin: 0;
+    padding: 0 0 1.5rem 0;
+    border: 1px solid #B4B2C7;
+    background-color: #fff;
+    /* 12px - 16px */
+    border-radius: clamp(0.875rem, 1.5vw, 1rem);
+    /* clips img tag corners */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  #meet-team-455 .cs-item:before,
+  #meet-team-455 .cs-item:after {
+    /* green boxes */
+    content: '';
+    width: 0;
+    height: 100%;
+    background: var(--primary);
+    opacity: .9;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform-origin: left bottom;
+    transition: width .5s;
+  }
+  #meet-team-455 .cs-item:after {
+    bottom: 0rem;
+    left: auto;
+    right: 0rem;
+    z-index: -1;
+  }
+  #meet-team-455 .cs-item:hover:before,
+  #meet-team-455 .cs-item:hover:after {
+    width: 100%;
+  }
+  #meet-team-455 .cs-item:hover .cs-picture img {
+    transform: scale(1.1);
+    filter: brightness(50%);
+  }
+  #meet-team-455 .cs-item:hover .cs-h3,
+  #meet-team-455 .cs-item:hover .cs-desc {
+    color: var(--bodyTextColorWhite);
+  }
+  #meet-team-455 .cs-item:nth-of-type(2),
+  #meet-team-455 .cs-item:nth-of-type(4) {
+    /* 32px - 48px */
+    /* wrapped in a calc function to make clamp value negative */
+    transform: translateY(calc(clamp(2rem, 9vw, 3rem)*-1));
+  }
+  #meet-team-455 .cs-picture {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #B4B2C7;
+    /* prevents img from overflowing container on hover */
+    overflow: hidden;
+    aspect-ratio: 1.18518519;
+    display: block;
+    position: relative;
+  }
+  #meet-team-455 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it act like a background image */
+    object-fit: cover;
+    transition: transform .6s, filter .3s;
+  }
+  #meet-team-455 .cs-ripple {
+    list-style: none;
+    /* changes at desktop */
+    width: 120vw;
+    height: auto;
+    /* prevents mouse from interacting with it */
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+  }
+  #meet-team-455 .cs-ripple img {
+    width: 100%;
+    height: auto;
+  }
+  #meet-team-455 .cs-h3 {
+    /* 16px - 25px */
+    font-size: clamp(1rem, 1.5vw, 1.5625rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0 0 0.25rem 0;
+    color: var(--headerColor);
+    display: block;
+    transition: color .3s;
+  }
+  #meet-team-455 .cs-desc {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    text-align: center;
+    margin: 0;
+    color: var(--primary);
+    display: block;
+    transition: color .3s;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #meet-team-455 .cs-container {
+    max-width: 90rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #meet-team-455 .cs-content {
+    text-align: left;
+    width: 50%;
+    align-items: flex-start;
+  }
+  #meet-team-455 .cs-card-group {
+    width: calc(73%);
+  }
+  #meet-team-455 .cs-ripple {
+    width: 120%;
+  }
+}
+/* Small Desktop - 1200px */
+@media only screen and (min-width: 75rem) {
+  #meet-team-455 .cs-content {
+    /* 24px - 80px */
+    margin-left: clamp(1.5rem, 5.5vw, 5rem);
+  }
+  #meet-team-455 .cs-card-group {
+    justify-content: center;
+    margin: 0;
+    /* 20px - 40px */
+    column-gap: clamp(1.5rem, 2.5vw, 2.5rem);
+    flex: none;
+  }
+  #meet-team-455 .cs-card-group:hover .cs-ripple {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  #meet-team-455 .cs-item {
+    width: calc(30%);
+    max-width: 19.0625rem;
+  }
+  #meet-team-455 .cs-item:nth-of-type(2),
+  #meet-team-455 .cs-item:nth-of-type(4) {
+    transform: none;
+  }
+  #meet-team-455 .cs-item:nth-of-type(1) {
+    transform: translateY(19.4375rem);
+  }
+  #meet-team-455 .cs-item:nth-of-type(3) {
+    transform: translateY(13.3125rem);
+  }
+  #meet-team-455 .cs-picture {
+    height: 15.125rem;
+    aspect-ratio: 1.26033058;
+  }
+  #meet-team-455 .cs-ripple {
+    width: 90%;
+    transition: transform .3s;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #meet-team-455 {
+    background-color: var(--medium);
+  }
+  body.dark-mode #meet-team-455 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #meet-team-455 .cs-title,
+  body.dark-mode #meet-team-455 .cs-text,
+  body.dark-mode #meet-team-455 .cs-h3 {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #meet-team-455 .cs-item {
+    background-color: var(--dark);
+  }
+  body.dark-mode #meet-team-455 .cs-desc {
+    color: var(--primaryLight);
+  }
+}
+                                

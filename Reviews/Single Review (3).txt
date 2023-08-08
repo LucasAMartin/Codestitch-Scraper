@@ -1,0 +1,282 @@
+<!-- ============================================ -->
+<!--                  Reviews                     -->
+<!-- ============================================ -->
+
+<section id="reviews-545">
+    <div class="cs-container">
+        <div class="cs-review-group">
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/woman-smile-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/woman-smile.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/woman-smile.jpg" alt="person smiling" width="256" height="256">
+            </picture>
+            <div class="cs-content">
+                <p class="cs-review">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                </p>
+                <span class="cs-name">Arlene Howard</span>
+                <span class="cs-desc">Finance Manager</span>
+            </div>
+            <!--SVG Greek Pattern-->
+            <img class="cs-pattern" loading="lazy" decoding="async" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/greek-pattern.svg" alt="pattern" width="256" height="256">
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #D98900;
+    --primaryLight: #FFCC75;
+    --secondary: #D98900;
+    --secondaryLight: #FFCC75;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #reviews-545 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #reviews-545 .cs-container {
+    width: 100%;
+    max-width: 67.5rem;
+    margin: auto;
+  }
+  #reviews-545 .cs-review-group {
+    /* padding left and right change to a clamp at tablet */
+    padding: 4rem 1.25rem;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    position: relative;
+    z-index: 1;
+  }
+  #reviews-545 .cs-picture {
+    display: block;
+    position: relative;
+    /* 144px - 256px */
+    width: clamp(9rem, 21vw, 16rem);
+    /* prevents flexbox from squishing it */
+    flex: none;
+    /* makes it square */
+    aspect-ratio: 1;
+  }
+  #reviews-545 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #reviews-545 .cs-content {
+    max-width: 34.375rem;
+  }
+  #reviews-545 .cs-review {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.5em;
+    text-align: left;
+    font-weight: 400;
+    /* 20px - 36px */
+    margin: 0 0 clamp(1.25rem, 4vw, 2.25rem) 0;
+    color: var(--bodyTextColorWhite);
+  }
+  #reviews-545 .cs-name {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 3vw, 1.5625rem);
+    line-height: 1.2em;
+    text-align: left;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    color: var(--bodyTextColorWhite);
+    display: block;
+  }
+  #reviews-545 .cs-desc {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 3vw, 1.25rem);
+    line-height: 1.2em;
+    text-align: left;
+    font-weight: 400;
+    margin: 0;
+    color: var(--bodyTextColorWhite);
+    display: block;
+  }
+  #reviews-545 .cs-pattern {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* makes it act like a background image */
+    object-fit: cover;
+    z-index: -1;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #reviews-545 .cs-review-group {
+    /* 60px - 92px left & right */
+    padding: 4rem clamp(3.75rem, 8vw, 5.75rem);
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #reviews-545 .cs-picture {
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #D98900;
+        --primaryLight: #FFCC75;
+        --secondary: #D98900;
+        --secondaryLight: #FFCC75;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #reviews-545 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        
+        .cs-container {
+            width: 100%;
+            max-width: (1080/16rem);
+            margin: auto;
+        }
+
+        .cs-review-group {
+            /* padding left and right change to a clamp at tablet */
+            padding: (64/16rem) (20/16rem);
+            background-color: var(--primary);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: (40/16rem);
+            position: relative;
+            z-index: 1;
+        }
+
+        .cs-picture {
+            display: block;
+            position: relative;
+            /* 144px - 256px */
+            width: clamp(9rem, 21vw, 16rem);
+            /* prevents flexbox from squishing it */
+            flex: none;
+            /* makes it square */
+            aspect-ratio: 1;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .cs-content {
+            max-width: (550/16rem);
+        }
+
+        .cs-review {
+            /* 16px - 20px */
+            font-size: clamp(1rem, 2vw, 1.25rem);
+            line-height: 1.5em;
+            text-align: left;
+            font-weight: 400;
+            /* 20px - 36px */
+            margin: 0 0 clamp(1.25rem, 4vw, 2.25rem) 0;
+            color: var(--bodyTextColorWhite);
+        }
+
+        .cs-name {
+            /* 20px - 25px */
+            font-size: clamp(1.25rem, 3vw, 1.5625rem);
+            line-height: 1.2em;
+            text-align: left;
+            font-weight: 700;
+            margin: 0 0 (8/16rem) 0;
+            color: var(--bodyTextColorWhite);
+            display: block;
+        }
+
+        .cs-desc {
+            /* 16px - 20px */
+            font-size: clamp(1rem, 3vw, 1.25rem);
+            line-height: 1.2em;
+            text-align: left;
+            font-weight: 400;
+            margin: 0;
+            color: var(--bodyTextColorWhite);
+            display: block;
+        }
+
+        .cs-pattern {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            /* makes it act like a background image */
+            object-fit: cover;
+            z-index: -1;
+        }
+    }
+
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #reviews-545 {
+        .cs-review-group {
+            /* 60px - 92px left & right */
+            padding: (64/16rem) clamp(3.75rem, 8vw, 5.75rem);
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+
+        .cs-picture {
+            /* sends it to the right in the 2nd position */
+            order: 2;
+        }
+    }
+}
+                                

@@ -1,0 +1,602 @@
+<!-- ============================================ -->
+<!--                    CTA                       -->
+<!-- ============================================ -->
+
+<section id="cta-461">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Contact</span>
+            <h2 class="cs-title">Give Us A Call!</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+            </p>
+        </div>
+        <a href="" class="cs-cta">
+            <!--Arrow Right-->
+            <svg class="cs-arrow" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"><path fill="#FAFBFC" d="M24.55 31.367c-.317 0-.633-.117-.883-.367a1.258 1.258 0 0 1 0-1.767L32.9 20l-9.233-9.233a1.258 1.258 0 0 1 0-1.767 1.258 1.258 0 0 1 1.766 0L35.55 19.117a1.258 1.258 0 0 1 0 1.766L25.433 31c-.25.25-.566.367-.883.367Z"/><path fill="#FAFBFC" d="M34.383 21.25H6.333A1.26 1.26 0 0 1 5.083 20c0-.683.567-1.25 1.25-1.25h28.05c.684 0 1.25.567 1.25 1.25a1.26 1.26 0 0 1-1.25 1.25Z"/></svg>
+            <!--Wrapped in a span so it can be animated-->
+            <span class="cs-cta-text">Get Free<br> Quote</span>
+        </a>
+    </div>
+    <!--Leaf Decoration-->
+    <img class="cs-decoration" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/FAQ/leaf.png" loading decoding="async" alt="moon" width="735" height="803">
+</section>
+                                
+/*-- -------------------------- -->
+<---            CTA             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    --primary: #176316;
+    --primaryLight: #2BBC2A;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #f7f7f7;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #cta-461 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* padding-top changes at 768px */
+    padding: var(--sectionPadding);
+    position: relative;
+    /* clips the background shape */
+    overflow: hidden;
+    z-index: 1;
+  }
+  #cta-461 .cs-container {
+    width: 100%;
+    /* changes to 1280px at 768px */
+    max-width: 31.25rem;
+    margin: auto;
+  }
+  #cta-461 .cs-swoosh {
+    display: none;
+  }
+  #cta-461 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 31.25rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #cta-461 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 36.3125rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #cta-461 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primaryLight);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #cta-461 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--bodyTextColorWhite);
+    position: relative;
+  }
+  #cta-461 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColorWhite);
+  }
+  #cta-461 .cs-decoration {
+    display: none;
+  }
+  #cta-461 .cs-cta {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1.25rem);
+    text-decoration: none;
+    /* 16px - 20px */
+    text-align: center;
+    /* 141px - 224px */
+    width: clamp(8.8125rem, 17vw, 14rem);
+    height: clamp(8.8125rem, 17vw, 14rem);
+    margin: 0 2.25rem 1rem auto;
+    background-color: var(--primaryLight);
+    color: var(--bodyTextColorWhite);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: flex-end;
+    position: relative;
+    transition: background-color 0.3s;
+  }
+  #cta-461 .cs-cta:hover {
+    background-color: #14142B;
+  }
+  #cta-461 .cs-cta:hover .cs-arrow {
+    transform: translateX(3.75rem);
+    opacity: 0;
+  }
+  #cta-461 .cs-cta:hover .cs-cta-text {
+    transform: translateY(-0.9375rem);
+  }
+  #cta-461 .cs-cta:before {
+    /* backgorund shape on mobile, removed at 768px. We attach it to the cta button so its position is relative to the position of the button and they move together when the button moves as the screen gets bigger */
+    content: '';
+    width: 93.75rem;
+    height: 62.5rem;
+    background: #14142B;
+    border-radius: 0 0 6.25rem 0;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: -4.75rem;
+    right: 2rem;
+    transform: rotate(30deg);
+    transform-origin: bottom right;
+    z-index: -1;
+  }
+  #cta-461 .cs-arrow {
+    width: 2.5rem;
+    height: auto;
+    transition: transform .3s, opacity .3s;
+  }
+  #cta-461 .cs-cta-text {
+    transition: transform .3s;
+  }
+}
+/* Inbetween - 500px */
+@media only screen and (min-width: 31.25rem) {
+  #cta-461 {
+    /* clips the .swoosh so it doesn't cause overflow */
+    overflow: hidden;
+    /* pushes down proportional to the viewwidth size, so as the swoosh img grows wider it's growing height doesn't make it creep closer and closer to the cta button, resets to 0 at 768px */
+    padding-bottom: 12vw;
+  }
+  #cta-461 .cs-container {
+    align-items: flex-start;
+  }
+  #cta-461 .cs-cta:before {
+    border-radius: 9.375rem;
+    bottom: -6.25rem;
+    right: 1.25rem;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #cta-461 {
+    margin-bottom: 3.75rem;
+    padding-bottom: 0;
+    background-color: #14142B;
+    position: relative;
+  }
+  #cta-461:before {
+    content: '';
+    /* changes to 824px at large desktop */
+    width: 37.75rem;
+    height: 37.75rem;
+    border-radius: 50%;
+    background: #333142;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    /* changes at 1300px */
+    top: -6.25rem;
+    /* changes at 1300px */
+    right: -18.75rem;
+    z-index: -2;
+  }
+  #cta-461 .cs-container {
+    max-width: 80rem;
+    position: relative;
+  }
+  #cta-461 .cs-container:before {
+    /* left white slant */
+    content: '';
+    width: 375rem;
+    height: 62.5rem;
+    margin-right: -93.75rem;
+    background: #fff;
+    /* prevents the mouse from interacting with it */
+    pointer-events: none;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 50%;
+    transform: rotate(5deg);
+  }
+  #cta-461 .cs-container:after {
+    /* right white slant */
+    content: '';
+    width: 375rem;
+    height: 187.5rem;
+    margin-right: -218.75rem;
+    background: #fff;
+    /* prevents the mouse from interacting with it */
+    pointer-events: none;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 100%;
+    right: 50%;
+    transform: rotate(-25deg);
+    z-index: -1;
+  }
+  #cta-461 .cs-text {
+    width: 55%;
+  }
+  #cta-461 .cs-cta {
+    /* prevents border from affecting height and width */
+    box-sizing: border-box;
+    border: 12px solid #fff;
+    /* 100px - 100px */
+    margin-right: clamp(6.25rem, 15vw, 6.25rem);
+  }
+  #cta-461 .cs-cta:before {
+    display: none;
+  }
+}
+/* Large Desktop 1200px */
+@media only screen and (min-width: 75rem) {
+  #cta-461 {
+    padding-top: 10rem;
+  }
+  #cta-461:before {
+    width: 51.5rem;
+    height: 51.5rem;
+    margin-left: 23.75rem;
+    right: auto;
+    left: 50%;
+    top: -3.125rem;
+    transform: none;
+  }
+  #cta-461:after {
+    /* floating white blurry orb */
+    content: '';
+    width: 39.3125rem;
+    height: 28.6875rem;
+    margin-right: 21.125rem;
+    background: #F1F1F4;
+    opacity: 0.16;
+    -webkit-filter: blur(182px);
+    filter: blur(182px);
+    position: absolute;
+    display: block;
+    top: -16.4375rem;
+    right: 50%;
+  }
+  #cta-461 .cs-text {
+    margin-bottom: 12.5rem;
+  }
+  #cta-461 .cs-decoration {
+    height: 50.1875rem;
+    width: auto;
+    margin-left: 8.75rem;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: -2;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---            CTA             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    --primary: #176316;
+    --primaryLight: #2BBC2A;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #f7f7f7;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #cta-461 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* padding-top changes at 768px */
+    padding: var(--sectionPadding);
+    position: relative;
+    /* clips the background shape */
+    overflow: hidden;
+    z-index: 1;
+  }
+  #cta-461 .cs-container {
+    width: 100%;
+    /* changes to 1280px at 768px */
+    max-width: 31.25rem;
+    margin: auto;
+  }
+  #cta-461 .cs-swoosh {
+    display: none;
+  }
+  #cta-461 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 31.25rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #cta-461 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 36.3125rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #cta-461 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primaryLight);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #cta-461 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--bodyTextColorWhite);
+    position: relative;
+  }
+  #cta-461 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColorWhite);
+  }
+  #cta-461 .cs-decoration {
+    display: none;
+  }
+  #cta-461 .cs-cta {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1.25rem);
+    text-decoration: none;
+    /* 16px - 20px */
+    text-align: center;
+    /* 141px - 224px */
+    width: clamp(8.8125rem, 17vw, 14rem);
+    height: clamp(8.8125rem, 17vw, 14rem);
+    margin: 0 2.25rem 1rem auto;
+    background-color: var(--primaryLight);
+    color: var(--bodyTextColorWhite);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: flex-end;
+    position: relative;
+    transition: background-color 0.3s;
+  }
+  #cta-461 .cs-cta:hover {
+    background-color: #14142B;
+  }
+  #cta-461 .cs-cta:hover .cs-arrow {
+    transform: translateX(3.75rem);
+    opacity: 0;
+  }
+  #cta-461 .cs-cta:hover .cs-cta-text {
+    transform: translateY(-0.9375rem);
+  }
+  #cta-461 .cs-cta:before {
+    /* backgorund shape on mobile, removed at 768px. We attach it to the cta button so its position is relative to the position of the button and they move together when the button moves as the screen gets bigger */
+    content: '';
+    width: 93.75rem;
+    height: 62.5rem;
+    background: #14142B;
+    border-radius: 0 0 6.25rem 0;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: -4.75rem;
+    right: 2rem;
+    transform: rotate(30deg);
+    transform-origin: bottom right;
+    z-index: -1;
+  }
+  #cta-461 .cs-arrow {
+    width: 2.5rem;
+    height: auto;
+    transition: transform .3s, opacity .3s;
+  }
+  #cta-461 .cs-cta-text {
+    transition: transform .3s;
+  }
+}
+/* Inbetween - 500px */
+@media only screen and (min-width: 31.25rem) {
+  #cta-461 {
+    /* clips the .swoosh so it doesn't cause overflow */
+    overflow: hidden;
+    /* pushes down proportional to the viewwidth size, so as the swoosh img grows wider it's growing height doesn't make it creep closer and closer to the cta button, resets to 0 at 768px */
+    padding-bottom: 12vw;
+  }
+  #cta-461 .cs-container {
+    align-items: flex-start;
+  }
+  #cta-461 .cs-cta:before {
+    border-radius: 9.375rem;
+    bottom: -6.25rem;
+    right: 1.25rem;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #cta-461 {
+    margin-bottom: 3.75rem;
+    padding-bottom: 0;
+    background-color: #14142B;
+    position: relative;
+  }
+  #cta-461:before {
+    content: '';
+    /* changes to 824px at large desktop */
+    width: 37.75rem;
+    height: 37.75rem;
+    border-radius: 50%;
+    background: #333142;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    /* changes at 1300px */
+    top: -6.25rem;
+    /* changes at 1300px */
+    right: -18.75rem;
+    z-index: -2;
+  }
+  #cta-461 .cs-container {
+    max-width: 80rem;
+    position: relative;
+  }
+  #cta-461 .cs-container:before {
+    /* left white slant */
+    content: '';
+    width: 375rem;
+    height: 62.5rem;
+    margin-right: -93.75rem;
+    background: #fff;
+    /* prevents the mouse from interacting with it */
+    pointer-events: none;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 50%;
+    transform: rotate(5deg);
+  }
+  #cta-461 .cs-container:after {
+    /* right white slant */
+    content: '';
+    width: 375rem;
+    height: 187.5rem;
+    margin-right: -218.75rem;
+    background: #fff;
+    /* prevents the mouse from interacting with it */
+    pointer-events: none;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 100%;
+    right: 50%;
+    transform: rotate(-25deg);
+    z-index: -1;
+  }
+  #cta-461 .cs-text {
+    width: 55%;
+  }
+  #cta-461 .cs-cta {
+    /* prevents border from affecting height and width */
+    box-sizing: border-box;
+    border: 12px solid #fff;
+    /* 100px - 100px */
+    margin-right: clamp(6.25rem, 15vw, 6.25rem);
+  }
+  #cta-461 .cs-cta:before {
+    display: none;
+  }
+}
+/* Large Desktop 1200px */
+@media only screen and (min-width: 75rem) {
+  #cta-461 {
+    padding-top: 10rem;
+  }
+  #cta-461:before {
+    width: 51.5rem;
+    height: 51.5rem;
+    margin-left: 23.75rem;
+    right: auto;
+    left: 50%;
+    top: -3.125rem;
+    transform: none;
+  }
+  #cta-461:after {
+    /* floating white blurry orb */
+    content: '';
+    width: 39.3125rem;
+    height: 28.6875rem;
+    margin-right: 21.125rem;
+    background: #F1F1F4;
+    opacity: 0.16;
+    -webkit-filter: blur(182px);
+    filter: blur(182px);
+    position: absolute;
+    display: block;
+    top: -16.4375rem;
+    right: 50%;
+  }
+  #cta-461 .cs-text {
+    margin-bottom: 12.5rem;
+  }
+  #cta-461 .cs-decoration {
+    height: 50.1875rem;
+    width: auto;
+    margin-left: 8.75rem;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: -2;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #cta-461 .cs-container:before,
+  body.dark-mode #cta-461 .cs-container:after {
+    background-color: var(--dark);
+  }
+  body.dark-mode #cta-461 .cs-cta {
+    border-color: var(--dark);
+  }
+}
+                                

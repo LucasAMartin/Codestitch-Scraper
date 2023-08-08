@@ -1,0 +1,247 @@
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-104">
+    <div class="cs-container">
+        <ul class="cs-ul">
+            <li class="cs-li">
+                <a href="" class="cs-link">Home</a>
+            </li>
+            <li class="cs-li">
+                <a href="" class="cs-link">About</a>
+            </li>
+            <li class="cs-li">
+                <a href="" class="cs-link">Services</a>
+            </li>
+            <li class="cs-li">
+                <a href="" class="cs-link">Gallery</a>
+            </li>
+            <li class="cs-li">
+                <a href="" class="cs-link">Contact</a>
+            </li>
+        </ul>
+        <span class="cs-copyright">© 2022 Copyright</span>
+    </div>
+</footer>
+                                
+/*-- -------------------------- -->
+<---           Footer           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #001F3F;
+    --primaryLight: #001F3F;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #cs-footer-104 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* 40px - 100px top and bottom */
+    padding: clamp(2.5rem, 7.9vw, 6.25rem) 1rem;
+    /* 40px - 50px */
+    padding-bottom: clamp(2.5rem, 7.9vw, 3.125rem);
+    background-color: #14142B;
+  }
+  #cs-footer-104 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+  }
+  #cs-footer-104 .cs-ul {
+    /* 40px - 60px*/
+    padding: 0 0 clamp(2.5rem, 4.7vw, 3.75rem);
+    margin: auto;
+    border-bottom: 1px solid #7D799C;
+  }
+  #cs-footer-104 .cs-li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+  #cs-footer-104 .cs-li:last-of-type {
+    margin-bottom: 0;
+  }
+  #cs-footer-104 .cs-link {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 1.55vw, 1.25rem);
+    line-height: 1.5em;
+    text-decoration: none;
+    font-weight: 700 ;
+    color: var(--bodyTextColorWhite);
+    position: relative;
+  }
+  #cs-footer-104 .cs-link:hover:before {
+    width: 100%;
+  }
+  #cs-footer-104 .cs-link:before {
+    /* top right box */
+    content: '';
+    width: 0%;
+    height: 0.1875rem;
+    background: var(--bodyTextColorWhite);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: -0.125rem;
+    left: 0;
+    transition: width .3s;
+  }
+  #cs-footer-104 .cs-copyright {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.6vw, 1rem);
+    text-align: center;
+    color: #B4B2C7;
+    display: block;
+    /* 20px - 28px */
+    margin: clamp(1.25rem, 2.8vw, 1.75rem) auto 0;
+  }
+}
+/* Tablet - 600px */
+@media only screen and (min-width: 37.5rem) {
+  #cs-footer-104 .cs-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #cs-footer-104 .cs-li {
+    /* 44px - 88px */
+    margin: 0 clamp(2.75rem, 6.2vw, 5.5rem) 0 0;
+  }
+  #cs-footer-104 .cs-li:last-of-type {
+    margin: 0;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---           Footer           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #001F3F;
+        --primaryLight: #001F3F;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #cs-footer-104 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        /* 40px - 100px top and bottom */
+        padding: clamp(2.5rem, 7.9vw, 6.25rem) (16/16rem);
+        /* 40px - 50px */
+        padding-bottom: clamp(2.5rem, 7.9vw, 3.125rem);
+        background-color: #14142B;
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+        }
+
+        .cs-ul {
+            /* 40px - 60px*/
+            padding: 0 0 clamp(2.5rem, 4.7vw, 3.75rem);
+            margin: auto;
+            border-bottom: 1px solid #7D799C;
+        }
+
+        .cs-li {
+            list-style: none;
+            text-align: center;
+            margin-bottom: (20/16rem);
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+
+        .cs-link {
+            /* 16px - 20px */
+            font-size: clamp(1rem, 1.55vw, 1.25rem);
+            line-height: 1.5em;
+            text-decoration: none;
+            font-weight: 700 ;
+            color: var(--bodyTextColorWhite);
+            position: relative;
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+
+            &:before {
+                /* top right box */
+                content: '';
+                width: 0%;
+                height: (3/16rem);
+                background: var(--bodyTextColorWhite);
+                opacity: 1;
+                position: absolute;
+                display: block;
+                bottom: (-2/16rem);
+                left: 0;
+                transition: width .3s;
+            }
+        }
+
+        .cs-copyright {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.6vw, 1rem);
+            text-align: center;
+            color: #B4B2C7;
+            display: block;
+            /* 20px - 28px */
+            margin: clamp(1.25rem, 2.8vw, 1.75rem) auto 0;
+        }
+    }
+}
+
+/* Tablet - 600px */
+@media only screen and (min-width: 37.5rem) {
+    #cs-footer-104 {
+        .cs-ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cs-li {
+            /* 44px - 88px */
+            margin: 0 clamp(2.75rem, 6.2vw, 5.5rem) 0 0;
+            &:last-of-type {
+                margin: 0;
+            }
+        }
+    }
+}
+                                

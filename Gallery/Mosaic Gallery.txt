@@ -1,0 +1,429 @@
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-1086">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Service</span>
+            <h2 class="cs-title">Our Gallery</h2>
+        </div>
+        <div class="cs-image-group">
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg" alt="mechaninc" width="345" height="345">
+            </picture>
+            <picture class="cs-picture cs-picture2">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg" alt="mechaninc" width="345" height="345">
+            </picture>
+            <picture class="cs-picture cs-picture3">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg" alt="mechaninc" width="345" height="345">
+            </picture>
+            <picture class="cs-picture cs-picture4">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg" alt="mechaninc" width="345" height="345">
+            </picture>
+            <picture class="cs-picture cs-picture5">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg" alt="mechaninc" width="345" height="345">
+            </picture>
+            <picture class="cs-picture cs-picture6">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg" alt="mechaninc" width="345" height="345">
+            </picture>
+            <picture class="cs-picture cs-picture7">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg" alt="mechaninc" width="345" height="345">
+            </picture>
+            <picture class="cs-picture cs-picture8">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic1.jpg" alt="mechaninc" width="345" height="345">
+            </picture>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #D90429;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #gallery-1086 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #gallery-1086 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #gallery-1086 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #gallery-1086 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #gallery-1086 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #gallery-1086 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin: 0;
+  }
+  #gallery-1086 .cs-image-group {
+    width: 100%;
+    /* changes to 1280px at large desktop */
+    max-width: 49rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(20, minmax(9vw, 1fr));
+    /* 16px - 20px */
+    gap: clamp(1rem, 2vw, 1.25rem);
+  }
+  #gallery-1086 .cs-picture {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+  #gallery-1086 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #gallery-1086 .cs-picture1 {
+    grid-column: 1 / span 6;
+    grid-row: span 4;
+  }
+  #gallery-1086 .cs-picture2 {
+    grid-column: 7 / span 6;
+    grid-row: span 5;
+  }
+  #gallery-1086 .cs-picture3 {
+    grid-column: 1 / span 6;
+    grid-row: 5 / span 6;
+  }
+  #gallery-1086 .cs-picture4 {
+    grid-column: 7 / span 6;
+    grid-row: 6 / span 5;
+  }
+  #gallery-1086 .cs-picture5 {
+    grid-column: 1 / span 6;
+    grid-row: 11 / span 4;
+  }
+  #gallery-1086 .cs-picture6 {
+    grid-column: 7 / span 6;
+    grid-row: 11 / span 5;
+  }
+  #gallery-1086 .cs-picture7 {
+    grid-column: 1 / span 6;
+    grid-row: 15 / span 6;
+  }
+  #gallery-1086 .cs-picture8 {
+    grid-column: 7 / span 6;
+    grid-row: 16 / span 5;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #gallery-1086 .cs-image-group {
+    grid-template-rows: repeat(20, minmax(6rem, 1fr));
+  }
+}
+/* Large Desktop 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #gallery-1086 .cs-image-group {
+    max-width: 80rem;
+    height: 49.0625rem;
+    grid-template-rows: repeat(12, 1fr);
+  }
+  #gallery-1086 .cs-picture1 {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 7;
+  }
+  #gallery-1086 .cs-picture2 {
+    grid-column: 4 / span 3;
+    grid-row: 1 / span 10;
+  }
+  #gallery-1086 .cs-picture3 {
+    grid-column: 7 / span 3;
+    grid-row: 1 / span 5;
+  }
+  #gallery-1086 .cs-picture4 {
+    grid-column: 10 / span 3;
+    grid-row: 1 / span 7;
+  }
+  #gallery-1086 .cs-picture5 {
+    grid-column: 1 / span 3;
+    grid-row: 8 / span 13;
+  }
+  #gallery-1086 .cs-picture6 {
+    grid-column: 4 / span 3;
+    grid-row: 11 / span 10;
+  }
+  #gallery-1086 .cs-picture7 {
+    grid-column: 7 / span 3;
+    grid-row: 6 / span 15;
+  }
+  #gallery-1086 .cs-picture8 {
+    grid-column: 10 / span 3;
+    grid-row: 8 / span 13;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #D90429;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #gallery-1086 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #gallery-1086 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #gallery-1086 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #gallery-1086 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #gallery-1086 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #gallery-1086 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin: 0;
+  }
+  #gallery-1086 .cs-image-group {
+    width: 100%;
+    /* changes to 1280px at large desktop */
+    max-width: 49rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(20, minmax(9vw, 1fr));
+    /* 16px - 20px */
+    gap: clamp(1rem, 2vw, 1.25rem);
+  }
+  #gallery-1086 .cs-picture {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+  #gallery-1086 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #gallery-1086 .cs-picture1 {
+    grid-column: 1 / span 6;
+    grid-row: span 4;
+  }
+  #gallery-1086 .cs-picture2 {
+    grid-column: 7 / span 6;
+    grid-row: span 5;
+  }
+  #gallery-1086 .cs-picture3 {
+    grid-column: 1 / span 6;
+    grid-row: 5 / span 6;
+  }
+  #gallery-1086 .cs-picture4 {
+    grid-column: 7 / span 6;
+    grid-row: 6 / span 5;
+  }
+  #gallery-1086 .cs-picture5 {
+    grid-column: 1 / span 6;
+    grid-row: 11 / span 4;
+  }
+  #gallery-1086 .cs-picture6 {
+    grid-column: 7 / span 6;
+    grid-row: 11 / span 5;
+  }
+  #gallery-1086 .cs-picture7 {
+    grid-column: 1 / span 6;
+    grid-row: 15 / span 6;
+  }
+  #gallery-1086 .cs-picture8 {
+    grid-column: 7 / span 6;
+    grid-row: 16 / span 5;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #gallery-1086 .cs-image-group {
+    grid-template-rows: repeat(20, minmax(6rem, 1fr));
+  }
+}
+/* Large Desktop 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #gallery-1086 .cs-image-group {
+    max-width: 80rem;
+    height: 49.0625rem;
+    grid-template-rows: repeat(12, 1fr);
+  }
+  #gallery-1086 .cs-picture1 {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 7;
+  }
+  #gallery-1086 .cs-picture2 {
+    grid-column: 4 / span 3;
+    grid-row: 1 / span 10;
+  }
+  #gallery-1086 .cs-picture3 {
+    grid-column: 7 / span 3;
+    grid-row: 1 / span 5;
+  }
+  #gallery-1086 .cs-picture4 {
+    grid-column: 10 / span 3;
+    grid-row: 1 / span 7;
+  }
+  #gallery-1086 .cs-picture5 {
+    grid-column: 1 / span 3;
+    grid-row: 8 / span 13;
+  }
+  #gallery-1086 .cs-picture6 {
+    grid-column: 4 / span 3;
+    grid-row: 11 / span 10;
+  }
+  #gallery-1086 .cs-picture7 {
+    grid-column: 7 / span 3;
+    grid-row: 6 / span 15;
+  }
+  #gallery-1086 .cs-picture8 {
+    grid-column: 10 / span 3;
+    grid-row: 8 / span 13;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #gallery-1086 .cs-title {
+    color: var(--bodyTextColorWhite);
+  }
+}
+                                

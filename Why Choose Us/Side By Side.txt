@@ -1,0 +1,501 @@
+<!-- ============================================ -->
+<!--                  Why Choose                  -->
+<!-- ============================================ -->
+
+<section id="why-choose-507">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Sustainable Overhead</span>
+                <h2 class="cs-title">Why Choose Us</h2>
+            </div>
+            <p class="cs-text">
+                Elementum sagittis vitae et leo duis ut diam. In nibh mauris cursus mattis molestie a iaculis at
+            </p>
+        </div>
+        <div class="cs-flex-group">
+            <!--Stats List-->
+            <ul class="cs-card-group">
+                <li class="cs-stats-item">
+                    <span class="cs-number">200+</span>
+                    <span class="cs-desc">Lorem Ipsum Dolor Sit Amert</span>
+                </li>
+                <li class="cs-stats-item">
+                    <span class="cs-number">5/5</span>
+                    <span class="cs-desc">Lorem Ipsum Dolor Sit Amert</span>
+                </li>
+                <li class="cs-stats-item">
+                    <span class="cs-number">100%</span>
+                    <span class="cs-desc">Lorem Ipsum Dolor Sit Amert</span>
+                </li>
+                <li class="cs-stats-item">
+                    <span class="cs-number">100%</span>
+                    <span class="cs-desc">Lorem Ipsum Dolor Sit Amert</span>
+                </li>
+            </ul>
+            <!--Qualities List-->
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <span class="cs-li-number">01</span>
+                    <div class="cs-li-flex">
+                        <h3 class="cs-h3">Lorem Ipsum Dolor</h3>
+                        <p class="cs-li-text">
+                            Senectus et netus et malesuada. Nunc pulvinar sapien et ligula ullam corper malesuada proin
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <span class="cs-li-number">02</span>
+                    <div class="cs-li-flex">
+                        <h3 class="cs-h3">Lorem Ipsum Dolor</h3>
+                        <p class="cs-li-text">
+                            Senectus et netus et malesuada. Nunc pulvinar sapien et ligula ullam corper malesuada proin
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <span class="cs-li-number">03</span>
+                    <div class="cs-li-flex">
+                        <h3 class="cs-h3">Lorem Ipsum Dolor</h3>
+                        <p class="cs-li-text">
+                            Senectus et netus et malesuada. Nunc pulvinar sapien et ligula ullam corper malesuada proin
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---        Why Choose          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #00857E;
+    --primaryLight: #4daaa5;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #why-choose-507 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #why-choose-507 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #why-choose-507 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #why-choose-507 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #why-choose-507 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #why-choose-507 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #why-choose-507 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 30rem;
+  }
+  #why-choose-507 .cs-flex-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* changes to 20px at tablet */
+    gap: 3rem;
+  }
+  #why-choose-507 .cs-card-group {
+    width: 100%;
+    max-width: 28.125rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* 36px - 96px */
+    column-gap: clamp(2.25rem, 8vw, 6rem);
+    /* 24px - 48px */
+    row-gap: clamp(1.5rem, 5vw, 3rem);
+  }
+  #why-choose-507 .cs-stats-item {
+    list-style: none;
+    width: 40%;
+    max-width: 10rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #why-choose-507 .cs-number {
+    font-size: var(--headerFontSize);
+    font-weight: 700;
+    line-height: 1.2em;
+    margin: 0 0 1rem 0;
+    color: var(--primary);
+    display: block;
+  }
+  #why-choose-507 .cs-desc {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.5em;
+    max-width: 10.5rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #why-choose-507 .cs-ul {
+    max-width: 39.375rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+  #why-choose-507 .cs-li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  #why-choose-507 .cs-h3 {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 2vw, 1.5625rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    /* 16px - 20px */
+    margin: 0 0 clamp(1rem, 1.5vw, 1.25rem) 0;
+    color: var(--headerColor);
+  }
+  #why-choose-507 .cs-li-number {
+    font-size: 1.5625rem;
+    line-height: 1.2em;
+    font-weight: 900;
+    color: #DAD9E3;
+  }
+  #why-choose-507 .cs-li-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.7vw, 1rem);
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #why-choose-507 .cs-container {
+    max-width: 80rem;
+  }
+  #why-choose-507 .cs-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  #why-choose-507 .cs-title {
+    margin: 0;
+  }
+  #why-choose-507 .cs-text {
+    width: 50%;
+    margin: 0;
+  }
+  #why-choose-507 .cs-flex-group {
+    justify-content: space-between;
+    flex-direction: row;
+    /* 44px - 84px */
+    padding-left: clamp(2.75rem, 6.2vw, 5.25rem);
+    box-sizing: border-box;
+    gap: 1.25rem;
+  }
+  #why-choose-507 .cs-card-group {
+    width: 47%;
+    /* prevent flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Large Desktop 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #why-choose-507 .cs-text {
+    /* makes the left edge of the cs-text line up with the left edge of the numbers underneath it */
+    margin-right: 9.375rem;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---        Why Choose          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #00857E;
+    --primaryLight: #4daaa5;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #why-choose-507 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #why-choose-507 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #why-choose-507 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #why-choose-507 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #why-choose-507 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #why-choose-507 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #why-choose-507 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 30rem;
+  }
+  #why-choose-507 .cs-flex-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* changes to 20px at tablet */
+    gap: 3rem;
+  }
+  #why-choose-507 .cs-card-group {
+    width: 100%;
+    max-width: 28.125rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* 36px - 96px */
+    column-gap: clamp(2.25rem, 8vw, 6rem);
+    /* 24px - 48px */
+    row-gap: clamp(1.5rem, 5vw, 3rem);
+  }
+  #why-choose-507 .cs-stats-item {
+    list-style: none;
+    width: 40%;
+    max-width: 10rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #why-choose-507 .cs-number {
+    font-size: var(--headerFontSize);
+    font-weight: 700;
+    line-height: 1.2em;
+    margin: 0 0 1rem 0;
+    color: var(--primary);
+    display: block;
+  }
+  #why-choose-507 .cs-desc {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.5em;
+    max-width: 10.5rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #why-choose-507 .cs-ul {
+    max-width: 39.375rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+  #why-choose-507 .cs-li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  #why-choose-507 .cs-h3 {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 2vw, 1.5625rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    /* 16px - 20px */
+    margin: 0 0 clamp(1rem, 1.5vw, 1.25rem) 0;
+    color: var(--headerColor);
+  }
+  #why-choose-507 .cs-li-number {
+    font-size: 1.5625rem;
+    line-height: 1.2em;
+    font-weight: 900;
+    color: #DAD9E3;
+  }
+  #why-choose-507 .cs-li-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.7vw, 1rem);
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #why-choose-507 .cs-container {
+    max-width: 80rem;
+  }
+  #why-choose-507 .cs-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  #why-choose-507 .cs-title {
+    margin: 0;
+  }
+  #why-choose-507 .cs-text {
+    width: 50%;
+    margin: 0;
+  }
+  #why-choose-507 .cs-flex-group {
+    justify-content: space-between;
+    flex-direction: row;
+    /* 44px - 84px */
+    padding-left: clamp(2.75rem, 6.2vw, 5.25rem);
+    box-sizing: border-box;
+    gap: 1.25rem;
+  }
+  #why-choose-507 .cs-card-group {
+    width: 47%;
+    /* prevent flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Large Desktop 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #why-choose-507 .cs-text {
+    /* makes the left edge of the cs-text line up with the left edge of the numbers underneath it */
+    margin-right: 9.375rem;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #why-choose-507 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #why-choose-507 .cs-title,
+  body.dark-mode #why-choose-507 .cs-text,
+  body.dark-mode #why-choose-507 .cs-desc,
+  body.dark-mode #why-choose-507 .cs-li-text,
+  body.dark-mode #why-choose-507 .cs-h3 {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #why-choose-507 .cs-number {
+    color: var(--primaryLight);
+  }
+}
+                                

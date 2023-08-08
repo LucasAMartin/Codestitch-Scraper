@@ -1,0 +1,293 @@
+<!-- ============================================ -->
+<!--                   Video                      -->
+<!-- ============================================ -->
+
+<section id="video-571">
+    <div class="cs-container">
+        <a href="" class="cs-big-link">
+            <!--Background Image-->
+            <picture class="cs-background">
+                <source media="(min-width: 1024px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Stats/meet-d.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Stats/meeting-t.jpg">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Stats/meeting-m.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Stats/meet-d.jpg" alt="meeting" width="1280" height="580">
+            </picture>
+            <!--Play Icon-->
+            <img class="cs-link-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/videos/play2.svg" alt="play icon" width="86" height="94">
+        </a>
+        <div class="cs-content">
+            <h2 class="cs-video-title">Lorem ipsum dolor sit amet consectetur, adipisicing.</h2>
+            <p class="cs-text">
+                Nulla Lorem mollit cupidatat irure. Voluptate exercitation incididunt aliquip deserunt. Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Volup Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation deserunt... 
+            </p>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---           Video            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #001F3F;
+    --primaryLight: #001F3F;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+  }
+  #video-571 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #video-571 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #video-571 .cs-content {
+    text-align: left;
+    width: 100%;
+    max-width: 69rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* 20px - 44px */
+    gap: clamp(1.25rem, 5vw, 2.75rem);
+  }
+  #video-571 .cs-video-title {
+    /* 31px - 39px */
+    font-size: clamp(1.9375rem, 6vw, 2.4375rem);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    margin: 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #video-571 .cs-text {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #video-571 .cs-big-link {
+    width: 100%;
+    /* 418px - 760px */
+    height: clamp(26.125rem, 50vw, 47.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  #video-571 .cs-big-link:hover .cs-background img {
+    transform: scale(1.1);
+  }
+  #video-571 .cs-background {
+    width: 100%;
+    height: 100%;
+    /* clips the img from overflowing the container on hover */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  #video-571 .cs-background:before {
+    /* color overlay */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: .72;
+    background-blend-mode: multiply;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  #video-571 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transition: transform .7s;
+  }
+  #video-571 .cs-link-icon {
+    /* 64px - 86px */
+    width: clamp(4rem, 7vw, 5.375rem);
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  #video-571 .cs-link-icon:hover {
+    transform: scale(1.1);
+  }
+}
+                                
+/*-- -------------------------- -->
+<---           Video            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #001F3F;
+    --primaryLight: #001F3F;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+  }
+  #video-571 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #video-571 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #video-571 .cs-content {
+    text-align: left;
+    width: 100%;
+    max-width: 69rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* 20px - 44px */
+    gap: clamp(1.25rem, 5vw, 2.75rem);
+  }
+  #video-571 .cs-video-title {
+    /* 31px - 39px */
+    font-size: clamp(1.9375rem, 6vw, 2.4375rem);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    margin: 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #video-571 .cs-text {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #video-571 .cs-big-link {
+    width: 100%;
+    /* 418px - 760px */
+    height: clamp(26.125rem, 50vw, 47.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  #video-571 .cs-big-link:hover .cs-background img {
+    transform: scale(1.1);
+  }
+  #video-571 .cs-background {
+    width: 100%;
+    height: 100%;
+    /* clips the img from overflowing the container on hover */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  #video-571 .cs-background:before {
+    /* color overlay */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: .72;
+    background-blend-mode: multiply;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  #video-571 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transition: transform .7s;
+  }
+  #video-571 .cs-link-icon {
+    /* 64px - 86px */
+    width: clamp(4rem, 7vw, 5.375rem);
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  #video-571 .cs-link-icon:hover {
+    transform: scale(1.1);
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #video-571 .cs-topper {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #video-571 .cs-video-title,
+  body.dark-mode #video-571 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #video-571 .cs-text {
+    opacity: .8;
+  }
+}
+                                

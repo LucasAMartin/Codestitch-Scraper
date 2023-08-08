@@ -1,0 +1,453 @@
+<!-- ============================================ -->
+<!--            Side By Side Reverse              -->
+<!-- ============================================ -->
+
+<section id="sbsr-413">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Who We Are</span>
+            <h2 class="cs-title">About Our Company</h2>
+            <p class="cs-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita provident consequuntur, asperiores nisi ut fugiat harum quo inventore, molestias vero cumque dolorum eligendi odio neque illo dolores tempore natus non sit nostrum nam sint. Amet maxime vel inventore culpa soluta?
+            </p>
+            <a href="" class="cs-button-solid">More About Us</a>
+        </div>
+        <div class="cs-image-group">
+            <!--Top Left Image-->
+            <picture class="cs-picture cs-picture1">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping1.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping1.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping1.jpg" alt="backyard" width="229" height="352">
+            </picture>
+            <!--Top Right Image-->
+            <picture class="cs-picture cs-picture2">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping2.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping2.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping3.jpg" alt="backyard" width="390" height="352">
+            </picture>
+            <!--Bottom Image-->
+            <picture class="cs-picture cs-picture3">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping3.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping3.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping3.jpg" alt="backyard" width="649" height="227">
+            </picture>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #1F861D;
+    --primaryLight: #62aa61;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbsr-413 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    /* clips svg as the screen grows so it doesn't overflow */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #sbsr-413 .cs-container {
+    width: 100%;
+    /* changes to 1280 at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 108px */
+    gap: clamp(3rem, 7.1vw, 6.75rem);
+  }
+  #sbsr-413 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 33.875rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbsr-413 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbsr-413 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbsr-413 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbsr-413 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #sbsr-413 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbsr-413 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbsr-413 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbsr-413 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbsr-413 .cs-image-group {
+    font-size: min(2.5vw, 1em);
+    width: 36.1875em;
+    height: 33.875em;
+    /* sends it to the top of the flexbox */
+    order: -1;
+    position: relative;
+  }
+  #sbsr-413 .cs-picture {
+    border-radius: 1.25em;
+    /* clips the img tag corners */
+    overflow: hidden;
+    position: absolute;
+    display: block;
+  }
+  #sbsr-413 .cs-picture:hover:before {
+    opacity: .6;
+  }
+  #sbsr-413 .cs-picture:hover img {
+    transform: scale(1.1);
+  }
+  #sbsr-413 .cs-picture:before {
+    /* Hover Box */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: 0;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: opacity .3s;
+  }
+  #sbsr-413 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform .6s;
+  }
+  #sbsr-413 .cs-picture1 {
+    width: 12.75em;
+    height: 19.625em;
+    top: 0;
+    left: 0;
+  }
+  #sbsr-413 .cs-picture2 {
+    width: 21.75em;
+    height: 19.625em;
+    top: 0;
+    right: 0;
+  }
+  #sbsr-413 .cs-picture3 {
+    width: 36.1875em;
+    height: 12.625em;
+    bottom: 0;
+    left: 0;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #sbsr-413 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  #sbsr-413 .cs-content {
+    width: 48%;
+  }
+  #sbsr-413 .cs-image-group {
+    font-size: min(1.15vw, 1em);
+    flex: none;
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #1F861D;
+    --primaryLight: #62aa61;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbsr-413 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    /* clips svg as the screen grows so it doesn't overflow */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #sbsr-413 .cs-container {
+    width: 100%;
+    /* changes to 1280 at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 108px */
+    gap: clamp(3rem, 7.1vw, 6.75rem);
+  }
+  #sbsr-413 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 33.875rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbsr-413 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbsr-413 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbsr-413 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbsr-413 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #sbsr-413 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbsr-413 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbsr-413 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbsr-413 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbsr-413 .cs-image-group {
+    font-size: min(2.5vw, 1em);
+    width: 36.1875em;
+    height: 33.875em;
+    /* sends it to the top of the flexbox */
+    order: -1;
+    position: relative;
+  }
+  #sbsr-413 .cs-picture {
+    border-radius: 1.25em;
+    /* clips the img tag corners */
+    overflow: hidden;
+    position: absolute;
+    display: block;
+  }
+  #sbsr-413 .cs-picture:hover:before {
+    opacity: .6;
+  }
+  #sbsr-413 .cs-picture:hover img {
+    transform: scale(1.1);
+  }
+  #sbsr-413 .cs-picture:before {
+    /* Hover Box */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: 0;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: opacity .3s;
+  }
+  #sbsr-413 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform .6s;
+  }
+  #sbsr-413 .cs-picture1 {
+    width: 12.75em;
+    height: 19.625em;
+    top: 0;
+    left: 0;
+  }
+  #sbsr-413 .cs-picture2 {
+    width: 21.75em;
+    height: 19.625em;
+    top: 0;
+    right: 0;
+  }
+  #sbsr-413 .cs-picture3 {
+    width: 36.1875em;
+    height: 12.625em;
+    bottom: 0;
+    left: 0;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #sbsr-413 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  #sbsr-413 .cs-content {
+    width: 48%;
+  }
+  #sbsr-413 .cs-image-group {
+    font-size: min(1.15vw, 1em);
+    flex: none;
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+}
+/* Dark Mode */
+@me
+                                

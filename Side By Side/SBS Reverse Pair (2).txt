@@ -1,0 +1,625 @@
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="RPsbs-1127">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-image-group">
+            <!--Main Image-->
+            <picture class="cs-picture cs-picture1">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/charity-person1.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/charity-person1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/charity-person1.jpg" alt="person with box" width="657" height="676"  aria-hidden="true">
+            </picture>
+            <!--Circle Graphic-->
+            <img class="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/circle-shape.svg" alt="graphic" width="641" height="660" aria-hidden="true">
+        </div>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Stitch Non-profit Charity</span>
+            <h2 class="cs-title">Helping Each Other Can Make World Better</h2>
+            <p class="cs-text">
+                We help companies develop powerful corporate social responsibility, grantmaking, and employee engagement strategies. Our impact is about more than moving money to where it’s needed most it’s also about helping nonprofits access information and ideas that will help them listen, learn, and grow.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">Praesent feugiat sem mattis.</li>
+                <li class="cs-li">Praesent feugiat sem mattis.</li>
+                <li class="cs-li">Praesent feugiat sem mattis.</li>
+                <li class="cs-li">Praesent feugiat sem mattis.</li>
+            </ul>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Discover More</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-1127">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-image-group">
+            <!--Main Image-->
+            <picture class="cs-picture cs-picture1">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/charity-person1.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/charity-person1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/charity-person1.jpg" alt="person with box" width="657" height="676"  aria-hidden="true">
+            </picture>
+            <!--Circle Graphic-->
+            <img class="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/circle-shape.svg" alt="graphic" width="641" height="660" aria-hidden="true">
+        </div>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Stitch Non-profit Charity</span>
+            <h2 class="cs-title">Helping Each Other Can Make World Better</h2>
+            <p class="cs-text">
+                We help companies develop powerful corporate social responsibility, grantmaking, and employee engagement strategies. Our impact is about more than moving money to where it’s needed most it’s also about helping nonprofits access information and ideas that will help them listen, learn, and grow.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">Praesent feugiat sem mattis.</li>
+                <li class="cs-li">Praesent feugiat sem mattis.</li>
+                <li class="cs-li">Praesent feugiat sem mattis.</li>
+                <li class="cs-li">Praesent feugiat sem mattis.</li>
+            </ul>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Discover More</a>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #00715D;
+    --primaryLight: #d8673d;
+    --secondary: #FDD65B;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #RPsbs-1127,
+  #RPsbsr-1127 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    position: relative;
+    z-index: 1;
+  }
+  #RPsbs-1127 .cs-container,
+  #RPsbsr-1127 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+  }
+  #RPsbs-1127 .cs-content,
+  #RPsbsr-1127 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 32.625rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #RPsbs-1127 .cs-topper,
+  #RPsbsr-1127 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #RPsbs-1127 .cs-title,
+  #RPsbsr-1127 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #RPsbs-1127 .cs-text,
+  #RPsbsr-1127 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-1127 .cs-topper,
+  #RPsbsr-1127 .cs-topper {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    color: #767676;
+  }
+  #RPsbs-1127 .cs-text,
+  #RPsbsr-1127 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #RPsbs-1127 .cs-text:last-of-type,
+  #RPsbsr-1127 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #RPsbs-1127 .cs-ul,
+  #RPsbsr-1127 .cs-ul {
+    width: 100%;
+    margin: 0 0 2rem 0;
+    padding-left: 1.25rem;
+    /* prevents padding from affecting width and height */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  #RPsbs-1127 .cs-li,
+  #RPsbsr-1127 .cs-li {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    max-width: 25rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+    position: relative;
+  }
+  #RPsbs-1127 .cs-li:before,
+  #RPsbsr-1127 .cs-li:before {
+    /* bullet */
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: currentColor;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0.625rem;
+    left: -0.9375rem;
+  }
+  #RPsbs-1127 .cs-button-solid,
+  #RPsbsr-1127 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 12.5rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.5rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #RPsbs-1127 .cs-button-solid:before,
+  #RPsbsr-1127 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.5rem;
+    transition: width .3s;
+  }
+  #RPsbs-1127 .cs-button-solid:hover:before,
+  #RPsbsr-1127 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #RPsbs-1127 .cs-image-group,
+  #RPsbsr-1127 .cs-image-group {
+    /* scaling entire section down. font-size starts at a min in vw, and stops when that value reaches 1em (16px). Since we want the picture elements to base their font size on the parent and not the root, we use ems for this entire section  */
+    font-size: min(1.9vw, .64em);
+    width: 41.0625em;
+    height: 42.25em;
+    /* offset the amount the cs-graphic overflows the container so it stays centerd on mobile and tablet, removed at desktop */
+    margin-left: 6.75em;
+    position: relative;
+    z-index: 1;
+  }
+  #RPsbs-1127 .cs-picture,
+  #RPsbsr-1127 .cs-picture {
+    width: 41.0625em;
+    height: 42.25em;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #RPsbs-1127 .cs-picture img,
+  #RPsbsr-1127 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #RPsbs-1127 .cs-graphic,
+  #RPsbsr-1127 .cs-graphic {
+    width: 40.0625em;
+    height: auto;
+    position: absolute;
+    left: -6.75em;
+    top: 0;
+    z-index: -1;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #RPsbs-1127 .cs-container,
+  #RPsbsr-1127 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #RPsbs-1127 .cs-image-group,
+  #RPsbsr-1127 .cs-image-group {
+    /* reset the scale */
+    font-size: min(1.2vw, 1em);
+    margin: 0;
+  }
+  #RPsbs-1127 .cs-content,
+  #RPsbsr-1127 .cs-content {
+    width: 45%;
+    /* prevent flexbox from squishing it */
+    flex: none;
+  }
+}
+
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #RPsbsr-1127 {
+    background-color: #f7f7f7;
+  }
+  #RPsbsr-1127 .cs-image-group {
+    margin-left: 0;
+    margin-right: 6.75em;
+  }
+  #RPsbsr-1127 .cs-graphic {
+    left: auto;
+    right: -6.75em;
+  }
+}
+/* Desktop - 360px */
+@media only screen and (min-width: 64rem) {
+  #RPsbsr-1127 .cs-image-group {
+    margin: 0;
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #00715D;
+    --primaryLight: #d8673d;
+    --secondary: #FDD65B;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #RPsbs-1127,
+  #RPsbsr-1127 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    position: relative;
+    z-index: 1;
+  }
+  #RPsbs-1127 .cs-container,
+  #RPsbsr-1127 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+  }
+  #RPsbs-1127 .cs-content,
+  #RPsbsr-1127 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 32.625rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #RPsbs-1127 .cs-topper,
+  #RPsbsr-1127 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #RPsbs-1127 .cs-title,
+  #RPsbsr-1127 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #RPsbs-1127 .cs-text,
+  #RPsbsr-1127 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-1127 .cs-topper,
+  #RPsbsr-1127 .cs-topper {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    color: #767676;
+  }
+  #RPsbs-1127 .cs-text,
+  #RPsbsr-1127 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #RPsbs-1127 .cs-text:last-of-type,
+  #RPsbsr-1127 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #RPsbs-1127 .cs-ul,
+  #RPsbsr-1127 .cs-ul {
+    width: 100%;
+    margin: 0 0 2rem 0;
+    padding-left: 1.25rem;
+    /* prevents padding from affecting width and height */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  #RPsbs-1127 .cs-li,
+  #RPsbsr-1127 .cs-li {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    max-width: 25rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+    position: relative;
+  }
+  #RPsbs-1127 .cs-li:before,
+  #RPsbsr-1127 .cs-li:before {
+    /* bullet */
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: currentColor;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0.625rem;
+    left: -0.9375rem;
+  }
+  #RPsbs-1127 .cs-button-solid,
+  #RPsbsr-1127 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 12.5rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.5rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #RPsbs-1127 .cs-button-solid:before,
+  #RPsbsr-1127 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.5rem;
+    transition: width .3s;
+  }
+  #RPsbs-1127 .cs-button-solid:hover:before,
+  #RPsbsr-1127 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #RPsbs-1127 .cs-image-group,
+  #RPsbsr-1127 .cs-image-group {
+    /* scaling entire section down. font-size starts at a min in vw, and stops when that value reaches 1em (16px). Since we want the picture elements to base their font size on the parent and not the root, we use ems for this entire section  */
+    font-size: min(1.9vw, .64em);
+    width: 41.0625em;
+    height: 42.25em;
+    /* offset the amount the cs-graphic overflows the container so it stays centerd on mobile and tablet, removed at desktop */
+    margin-left: 6.75em;
+    position: relative;
+    z-index: 1;
+  }
+  #RPsbs-1127 .cs-picture,
+  #RPsbsr-1127 .cs-picture {
+    width: 41.0625em;
+    height: 42.25em;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #RPsbs-1127 .cs-picture img,
+  #RPsbsr-1127 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #RPsbs-1127 .cs-graphic,
+  #RPsbsr-1127 .cs-graphic {
+    width: 40.0625em;
+    height: auto;
+    position: absolute;
+    left: -6.75em;
+    top: 0;
+    z-index: -1;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #RPsbs-1127 .cs-container,
+  #RPsbsr-1127 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #RPsbs-1127 .cs-image-group,
+  #RPsbsr-1127 .cs-image-group {
+    /* reset the scale */
+    font-size: min(1.2vw, 1em);
+    margin: 0;
+  }
+  #RPsbs-1127 .cs-content,
+  #RPsbsr-1127 .cs-content {
+    width: 45%;
+    /* prevent flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #RPsbs-1127 .cs-topper,
+  body.dark-mode #RPsbsr-1127 .cs-topper {
+    color: var(--secondary);
+  }
+  body.dark-mode #RPsbs-1127 .cs-title,
+  body.dark-mode #RPsbsr-1127 .cs-title,
+  body.dark-mode #RPsbs-1127 .cs-text,
+  body.dark-mode #RPsbsr-1127 .cs-text,
+  body.dark-mode #RPsbs-1127 .cs-li,
+  body.dark-mode #RPsbsr-1127 .cs-li {
+    color: var(--bodyTextColorWhite);
+  }
+}
+
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #RPsbsr-1127 {
+    background-color: #f7f7f7;
+  }
+  #RPsbsr-1127 .cs-image-group {
+    margin-left: 0;
+    margin-right: 6.75em;
+  }
+  #RPsbsr-1127 .cs-graphic {
+    left: auto;
+    right: -6.75em;
+  }
+}
+/* Desktop - 360px */
+@media only screen and (min-width: 64rem) {
+  #RPsbsr-1127 .cs-image-group {
+    margin: 0;
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #RPsbsr-1127 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+                                

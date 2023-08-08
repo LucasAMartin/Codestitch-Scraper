@@ -1,0 +1,414 @@
+<!-- ============================================ -->
+    <!--                   Reviews                    -->
+    <!-- ============================================ -->
+
+    <section id="reviews-62">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Our Reviews</span>
+                <h2 class="cs-title">Words From Our Customers</h2>
+                <p class="cs-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile1.png" alt="profile" width="68" height="68">
+                    <span class="cs-name">John Doe</span>
+                    <span class="cs-desc">Texas</span>
+                    <p class="cs-item-text">
+                        Proin massa eros, quis fringilla sagittis. Euismod scelerisque varius sed nec consequat, turpis.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile2.png" alt="profile" width="68" height="68">
+                    <span class="cs-name">Jane Smith</span>
+                    <span class="cs-desc">California</span>
+                    <p class="cs-item-text">
+                        Proin massa eros, quis fringilla sagittis. Euismod scelerisque varius sed nec consequat, turpis.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile3.png" alt="profile" width="68" height="68">
+                    <span class="cs-name">Thomas Madden</span>
+                    <span class="cs-desc">Texas</span>
+                    <p class="cs-item-text">
+                        Proin massa eros, quis fringilla sagittis. Euismod scelerisque varius sed nec consequat, turpis.
+                    </p>
+                </li>
+            </ul>
+            <a aria-label="read more reviews" href="" class="cs-button-solid">Read More</a>
+        </div>
+    </section>
+                                
+/*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #236DDB;
+    --primaryLight: #7ba7e9;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #reviews-62 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #reviews-62 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #reviews-62 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #reviews-62 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #reviews-62 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #reviews-62 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #reviews-62 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  #reviews-62 .cs-item {
+    list-style: none;
+    width: 100%;
+    max-width: 25.8125rem;
+    margin: 0;
+    padding: 0;
+  }
+  #reviews-62 .cs-img {
+    width: 4.25rem;
+    height: 4.25rem;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    display: block;
+  }
+  #reviews-62 .cs-name {
+    font-size: 1.25rem;
+    line-height: 1.2em;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    color: var(--headerColor);
+    display: block;
+  }
+  #reviews-62 .cs-desc {
+    font-size: 1rem;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 0 0 1rem;
+    color: #7D799C;
+    display: block;
+  }
+  #reviews-62 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 2vw, 1rem);
+    text-align: center;
+    line-height: 1.5em;
+    margin: auto;
+    color: var(--bodyTextColor);
+  }
+  #reviews-62 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #reviews-62 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #reviews-62 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #reviews-62 .cs-card-group {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    row-gap: 2.5rem;
+  }
+  #reviews-62 .cs-item {
+    /* we do this so it's stackable. You can add new any number of reviews you want and they will stack and center in the middle. We dont use grid because if you have an odd number of reviews, they don't stay centered.  They align with their grid lines. If you want 4 reviews in a row, lower the width under 23% to get the desired sizes fit 4 in a row and then stack when you add more*/
+    width: clamp(31.5%, 30vw, 32.3%);
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #236DDB;
+    --primaryLight: #7ba7e9;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #reviews-62 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #reviews-62 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #reviews-62 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #reviews-62 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #reviews-62 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #reviews-62 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #reviews-62 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  #reviews-62 .cs-item {
+    list-style: none;
+    width: 100%;
+    max-width: 25.8125rem;
+    margin: 0;
+    padding: 0;
+  }
+  #reviews-62 .cs-img {
+    width: 4.25rem;
+    height: 4.25rem;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    display: block;
+  }
+  #reviews-62 .cs-name {
+    font-size: 1.25rem;
+    line-height: 1.2em;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    color: var(--headerColor);
+    display: block;
+  }
+  #reviews-62 .cs-desc {
+    font-size: 1rem;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 0 0 1rem;
+    color: #7D799C;
+    display: block;
+  }
+  #reviews-62 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 2vw, 1rem);
+    text-align: center;
+    line-height: 1.5em;
+    margin: auto;
+    color: var(--bodyTextColor);
+  }
+  #reviews-62 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #reviews-62 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #reviews-62 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #reviews-62 .cs-card-group {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    row-gap: 2.5rem;
+  }
+  #reviews-62 .cs-item {
+    /* we do this so it's stackable. You can add new any number of reviews you want and they will stack and center in the middle. We dont use grid because if you have an odd number of reviews, they don't stay centered.  They align with their grid lines. If you want 4 reviews in a row, lower the width under 23% to get the desired sizes fit 4 in a row and then stack when you add more*/
+    width: clamp(31.5%, 30vw, 32.3%);
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #reviews-62 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #reviews-62 .cs-title,
+  body.dark-mode #reviews-62 .cs-text,
+  body.dark-mode #reviews-62 .cs-name,
+  body.dark-mode #reviews-62 .cs-desc,
+  body.dark-mode #reviews-62 .cs-item-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #reviews-62 .cs-item-text,
+  body.dark-mode #reviews-62 .cs-text {
+    opacity: .8;
+  }
+}
+                                

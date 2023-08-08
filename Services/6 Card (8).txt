@@ -1,0 +1,464 @@
+<!-- ============================================ -->
+<!--                   Services                   -->
+<!-- ============================================ -->
+
+<section id="services-573">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">What We Do</span>
+            <h2 class="cs-title">House Painting Services</h2>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/door.svg" alt="icon" width="61" height="58" loading="lazy" decoding="async" aria-hidden="true">
+                <h3 class="cs-h3">Exterior</h3>
+                <p class="cs-item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/door.svg" alt="icon" width="61" height="58" loading="lazy" decoding="async" aria-hidden="true">
+                <h3 class="cs-h3">Exterior</h3>
+                <p class="cs-item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/door.svg" alt="icon" width="61" height="58" loading="lazy" decoding="async" aria-hidden="true">
+                <h3 class="cs-h3">Exterior</h3>
+                <p class="cs-item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/door.svg" alt="icon" width="61" height="58" loading="lazy" decoding="async" aria-hidden="true">
+                <h3 class="cs-h3">Exterior</h3>
+                <p class="cs-item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/door.svg" alt="icon" width="61" height="58" loading="lazy" decoding="async" aria-hidden="true">
+                <h3 class="cs-h3">Exterior</h3>
+                <p class="cs-item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/door.svg" alt="icon" width="61" height="58" loading="lazy" decoding="async" aria-hidden="true">
+                <h3 class="cs-h3">Exterior</h3>
+                <p class="cs-item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #7F2923;
+    --primaryLight: #7F2923;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+  }
+  #services-573 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #services-573:before {
+    /* red box background, removed at tablet */
+    content: '';
+    width: 100%;
+    height: 100vw;
+    max-height: 25rem;
+    background: var(--primary);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #services-573 .cs-container {
+    width: 100%;
+    max-width: 80em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  #services-573 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #services-573 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #services-573 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #services-573 .cs-topper,
+  #services-573 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 31.25rem;
+    color: var(--bodyTextColorWhite);
+  }
+  #services-573 .cs-card-group {
+    width: 100%;
+    max-width: 73.375rem;
+    margin: 0;
+    /* 36px - 80px top & bottom */
+    /* 20px - 80px right & left */
+    padding: clamp(2.25rem, 6vw, 5rem) clamp(1.25rem, 5.6vw, 5rem);
+    background-color: #fff;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* changes at in-between */
+    gap: 1.25rem;
+  }
+  #services-573 .cs-item {
+    width: 100%;
+    text-align: left;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  #services-573 .cs-h3 {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 3vw, 1.5625rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    color: var(--headerColor);
+  }
+  #services-573 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 3vw, 1rem);
+    line-height: 1.5em;
+    font-weight: 400;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+}
+/* In-between - 550px */
+@media only screen and (min-width: 34.375rem) {
+  #services-573 .cs-card-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* 48px - 64px */
+    row-gap: clamp(3rem, 6vw, 4rem);
+  }
+  #services-573 .cs-item {
+    width: 47%;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #services-573:before {
+    display: none;
+  }
+  #services-573 .cs-content {
+    text-align: left;
+    width: 48vw;
+    max-width: 39.375rem;
+    /* pushes to the right, forcing it to the left */
+    margin-right: auto;
+    /* 32px - 40px */
+    padding: clamp(2rem, 4vw, 2.5rem);
+    padding-bottom: 0;
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    align-items: flex-start;
+    position: relative;
+  }
+  #services-573 .cs-content:before {
+    /* red box background, we add it to the .cs-content so it can respond to it's changes in height and width to create the box. By doing it this way, the .cs-content and .cs-card-group don't actually have to overlap. We can control the spacing between it and the .cs-card-content with flexbox and let this pseudo box's absolute position create the overlapping box. */
+    content: '';
+    width: 100%;
+    /* if the h2 changes how many lines tall it is, it changes the height of the .cs-content, which this box will respond to it by always be 2.5X the .cs-content height, this makes it responsive */
+    height: 250%;
+    background: var(--primary);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #services-573 .cs-card-group {
+    width: 88%;
+    /* pushes to the left, sending it to the right */
+    margin-left: auto;
+  }
+}
+/* Desktop 1024px */
+@media only screen and (min-width: 64rem) {
+  #services-573 .cs-item {
+    width: 31%;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #7F2923;
+    --primaryLight: #7F2923;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+  }
+  #services-573 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #services-573:before {
+    /* red box background, removed at tablet */
+    content: '';
+    width: 100%;
+    height: 100vw;
+    max-height: 25rem;
+    background: var(--primary);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #services-573 .cs-container {
+    width: 100%;
+    max-width: 80em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  #services-573 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #services-573 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #services-573 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #services-573 .cs-topper,
+  #services-573 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 31.25rem;
+    color: var(--bodyTextColorWhite);
+  }
+  #services-573 .cs-card-group {
+    width: 100%;
+    max-width: 73.375rem;
+    margin: 0;
+    /* 36px - 80px top & bottom */
+    /* 20px - 80px right & left */
+    padding: clamp(2.25rem, 6vw, 5rem) clamp(1.25rem, 5.6vw, 5rem);
+    background-color: #fff;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* changes at in-between */
+    gap: 1.25rem;
+  }
+  #services-573 .cs-item {
+    width: 100%;
+    text-align: left;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  #services-573 .cs-h3 {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 3vw, 1.5625rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    color: var(--headerColor);
+  }
+  #services-573 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 3vw, 1rem);
+    line-height: 1.5em;
+    font-weight: 400;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+}
+/* In-between - 550px */
+@media only screen and (min-width: 34.375rem) {
+  #services-573 .cs-card-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* 48px - 64px */
+    row-gap: clamp(3rem, 6vw, 4rem);
+  }
+  #services-573 .cs-item {
+    width: 47%;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #services-573:before {
+    display: none;
+  }
+  #services-573 .cs-content {
+    text-align: left;
+    width: 48vw;
+    max-width: 39.375rem;
+    /* pushes to the right, forcing it to the left */
+    margin-right: auto;
+    /* 32px - 40px */
+    padding: clamp(2rem, 4vw, 2.5rem);
+    padding-bottom: 0;
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    align-items: flex-start;
+    position: relative;
+  }
+  #services-573 .cs-content:before {
+    /* red box background, we add it to the .cs-content so it can respond to it's changes in height and width to create the box. By doing it this way, the .cs-content and .cs-card-group don't actually have to overlap. We can control the spacing between it and the .cs-card-content with flexbox and let this pseudo box's absolute position create the overlapping box. */
+    content: '';
+    width: 100%;
+    /* if the h2 changes how many lines tall it is, it changes the height of the .cs-content, which this box will respond to it by always be 2.5X the .cs-content height, this makes it responsive */
+    height: 250%;
+    background: var(--primary);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #services-573 .cs-card-group {
+    width: 88%;
+    /* pushes to the left, sending it to the right */
+    margin-left: auto;
+  }
+}
+/* Desktop 1024px */
+@media only screen and (min-width: 64rem) {
+  #services-573 .cs-item {
+    width: 31%;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #services-573:before {
+    /* makes it 40% darker */
+    filter: brightness(60%);
+  }
+  body.dark-mode #services-573 .cs-content:before {
+    /* makes it 40% darker */
+    filter: brightness(60%);
+  }
+  body.dark-mode #services-573 .cs-card-group {
+    background-color: var(--medium);
+  }
+  body.dark-mode #services-573 .cs-h3,
+  body.dark-mode #services-573 .cs-item-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #services-573 .cs-item-text {
+    opacity: .8;
+  }
+  body.dark-mode #services-573 .cs-icon {
+    /* turns it white */
+    filter: grayscale(1) brightness(1000%);
+  }
+}
+                                

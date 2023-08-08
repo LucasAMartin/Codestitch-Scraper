@@ -1,0 +1,460 @@
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-56">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Reviews/man-smiling-m.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Reviews/man-smiling.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/man-smiling.jpg" alt="man smiling" width="320" height="340">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Building Relationships</span>
+            <h2 class="cs-title">Why our Clients <span>Love Us</span></h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores possimus at incidunt dignissimos repellendus? Officiis quo architecto eligendi? Cum, recusandae.
+            </p>
+            <p class="cs-review">
+                Lorem ipsum dolor sit amet, consectetur adipiscing. Orci odio morbi vel ut lectus risus dis. Euismod dui etiam sed posuere odio tortor vitae ultrices. Ultrices sem et at egestas turpis scelerisque.
+
+                <span class="cs-name">Marie-Claire</span>
+            </p>
+            <a href="" class="cs-button-solid">Read Reviews</a>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #9B6200;
+    --primaryLight: #FFCC75;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #reviews-56 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #reviews-56 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    row-gap: clamp(3rem, 6vw, 4rem);
+    /* 60px - 108px */
+    column-gap: clamp(3.7rem, 8vw, 6.75rem);
+  }
+  #reviews-56 .cs-content {
+    text-align: left;
+    width: 100%;
+    max-width: 33.875rem;
+    display: flex;
+    flex-direction: column;
+  }
+  #reviews-56 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #reviews-56 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 15ch;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #reviews-56 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #reviews-56 .cs-text {
+    /* cs-text override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+    margin-bottom: 2rem;
+  }
+  #reviews-56 .cs-review {
+    /* 15px - 17px */
+    font-size: clamp(15px, 5vw, 1.0625rem);
+    line-height: 1.5em;
+    margin: 0 auto;
+    /* 28px - 32px */
+    margin-bottom: clamp(1.75rem, 0.5vw, 2rem);
+    padding: 0.75rem 0 0.75rem 1.5rem;
+    color: var(--headerColor);
+    /* Prevents padding from affecting height & width */
+    box-sizing: border-box;
+    position: relative;
+  }
+  #reviews-56 .cs-review:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 0.3125rem;
+    background: var(--primaryLight);
+    opacity: 1;
+    top: 0;
+    left: 0;
+  }
+  #reviews-56 .cs-name {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    margin: 0.75rem 0 0;
+    display: block;
+    color: var(--headerColor);
+  }
+  #reviews-56 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #reviews-56 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #reviews-56 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #reviews-56 .cs-picture {
+    width: 98%;
+    margin: 0;
+    position: relative;
+    display: block;
+    /* width divided by height 320/340 */
+    aspect-ratio: 0.94117647;
+    /* 8px - 12px */
+    margin-left: clamp(0.5rem, 1vw, 0.75rem);
+  }
+  #reviews-56 .cs-picture:before {
+    content: '';
+    position: absolute;
+    height: 12.125rem;
+    width: 12.125rem;
+    background: var(--primaryLight);
+    opacity: 1;
+    /* -8px to -12px */
+    /* the calc function sets the clamp value to a negative number */
+    top: calc(clamp(.5rem, .6vw, .75em) * -1);
+    left: calc(clamp(.5rem, .6vw, .75em) * -1);
+  }
+  #reviews-56 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #reviews-56 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #reviews-56 .cs-content {
+    text-align: left;
+    align-items: flex-start;
+  }
+  #reviews-56 .cs-picture {
+    /* 336px - 530px */
+    width: clamp(21rem, 44vw, 33.125rem);
+    /* 534px - 641px */
+    height: clamp(33.375rem, 58.6vw, 40.0625rem);
+    /* reset margin to account for the pesudo element square positioning */
+    margin: 0.75rem 0 0 0.75rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    /* no longer need aspect ratio */
+    aspect-ratio: initial;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #9B6200;
+    --primaryLight: #FFCC75;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #reviews-56 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #reviews-56 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    row-gap: clamp(3rem, 6vw, 4rem);
+    /* 60px - 108px */
+    column-gap: clamp(3.7rem, 8vw, 6.75rem);
+  }
+  #reviews-56 .cs-content {
+    text-align: left;
+    width: 100%;
+    max-width: 33.875rem;
+    display: flex;
+    flex-direction: column;
+  }
+  #reviews-56 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #reviews-56 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 15ch;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #reviews-56 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #reviews-56 .cs-text {
+    /* cs-text override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+    margin-bottom: 2rem;
+  }
+  #reviews-56 .cs-review {
+    /* 15px - 17px */
+    font-size: clamp(15px, 5vw, 1.0625rem);
+    line-height: 1.5em;
+    margin: 0 auto;
+    /* 28px - 32px */
+    margin-bottom: clamp(1.75rem, 0.5vw, 2rem);
+    padding: 0.75rem 0 0.75rem 1.5rem;
+    color: var(--headerColor);
+    /* Prevents padding from affecting height & width */
+    box-sizing: border-box;
+    position: relative;
+  }
+  #reviews-56 .cs-review:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 0.3125rem;
+    background: var(--primaryLight);
+    opacity: 1;
+    top: 0;
+    left: 0;
+  }
+  #reviews-56 .cs-name {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    margin: 0.75rem 0 0;
+    display: block;
+    color: var(--headerColor);
+  }
+  #reviews-56 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #reviews-56 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #reviews-56 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #reviews-56 .cs-picture {
+    width: 98%;
+    margin: 0;
+    position: relative;
+    display: block;
+    /* width divided by height 320/340 */
+    aspect-ratio: 0.94117647;
+    /* 8px - 12px */
+    margin-left: clamp(0.5rem, 1vw, 0.75rem);
+  }
+  #reviews-56 .cs-picture:before {
+    content: '';
+    position: absolute;
+    height: 12.125rem;
+    width: 12.125rem;
+    background: var(--primaryLight);
+    opacity: 1;
+    /* -8px to -12px */
+    /* the calc function sets the clamp value to a negative number */
+    top: calc(clamp(.5rem, .6vw, .75em) * -1);
+    left: calc(clamp(.5rem, .6vw, .75em) * -1);
+  }
+  #reviews-56 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #reviews-56 {
+    text-align: left;
+  }
+  #reviews-56 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #reviews-56 .cs-content {
+    text-align: left;
+    align-items: flex-start;
+  }
+  #reviews-56 .cs-picture {
+    /* 336px - 530px */
+    width: clamp(21rem, 44vw, 33.125rem);
+    /* 534px - 641px */
+    height: clamp(33.375rem, 58.6vw, 40.0625rem);
+    /* reset margin to account for the pesudo element square positioning */
+    margin: 0.75rem 0 0 0.75rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    /* no longer need aspect ratio */
+    aspect-ratio: initial;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #reviews-56 .cs-picture:before {
+    background: var(--primaryLight);
+  }
+  body.dark-mode #reviews-56 .cs-topper,
+  body.dark-mode #reviews-56 .cs-h3 {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #reviews-56 .cs-title,
+  body.dark-mode #reviews-56 .cs-text,
+  body.dark-mode #reviews-56 .cs-review,
+  body.dark-mode #reviews-56 .cs-name {
+    color: #fff;
+  }
+}
+                                

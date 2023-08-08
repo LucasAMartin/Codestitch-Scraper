@@ -1,0 +1,739 @@
+<!-- ============================================ -->
+<!--                   Contact                    -->
+<!-- ============================================ -->
+
+<section id="contact-1151">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Contact Us</span>
+            <h2 class="cs-title">We Love to Hear from Our Happy Customers</h2>
+        </div>
+        <div class="cs-contact-group">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/group.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/group.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/group.jpg" alt="people" width="630" height="300">
+            </picture>
+            <p class="cs-contact-text">
+                There are many variations of passages of available but the majority have suffered alteration in some form, by injected randomized words even slightly believable.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-phone.svg" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Phone</span>
+                        <a href="tel:888-4565-789
+                        " class="cs-link">+1 (888) 4565 789
+                        </a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-pin.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Address</span>
+                        <a href="" class="cs-link">2553 Woodbridge Lane, Boston Ware 120</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--Form-->
+        <form class="cs-form" id="cs-form-1151" name="Contact Form" method="post">
+            <label class="cs-label">
+                Name
+                <input class="cs-input" required type="text" id="name-1151" name="name" placeholder="Name">
+            </label>
+            <label class="cs-label cs-email">
+                Email
+                <input class="cs-input" required type="email" id="email-1151" name="email" placeholder="Email">
+            </label>
+            <label class="cs-label cs-phone">
+                Phone
+                <input class="cs-input" required type="number" id="phone-1151" name="phone" placeholder="Phone">
+            </label>
+            <label class="cs-label">
+                Message
+                <textarea class="cs-input cs-textarea" required name="Message" id="message-1151" placeholder="Write message..."></textarea>
+            </label>
+            <button class="cs-button-solid cs-submit" type="submit">Make an Appointment</button>
+        </form>
+        <!--Bounce Graphic-->
+        <img class="cs-graphic cs-graphic1" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/bounce.svg" alt="bounce" width="208" height="124">
+        <!--Coin Graphic-->
+        <img class="cs-graphic cs-graphic2" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/coin.svg" alt="bounce" width="205" height="161">
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Contact           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #00715D;
+    --primaryLight: #d8673d;
+    --secondary: #FDD65B;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #contact-1151 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #f7f7f7;
+    position: relative;
+    z-index: 1;
+  }
+  #contact-1151 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 44rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    column-gap: auto;
+    /* 48px - 80px */
+    row-gap: clamp(3rem, 6vw, 5rem);
+    position: relative;
+  }
+  #contact-1151 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #contact-1151 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #contact-1151 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #contact-1151 .cs-topper {
+    /* cs-text override.  cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+    color: #767676;
+  }
+  #contact-1151 .cs-title {
+    /* cs-text override.  cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+    max-width: 23ch;
+    margin: 0;
+  }
+  #contact-1151 .cs-picture {
+    width: 100%;
+    /* 240px - 300px */
+    height: clamp(15rem, 35vw, 18.75rem);
+    margin: 0 0 1.5rem;
+    border-radius: 1.5rem;
+    /* clips image corners */
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+  #contact-1151 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #contact-1151 .cs-contact-text {
+    font-size: 1rem;
+    line-height: 1.5em;
+    text-align: left;
+    margin: 0 0 1.5rem;
+    color: var(--bodyTextColor);
+  }
+  #contact-1151 .cs-ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    position: relative;
+  }
+  #contact-1151 .cs-li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+  #contact-1151 .cs-li:hover .cs-icon-wrapper {
+    transform: scale(1.1);
+  }
+  #contact-1151 .cs-header {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 0.75rem;
+    color: var(--headerColor);
+    display: block;
+  }
+  #contact-1151 .cs-link {
+    font-size: 1rem;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: #767676;
+    display: block;
+    position: relative;
+  }
+  #contact-1151 .cs-link:hover {
+    text-decoration: underline;
+  }
+  #contact-1151 .cs-icon-wrapper {
+    width: 3.75rem;
+    height: 3.75rem;
+    margin: 0;
+    border-radius: 50%;
+    border: 1px solid #BABABA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* prevents flexbox from squishing it */
+    flex: none;
+    transition: transform .3s;
+  }
+  #contact-1151 .cs-icon {
+    width: 1.5rem;
+    height: auto;
+    display: block;
+  }
+  #contact-1151 .cs-form {
+    width: 100%;
+    /* 24px - 48px top and bottom */
+    /* 16px - 32px left and right */
+    padding: clamp(1.5rem, 5.18vw, 3rem) clamp(1rem, 4vw, 2rem);
+    /* prevents flexbox from affecting height and width */
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  #contact-1151 .cs-label {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    width: 100%;
+    color: var(--headerColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  #contact-1151 .cs-input {
+    font-size: 1rem;
+    width: 100%;
+    height: 3.5rem;
+    padding: 0;
+    padding-left: 1.5rem;
+    color: var(--headerColor);
+    background-color: #F7F7F7;
+    border-radius: 0.5rem;
+    border: none;
+    /* prevents padding from adding to height and width */
+    box-sizing: border-box;
+  }
+  #contact-1151 .cs-input::placeholder {
+    color: #7D799C;
+    opacity: .6;
+  }
+  #contact-1151 .cs-textarea {
+    min-height: 7.5rem;
+    padding-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-family: inherit;
+  }
+  #contact-1151 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875em, 5.5vw, 3.5em);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #1a1a1a;
+    border: none;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--secondary);
+    border-radius: 0.25rem;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+    transition: color .3s;
+  }
+  #contact-1151 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #contact-1151 .cs-button-solid:hover {
+    color: #fff;
+  }
+  #contact-1151 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #contact-1151 .cs-submit {
+    width: 100%;
+    min-width: 17.6875rem;
+    border-radius: 0.5rem;
+  }
+  #contact-1151 .cs-submit:hover {
+    cursor: pointer;
+  }
+  #contact-1151 .cs-graphic {
+    display: none;
+  }
+  #contact-1151 .cs-graphic1 {
+    width: 13rem;
+    height: auto;
+    position: absolute;
+    left: -7.5rem;
+    top: 8.625rem;
+  }
+  #contact-1151 .cs-graphic2 {
+    width: 12.8125rem;
+    height: auto;
+    position: absolute;
+    right: -9.75rem;
+    top: 0.5rem;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #contact-1151 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #contact-1151 .cs-contact-group {
+    width: 50%;
+    max-width: 39.375rem;
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+  #contact-1151 .cs-form {
+    width: 46%;
+    max-width: 36.125rem;
+  }
+  #contact-1151 .cs-submit {
+    width: auto;
+  }
+}
+/* Large Desktop - 1500px */
+@media only screen and (min-width: 93.75rem) {
+  #contact-1151 .cs-graphic {
+    display: block;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Contact           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #00715D;
+    --primaryLight: #d8673d;
+    --secondary: #FDD65B;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #contact-1151 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #f7f7f7;
+    position: relative;
+    z-index: 1;
+  }
+  #contact-1151 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 44rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    column-gap: auto;
+    /* 48px - 80px */
+    row-gap: clamp(3rem, 6vw, 5rem);
+    position: relative;
+  }
+  #contact-1151 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #contact-1151 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #contact-1151 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #contact-1151 .cs-topper {
+    /* cs-text override.  cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+    color: #767676;
+  }
+  #contact-1151 .cs-title {
+    /* cs-text override.  cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+    max-width: 23ch;
+    margin: 0;
+  }
+  #contact-1151 .cs-picture {
+    width: 100%;
+    /* 240px - 300px */
+    height: clamp(15rem, 35vw, 18.75rem);
+    margin: 0 0 1.5rem;
+    border-radius: 1.5rem;
+    /* clips image corners */
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+  #contact-1151 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #contact-1151 .cs-contact-text {
+    font-size: 1rem;
+    line-height: 1.5em;
+    text-align: left;
+    margin: 0 0 1.5rem;
+    color: var(--bodyTextColor);
+  }
+  #contact-1151 .cs-ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    position: relative;
+  }
+  #contact-1151 .cs-li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+  #contact-1151 .cs-li:hover .cs-icon-wrapper {
+    transform: scale(1.1);
+  }
+  #contact-1151 .cs-header {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 0.75rem;
+    color: var(--headerColor);
+    display: block;
+  }
+  #contact-1151 .cs-link {
+    font-size: 1rem;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: #767676;
+    display: block;
+    position: relative;
+  }
+  #contact-1151 .cs-link:hover {
+    text-decoration: underline;
+  }
+  #contact-1151 .cs-icon-wrapper {
+    width: 3.75rem;
+    height: 3.75rem;
+    margin: 0;
+    border-radius: 50%;
+    border: 1px solid #BABABA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* prevents flexbox from squishing it */
+    flex: none;
+    transition: transform .3s;
+  }
+  #contact-1151 .cs-icon {
+    width: 1.5rem;
+    height: auto;
+    display: block;
+  }
+  #contact-1151 .cs-form {
+    width: 100%;
+    /* 24px - 48px top and bottom */
+    /* 16px - 32px left and right */
+    padding: clamp(1.5rem, 5.18vw, 3rem) clamp(1rem, 4vw, 2rem);
+    /* prevents flexbox from affecting height and width */
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  #contact-1151 .cs-label {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    width: 100%;
+    color: var(--headerColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  #contact-1151 .cs-input {
+    font-size: 1rem;
+    width: 100%;
+    height: 3.5rem;
+    padding: 0;
+    padding-left: 1.5rem;
+    color: var(--headerColor);
+    background-color: #F7F7F7;
+    border-radius: 0.5rem;
+    border: none;
+    /* prevents padding from adding to height and width */
+    box-sizing: border-box;
+  }
+  #contact-1151 .cs-input::placeholder {
+    color: #7D799C;
+    opacity: .6;
+  }
+  #contact-1151 .cs-textarea {
+    min-height: 7.5rem;
+    padding-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-family: inherit;
+  }
+  #contact-1151 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875em, 5.5vw, 3.5em);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #1a1a1a;
+    border: none;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--secondary);
+    border-radius: 0.25rem;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+    transition: color .3s;
+  }
+  #contact-1151 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #contact-1151 .cs-button-solid:hover {
+    color: #fff;
+  }
+  #contact-1151 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #contact-1151 .cs-submit {
+    width: 100%;
+    min-width: 17.6875rem;
+    border-radius: 0.5rem;
+  }
+  #contact-1151 .cs-submit:hover {
+    cursor: pointer;
+  }
+  #contact-1151 .cs-graphic {
+    display: none;
+  }
+  #contact-1151 .cs-graphic1 {
+    width: 13rem;
+    height: auto;
+    position: absolute;
+    left: -7.5rem;
+    top: 8.625rem;
+  }
+  #contact-1151 .cs-graphic2 {
+    width: 12.8125rem;
+    height: auto;
+    position: absolute;
+    right: -9.75rem;
+    top: 0.5rem;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #contact-1151 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #contact-1151 .cs-contact-group {
+    width: 50%;
+    max-width: 39.375rem;
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+  #contact-1151 .cs-form {
+    width: 46%;
+    max-width: 36.125rem;
+  }
+  #contact-1151 .cs-submit {
+    width: auto;
+  }
+}
+/* Large Desktop - 1500px */
+@media only screen and (min-width: 93.75rem) {
+  #contact-1151 .cs-graphic {
+    display: block;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #contact-1151 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  body.dark-mode #contact-1151 .cs-title,
+  body.dark-mode #contact-1151 .cs-text,
+  body.dark-mode #contact-1151 .cs-header,
+  body.dark-mode #contact-1151 .cs-link,
+  body.dark-mode #contact-1151 .cs-label,
+  body.dark-mode #contact-1151 .cs-contact-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #contact-1151 .cs-contact-text,
+  body.dark-mode #contact-1151 .cs-link {
+    opacity: .8;
+  }
+  body.dark-mode #contact-1151 .cs-topper {
+    color: var(--secondary);
+  }
+  body.dark-mode #contact-1151 .cs-icon-wrapper {
+    border-color: #fff;
+  }
+  body.dark-mode #contact-1151 .cs-icon {
+    /* makes it white */
+    filter: grayscale(1) brightness(1000%);
+  }
+  body.dark-mode #contact-1151 .cs-form {
+    background-color: var(--medium);
+  }
+  body.dark-mode #contact-1151 .cs-input {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  body.dark-mode #contact-1151 .cs-input::placeholder {
+    color: #fff;
+    opacity: .8;
+  }
+  body.dark-mode #contact-1151 .cs-graphic {
+    opacity: .4;
+  }
+}
+                                

@@ -1,0 +1,876 @@
+<!-- ============================================ -->
+<!--                  Pricing                     -->
+<!-- ============================================ -->
+
+<section id="pricing-243">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Pricing</span>
+            <h2 class="cs-title">Choose Your Plan</h2>
+            <p class="cs-text">
+                There’s a plan for all types of creators in the web development industry. Choose the one that fits your needs. Feel free to contact us if you have any questions. We look forward to speaking with you!
+            </p>
+            <div class="cs-toggle-group">
+                <span id="cs-option1-243" class="cs-plan">Monthly</span>
+                <div class="cs-toggle" aria-label="click to switch plans pricing">
+                    <span aria-hidden="true" class="cs-toggle-switch"></span>
+                </div>
+                <span id="cs-option2-243" class="cs-plan">Yearly</span>
+            </div>
+        </div>
+        <ul class="cs-card-group">
+            <!-- Option 1 -->
+            <li class="cs-item">
+                <h3 class="cs-h3">Free</h3>
+                <p class="cs-item-text">
+                    Includes unlimited members for anyone looking to start using CodeStitch.
+                </p>
+                <div class="cs-option-group">
+                    <span class="cs-price cs-option1-text">$0/mo</span>
+                    <span class="cs-price cs-option2-text">$0/yr</span>
+                </div>
+                <a href="/basic.html" class="cs-button-solid">Subscribe</a>
+                <span class="cs-included">What's included?</span>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        Limitied access to Stitches
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        Limitied Categories
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        Basic Support
+                    </li>
+                </ul>
+            </li>
+            <!-- Option 2 -->
+            <li class="cs-item cs-popular">
+                <h3 class="cs-h3">Team</h3>
+                <p class="cs-item-text">
+                    Great for agencies and in-house teams looking to optimize collaboration.
+                </p>
+                <div class="cs-option-group">
+                    <span class="cs-price cs-option1-text">$24/mo</span>
+                    <span class="cs-price cs-option2-text">$288/yr</span>
+                </div>
+                <a href="/basic.html" class="cs-button-solid">Subscribe</a>
+                <span class="cs-included">What's included?</span>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        Limitied access to Stitches
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        Limitied Categories
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        Basic Support
+                    </li>
+                </ul>
+            </li>
+            <!-- Option 3 -->
+            <li class="cs-item">
+                <h3 class="cs-h3">Freelancer</h3>
+                <p class="cs-item-text">
+                    Perfect for growth-minded individuals running small freelancing agencies.
+                </p>
+                <div class="cs-option-group">
+                    <span class="cs-price cs-option1-text">$12/mo</span>
+                    <span class="cs-price cs-option2-text">$144/yr</span>
+                </div>
+                <a href="/basic.html" class="cs-button-solid">Subscribe</a>
+                <span class="cs-included">What's included?</span>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        Limitied access to Stitches
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        Limitied Categories
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        Basic Support
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Pricing           -->
+<--- -------------------------- -*/
+
+/* Mobile */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #0C55C2;
+    --primaryLight: #3F88F5;
+    --secondary: #FF6A3E;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #pricing-243 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #pricing-243 .cs-container {
+    width: 100%;
+    /* changes to 1104px at desktop */
+    max-width: 46rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #pricing-243 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #pricing-243 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #pricing-243 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #pricing-243 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #pricing-243 .cs-text {
+    /* cs-title override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+    margin-bottom: 2rem;
+  }
+  #pricing-243 .cs-toggle-group {
+    width: 12.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #pricing-243 .cs-plan {
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    color: var(--headerColor);
+  }
+  #pricing-243 .cs-plan:hover {
+    cursor: pointer;
+  }
+  #pricing-243 .cs-toggle {
+    width: 3.875rem;
+    height: 2.25rem;
+    border-radius: 2.5rem;
+    background-color: var(--primaryLight);
+    margin: 0 0.75rem;
+    position: relative;
+    /* prevent flexbox from squishing it */
+    flex: none;
+  }
+  #pricing-243 .cs-toggle:hover {
+    cursor: pointer;
+  }
+  #pricing-243 .cs-toggle.active:before {
+    opacity: 1;
+  }
+  #pricing-243 .cs-toggle.active .cs-toggle-switch {
+    left: 2rem;
+  }
+  #pricing-243 .cs-toggle:before {
+    /* top right box */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #ffba43 -24.69%, #e12213 126.23%);
+    opacity: 0;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    border-radius: 2.5rem;
+    transition: opacity .3s;
+  }
+  #pricing-243 .cs-toggle-switch {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0.375rem;
+    transition: left .3s;
+    background: #fff;
+  }
+  #pricing-243 .cs-option-group {
+    position: relative;
+    /* hides the second options when it leaves the container */
+    overflow: hidden;
+    /* these two create the 3D illusion */
+    perspective: 700px;
+    transform-style: preserve-3d;
+  }
+  #pricing-243 .cs-option-group.option2-active .cs-option1-text {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+  #pricing-243 .cs-option-group.option2-active .cs-option2-text {
+    top: 0;
+    opacity: 1;
+  }
+  #pricing-243 .cs-option1-text {
+    transform-origin: center center;
+    transition: opacity .3s, transform .3s;
+  }
+  #pricing-243 .cs-option2-text {
+    /* push the text down, outside of the group wrapper and animate back up */
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 4.375rem;
+    transition: opacity 0.3s, top 0.6s cubic-bezier(0.42, 0, 0.16, 1.39);
+  }
+  #pricing-243 .cs-card-group {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #pricing-243 .cs-item {
+    list-style: none;
+    /* 24px - 32px */
+    padding: clamp(1.5rem, 3vw, 2rem);
+    width: 100%;
+    max-width: 22.25rem;
+    border-radius: 0.875rem;
+    background: var(--bodyTextColorWhite);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+    /* prevents padding from adding to height and width */
+    box-sizing: border-box;
+  }
+  #pricing-243 .cs-item:nth-of-type(2) .cs-option2-text,
+  #pricing-243 .cs-item:nth-of-type(2) .cs-option1-text {
+    transition-delay: .1s;
+  }
+  #pricing-243 .cs-item:nth-of-type(3) .cs-option2-text,
+  #pricing-243 .cs-item:nth-of-type(3) .cs-option1-text {
+    transition-delay: .2s;
+  }
+  #pricing-243 .cs-popular {
+    background: var(--primary);
+    position: relative;
+    /* send to the bottom */
+    order: 3;
+  }
+  #pricing-243 .cs-popular:before {
+    /* Most Popular Tag */
+    content: 'Most Popular';
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 1.8125rem;
+    font-weight: 700;
+    padding: 0 0.75rem;
+    color: var(--bodyTextColorWhite);
+    background-color: var(--secondary);
+    border-radius: 1.875rem;
+    position: absolute;
+    display: block;
+    /* 24px - 32px */
+    top: clamp(1.5rem, 3vw, 2rem);
+    /* 24px - 32px */
+    right: clamp(1.5rem, 3vw, 2rem);
+  }
+  #pricing-243 .cs-popular .cs-h3,
+  #pricing-243 .cs-popular .cs-item-text,
+  #pricing-243 .cs-popular .cs-price,
+  #pricing-243 .cs-popular .cs-included,
+  #pricing-243 .cs-popular .cs-li {
+    color: var(--bodyTextColorWhite);
+  }
+  #pricing-243 .cs-popular .cs-button-solid {
+    background-color: var(--bodyTextColorWhite);
+    color: var(--primary);
+    transition: color .3s;
+  }
+  #pricing-243 .cs-popular .cs-button-solid:hover {
+    color: var(--bodyTextColorWhite);
+  }
+  #pricing-243 .cs-popular .cs-li-img {
+    /* turns the check mark white */
+    filter: brightness(900%);
+  }
+  #pricing-243 .cs-h3 {
+    font-size: 1.25rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0 0 0.75rem;
+    padding: 0;
+    color: var(--headerColor);
+  }
+  #pricing-243 .cs-item-text {
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    color: var(--bodyTextColor);
+  }
+  #pricing-243 .cs-price {
+    font-size: 2.4375rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--headerColor);
+    /* spans are inline, need to add block for margin to work */
+    display: block;
+  }
+  #pricing-243 .cs-button-solid {
+    font-size: 1rem;
+    line-height: 3.5em;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    min-width: 9.375rem;
+    margin: 0 0 2rem;
+    padding: 0 1.5rem;
+    background-color: var(--primaryLight);
+    border-radius: 0.25rem;
+    display: block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #pricing-243 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: var(--secondary);
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #pricing-243 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #pricing-243 .cs-included {
+    font-size: 1rem;
+    line-height: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--headerColor);
+    display: block;
+  }
+  #pricing-243 .cs-ul {
+    padding: 0;
+    margin: 0;
+  }
+  #pricing-243 .cs-li {
+    font-size: 1rem;
+    line-height: 1.5em;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0.75rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  #pricing-243 .cs-li:last-of-type {
+    margin-bottom: 0;
+  }
+  #pricing-243 .cs-li-img {
+    width: 1.25rem;
+    height: auto;
+    margin-top: 0.1875rem;
+    margin-right: 0.5rem;
+  }
+}
+/* Tablet 768px */
+@media only screen and (min-width: 48rem) {
+  #pricing-243 .cs-card-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #pricing-243 .cs-item {
+    width: 50%;
+    /* ensures they stay the same height if you add more content */
+    align-self: stretch;
+  }
+  #pricing-243 .cs-popular {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+/* Small Desktop */
+@media only screen and (min-width: 64rem) {
+  #pricing-243 .cs-container {
+    max-width: 69rem;
+  }
+  #pricing-243 .cs-card-group {
+    flex-wrap: nowrap;
+  }
+  #pricing-243 .cs-item {
+    width: 100%;
+  }
+  #pricing-243 .cs-popular {
+    max-width: 22.25rem;
+    /* remove the order */
+    order: unset;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Pricing           -->
+<--- -------------------------- -*/
+
+/* Mobile */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #0C55C2;
+    --primaryLight: #3F88F5;
+    --secondary: #FF6A3E;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #pricing-243 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #pricing-243 .cs-container {
+    width: 100%;
+    /* changes to 1104px at desktop */
+    max-width: 46rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #pricing-243 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #pricing-243 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #pricing-243 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #pricing-243 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #pricing-243 .cs-text {
+    /* cs-title override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+    margin-bottom: 2rem;
+  }
+  #pricing-243 .cs-toggle-group {
+    width: 12.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #pricing-243 .cs-plan {
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    color: var(--headerColor);
+  }
+  #pricing-243 .cs-plan:hover {
+    cursor: pointer;
+  }
+  #pricing-243 .cs-toggle {
+    width: 3.875rem;
+    height: 2.25rem;
+    border-radius: 2.5rem;
+    background-color: var(--primaryLight);
+    margin: 0 0.75rem;
+    position: relative;
+    /* prevent flexbox from squishing it */
+    flex: none;
+  }
+  #pricing-243 .cs-toggle:hover {
+    cursor: pointer;
+  }
+  #pricing-243 .cs-toggle.active:before {
+    opacity: 1;
+  }
+  #pricing-243 .cs-toggle.active .cs-toggle-switch {
+    left: 2rem;
+  }
+  #pricing-243 .cs-toggle:before {
+    /* top right box */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #ffba43 -24.69%, #e12213 126.23%);
+    opacity: 0;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    border-radius: 2.5rem;
+    transition: opacity .3s;
+  }
+  #pricing-243 .cs-toggle-switch {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0.375rem;
+    transition: left .3s;
+    background: #fff;
+  }
+  #pricing-243 .cs-option-group {
+    position: relative;
+    /* hides the second options when it leaves the container */
+    overflow: hidden;
+    /* these two create the 3D illusion */
+    perspective: 700px;
+    transform-style: preserve-3d;
+  }
+  #pricing-243 .cs-option-group.option2-active .cs-option1-text {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+  #pricing-243 .cs-option-group.option2-active .cs-option2-text {
+    top: 0;
+    opacity: 1;
+  }
+  #pricing-243 .cs-option1-text {
+    transform-origin: center center;
+    transition: opacity .3s, transform .3s;
+  }
+  #pricing-243 .cs-option2-text {
+    /* push the text down, outside of the group wrapper and animate back up */
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 4.375rem;
+    transition: opacity 0.3s, top 0.6s cubic-bezier(0.42, 0, 0.16, 1.39);
+  }
+  #pricing-243 .cs-card-group {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #pricing-243 .cs-item {
+    list-style: none;
+    /* 24px - 32px */
+    padding: clamp(1.5rem, 3vw, 2rem);
+    width: 100%;
+    max-width: 22.25rem;
+    border-radius: 0.875rem;
+    background: var(--bodyTextColorWhite);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+    /* prevents padding from adding to height and width */
+    box-sizing: border-box;
+  }
+  #pricing-243 .cs-item:nth-of-type(2) .cs-option2-text,
+  #pricing-243 .cs-item:nth-of-type(2) .cs-option1-text {
+    transition-delay: .1s;
+  }
+  #pricing-243 .cs-item:nth-of-type(3) .cs-option2-text,
+  #pricing-243 .cs-item:nth-of-type(3) .cs-option1-text {
+    transition-delay: .2s;
+  }
+  #pricing-243 .cs-popular {
+    background: var(--primary);
+    position: relative;
+    /* send to the bottom */
+    order: 3;
+  }
+  #pricing-243 .cs-popular:before {
+    /* Most Popular Tag */
+    content: 'Most Popular';
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 1.8125rem;
+    font-weight: 700;
+    padding: 0 0.75rem;
+    color: var(--bodyTextColorWhite);
+    background-color: var(--secondary);
+    border-radius: 1.875rem;
+    position: absolute;
+    display: block;
+    /* 24px - 32px */
+    top: clamp(1.5rem, 3vw, 2rem);
+    /* 24px - 32px */
+    right: clamp(1.5rem, 3vw, 2rem);
+  }
+  #pricing-243 .cs-popular .cs-h3,
+  #pricing-243 .cs-popular .cs-item-text,
+  #pricing-243 .cs-popular .cs-price,
+  #pricing-243 .cs-popular .cs-included,
+  #pricing-243 .cs-popular .cs-li {
+    color: var(--bodyTextColorWhite);
+  }
+  #pricing-243 .cs-popular .cs-button-solid {
+    background-color: var(--bodyTextColorWhite);
+    color: var(--primary);
+    transition: color .3s;
+  }
+  #pricing-243 .cs-popular .cs-button-solid:hover {
+    color: var(--bodyTextColorWhite);
+  }
+  #pricing-243 .cs-popular .cs-li-img {
+    /* turns the check mark white */
+    filter: brightness(900%);
+  }
+  #pricing-243 .cs-h3 {
+    font-size: 1.25rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0 0 0.75rem;
+    padding: 0;
+    color: var(--headerColor);
+  }
+  #pricing-243 .cs-item-text {
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    color: var(--bodyTextColor);
+  }
+  #pricing-243 .cs-price {
+    font-size: 2.4375rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--headerColor);
+    /* spans are inline, need to add block for margin to work */
+    display: block;
+  }
+  #pricing-243 .cs-button-solid {
+    font-size: 1rem;
+    line-height: 3.5em;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    min-width: 9.375rem;
+    margin: 0 0 2rem;
+    padding: 0 1.5rem;
+    background-color: var(--primaryLight);
+    border-radius: 0.25rem;
+    display: block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #pricing-243 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: var(--secondary);
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #pricing-243 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #pricing-243 .cs-included {
+    font-size: 1rem;
+    line-height: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--headerColor);
+    display: block;
+  }
+  #pricing-243 .cs-ul {
+    padding: 0;
+    margin: 0;
+  }
+  #pricing-243 .cs-li {
+    font-size: 1rem;
+    line-height: 1.5em;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0.75rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  #pricing-243 .cs-li:last-of-type {
+    margin-bottom: 0;
+  }
+  #pricing-243 .cs-li-img {
+    width: 1.25rem;
+    height: auto;
+    margin-top: 0.1875rem;
+    margin-right: 0.5rem;
+  }
+}
+/* Tablet 768px */
+@media only screen and (min-width: 48rem) {
+  #pricing-243 .cs-card-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #pricing-243 .cs-item {
+    width: 50%;
+    /* ensures they stay the same height if you add more content */
+    align-self: stretch;
+  }
+  #pricing-243 .cs-popular {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+/* Small Desktop */
+@media only screen and (min-width: 64rem) {
+  #pricing-243 .cs-container {
+    max-width: 69rem;
+  }
+  #pricing-243 .cs-card-group {
+    flex-wrap: nowrap;
+  }
+  #pricing-243 .cs-item {
+    width: 100%;
+  }
+  #pricing-243 .cs-popular {
+    max-width: 22.25rem;
+    /* remove the order */
+    order: unset;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #pricing-243 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #pricing-243 .cs-title,
+  body.dark-mode #pricing-243 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #pricing-243 .cs-plan {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #pricing-243 .cs-item {
+    background: var(--medium);
+  }
+  body.dark-mode #pricing-243 .cs-popular {
+    background: var(--primary);
+  }
+  body.dark-mode #pricing-243 .cs-h3,
+  body.dark-mode #pricing-243 .cs-item-text,
+  body.dark-mode #pricing-243 .cs-price,
+  body.dark-mode #pricing-243 .cs-included,
+  body.dark-mode #pricing-243 .cs-li {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #pricing-243 .cs-li-img {
+    /* make so bright it turns white */
+    filter: brightness(900%);
+  }
+}
+                                

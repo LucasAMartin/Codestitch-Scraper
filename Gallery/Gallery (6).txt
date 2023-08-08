@@ -1,0 +1,317 @@
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-39">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Gallery</span>
+            <h2 class="cs-title">From ideation to creation: We’ve got you covered</h2>
+        </div>
+        <div class="cs-image-group">
+            <!-- Picture 1 - Left Section -->
+            <picture class="cs-picture cs-picture-one">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/design-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/design.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/design.jpg" alt="fashion photoshoot stills" width="752" height="920">
+            </picture>
+            <!-- Right Section -->
+            <div class="cs-flex-group">
+                <!-- Picture 2 -->
+                <picture class="cs-picture cs-picture-two">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/shirts-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/shirts.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/shirts.jpg" alt="shirts on a rack" width="595" height="811">
+                </picture>
+                <!-- Picture 3 -->
+                <picture class="cs-picture cs-picture-three">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/fabricate-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/fabricate.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/fabricate.jpg" alt="Bundles of pants waiting to be packaged" width="501" height="589">
+                </picture>
+            </div>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #E5572C;
+    --primaryLight: #BEDAD4;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #gallery-39 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #gallery-39 .cs-container {
+    width: 100%;
+    max-width: 90rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #gallery-39 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+    position: relative;
+    z-index: 10;
+  }
+  #gallery-39 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #gallery-39 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #gallery-39 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin: 0;
+    max-width: 25ch;
+  }
+  #gallery-39 .cs-image-group {
+    /* scales the whole section down, and grows with the screen width */
+    /* bigger vw unit grows it, smaller shrinks it */
+    font-size: min(1.1vw, 1em);
+    width: 100%;
+    max-width: 90rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 1;
+  }
+  #gallery-39 .cs-flex-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  #gallery-39 .cs-picture-two {
+    margin-bottom: 1em;
+  }
+  #gallery-39 .cs-picture {
+    display: block;
+    position: relative;
+  }
+  #gallery-39 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #gallery-39 .cs-picture-one {
+    width: 47em;
+    height: 57.5em;
+    margin-top: 11.0625em;
+    margin-right: 1em;
+  }
+  #gallery-39 .cs-picture-one:before {
+    /* Color box */
+    content: '';
+    position: absolute;
+    display: block;
+    height: 30.3125em;
+    width: 28.3125em;
+    background: var(--primaryLight);
+    opacity: 1;
+    bottom: -4em;
+    left: -2.0625em;
+    z-index: -1;
+  }
+  #gallery-39 .cs-picture-two {
+    width: 37.1875em;
+    height: 50.6875em;
+  }
+  #gallery-39 .cs-picture-three {
+    width: 31.3125em;
+    height: 36.8125em;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #E5572C;
+    --primaryLight: #BEDAD4;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #gallery-39 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #gallery-39 .cs-container {
+    width: 100%;
+    max-width: 90rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #gallery-39 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+    position: relative;
+    z-index: 10;
+  }
+  #gallery-39 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #gallery-39 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #gallery-39 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin: 0;
+    max-width: 25ch;
+  }
+  #gallery-39 .cs-image-group {
+    /* scales the whole section down, and grows with the screen width */
+    /* bigger vw unit grows it, smaller shrinks it */
+    font-size: min(1.1vw, 1em);
+    width: 100%;
+    max-width: 90rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 1;
+  }
+  #gallery-39 .cs-flex-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  #gallery-39 .cs-picture-two {
+    margin-bottom: 1em;
+  }
+  #gallery-39 .cs-picture {
+    display: block;
+    position: relative;
+  }
+  #gallery-39 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #gallery-39 .cs-picture-one {
+    width: 47em;
+    height: 57.5em;
+    margin-top: 11.0625em;
+    margin-right: 1em;
+  }
+  #gallery-39 .cs-picture-one:before {
+    /* Color box */
+    content: '';
+    position: absolute;
+    display: block;
+    height: 30.3125em;
+    width: 28.3125em;
+    background: var(--primaryLight);
+    opacity: 1;
+    bottom: -4em;
+    left: -2.0625em;
+    z-index: -1;
+  }
+  #gallery-39 .cs-picture-two {
+    width: 37.1875em;
+    height: 50.6875em;
+  }
+  #gallery-39 .cs-picture-three {
+    width: 31.3125em;
+    height: 36.8125em;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #gallery-39 .cs-title {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #gallery-39 .cs-picture-one:before {
+    opacity: .3;
+  }
+}
+                                

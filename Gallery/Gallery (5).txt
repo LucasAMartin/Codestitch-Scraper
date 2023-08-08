@@ -1,0 +1,354 @@
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-40">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Gallery</span>
+            <h2 class="cs-title">Our Featured Work</h2>
+        </div>
+        <div class="cs-image-group">
+            <!-- Left Section -->
+            <div class="cs-flex-group ">
+                <picture class="cs-picture cs-picture-one">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/models1-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/models1.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/models1.jpg" alt="man sitting in chair" width="613" height="919">
+                </picture>
+                <picture  class="cs-picture cs-picture-three">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/models3-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/models3.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/models3.jpg" alt="Ghost mannequin shot of t-shirt bodysuit" width="504" height="755">
+                </picture>
+            </div>
+            <!-- Right Section-->
+            <div class="cs-flex-group">
+                <picture  class="cs-picture cs-picture-two">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/models2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/models2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/models2.jpg" alt="models posing" width="697" height="940">
+                </picture>
+                <picture  class="cs-picture cs-picture-four">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/models4-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/models4.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/models4.jpg" alt="woman in athletic wear" width="595" height="765">
+                </picture>
+            </div>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #370E8C;
+    --primaryLight: #F1EAFF;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #gallery-40 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    position: relative;
+  }
+  #gallery-40 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #gallery-40 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #gallery-40 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #gallery-40 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #gallery-40 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin: 0;
+  }
+  #gallery-40 .cs-image-group {
+    /* Scales the whole container down and grows with the view width */
+    /* increase vw unit to scale bigger, decrease to scale smaller */
+    font-size: min(1.4vw, 1em);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+  }
+  #gallery-40 .cs-flex-group {
+    display: flex;
+    flex-direction: column;
+  }
+  #gallery-40 .cs-flex-group:first-of-type {
+    align-items: flex-end;
+    margin-right: 1.5em;
+  }
+  #gallery-40 .cs-picture {
+    display: block;
+    position: relative;
+  }
+  #gallery-40 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #gallery-40 .cs-picture-one {
+    width: 33.0625em;
+    height: 49.5em;
+    margin-bottom: 2.25em;
+    margin-top: 7.5em;
+  }
+  #gallery-40 .cs-picture-two {
+    width: 32.8125em;
+    height: 44.3125em;
+    margin-bottom: 2.25em;
+    position: relative;
+  }
+  #gallery-40 .cs-picture-two:before {
+    content: '';
+    width: 18.8125em;
+    height: 27.6875em;
+    position: absolute;
+    display: block;
+    background: #F1EAFF;
+    opacity: 1;
+    bottom: -1.5625em;
+    right: -1.375em;
+  }
+  #gallery-40 .cs-picture-three {
+    width: 27.125em;
+    height: 40.6875em;
+    position: relative;
+  }
+  #gallery-40 .cs-picture-three:before {
+    content: '';
+    width: 21.5em;
+    height: 31.8125em;
+    position: absolute;
+    display: block;
+    background: #F1EAFF;
+    opacity: 1;
+    top: -0.8125em;
+    left: -1.5625em;
+  }
+  #gallery-40 .cs-picture-four {
+    width: 28em;
+    height: 36em;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #370E8C;
+    --primaryLight: #F1EAFF;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #gallery-40 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    position: relative;
+  }
+  #gallery-40 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #gallery-40 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #gallery-40 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #gallery-40 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #gallery-40 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin: 0;
+  }
+  #gallery-40 .cs-image-group {
+    /* Scales the whole container down and grows with the view width */
+    /* increase vw unit to scale bigger, decrease to scale smaller */
+    font-size: min(1.4vw, 1em);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+  }
+  #gallery-40 .cs-flex-group {
+    display: flex;
+    flex-direction: column;
+  }
+  #gallery-40 .cs-flex-group:first-of-type {
+    align-items: flex-end;
+    margin-right: 1.5em;
+  }
+  #gallery-40 .cs-picture {
+    display: block;
+    position: relative;
+  }
+  #gallery-40 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #gallery-40 .cs-picture-one {
+    width: 33.0625em;
+    height: 49.5em;
+    margin-bottom: 2.25em;
+    margin-top: 7.5em;
+  }
+  #gallery-40 .cs-picture-two {
+    width: 32.8125em;
+    height: 44.3125em;
+    margin-bottom: 2.25em;
+    position: relative;
+  }
+  #gallery-40 .cs-picture-two:before {
+    content: '';
+    width: 18.8125em;
+    height: 27.6875em;
+    position: absolute;
+    display: block;
+    background: #F1EAFF;
+    opacity: 1;
+    bottom: -1.5625em;
+    right: -1.375em;
+  }
+  #gallery-40 .cs-picture-three {
+    width: 27.125em;
+    height: 40.6875em;
+    position: relative;
+  }
+  #gallery-40 .cs-picture-three:before {
+    content: '';
+    width: 21.5em;
+    height: 31.8125em;
+    position: absolute;
+    display: block;
+    background: #F1EAFF;
+    opacity: 1;
+    top: -0.8125em;
+    left: -1.5625em;
+  }
+  #gallery-40 .cs-picture-four {
+    width: 28em;
+    height: 36em;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #gallery-40 .cs-title {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #gallery-40.cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #gallery-40 .cs-picture-two:before,
+  body.dark-mode #gallery-40 .cs-picture-three:before {
+    opacity: .3;
+  }
+}
+                                

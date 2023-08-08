@@ -1,0 +1,435 @@
+<!-- ============================================ -->
+<!--            Side By Side Reverse              -->
+<!-- ============================================ -->
+
+<section id="sbsr-251">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/mountains.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/mountains.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/mountains.jpg" alt="hiker" width="522" height="522" aria-hidden="true">
+        </picture>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">What’s Next?</span>
+            <h2 class="cs-title">Explore the Mountain</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in. Diam ut venenatis tellus in metus vulputate eu. Massa vitae tortor condimentum lacinia quis vel eros donec ac.
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #D98900;
+    --primaryLight: #FFC156;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbsr-251 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* set padding top to 0 if the section above it is another white background section, same for padding bottom. We added the padding here in case this section gets placed above or below sections with full background colors.  Without this padding, the top of this sections color portion will be touching the neighboring section edge and it looks bad */
+    padding: var(--sectionPadding);
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    z-index: 1;
+  }
+  #sbsr-251 .cs-container {
+    width: 100%;
+    /* changes to 1280px on tablet */
+    max-width: 34.375rem;
+    padding: var(--sectionPadding);
+    margin: auto;
+    background: linear-gradient(90deg, #f1f1f4 0%, rgba(241, 241, 244, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+    position: relative;
+    /* prevents padding from adding to height and width */
+    box-sizing: border-box;
+  }
+  #sbsr-251 .cs-container:before {
+    /* Bottom Line */
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #b4b2c7;
+    background: linear-gradient(270deg, #b4b2c7 0%, rgba(250, 251, 252, 0.005) 0%, #b4b2c7 100%);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+  }
+  #sbsr-251 .cs-container:after {
+    /* Right Line */
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #b4b2c7;
+    background: linear-gradient(180deg, #b4b2c7 0%, rgba(250, 251, 252, 0.005) 0%, #b4b2c7 100%);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+  }
+  #sbsr-251 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 27.125rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbsr-251 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbsr-251 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbsr-251 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbsr-251 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #sbsr-251 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbsr-251 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbsr-251 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbsr-251 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbsr-251 .cs-picture {
+    width: 100%;
+    max-width: 32.625rem;
+    margin: 0;
+    border: 1px solid var(--primary);
+    position: relative;
+    display: block;
+    /* width divided by height */
+    aspect-ratio: 1;
+    /* prevents border from adding to height and width */
+    box-sizing: border-box;
+  }
+  #sbsr-251 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbsr-251 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #sbsr-251 .cs-picture {
+    /* 415px - 522px */
+    height: clamp(25.9375rem, 40.5vw, 32.625rem);
+    width: 50%;
+    flex: none;
+  }
+  #sbsr-251 .cs-content {
+    max-width: 33rem;
+    margin: 0;
+    width: 45%;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #D98900;
+    --primaryLight: #FFC156;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbsr-251 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* set padding top to 0 if the section above it is another white background section, same for padding bottom. We added the padding here in case this section gets placed above or below sections with full background colors.  Without this padding, the top of this sections color portion will be touching the neighboring section edge and it looks bad */
+    padding: var(--sectionPadding);
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    z-index: 1;
+  }
+  #sbsr-251 .cs-container {
+    width: 100%;
+    /* changes to 1280px on tablet */
+    max-width: 34.375rem;
+    padding: var(--sectionPadding);
+    margin: auto;
+    background: linear-gradient(90deg, #f1f1f4 0%, rgba(241, 241, 244, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+    position: relative;
+    /* prevents padding from adding to height and width */
+    box-sizing: border-box;
+  }
+  #sbsr-251 .cs-container:before {
+    /* Bottom Line */
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #b4b2c7;
+    background: linear-gradient(270deg, #b4b2c7 0%, rgba(250, 251, 252, 0.005) 0%, #b4b2c7 100%);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+  }
+  #sbsr-251 .cs-container:after {
+    /* Right Line */
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #b4b2c7;
+    background: linear-gradient(180deg, #b4b2c7 0%, rgba(250, 251, 252, 0.005) 0%, #b4b2c7 100%);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+  }
+  #sbsr-251 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 27.125rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbsr-251 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbsr-251 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbsr-251 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbsr-251 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #sbsr-251 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbsr-251 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbsr-251 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbsr-251 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbsr-251 .cs-picture {
+    width: 100%;
+    max-width: 32.625rem;
+    margin: 0;
+    border: 1px solid var(--primary);
+    position: relative;
+    display: block;
+    /* width divided by height */
+    aspect-ratio: 1;
+    /* prevents border from adding to height and width */
+    box-sizing: border-box;
+  }
+  #sbsr-251 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbsr-251 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #sbsr-251 .cs-picture {
+    /* 415px - 522px */
+    height: clamp(25.9375rem, 40.5vw, 32.625rem);
+    width: 50%;
+    flex: none;
+  }
+  #sbsr-251 .cs-content {
+    max-width: 33rem;
+    margin: 0;
+    width: 45%;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #sbsr-251 .cs-container {
+    background: linear-gradient(90deg, var(--medium) 0%, rgba(241, 241, 244, 0) 100%);
+  }
+  body.dark-mode #sbsr-251 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #sbsr-251 .cs-title,
+  body.dark-mode #sbsr-251 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+}
+                                

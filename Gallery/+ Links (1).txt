@@ -1,0 +1,553 @@
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-377">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Our Portfolio</span>
+            <h2 class="cs-title">Some Work from Our Memorable Gallery</h2>
+            <p class="cs-text">
+                At Stitch Cleaning Service, let us help you solve problems so that you can focus on your mission. We support businesses through periods of expansion, succession.
+            </p>
+        </div>
+        <div class="cs-gallery">
+            <a class="cs-item" href="">
+                <div class="cs-hover-box">
+                    <picture class="cs-icon" aria-hidden="true">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/arrows.svg" alt="icon" width="24" height="24" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">House Cleaning</h3>
+                </div>
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery1.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery1.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery1.jpg" alt="gallery" width="305" height="400">
+                </picture>
+            </a>
+            <a class="cs-item" href="">
+                <div class="cs-hover-box">
+                    <picture class="cs-icon" aria-hidden="true">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/arrows.svg" alt="icon" width="24" height="24" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">House Cleaning</h3>
+                </div>
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery2.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery2.jpg" alt="gallery" width="305" height="400">
+                </picture>
+            </a>
+            <a class="cs-item" href="">
+                <div class="cs-hover-box">
+                    <picture class="cs-icon" aria-hidden="true">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/arrows.svg" alt="icon" width="24" height="24" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">House Cleaning</h3>
+                </div>
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery3.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery3.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery3.jpg" alt="gallery" width="305" height="400">
+                </picture>
+            </a>
+            <a class="cs-item" href="">
+                <div class="cs-hover-box">
+                    <picture class="cs-icon" aria-hidden="true">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/arrows.svg" alt="icon" width="24" height="24" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">House Cleaning</h3>
+                </div>
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery4.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery4.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery4.jpg" alt="gallery" width="305" height="400">
+                </picture>
+            </a>
+            <a class="cs-item" href="">
+                <div class="cs-hover-box">
+                    <picture class="cs-icon" aria-hidden="true">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/arrows.svg" alt="icon" width="24" height="24" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">House Cleaning</h3>
+                </div>
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery5.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery5.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery5.jpg" alt="gallery" width="305" height="400">
+                </picture>
+            </a>
+            <a class="cs-item" href="">
+                <div class="cs-hover-box">
+                    <picture class="cs-icon" aria-hidden="true">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/arrows.svg" alt="icon" width="24" height="24" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">House Cleaning</h3>
+                </div>
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery6.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery6.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery6.jpg" alt="gallery" width="305" height="400">
+                </picture>
+            </a>
+            <a class="cs-item" href="">
+                <div class="cs-hover-box">
+                    <picture class="cs-icon" aria-hidden="true">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/arrows.svg" alt="icon" width="24" height="24" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">House Cleaning</h3>
+                </div>
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery7.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery7.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery7.jpg" alt="gallery" width="305" height="400">
+                </picture>
+            </a>
+            <a class="cs-item" href="">
+                <div class="cs-hover-box">
+                    <picture class="cs-icon" aria-hidden="true">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/arrows.svg" alt="icon" width="24" height="24" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">House Cleaning</h3>
+                </div>
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery8.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery8.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery8.jpg" alt="gallery" width="305" height="400">
+                </picture>
+            </a>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #007CFB;
+    --primaryLight: #4da3fc;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #gallery-377 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #gallery-377 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #gallery-377 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #gallery-377 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #gallery-377 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #gallery-377 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #gallery-377 .cs-gallery {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 16px - 20px */
+    gap: clamp(1rem, 1.5vw, 1.25rem);
+  }
+  #gallery-377 .cs-item {
+    list-style: none;
+    width: 100%;
+    max-width: 21.875rem;
+    position: relative;
+  }
+  #gallery-377 .cs-image {
+    border-radius: 1.25rem;
+    width: 100%;
+    /* clips the image corners */
+    overflow: hidden;
+    aspect-ratio: 1.09333333;
+    display: block;
+    position: relative;
+  }
+  #gallery-377 .cs-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it act like a background image */
+    object-fit: cover;
+  }
+  #gallery-377 .cs-hover-box {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(0, 124, 251, 0.12);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 10;
+  }
+  #gallery-377 .cs-icon {
+    /* 40px - 72px */
+    width: clamp(2.5rem, 9.4vw, 4.5rem);
+    height: clamp(2.5rem, 9.4vw, 4.5rem);
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* pushes to the right */
+    order: 1;
+  }
+  #gallery-377 .cs-icon img {
+    /* 16px - 24px */
+    width: clamp(1rem, 3vw, 1.5rem);
+    height: auto;
+  }
+  #gallery-377 .cs-h3 {
+    font-size: 1.25rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #gallery-377 .cs-gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #gallery-377 .cs-item {
+    width: 48.5%;
+  }
+  #gallery-377 .cs-item:hover .cs-hover-box {
+    opacity: 1;
+  }
+  #gallery-377 .cs-item:hover .cs-icon,
+  #gallery-377 .cs-item:hover .cs-h3 {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  #gallery-377 .cs-hover-box {
+    height: auto;
+    opacity: 0;
+    top: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    /* prevents the mouse from interacting with it */
+    pointer-events: none;
+    transition: opacity .6s;
+  }
+  #gallery-377 .cs-icon {
+    opacity: 0;
+    /* reset the order */
+    order: initial;
+    /* send it 10px up to animate from on hover */
+    transform: translateY(-0.625rem);
+    transition: transform .6s, opacity .6s;
+  }
+  #gallery-377 .cs-h3 {
+    opacity: 0;
+    /* send it 10px down to animate from on hover */
+    transform: translateY(0.625rem);
+    transition: transform .6s, opacity .6s;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #gallery-377 .cs-item {
+    width: 23.7%;
+  }
+  #gallery-377 .cs-image {
+    /* 300px - 400px */
+    height: clamp(18.75rem, 30vw, 25rem);
+    aspect-ratio: 1;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #007CFB;
+    --primaryLight: #4da3fc;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #gallery-377 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #gallery-377 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #gallery-377 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #gallery-377 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #gallery-377 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #gallery-377 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #gallery-377 .cs-gallery {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 16px - 20px */
+    gap: clamp(1rem, 1.5vw, 1.25rem);
+  }
+  #gallery-377 .cs-item {
+    list-style: none;
+    width: 100%;
+    max-width: 21.875rem;
+    position: relative;
+  }
+  #gallery-377 .cs-image {
+    border-radius: 1.25rem;
+    width: 100%;
+    /* clips the image corners */
+    overflow: hidden;
+    aspect-ratio: 1.09333333;
+    display: block;
+    position: relative;
+  }
+  #gallery-377 .cs-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it act like a background image */
+    object-fit: cover;
+  }
+  #gallery-377 .cs-hover-box {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(0, 124, 251, 0.12);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 10;
+  }
+  #gallery-377 .cs-icon {
+    /* 40px - 72px */
+    width: clamp(2.5rem, 9.4vw, 4.5rem);
+    height: clamp(2.5rem, 9.4vw, 4.5rem);
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* pushes to the right */
+    order: 1;
+  }
+  #gallery-377 .cs-icon img {
+    /* 16px - 24px */
+    width: clamp(1rem, 3vw, 1.5rem);
+    height: auto;
+  }
+  #gallery-377 .cs-h3 {
+    font-size: 1.25rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #gallery-377 .cs-gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #gallery-377 .cs-item {
+    width: 48.5%;
+  }
+  #gallery-377 .cs-item:hover .cs-hover-box {
+    opacity: 1;
+  }
+  #gallery-377 .cs-item:hover .cs-icon,
+  #gallery-377 .cs-item:hover .cs-h3 {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  #gallery-377 .cs-hover-box {
+    height: auto;
+    opacity: 0;
+    top: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    /* prevents the mouse from interacting with it */
+    pointer-events: none;
+    transition: opacity .6s;
+  }
+  #gallery-377 .cs-icon {
+    opacity: 0;
+    /* reset the order */
+    order: initial;
+    /* send it 10px up to animate from on hover */
+    transform: translateY(-0.625rem);
+    transition: transform .6s, opacity .6s;
+  }
+  #gallery-377 .cs-h3 {
+    opacity: 0;
+    /* send it 10px down to animate from on hover */
+    transform: translateY(0.625rem);
+    transition: transform .6s, opacity .6s;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #gallery-377 .cs-item {
+    width: 23.7%;
+  }
+  #gallery-377 .cs-image {
+    /* 300px - 400px */
+    height: clamp(18.75rem, 30vw, 25rem);
+    aspect-ratio: 1;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #gallery-377 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #gallery-377 .cs-title,
+  body.dark-mode #gallery-377 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #gallery-377 .cs-text {
+    opacity: .8;
+  }
+}
+                                

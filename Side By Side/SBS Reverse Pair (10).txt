@@ -1,0 +1,751 @@
+<!-- ============================================ -->
+<!--               Side By Side                   -->
+<!-- ============================================ -->
+
+<section id="RPsbs-872">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Left Image-->
+            <picture class="cs-left-img">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy6.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy6.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy6.jpg" alt="therapy" width="439" height="560">
+            </picture>
+            <!--Right Image-->
+            <picture class="cs-right-img">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" alt="therapy" width="439" height="560">
+            </picture>
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Our Treatment List</span>
+            <h2 class="cs-title">List of Condition We Treat in Our Center</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab dolores minima similique incidunt quisquam neque rem quae fugiat, officia, id rerum deserunt? Recusandae sit praesentium vero itaque quas ullam illo, nobis quos repellat optio veritatis perferendis doloremque consequuntur assumenda.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    Parkinson’s
+                </li>
+                <li class="cs-li">
+                    MS
+                </li>
+                <li class="cs-li">
+                    Stroke
+                </li>
+                <li class="cs-li">
+                    SCI
+                </li>
+                <li class="cs-li">
+                    Vestibular
+                </li>
+                <li class="cs-li">
+                    Balance/Gait disorders
+                </li>
+                <li class="cs-li">
+                    Carpal Tunnel
+                </li>
+                <li class="cs-li">
+                    Back Pain
+                </li>
+                <li class="cs-li">
+                    Hip/Knee Pain
+                </li>
+                <li class="cs-li">
+                    Shoulder Pain
+                </li>
+            </ul>
+            <a href="" class="cs-button-solid">Schedule An Appointment</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--           Side By Side Reverse               -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-872">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Left Image-->
+            <picture class="cs-left-img">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy6.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy6.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy6.jpg" alt="therapy" width="439" height="560">
+            </picture>
+            <!--Right Image-->
+            <picture class="cs-right-img">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" alt="therapy" width="439" height="560">
+            </picture>
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Our Treatment List</span>
+            <h2 class="cs-title">List of Condition We Treat in Our Center</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab dolores minima similique incidunt quisquam neque rem quae fugiat, officia, id rerum deserunt? Recusandae sit praesentium vero itaque quas ullam illo, nobis quos repellat optio veritatis perferendis doloremque consequuntur assumenda.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    Parkinson’s
+                </li>
+                <li class="cs-li">
+                    MS
+                </li>
+                <li class="cs-li">
+                    Stroke
+                </li>
+                <li class="cs-li">
+                    SCI
+                </li>
+                <li class="cs-li">
+                    Vestibular
+                </li>
+                <li class="cs-li">
+                    Balance/Gait disorders
+                </li>
+                <li class="cs-li">
+                    Carpal Tunnel
+                </li>
+                <li class="cs-li">
+                    Back Pain
+                </li>
+                <li class="cs-li">
+                    Hip/Knee Pain
+                </li>
+                <li class="cs-li">
+                    Shoulder Pain
+                </li>
+            </ul>
+            <a href="" class="cs-button-solid">Schedule An Appointment</a>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #CE410D;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #RPsbs-872,
+  #RPsbsr-872 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    /* clips overlapping cs-image-group */
+    overflow: hidden;
+  }
+  #RPsbs-872 .cs-container,
+  #RPsbsr-872 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+    position: relative;
+  }
+  #RPsbs-872 .cs-content,
+  #RPsbsr-872 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 32.625rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #RPsbs-872 .cs-topper,
+  #RPsbsr-872 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #RPsbs-872 .cs-title,
+  #RPsbsr-872 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #RPsbs-872 .cs-text,
+  #RPsbsr-872 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-872 .cs-title,
+  #RPsbsr-872 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    /* 20 characters wide including spaces */
+    max-width: 20ch;
+  }
+  #RPsbs-872 .cs-text,
+  #RPsbsr-872 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #RPsbs-872 .cs-text:last-of-type,
+  #RPsbsr-872 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #RPsbs-872 .cs-button-solid,
+  #RPsbsr-872 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #RPsbs-872 .cs-button-solid:before,
+  #RPsbsr-872 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #RPsbs-872 .cs-button-solid:hover:before,
+  #RPsbsr-872 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #RPsbs-872 .cs-ul,
+  #RPsbsr-872 .cs-ul {
+    margin: 0 0 2rem 0;
+    padding: 0;
+    columns: 2;
+  }
+  #RPsbs-872 .cs-li,
+  #RPsbsr-872 .cs-li {
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.75rem;
+    position: relative;
+  }
+  #RPsbs-872 .cs-li:before,
+  #RPsbsr-872 .cs-li:before {
+    /* accent shape */
+    content: '';
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.5rem;
+    background: #BABABA;
+    border-radius: 0.25rem 0 0.25rem 0;
+    display: block;
+  }
+  #RPsbs-872 .cs-image-group,
+  #RPsbsr-872 .cs-image-group {
+    /* using ems so we can scale the whole section using a font size min/max. Font size (.61em) max changes at desktop */
+    font-size: min(1.61vw, .61em);
+    width: 56.125em;
+    height: 50.875em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+  }
+  #RPsbs-872 .cs-image-group:before,
+  #RPsbsr-872 .cs-image-group:before {
+    /* accent shape */
+    content: '';
+    width: 18.6875em;
+    height: 14.625em;
+    background: #FBCEBD;
+    border-radius: 6.25em 0 6.25em 0;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 8.75em;
+  }
+  #RPsbs-872 .cs-left-img,
+  #RPsbsr-872 .cs-left-img {
+    width: 27.4375em;
+    height: 35em;
+    border-radius: 0 12.5em 0 12.5em;
+    /* clips img corners */
+    overflow: hidden;
+    display: block;
+  }
+  #RPsbs-872 .cs-left-img img,
+  #RPsbsr-872 .cs-left-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #RPsbs-872 .cs-right-img,
+  #RPsbsr-872 .cs-right-img {
+    width: 27.4375em;
+    height: 35em;
+    border-radius: 12.5em 0 12.5em 0;
+    /* clips img corners */
+    overflow: hidden;
+    display: block;
+    transform: translateY(6.25em);
+  }
+  #RPsbs-872 .cs-right-img img,
+  #RPsbsr-872 .cs-right-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #RPsbs-872 .cs-container,
+  #RPsbsr-872 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #RPsbs-872 .cs-image-group,
+  #RPsbsr-872 .cs-image-group {
+    font-size: min(.8vw, 1em);
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Large Desktop 1500px */
+@media only screen and (min-width: 93.75rem) {
+  #RPsbs-872 .cs-image-group,
+  #RPsbsr-872 .cs-image-group {
+    font-size: inherit;
+    /* The cs-image-group is actually REALLY big. It's so big, the design has it overlapping the normal 1280px container by 220px.  This is just a design choice that "breaks" the container and creates a more dynamic design and website. */
+    transform: translateX(-13.75rem);
+  }
+  #RPsbs-872 .cs-content,
+  #RPsbsr-872 .cs-content {
+    /* we absolutely position the cs-content so the cs-image-group can remain position relative and dictate the height of the section. Since the cs-content is smaller in height, if it remained relative then the height of the container would only be as tall as the .cs-content and the absolutely positioned cs-image-group would overlap into the top and bottom neighboring sections. */
+    flex: none;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
+
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #RPsbsr-872 {
+    background-color: #FEF7F4;
+  }
+  #RPsbsr-872 .cs-image-group {
+    /* flips it horizontally */
+    transform: scaleX(-1);
+  }
+  #RPsbsr-872 .cs-left-img img,
+  #RPsbsr-872 .cs-right-img img {
+    /* reverse the flip of the horizontal flip on the parent.  This makes the images the correct orientation, matching the source image's orientation */
+    transform: scaleX(-1);
+  }
+}
+/* Large Desktop 1500px */
+@media only screen and (min-width: 93.75rem) {
+  #RPsbsr-872 .cs-container {
+    justify-content: flex-end;
+  }
+  #RPsbsr-872 .cs-image-group {
+    transform: scaleX(-1) translateX(-13.75rem);
+  }
+  #RPsbsr-872 .cs-content {
+    /* reset the right value so it doesn't affect the left value */
+    right: auto;
+    left: 0;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #CE410D;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #RPsbs-872,
+  #RPsbsr-872 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    /* clips overlapping cs-image-group */
+    overflow: hidden;
+  }
+  #RPsbs-872 .cs-container,
+  #RPsbsr-872 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+    position: relative;
+  }
+  #RPsbs-872 .cs-content,
+  #RPsbsr-872 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 32.625rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #RPsbs-872 .cs-topper,
+  #RPsbsr-872 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #RPsbs-872 .cs-title,
+  #RPsbsr-872 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #RPsbs-872 .cs-text,
+  #RPsbsr-872 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-872 .cs-title,
+  #RPsbsr-872 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    /* 20 characters wide including spaces */
+    max-width: 20ch;
+  }
+  #RPsbs-872 .cs-text,
+  #RPsbsr-872 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #RPsbs-872 .cs-text:last-of-type,
+  #RPsbsr-872 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #RPsbs-872 .cs-button-solid,
+  #RPsbsr-872 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #RPsbs-872 .cs-button-solid:before,
+  #RPsbsr-872 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #RPsbs-872 .cs-button-solid:hover:before,
+  #RPsbsr-872 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #RPsbs-872 .cs-ul,
+  #RPsbsr-872 .cs-ul {
+    margin: 0 0 2rem 0;
+    padding: 0;
+    columns: 2;
+  }
+  #RPsbs-872 .cs-li,
+  #RPsbsr-872 .cs-li {
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.75rem;
+    position: relative;
+  }
+  #RPsbs-872 .cs-li:before,
+  #RPsbsr-872 .cs-li:before {
+    /* accent shape */
+    content: '';
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.5rem;
+    background: #BABABA;
+    border-radius: 0.25rem 0 0.25rem 0;
+    display: block;
+  }
+  #RPsbs-872 .cs-image-group,
+  #RPsbsr-872 .cs-image-group {
+    /* using ems so we can scale the whole section using a font size min/max. Font size (.61em) max changes at desktop */
+    font-size: min(1.61vw, .61em);
+    width: 56.125em;
+    height: 50.875em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+  }
+  #RPsbs-872 .cs-image-group:before,
+  #RPsbsr-872 .cs-image-group:before {
+    /* accent shape */
+    content: '';
+    width: 18.6875em;
+    height: 14.625em;
+    background: #FBCEBD;
+    border-radius: 6.25em 0 6.25em 0;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 8.75em;
+  }
+  #RPsbs-872 .cs-left-img,
+  #RPsbsr-872 .cs-left-img {
+    width: 27.4375em;
+    height: 35em;
+    border-radius: 0 12.5em 0 12.5em;
+    /* clips img corners */
+    overflow: hidden;
+    display: block;
+  }
+  #RPsbs-872 .cs-left-img img,
+  #RPsbsr-872 .cs-left-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #RPsbs-872 .cs-right-img,
+  #RPsbsr-872 .cs-right-img {
+    width: 27.4375em;
+    height: 35em;
+    border-radius: 12.5em 0 12.5em 0;
+    /* clips img corners */
+    overflow: hidden;
+    display: block;
+    transform: translateY(6.25em);
+  }
+  #RPsbs-872 .cs-right-img img,
+  #RPsbsr-872 .cs-right-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #RPsbs-872 .cs-container,
+  #RPsbsr-872 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #RPsbs-872 .cs-image-group,
+  #RPsbsr-872 .cs-image-group {
+    font-size: min(.8vw, 1em);
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Large Desktop 1500px */
+@media only screen and (min-width: 93.75rem) {
+  #RPsbs-872 .cs-image-group,
+  #RPsbsr-872 .cs-image-group {
+    font-size: inherit;
+    /* The cs-image-group is actually REALLY big. It's so big, the design has it overlapping the normal 1280px container by 220px.  This is just a design choice that "breaks" the container and creates a more dynamic design and website. */
+    transform: translateX(-13.75rem);
+  }
+  #RPsbs-872 .cs-content,
+  #RPsbsr-872 .cs-content {
+    /* we absolutely position the cs-content so the cs-image-group can remain position relative and dictate the height of the section. Since the cs-content is smaller in height, if it remained relative then the height of the container would only be as tall as the .cs-content and the absolutely positioned cs-image-group would overlap into the top and bottom neighboring sections. */
+    flex: none;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #RPsbs-872 .cs-topper,
+  body.dark-mode #RPsbsr-872 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #RPsbs-872 .cs-title,
+  body.dark-mode #RPsbsr-872 .cs-title,
+  body.dark-mode #RPsbs-872 .cs-text,
+  body.dark-mode #RPsbsr-872 .cs-text,
+  body.dark-mode #RPsbs-872 .cs-li,
+  body.dark-mode #RPsbsr-872 .cs-li {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #RPsbs-872 .cs-text,
+  body.dark-mode #RPsbsr-872 .cs-text,
+  body.dark-mode #RPsbs-872 .cs-li,
+  body.dark-mode #RPsbsr-872 .cs-li {
+    opacity: .8;
+  }
+  body.dark-mode #RPsbs-872 .cs-image-group:before,
+  body.dark-mode #RPsbsr-872 .cs-image-group:before {
+    opacity: .3;
+  }
+}
+
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #RPsbsr-872 {
+    background-color: #FEF7F4;
+  }
+  #RPsbsr-872 .cs-image-group {
+    /* flips it horizontally */
+    transform: scaleX(-1);
+  }
+  #RPsbsr-872 .cs-left-img img,
+  #RPsbsr-872 .cs-right-img img {
+    /* reverse the flip of the horizontal flip on the parent.  This makes the images the correct orientation, matching the source image's orientation */
+    transform: scaleX(-1);
+  }
+}
+/* Large Desktop 1500px */
+@media only screen and (min-width: 93.75rem) {
+  #RPsbsr-872 .cs-container {
+    justify-content: flex-end;
+  }
+  #RPsbsr-872 .cs-image-group {
+    transform: scaleX(-1) translateX(-13.75rem);
+  }
+  #RPsbsr-872 .cs-content {
+    /* reset the right value so it doesn't affect the left value */
+    right: auto;
+    left: 0;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #RPsbsr-872 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+                                

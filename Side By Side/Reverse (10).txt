@@ -1,0 +1,497 @@
+<!-- ============================================ -->
+<!--            Side By Side Reverse              -->
+<!-- ============================================ -->
+
+<section id="sbsr-498">
+    <div class="cs-container">
+        <div class="cs-content">
+            <!--Wrapped in a container for easier flexboxing gaps on the .cs-container-->
+            <div class="cs-flex">
+                <span class="cs-topper">Service</span>
+                <h2 class="cs-title">Laboratory Testing Services</h2>
+            </div>
+            <p class="cs-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum commodi ipsam, nulla nihil exercitationem saepe itaque officiis sed tenetur esse, libero ducimus nesciunt numquam vero, facilis beatae recusandae deserunt quos? 
+            </p>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, pariatur maiores architecto voluptates aliquid harum odio velit earum dolores consectetur.
+            </p>
+            <a href="" class="cs-button-solid">Learn More</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 767px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/people.jpg">
+        <source media="(min-width: 768px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/people.jpg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/people.jpg" alt="people" width="275" height="132" aria-hidden="true">
+     </picture>
+</section>
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #001F3F;
+    --primaryLight: #001F3F;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbsr-498 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* we use margin here instead of padding because we want to create the space OUTSIDE the section.  The overflow on the section clips the boxes we made to make the slanted designs, so we need to push from the outside of the section with margin to create space between it and the next section.  If the section above this Stitch has a white background, add margin-top: 0. If it has a white section below it, add margin-bottom: 0. This will allow more proper spacing and not have too much empty space.  If both sections above and below this Stitch have white backgrounds, you can just remove this margin all together. Or remove the margin however you see fit. We add it in case you need it, if you dont then you can remove it */
+    margin: var(--sectionPadding);
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 1rem;
+    /* prevents overflow from the slant shape */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #sbsr-498:before {
+    /* section background */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #sbsr-498 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    /* 60px - 100px top and bottom */
+    padding: clamp(3.75rem, 6.82vw, 6.25rem) 0;
+    /* maintains proportional margin top as screen size grows */
+    margin-top: 56vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    /* places it on top of the cs-background */
+    z-index: 10;
+  }
+  #sbsr-498 .cs-container:before {
+    /* section slant on mobile */
+    content: '';
+    width: 62.5rem;
+    height: 125rem;
+    background: var(--primary);
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+    display: block;
+    top: -28.75rem;
+    /* these last two center it horizontally and rotate -65deg */
+    left: 50%;
+    transform: translateX(-50%) rotate(-65deg);
+  }
+  #sbsr-498 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 32.625rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbsr-498 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbsr-498 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbsr-498 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbsr-498 .cs-topper,
+  #sbsr-498 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    color: var(--bodyTextColorWhite);
+  }
+  #sbsr-498 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+    color: var(--bodyTextColorWhite);
+    opacity: .8;
+  }
+  #sbsr-498 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbsr-498 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: var(--primary);
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--bodyTextColorWhite);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbsr-498 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: var(--secondary);
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbsr-498 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbsr-498 .cs-background {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #sbsr-498 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #sbsr-498 .cs-flex {
+    width: 100%;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbsr-498:before {
+    /* remove the pseudo for the section background */
+    display: none;
+  }
+  #sbsr-498 .cs-background {
+    width: 60%;
+    /* reset height to let top and bottom properties create the height */
+    height: auto;
+    aspect-ratio: initial;
+    position: absolute;
+    /* creates the gap between the image and the blue section */
+    top: 3.75rem;
+    bottom: 0;
+    right: 0;
+    left: auto;
+  }
+  #sbsr-498 .cs-background img {
+    object-position: 80% top;
+  }
+  #sbsr-498 .cs-container {
+    margin-top: 0;
+  }
+  #sbsr-498 .cs-container:before {
+    /* make really tall so it always covers top to bottom, even when you add more list items */
+    height: 250rem;
+    /* make really really wide so it covers the left side at large scree sizes */
+    width: 250rem;
+    /* push X amount from the center line to the right.  If after you added content and the slant is not covering everything, make this negative number even more negative to pull it more to the right */
+    margin-right: -68.75rem;
+    top: 50%;
+    left: auto;
+    /* pushes the right edge of the element to the center line of the parent */
+    right: 50%;
+    transform: rotate(-35deg) translateY(-50%);
+  }
+  #sbsr-498 .cs-content {
+    width: 50%;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #001F3F;
+    --primaryLight: #001F3F;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbsr-498 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* we use margin here instead of padding because we want to create the space OUTSIDE the section.  The overflow on the section clips the boxes we made to make the slanted designs, so we need to push from the outside of the section with margin to create space between it and the next section.  If the section above this Stitch has a white background, add margin-top: 0. If it has a white section below it, add margin-bottom: 0. This will allow more proper spacing and not have too much empty space.  If both sections above and below this Stitch have white backgrounds, you can just remove this margin all together. Or remove the margin however you see fit. We add it in case you need it, if you dont then you can remove it */
+    margin: var(--sectionPadding);
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 1rem;
+    /* prevents overflow from the slant shape */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #sbsr-498:before {
+    /* section background */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #sbsr-498 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    /* 60px - 100px top and bottom */
+    padding: clamp(3.75rem, 6.82vw, 6.25rem) 0;
+    /* maintains proportional margin top as screen size grows */
+    margin-top: 56vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    /* places it on top of the cs-background */
+    z-index: 10;
+  }
+  #sbsr-498 .cs-container:before {
+    /* section slant on mobile */
+    content: '';
+    width: 62.5rem;
+    height: 125rem;
+    background: var(--primary);
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+    display: block;
+    top: -28.75rem;
+    /* these last two center it horizontally and rotate -65deg */
+    left: 50%;
+    transform: translateX(-50%) rotate(-65deg);
+  }
+  #sbsr-498 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 32.625rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbsr-498 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbsr-498 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbsr-498 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbsr-498 .cs-topper,
+  #sbsr-498 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    color: var(--bodyTextColorWhite);
+  }
+  #sbsr-498 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+    color: var(--bodyTextColorWhite);
+    opacity: .8;
+  }
+  #sbsr-498 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbsr-498 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: var(--primary);
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--bodyTextColorWhite);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbsr-498 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: var(--secondary);
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbsr-498 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbsr-498 .cs-background {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #sbsr-498 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #sbsr-498 .cs-flex {
+    width: 100%;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbsr-498:before {
+    /* remove the pseudo for the section background */
+    display: none;
+  }
+  #sbsr-498 .cs-background {
+    width: 60%;
+    /* reset height to let top and bottom properties create the height */
+    height: auto;
+    aspect-ratio: initial;
+    position: absolute;
+    /* creates the gap between the image and the blue section */
+    top: 3.75rem;
+    bottom: 0;
+    right: 0;
+    left: auto;
+  }
+  #sbsr-498 .cs-background img {
+    object-position: 80% top;
+  }
+  #sbsr-498 .cs-container {
+    margin-top: 0;
+  }
+  #sbsr-498 .cs-container:before {
+    /* make really tall so it always covers top to bottom, even when you add more list items */
+    height: 250rem;
+    /* make really really wide so it covers the left side at large scree sizes */
+    width: 250rem;
+    /* push X amount from the center line to the right.  If after you added content and the slant is not covering everything, make this negative number even more negative to pull it more to the right */
+    margin-right: -68.75rem;
+    top: 50%;
+    left: auto;
+    /* pushes the right edge of the element to the center line of the parent */
+    right: 50%;
+    transform: rotate(-35deg) translateY(-50%);
+  }
+  #sbsr-498 .cs-content {
+    width: 50%;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #sbsr-498 .cs-container:before {
+    background-color: var(--medium);
+  }
+}
+                                

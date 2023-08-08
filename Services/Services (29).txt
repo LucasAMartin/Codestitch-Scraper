@@ -1,0 +1,430 @@
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-20">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Better Landscape Design</span>
+            <h2 class="cs-title">Our Numbers Speak For Us</h2>
+            <p class="cs-text">
+                Facilisis condimentum viverra scelerisque ac morbi sit sed. Turpis sagittis in blandit eleifend tortor ullamcorper eu placerat. Et orci felis volutpat, etiam vitae egestas volutpat pulvinar. 
+            </p>
+        </div>
+         <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/pinwheel.svg" alt="pinwheel icon" width="68" height="68" aria-hidden="true">
+                <h3 class="cs-h3">Room Additions</h3>
+                <p class="cs-item-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Nunc scelerisque viverra mauris in aliquam sem fringilla.
+                </p>
+                <a aria-label="read more about (blank)" href="" class="cs-link">Read More</a>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/leaf.svg" alt="leaf icon" width="68" height="68" aria-hidden="true">
+                <h3 class="cs-h3">Drywall Repairs</h3>
+                <p class="cs-item-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Nunc scelerisque viverra mauris in aliquam sem fringilla.
+                </p>
+                <a aria-label="read more about (blank)" href="" class="cs-link">Read More</a>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/bubble-wheel.svg" alt="bubble wheel" width="68" height="68" aria-hidden="true">
+                <h3 class="cs-h3">Landscape Lighting</h3>
+                <p class="cs-item-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Nunc scelerisque viverra mauris in aliquam sem fringilla.
+                </p>
+                <a aria-label="read more about (blank)" href="" class="cs-link">Read More</a>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/pinwheel.svg" alt="pinwheel icon" width="68" height="68" aria-hidden="true">
+                <h3 class="cs-h3">Pressure Washing</h3>
+                <p class="cs-item-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Nunc scelerisque viverra mauris in aliquam sem fringilla.
+                </p>
+                <a aria-label="read more about (blank)" href="" class="cs-link">Read More</a>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/leaf.svg" alt="leaf graphic" width="68" height="68" aria-hidden="true">
+                <h3 class="cs-h3">Drywall Sealing</h3>
+                <p class="cs-item-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Nunc scelerisque viverra mauris in aliquam sem fringilla.
+                </p>
+                <a aria-label="read more about (blank)" href="" class="cs-link">Read More</a>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/bubble-wheel.svg" alt="bubble wheel icon" width="68" height="68" aria-hidden="true">
+                <h3 class="cs-h3">Custom Cabinetry</h3>
+                <p class="cs-item-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Nunc scelerisque viverra mauris in aliquam sem fringilla.
+                </p>
+                <a aria-label="read more about (blank)" href="" class="cs-link">Read More</a>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #176316;
+    --primaryLight: #6EDF6D;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #services-20 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #services-20 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 43.75rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #services-20 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #services-20 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #services-20 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #services-20 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #services-20 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  #services-20 .cs-item {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    max-width: 25.8125rem;
+    margin: 0;
+  }
+  #services-20 .cs-icon {
+    /* 60px -68px */
+    width: clamp(3.75em, 5vw, 4.25em);
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+  #services-20 .cs-h3 {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    text-align: inherit;
+    font-weight: 700;
+    color: var(--headerColor);
+    margin: 0 auto 1rem;
+  }
+  #services-20 .cs-item-text {
+    /* 14px -16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    text-align: inherit;
+    line-height: 1.5em;
+    color: var(--bodyTextColor);
+    margin: 0 auto 1rem;
+  }
+  #services-20 .cs-link {
+    font-size: 1rem;
+    line-height: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--primary);
+    position: relative;
+  }
+  #services-20 .cs-link:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 0.1875rem;
+    width: 0%;
+    background-color: var(--primary);
+    opacity: 1;
+    bottom: -0.1875rem;
+    left: 0;
+    transition: width .3s;
+  }
+  #services-20 .cs-link:hover:before {
+    width: 100%;
+  }
+}
+/* Tablet - 700px */
+@media only screen and (min-width: 43.75rem) {
+  #services-20 .cs-picture {
+    max-width: 44.625rem;
+    width: 90%;
+    aspect-ratio: 1.64896074;
+  }
+  #services-20 .cs-card-group {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2.5rem;
+    row-gap: 4rem;
+    flex-wrap: wrap;
+  }
+  #services-20 .cs-item {
+    width: 47%;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #services-20 .cs-container {
+    max-width: 80rem;
+  }
+  #services-20 .cs-item {
+    width: 30%;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #176316;
+    --primaryLight: #6EDF6D;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #services-20 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #services-20 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 43.75rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #services-20 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #services-20 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #services-20 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #services-20 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #services-20 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  #services-20 .cs-item {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    max-width: 25.8125rem;
+    margin: 0;
+  }
+  #services-20 .cs-icon {
+    /* 60px -68px */
+    width: clamp(3.75em, 5vw, 4.25em);
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+  #services-20 .cs-h3 {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    text-align: inherit;
+    font-weight: 700;
+    color: var(--headerColor);
+    margin: 0 auto 1rem;
+  }
+  #services-20 .cs-item-text {
+    /* 14px -16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    text-align: inherit;
+    line-height: 1.5em;
+    color: var(--bodyTextColor);
+    margin: 0 auto 1rem;
+  }
+  #services-20 .cs-link {
+    font-size: 1rem;
+    line-height: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--primary);
+    position: relative;
+  }
+  #services-20 .cs-link:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 0.1875rem;
+    width: 0%;
+    background-color: var(--primary);
+    opacity: 1;
+    bottom: -0.1875rem;
+    left: 0;
+    transition: width .3s;
+  }
+  #services-20 .cs-link:hover:before {
+    width: 100%;
+  }
+}
+/* Tablet - 700px */
+@media only screen and (min-width: 43.75rem) {
+  #services-20 .cs-picture {
+    max-width: 44.625rem;
+    width: 90%;
+    aspect-ratio: 1.64896074;
+  }
+  #services-20 .cs-card-group {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2.5rem;
+    row-gap: 4rem;
+    flex-wrap: wrap;
+  }
+  #services-20 .cs-item {
+    width: 47%;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #services-20 .cs-container {
+    max-width: 80rem;
+  }
+  #services-20 .cs-item {
+    width: 30%;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #services-20 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #services-20 .cs-title,
+  body.dark-mode #services-20 .cs-text,
+  body.dark-mode #services-20 .cs-h3,
+  body.dark-mode #services-20 .cs-item-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #services-20 .cs-icon {
+    /* turns it white */
+    filter: grayscale(1) brightness(1000%);
+  }
+  body.dark-mode #services-20 .cs-link {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #services-20 .cs-link:before {
+    background-color: var(--primaryLight);
+  }
+}
+                                

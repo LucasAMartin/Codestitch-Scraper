@@ -3,10 +3,7 @@ from selenium.webdriver.common.by import By
 import os
 
 
-def scrape():
-    # Set the URL you want to scrape from
-    url = 'https://codestitch.app/app/dashboard/catalog/sections/22'
-    directory = 'Buttons'
+def scrape(url, directory):
 
     # Set your login credentials
     username = 'lucasmartiniscool@gmail.com'
@@ -44,41 +41,42 @@ def scrape():
     filenames = [title.text for title in titles]
 
     for i, button in enumerate(buttons):
+        try:
+            # Get the corresponding filename from the list
+            filename = filenames[i]
 
-        # Get the corresponding filename from the list
-        filename = filenames[i]
-        print(filename)
-        print('\n')
+            # Click on the button
+            button.click()
 
-        # Click on the button
-        button.click()
+            # Switch to the new window that opens
+            driver.switch_to.window(driver.window_handles[1])
 
-        # Switch to the new window that opens
-        driver.switch_to.window(driver.window_handles[1])
+            # Find the first two elements with the 'tab' class
+            tabs = driver.find_elements(By.XPATH,
+                                        '//*[@id="CODE_TABS"]/div[2]/div[contains(@class, "tab")][position() < 4]')[:3]
 
-        # Find the first two elements with the 'tab' class
-        tabs = driver.find_elements(By.XPATH,
-                                    '//*[@id="CODE_TABS"]/div[2]/div[contains(@class, "tab")][position() < 4]')[:3]
+            # Find the textarea elements within the first two tabs
+            text_areas = [tab.find_element(By.TAG_NAME, 'textarea') for tab in tabs]
 
-        # Find the textarea elements within the first two tabs
-        text_areas = [tab.find_element(By.TAG_NAME, 'textarea') for tab in tabs]
+            # Get the text data from the two text areas
+            data1 = text_areas[0].get_attribute('value')
+            data2 = text_areas[1].get_attribute('value')
+            data3 = text_areas[2].get_attribute('value')
 
-        # Get the text data from the two text areas
-        data1 = text_areas[0].get_attribute('value')
-        data2 = text_areas[1].get_attribute('value')
-        data3 = text_areas[2].get_attribute('value')
+            # Check if a file with the same name already exists in the buttons directory
+            i = 1
+            new_filename = filename
+            while os.path.exists(os.path.join(directory, new_filename + '.txt')):
+                new_filename = filename + f' ({i})'
+                i += 1
 
-        # Check if a file with the same name already exists in the buttons directory
-        i = 1
-        new_filename = filename
-        while os.path.exists(os.path.join(directory, new_filename + '.txt')):
-            new_filename = filename + f' ({i})'
-            i += 1
+            # Open a new file in write mode
+            with open(os.path.join(directory, new_filename + '.txt'), 'w', encoding='utf-8') as f:
+                # Write the data to the file
+                f.write(data1 + '\n' + data2 + '\n' + data3)
 
-        # Open a new file in write mode
-        with open(os.path.join('buttons', filename + '.txt'), 'w') as f:
-            # Write the data to the file
-            f.write(data1 + '\n' + data2 + '\n' + data3)
+        except Exception as e:
+            print(f'An error occurred while saving the file: {e}')
 
         # Close the new window
         driver.close()
@@ -92,4 +90,6 @@ def scrape():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    scrape()
+    scrape('https://codestitch.app/app/dashboard/catalog/sections/4', 'Side By Side')
+
+

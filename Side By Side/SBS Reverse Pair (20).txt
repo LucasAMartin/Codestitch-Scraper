@@ -1,0 +1,884 @@
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="RPsbs-411">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Who We Are</span>
+            <h2 class="cs-title">About Our Company</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-item">
+                    <h3 class="cs-h3">01 Title 01</h3>
+                    <p class="cs-item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <h3 class="cs-h3">01 Title 01</h3>
+                    <p class="cs-item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                </li>
+            </ul>
+            <a href="" class="cs-button-solid">More About Us</a>
+        </div>
+        <div class="cs-image-group">
+            <!--Top Left Image-->
+            <picture class="cs-picture cs-picture1">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping1.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping1.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping1.jpg" alt="backyard" width="229" height="352">
+            </picture>
+            <!--Top Right Image-->
+            <picture class="cs-picture cs-picture2">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping2.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping2.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping3.jpg" alt="backyard" width="390" height="352">
+            </picture>
+            <!--Bottom Image-->
+            <picture class="cs-picture cs-picture3">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping3.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping3.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping3.jpg" alt="backyard" width="649" height="227">
+            </picture>
+        </div>
+    </div>
+    <!--SVG Background Graphic-->
+    <picture class="cs-graphic">
+        <source media="(min-width: 1300px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/svg-slant.svg">
+        <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/svg-slant-t.svg">
+        <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/svg-slant-m.svg">
+        <img class="cs-graphic-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/svg-slant-m.svg" alt="graphic" width="360" height="741">
+    </picture>
+</section>
+                                
+<!-- ============================================ -->
+<!--            Side By Side Reverse              -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-411">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Who We Are</span>
+            <h2 class="cs-title">About Our Company</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-item">
+                    <h3 class="cs-h3">01 Title 01</h3>
+                    <p class="cs-item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <h3 class="cs-h3">01 Title 01</h3>
+                    <p class="cs-item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                </li>
+            </ul>
+            <a href="" class="cs-button-solid">More About Us</a>
+        </div>
+        <div class="cs-image-group">
+            <!--Top Left Image-->
+            <picture class="cs-picture cs-picture1">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping1.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping1.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping1.jpg" alt="backyard" width="229" height="352">
+            </picture>
+            <!--Top Right Image-->
+            <picture class="cs-picture cs-picture2">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping2.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping2.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping3.jpg" alt="backyard" width="390" height="352">
+            </picture>
+            <!--Bottom Image-->
+            <picture class="cs-picture cs-picture3">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping3.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping3.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/landscaping3.jpg" alt="backyard" width="649" height="227">
+            </picture>
+        </div>
+    </div>
+    <!--SVG Background Graphic-->
+    <picture class="cs-graphic">
+        <source media="(min-width: 1300px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/svg-slant.svg">
+        <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/svg-slant-t.svg">
+        <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/svg-slant-m.svg">
+        <img class="cs-graphic-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/svg-slant-m.svg" alt="graphic" width="360" height="741">
+    </picture>
+</section>
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #1F861D;
+    --primaryLight: #62aa61;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #RPsbs-411,
+  #RPsbsr-411 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    margin: var(--sectionPadding);
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 1rem;
+    border-bottom: 1px solid #B4B2C7;
+    /* clips svg as the screen grows so it doesn't overflow */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #RPsbs-411 .cs-container,
+  #RPsbsr-411 .cs-container {
+    width: 100%;
+    /* changes to 1280 at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    padding: var(--sectionPadding);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #RPsbs-411 .cs-content,
+  #RPsbsr-411 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #RPsbs-411 .cs-topper,
+  #RPsbsr-411 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #RPsbs-411 .cs-title,
+  #RPsbsr-411 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #RPsbs-411 .cs-text,
+  #RPsbsr-411 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-411 .cs-text,
+  #RPsbsr-411 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #RPsbs-411 .cs-text:last-of-type,
+  #RPsbsr-411 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #RPsbs-411 .cs-ul,
+  #RPsbsr-411 .cs-ul {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    padding-top: 2rem;
+    border-top: 2px dashed #B4B2C7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.25rem;
+  }
+  #RPsbs-411 .cs-item,
+  #RPsbsr-411 .cs-item {
+    list-style: none;
+    width: 100%;
+    max-width: 16.5rem;
+    margin: 0;
+  }
+  #RPsbs-411 .cs-h3,
+  #RPsbsr-411 .cs-h3 {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 2.3vw, 1.25rem);
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    color: var(--primary);
+  }
+  #RPsbs-411 .cs-item-text,
+  #RPsbsr-411 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-411 .cs-button-solid,
+  #RPsbsr-411 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #RPsbs-411 .cs-button-solid:before,
+  #RPsbsr-411 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #RPsbs-411 .cs-button-solid:hover:before,
+  #RPsbsr-411 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #RPsbs-411 .cs-image-group,
+  #RPsbsr-411 .cs-image-group {
+    font-size: min(2.5vw, 1em);
+    width: 36.1875em;
+    height: 33.875em;
+    /* sends it to the top of the flexbox */
+    order: -1;
+    position: relative;
+  }
+  #RPsbs-411 .cs-picture,
+  #RPsbsr-411 .cs-picture {
+    border-radius: 1.25em;
+    /* clips the img tag corners */
+    overflow: hidden;
+    position: absolute;
+    display: block;
+  }
+  #RPsbs-411 .cs-picture:hover:before,
+  #RPsbsr-411 .cs-picture:hover:before {
+    opacity: .6;
+  }
+  #RPsbs-411 .cs-picture:hover img,
+  #RPsbsr-411 .cs-picture:hover img {
+    transform: scale(1.1);
+  }
+  #RPsbs-411 .cs-picture:before,
+  #RPsbsr-411 .cs-picture:before {
+    /* Hover Box */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: 0;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: opacity .3s;
+  }
+  #RPsbs-411 .cs-picture img,
+  #RPsbsr-411 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform .6s;
+  }
+  #RPsbs-411 .cs-picture1,
+  #RPsbsr-411 .cs-picture1 {
+    width: 12.75em;
+    height: 19.625em;
+    top: 0;
+    left: 0;
+  }
+  #RPsbs-411 .cs-picture2,
+  #RPsbsr-411 .cs-picture2 {
+    width: 21.75em;
+    height: 19.625em;
+    top: 0;
+    right: 0;
+  }
+  #RPsbs-411 .cs-picture3,
+  #RPsbsr-411 .cs-picture3 {
+    width: 36.1875em;
+    height: 12.625em;
+    bottom: 0;
+    left: 0;
+  }
+  #RPsbs-411 .cs-graphic,
+  #RPsbsr-411 .cs-graphic {
+    width: 100%;
+    position: absolute;
+    top: 11.375rem;
+    bottom: 0;
+    left: 0;
+    /* flips the svg horizontally */
+    transform: scaleX(-1);
+    z-index: -1;
+  }
+  #RPsbs-411 .cs-graphic:before,
+  #RPsbsr-411 .cs-graphic:before {
+    /* White Box */
+    content: '';
+    width: 100%;
+    background: #FAFBFC;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    /* 110px - 140px */
+    top: clamp(6.875rem, 20vw, 8.75rem);
+    bottom: 0;
+    left: 0;
+  }
+  #RPsbs-411 .cs-graphic-img,
+  #RPsbsr-411 .cs-graphic-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: initial;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #RPsbs-411,
+  #RPsbsr-411 {
+    border-top: 1px solid #B4B2C7;
+    border-bottom: none;
+    padding: var(--sectionPadding);
+    margin-bottom: 0;
+  }
+  #RPsbs-411 .cs-container,
+  #RPsbsr-411 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  #RPsbs-411 .cs-content,
+  #RPsbsr-411 .cs-content {
+    width: 48%;
+    max-width: 36.75rem;
+  }
+  #RPsbs-411 .cs-image-group,
+  #RPsbsr-411 .cs-image-group {
+    font-size: min(1.2vw, 1em);
+    flex: none;
+  }
+  #RPsbs-411 .cs-graphic,
+  #RPsbsr-411 .cs-graphic {
+    background-color: transparent;
+    top: 0rem;
+    transform: scaleY(-1) scaleX(-1);
+  }
+  #RPsbs-411 .cs-graphic:before,
+  #RPsbsr-411 .cs-graphic:before {
+    /* 230px - 350px*/
+    top: clamp(16rem, 26vw, 21.875rem);
+  }
+  #RPsbs-411 .cs-graphic-img,
+  #RPsbsr-411 .cs-graphic-img {
+    /* 60px - 100px */
+    top: clamp(3.75rem, 6vw, 6.25rem);
+  }
+}
+/* Large Desktop 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #RPsbs-411 .cs-container,
+  #RPsbsr-411 .cs-container {
+    align-items: center;
+  }
+  #RPsbs-411 .cs-graphic::before,
+  #RPsbsr-411 .cs-graphic::before {
+    display: none;
+  }
+}
+
+/*-- -------------------------- -->
+<---    Side By Side Reverse    -->
+<--- -------------------------- -*/
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #RPsbsr-411 {
+    /* we keep resetting margins and paddings using the section padding variable and setting 0 to the margins and paddings we don't want from the variable so if you ever change the value of --sectionPadding in your global styles, these spacings will also reflect that change and adapt.  Thats why we reuse the variable instead of hard coding margin and padding resets. We want the code to be responsive to the variable */
+    margin: var(--sectionPadding);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    border-top: none;
+    border-bottom: 1px solid #B4B2C7;
+  }
+  #RPsbsr-411 .cs-container {
+    padding: var(--sectionPadding);
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  #RPsbsr-411 .cs-image-group {
+    /* sends it to the right */
+    order: 2;
+  }
+  #RPsbsr-411 .cs-graphic {
+    /* flip the graphic on the x and y axis opposite the standard layout */
+    transform: scaleX(1) scaleY(1);
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #1F861D;
+    --primaryLight: #62aa61;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #RPsbs-411,
+  #RPsbsr-411 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    margin: var(--sectionPadding);
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 1rem;
+    border-bottom: 1px solid #B4B2C7;
+    /* clips svg as the screen grows so it doesn't overflow */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #RPsbs-411 .cs-container,
+  #RPsbsr-411 .cs-container {
+    width: 100%;
+    /* changes to 1280 at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    padding: var(--sectionPadding);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #RPsbs-411 .cs-content,
+  #RPsbsr-411 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #RPsbs-411 .cs-topper,
+  #RPsbsr-411 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #RPsbs-411 .cs-title,
+  #RPsbsr-411 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #RPsbs-411 .cs-text,
+  #RPsbsr-411 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-411 .cs-text,
+  #RPsbsr-411 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #RPsbs-411 .cs-text:last-of-type,
+  #RPsbsr-411 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #RPsbs-411 .cs-ul,
+  #RPsbsr-411 .cs-ul {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    padding-top: 2rem;
+    border-top: 2px dashed #B4B2C7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.25rem;
+  }
+  #RPsbs-411 .cs-item,
+  #RPsbsr-411 .cs-item {
+    list-style: none;
+    width: 100%;
+    max-width: 16.5rem;
+    margin: 0;
+  }
+  #RPsbs-411 .cs-h3,
+  #RPsbsr-411 .cs-h3 {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 2.3vw, 1.25rem);
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    color: var(--primary);
+  }
+  #RPsbs-411 .cs-item-text,
+  #RPsbsr-411 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-411 .cs-button-solid,
+  #RPsbsr-411 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #RPsbs-411 .cs-button-solid:before,
+  #RPsbsr-411 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #RPsbs-411 .cs-button-solid:hover:before,
+  #RPsbsr-411 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #RPsbs-411 .cs-image-group,
+  #RPsbsr-411 .cs-image-group {
+    font-size: min(2.5vw, 1em);
+    width: 36.1875em;
+    height: 33.875em;
+    /* sends it to the top of the flexbox */
+    order: -1;
+    position: relative;
+  }
+  #RPsbs-411 .cs-picture,
+  #RPsbsr-411 .cs-picture {
+    border-radius: 1.25em;
+    /* clips the img tag corners */
+    overflow: hidden;
+    position: absolute;
+    display: block;
+  }
+  #RPsbs-411 .cs-picture:hover:before,
+  #RPsbsr-411 .cs-picture:hover:before {
+    opacity: .6;
+  }
+  #RPsbs-411 .cs-picture:hover img,
+  #RPsbsr-411 .cs-picture:hover img {
+    transform: scale(1.1);
+  }
+  #RPsbs-411 .cs-picture:before,
+  #RPsbsr-411 .cs-picture:before {
+    /* Hover Box */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: 0;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: opacity .3s;
+  }
+  #RPsbs-411 .cs-picture img,
+  #RPsbsr-411 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform .6s;
+  }
+  #RPsbs-411 .cs-picture1,
+  #RPsbsr-411 .cs-picture1 {
+    width: 12.75em;
+    height: 19.625em;
+    top: 0;
+    left: 0;
+  }
+  #RPsbs-411 .cs-picture2,
+  #RPsbsr-411 .cs-picture2 {
+    width: 21.75em;
+    height: 19.625em;
+    top: 0;
+    right: 0;
+  }
+  #RPsbs-411 .cs-picture3,
+  #RPsbsr-411 .cs-picture3 {
+    width: 36.1875em;
+    height: 12.625em;
+    bottom: 0;
+    left: 0;
+  }
+  #RPsbs-411 .cs-graphic,
+  #RPsbsr-411 .cs-graphic {
+    width: 100%;
+    position: absolute;
+    top: 11.375rem;
+    bottom: 0;
+    left: 0;
+    /* flips the svg horizontally */
+    transform: scaleX(-1);
+    z-index: -1;
+  }
+  #RPsbs-411 .cs-graphic:before,
+  #RPsbsr-411 .cs-graphic:before {
+    /* White Box */
+    content: '';
+    width: 100%;
+    background: #FAFBFC;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    /* 110px - 140px */
+    top: clamp(6.875rem, 20vw, 8.75rem);
+    bottom: 0;
+    left: 0;
+  }
+  #RPsbs-411 .cs-graphic-img,
+  #RPsbsr-411 .cs-graphic-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: initial;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #RPsbs-411,
+  #RPsbsr-411 {
+    border-top: 1px solid #B4B2C7;
+    border-bottom: none;
+    padding: var(--sectionPadding);
+    margin-bottom: 0;
+  }
+  #RPsbs-411 .cs-container,
+  #RPsbsr-411 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  #RPsbs-411 .cs-content,
+  #RPsbsr-411 .cs-content {
+    width: 48%;
+    max-width: 36.75rem;
+  }
+  #RPsbs-411 .cs-image-group,
+  #RPsbsr-411 .cs-image-group {
+    font-size: min(1.2vw, 1em);
+    flex: none;
+  }
+  #RPsbs-411 .cs-graphic,
+  #RPsbsr-411 .cs-graphic {
+    background-color: transparent;
+    top: 0rem;
+    transform: scaleY(-1) scaleX(-1);
+  }
+  #RPsbs-411 .cs-graphic:before,
+  #RPsbsr-411 .cs-graphic:before {
+    /* 230px - 350px*/
+    top: clamp(16rem, 26vw, 21.875rem);
+  }
+  #RPsbs-411 .cs-graphic-img,
+  #RPsbsr-411 .cs-graphic-img {
+    /* 60px - 100px */
+    top: clamp(3.75rem, 6vw, 6.25rem);
+  }
+}
+/* Large Desktop 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #RPsbs-411 .cs-container,
+  #RPsbsr-411 .cs-container {
+    align-items: center;
+  }
+  #RPsbs-411 .cs-graphic::before,
+  #RPsbsr-411 .cs-graphic::before {
+    display: none;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #RPsbs-411 .cs-topper,
+  body.dark-mode #RPsbsr-411 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #RPsbs-411 .cs-title,
+  body.dark-mode #RPsbsr-411 .cs-title,
+  body.dark-mode #RPsbs-411 .cs-text,
+  body.dark-mode #RPsbsr-411 .cs-text,
+  body.dark-mode #RPsbs-411 .cs-item-text,
+  body.dark-mode #RPsbsr-411 .cs-item-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #RPsbs-411 .cs-h3,
+  body.dark-mode #RPsbsr-411 .cs-h3 {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #RPsbs-411 .cs-graphic,
+  body.dark-mode #RPsbsr-411 .cs-graphic {
+    filter: brightness(55%);
+    opacity: .2;
+  }
+}
+
+/*-- -------------------------- -->
+<---    Side By Side Reverse    -->
+<--- -------------------------- -*/
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #RPsbsr-411 {
+    /* we keep resetting margins and paddings using the section padding variable and setting 0 to the margins and paddings we don't want from the variable so if you ever change the value of --sectionPadding in your global styles, these spacings will also reflect that change and adapt.  Thats why we reuse the variable instead of hard coding margin and padding resets. We want the code to be responsive to the variable */
+    margin: var(--sectionPadding);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    border-top: none;
+    border-bottom: 1px solid #B4B2C7;
+  }
+  #RPsbsr-411 .cs-container {
+    padding: var(--sectionPadding);
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  #RPsbsr-411 .cs-image-group {
+    /* sends it to the right */
+    order: 2;
+  }
+  #RPsbsr-411 .cs-graphic {
+    /* flip the graphic on the x and y axis opposite the standard layout */
+    transform: scaleX(1) scaleY(1);
+  }
+}
+                                
