@@ -477,3 +477,997 @@
   }
 }
                                 
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #E12213;
+        --primaryLight: #001F3F;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #gallery-42 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            margin-bottom: (16/16rem);
+            max-width: (630/16rem);
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-link {
+            font-size: (15/16rem);
+            font-weight: 700;
+            text-decoration: none;
+            line-height: 1.5em;
+            width: (100/16rem);
+            color: var(--headerColor);
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                height: 2px;
+                width: 100%;
+                background: currentColor;
+                opacity: 1;
+                bottom: (-3/16rem);
+                left: 0;
+            }
+            &:hover {
+                svg {
+                    transform: translateX(7/16rem);
+                }
+            }
+
+            svg {
+                width: (24/16rem);
+                height: (24/16rem);
+                transition: transform .3s;
+            }
+        }
+
+        .cs-image-group {
+            width: 100%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(6, 31vw);
+            /* 16px - 20px */
+            gap: clamp(.5rem, 1.5vw, 1.25rem);
+        }
+
+        .cs-picture {
+            display: block;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .cs-picture-1 {
+            grid-column: ~"1 / span 6";
+            grid-row: span 1;
+        }
+
+        .cs-picture-2 {
+            grid-column: ~"7 / span 6";
+            grid-row: span 1;
+        }
+
+        .cs-picture-3 {
+            grid-column: ~"1 / span 12";
+            grid-row: ~"2 / span 2";
+        }
+
+        .cs-picture-4 {
+            grid-column: ~"1 / span 12";
+            grid-row: ~"4 / span 2";
+        }
+
+        .cs-picture-5 {
+            grid-column: ~"1 / span 6";
+            grid-row: ~"6 / span 1";
+        }
+
+        .cs-picture-6 {
+            grid-column: ~"7 / span 6";
+            grid-row: ~"6 / span 1";
+        }
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 48rem) {
+    #gallery-42 {
+        .cs-content {
+            flex-direction: row;
+            justify-content: space-between;
+            gap: (48/16rem);
+        }
+
+        .cs-flex {
+            min-width: 45%;
+        }
+
+        .cs-image-group {
+            /* 116px - 210px */
+            grid-template-rows: repeat(3, clamp(7.25rem, 16vw, 13.125rem));
+        }
+
+        .cs-picture-1 {
+            grid-column: 1 / span 3;
+            grid-row: 1 / span 1;
+        }
+
+        .cs-picture-2 {
+            grid-column: 4 / span 3;
+            grid-row: 1 / span 1;
+        }
+
+        .cs-picture-3 {
+            grid-column: 1 / span 6;
+            grid-row: 2 / span 2;
+        }
+
+        .cs-picture-4 {
+            grid-column: 7 / span 6;
+            grid-row: 1 / span 2;
+        }
+
+        .cs-picture-5 {
+            grid-column: 7 / span 3;
+            grid-row: 3 / span 1;
+        }
+
+        .cs-picture-6 {
+            grid-column: 10 / span 3;
+            grid-row: 3 / span 1;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #E12213;
+        --primaryLight: #001F3F;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #gallery-42 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            margin-bottom: (16/16rem);
+            max-width: (630/16rem);
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-link {
+            font-size: (15/16rem);
+            font-weight: 700;
+            text-decoration: none;
+            line-height: 1.5em;
+            width: (100/16rem);
+            color: var(--headerColor);
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                height: 2px;
+                width: 100%;
+                background: currentColor;
+                opacity: 1;
+                bottom: (-3/16rem);
+                left: 0;
+            }
+            &:hover {
+                svg {
+                    transform: translateX(7/16rem);
+                }
+            }
+
+            svg {
+                width: (24/16rem);
+                height: (24/16rem);
+                transition: transform .3s;
+            }
+        }
+
+        .cs-image-group {
+            width: 100%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(6, 31vw);
+            /* 16px - 20px */
+            gap: clamp(.5rem, 1.5vw, 1.25rem);
+        }
+
+        .cs-picture {
+            display: block;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .cs-picture-1 {
+            grid-column: ~"1 / span 6";
+            grid-row: span 1;
+        }
+
+        .cs-picture-2 {
+            grid-column: ~"7 / span 6";
+            grid-row: span 1;
+        }
+
+        .cs-picture-3 {
+            grid-column: ~"1 / span 12";
+            grid-row: ~"2 / span 2";
+        }
+
+        .cs-picture-4 {
+            grid-column: ~"1 / span 12";
+            grid-row: ~"4 / span 2";
+        }
+
+        .cs-picture-5 {
+            grid-column: ~"1 / span 6";
+            grid-row: ~"6 / span 1";
+        }
+
+        .cs-picture-6 {
+            grid-column: ~"7 / span 6";
+            grid-row: ~"6 / span 1";
+        }
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 48rem) {
+    #gallery-42 {
+        .cs-content {
+            flex-direction: row;
+            justify-content: space-between;
+            gap: (48/16rem);
+        }
+
+        .cs-flex {
+            min-width: 45%;
+        }
+
+        .cs-image-group {
+            /* 116px - 210px */
+            grid-template-rows: repeat(3, clamp(7.25rem, 16vw, 13.125rem));
+        }
+
+        .cs-picture-1 {
+            grid-column: 1 / span 3;
+            grid-row: 1 / span 1;
+        }
+
+        .cs-picture-2 {
+            grid-column: 4 / span 3;
+            grid-row: 1 / span 1;
+        }
+
+        .cs-picture-3 {
+            grid-column: 1 / span 6;
+            grid-row: 2 / span 2;
+        }
+
+        .cs-picture-4 {
+            grid-column: 7 / span 6;
+            grid-row: 1 / span 2;
+        }
+
+        .cs-picture-5 {
+            grid-column: 7 / span 3;
+            grid-row: 3 / span 1;
+        }
+
+        .cs-picture-6 {
+            grid-column: 10 / span 3;
+            grid-row: 3 / span 1;
+        }
+    }
+}
+
+/* Dark mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #gallery-42 {
+            .cs-title, .cs-text {
+                color: var(--bodyTextColorWhite);
+            }
+            
+            .cs-link {
+                color: var(--bodyTextColorWhite);
+
+                &:before {
+                    background: var(--bodyTextColorWhite);
+                }
+
+                svg {
+                    path {
+                        fill: var(--bodyTextColorWhite);
+                    }
+                }
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #E12213;
+        --primaryLight: #001F3F;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #gallery-42-42 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+
+        .cs-container {
+            width: 100%;
+            max-width: calc(1280 / 16 * 1rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+        
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+        
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: calc(4 / 16 * 1rem);
+            display: block;
+        }
+        
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: calc(700 / 16 * 1rem);
+            margin: 0 0 calc(16 / 16 * 1rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+        
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: calc(650 / 16 * 1rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+        
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            margin-bottom: calc(16 / 16 * 1rem);
+            max-width: calc(630 / 16 * 1rem);
+            &:last-of-type {
+                margin-bottom: calc(32 / 16 * 1rem);
+            }
+        }
+
+        .cs-link {
+            font-size: calc(16 / 16 * 1rem);
+            font-weight: 700;
+            text-decoration: none;
+            line-height: 1.5em;
+            width: calc(100 / 16 * 1rem);
+            color: var(--headerColor);
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                height: 2px;
+                width: 100%;
+                background: currentColor;
+                opacity: 1;
+                bottom: calc(-3 / 16 * 1rem);
+                left: 0;
+            }
+            &:hover {
+                svg {
+                    transform: translateX(.4375rem);
+                }
+            }
+
+            svg {
+                width: calc(24 / 16 * 1rem);
+                height: calc(24 / 16 * 1rem);
+                transition: transform .3s;
+            }
+        }
+
+        .cs-image-group {
+            width: 100%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(6, 31vw);
+            /* 16px - 20px */
+            gap: clamp(.5rem, 1.5vw, 1.25rem);
+        }
+
+        .cs-picture {
+            display: block;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .cs-picture-1 {
+            grid-column: 1 / span 6;
+            grid-row: span 1;
+        }
+
+        .cs-picture-2 {
+            grid-column: 7 / span 6;
+            grid-row: span 1;
+        }
+
+        .cs-picture-3 {
+            grid-column: 1 / span 12;
+            grid-row: 2 / span 2;
+        }
+
+        .cs-picture-4 {
+            grid-column: 1 / span 12;
+            grid-row: 4 / span 2;
+        }
+
+        .cs-picture-5 {
+            grid-column: 1 / span 6;
+            grid-row: 6 / span 1;
+        }
+
+        .cs-picture-6 {
+            grid-column: 7 / span 6;
+            grid-row: 6 / span 1;
+        }
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 48rem) {
+    #gallery-42-42 {
+        .cs-content {
+            flex-direction: row;
+            justify-content: space-between;
+            gap:  calc(48 / 16 * 1rem);
+        }
+    
+        .cs-flex {
+            min-width: 45%;
+        }
+
+        .cs-image-group {
+            /* 116px - 210px */
+            grid-template-rows: repeat(3, clamp(7.25rem, 16vw, 13.125rem));
+        }
+
+        .cs-picture-1 {
+            grid-column: 1 / span 3;
+            grid-row: 1 / span 1;
+        }
+
+        .cs-picture-2 {
+            grid-column: 4 / span 3;
+            grid-row: 1 / span 1;
+        }
+
+        .cs-picture-3 {
+            grid-column: 1 / span 6;
+            grid-row: 2 / span 2;
+        }
+
+        .cs-picture-4 {
+            grid-column: 7 / span 6;
+            grid-row: 1 / span 2;
+        }
+
+        .cs-picture-5 {
+            grid-column: 7 / span 3;
+            grid-row: 3 / span 1;
+        }
+
+        .cs-picture-6 {
+            grid-column: 10 / span 3;
+            grid-row: 3 / span 1;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #E12213;
+        --primaryLight: #001F3F;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #gallery-42-42 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+
+        .cs-container {
+            width: 100%;
+            max-width: calc(1280 / 16 * 1rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+        
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+        
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: calc(4 / 16 * 1rem);
+            display: block;
+        }
+        
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: calc(700 / 16 * 1rem);
+            margin: 0 0 calc(16 / 16 * 1rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+        
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: calc(650 / 16 * 1rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+        
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            margin-bottom: calc(16 / 16 * 1rem);
+            max-width: calc(630 / 16 * 1rem);
+            &:last-of-type {
+                margin-bottom: calc(32 / 16 * 1rem);
+            }
+        }
+
+        .cs-link {
+            font-size: calc(16 / 16 * 1rem);
+            font-weight: 700;
+            text-decoration: none;
+            line-height: 1.5em;
+            width: calc(100 / 16 * 1rem);
+            color: var(--headerColor);
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                height: 2px;
+                width: 100%;
+                background: currentColor;
+                opacity: 1;
+                bottom: calc(-3 / 16 * 1rem);
+                left: 0;
+            }
+            &:hover {
+                svg {
+                    transform: translateX(.4375rem);
+                }
+            }
+
+            svg {
+                width: calc(24 / 16 * 1rem);
+                height: calc(24 / 16 * 1rem);
+                transition: transform .3s;
+            }
+        }
+
+        .cs-image-group {
+            width: 100%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(6, 31vw);
+            /* 16px - 20px */
+            gap: clamp(.5rem, 1.5vw, 1.25rem);
+        }
+
+        .cs-picture {
+            display: block;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .cs-picture-1 {
+            grid-column: 1 / span 6;
+            grid-row: span 1;
+        }
+
+        .cs-picture-2 {
+            grid-column: 7 / span 6;
+            grid-row: span 1;
+        }
+
+        .cs-picture-3 {
+            grid-column: 1 / span 12;
+            grid-row: 2 / span 2;
+        }
+
+        .cs-picture-4 {
+            grid-column: 1 / span 12;
+            grid-row: 4 / span 2;
+        }
+
+        .cs-picture-5 {
+            grid-column: 1 / span 6;
+            grid-row: 6 / span 1;
+        }
+
+        .cs-picture-6 {
+            grid-column: 7 / span 6;
+            grid-row: 6 / span 1;
+        }
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 48rem) {
+    #gallery-42-42 {
+        .cs-content {
+            flex-direction: row;
+            justify-content: space-between;
+            gap:  calc(48 / 16 * 1rem);
+        }
+    
+        .cs-flex {
+            min-width: 45%;
+        }
+
+        .cs-image-group {
+            /* 116px - 210px */
+            grid-template-rows: repeat(3, clamp(7.25rem, 16vw, 13.125rem));
+        }
+
+        .cs-picture-1 {
+            grid-column: 1 / span 3;
+            grid-row: 1 / span 1;
+        }
+
+        .cs-picture-2 {
+            grid-column: 4 / span 3;
+            grid-row: 1 / span 1;
+        }
+
+        .cs-picture-3 {
+            grid-column: 1 / span 6;
+            grid-row: 2 / span 2;
+        }
+
+        .cs-picture-4 {
+            grid-column: 7 / span 6;
+            grid-row: 1 / span 2;
+        }
+
+        .cs-picture-5 {
+            grid-column: 7 / span 3;
+            grid-row: 3 / span 1;
+        }
+
+        .cs-picture-6 {
+            grid-column: 10 / span 3;
+            grid-row: 3 / span 1;
+        }
+    }
+}
+
+/* Dark mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #gallery-42-42 {
+            .cs-title, .cs-text {
+                color: var(--bodyTextColorWhite);
+            }
+            
+            .cs-link {
+                color: var(--bodyTextColorWhite);
+
+                &:before {
+                    background: var(--bodyTextColorWhite);
+                }
+
+                svg {
+                    path {
+                        fill: var(--bodyTextColorWhite);
+                    }
+                }
+            }
+        }
+    }
+}
+                                

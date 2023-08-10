@@ -753,3 +753,1429 @@
   }
 }
                                 
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #E5572C;
+        --primaryLight: #001F3F;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #gallery-46 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        position: relative;
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-image-group {
+            width: 100%;
+            margin: 0;
+            display: grid;
+            place-content: center;
+            grid-template-columns: repeat(12, 1fr);
+            /* 158px - 304px */
+            grid-template-rows: 1fr; 
+            /* 8px - 20px */
+            gap: clamp(.5rem, 1.5vw, 1.25rem);
+        }
+
+        .cs-item {
+            width: 100%;
+            margin: 0;
+            aspect-ratio: 1;
+            grid-column: span 6;
+            display: block;
+            position: relative;
+            /* prevents image from overflowing the container on hover */
+            overflow: hidden;
+
+            &:hover {
+                .cs-picture {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+
+                .cs-hover-box {
+                    opacity: 1;
+                    pointer-events: all;
+                }
+
+                .cs-heading3 {
+                    opacity: 1;
+                    /* Return to original position */
+                    transform: translateY(0);
+                }
+
+                .cs-subtitle {
+                    opacity: 1;
+                    /* Return to original position */
+                    transform: translateY(0);
+                }
+
+                .cs-link {
+                    opacity: 1;
+                    /* Return to original position */
+                    transform: translateY(0);
+                }
+            }
+        }
+
+        .cs-picture {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                transition: transform .6s;
+            }
+        }
+
+        .cs-item-1 {
+            grid-column: ~"1 / span 12";
+            grid-row: ~"1 / 2";
+            aspect-ratio: 328/158;
+        }
+
+        .cs-item-5 {
+            grid-column: 7 / span 6;
+            grid-row: 3 / span 2;
+            aspect-ratio: initial;
+        }
+
+        .cs-hover-box {
+            height: 100%;
+            width: 100%;
+            padding: (16/16rem) (10/16rem);
+            opacity: 0;
+            position: absolute;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            /* Prevents padding from adding to the height & width */
+            box-sizing: border-box;
+            transition: opacity .3s;
+            /* prevent it from interacting with the mouse so we can add a hover
+            effect on the cs-item parent */
+            pointer-events: none;
+            position: relative;
+
+            &:before {
+                /* top right box */
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: var(--primary);
+                opacity: .9;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .cs-heading3 {
+            /* 16px - 20px */
+            font-size: clamp(1rem, 5vw, 1.25rem);
+            line-height: 1.2em;
+            margin: 0;
+            margin-bottom: (12/16rem);
+            color: var(--bodyTextColorWhite);
+            opacity: 0;
+            /* starting point is 10px down from its original point */
+            transform: translateY(10/16rem);
+            transition: opacity .3s, transform .5s;
+        }
+
+        .cs-subtitle {
+            /* 13px - 15px */
+            font-size: clamp(.8125rem, 5vw, .9375rem);
+            line-height: 1.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+            /* Pushes the link to the bottom of the flexbox */
+            margin-bottom: auto;
+            color: var(--bodyTextColorWhite);
+            opacity: 0;
+            /* starting point is 10px down from its original point */
+            transform: translateY(10/16rem);
+            display: block;
+            transition: opacity .3s, transform .5s;
+            transition-delay: .1s;
+        }
+
+        .cs-link {
+            font-size: (15/16rem);
+            line-height: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            opacity: 0;
+            /* starting point is 10px down from its original point */
+            transform: translateY(10/16rem);
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            transition: opacity .3s, transform .5s;
+            transition-delay: .3s;
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                height: (2/16rem);
+                width: 0%;
+                background: currentColor;
+                opacity: 1;
+                bottom: (-2/16rem);
+                left: 0;
+                transition: width .3s;
+            }
+
+            svg {
+                margin-right: (8/16rem);
+            }
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #gallery-46 {
+        .cs-item {
+            grid-column: span 3;
+        }
+
+        .cs-item-1 {
+            grid-column: 1 / span 6;
+        }
+
+        .cs-item-2 {
+            grid-column: 1 / span 3;
+            grid-row: 2;
+        }
+
+        .cs-item-3 {
+            grid-column: 4 / span 3;
+            grid-row: 2;
+        }
+
+        .cs-item-5 {
+            grid-column: 7 / span 3;
+            grid-row: 2;
+        }
+
+        .cs-item-6 {
+            grid-column: 10 / span 3;
+            grid-row: 1 / span 2;
+            aspect-ratio: initial;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #E5572C;
+        --primaryLight: #001F3F;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #gallery-46 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        position: relative;
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-image-group {
+            width: 100%;
+            margin: 0;
+            display: grid;
+            place-content: center;
+            grid-template-columns: repeat(12, 1fr);
+            /* 158px - 304px */
+            grid-template-rows: 1fr; 
+            /* 8px - 20px */
+            gap: clamp(.5rem, 1.5vw, 1.25rem);
+        }
+
+        .cs-item {
+            width: 100%;
+            margin: 0;
+            aspect-ratio: 1;
+            grid-column: span 6;
+            display: block;
+            position: relative;
+            /* prevents image from overflowing the container on hover */
+            overflow: hidden;
+
+            &:hover {
+                .cs-picture {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+
+                .cs-hover-box {
+                    opacity: 1;
+                    pointer-events: all;
+                }
+
+                .cs-heading3 {
+                    opacity: 1;
+                    /* Return to original position */
+                    transform: translateY(0);
+                }
+
+                .cs-subtitle {
+                    opacity: 1;
+                    /* Return to original position */
+                    transform: translateY(0);
+                }
+
+                .cs-link {
+                    opacity: 1;
+                    /* Return to original position */
+                    transform: translateY(0);
+                }
+            }
+        }
+
+        .cs-picture {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                transition: transform .6s;
+            }
+        }
+
+        .cs-item-1 {
+            grid-column: ~"1 / span 12";
+            grid-row: ~"1 / 2";
+            aspect-ratio: 328/158;
+        }
+
+        .cs-item-5 {
+            grid-column: 7 / span 6;
+            grid-row: 3 / span 2;
+            aspect-ratio: initial;
+        }
+
+        .cs-hover-box {
+            height: 100%;
+            width: 100%;
+            padding: (16/16rem) (10/16rem);
+            opacity: 0;
+            position: absolute;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            /* Prevents padding from adding to the height & width */
+            box-sizing: border-box;
+            transition: opacity .3s;
+            /* prevent it from interacting with the mouse so we can add a hover
+            effect on the cs-item parent */
+            pointer-events: none;
+            position: relative;
+
+            &:before {
+                /* top right box */
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: var(--primary);
+                opacity: .9;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .cs-heading3 {
+            /* 16px - 20px */
+            font-size: clamp(1rem, 5vw, 1.25rem);
+            line-height: 1.2em;
+            margin: 0;
+            margin-bottom: (12/16rem);
+            color: var(--bodyTextColorWhite);
+            opacity: 0;
+            /* starting point is 10px down from its original point */
+            transform: translateY(10/16rem);
+            transition: opacity .3s, transform .5s;
+        }
+
+        .cs-subtitle {
+            /* 13px - 15px */
+            font-size: clamp(.8125rem, 5vw, .9375rem);
+            line-height: 1.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+            /* Pushes the link to the bottom of the flexbox */
+            margin-bottom: auto;
+            color: var(--bodyTextColorWhite);
+            opacity: 0;
+            /* starting point is 10px down from its original point */
+            transform: translateY(10/16rem);
+            display: block;
+            transition: opacity .3s, transform .5s;
+            transition-delay: .1s;
+        }
+
+        .cs-link {
+            font-size: (15/16rem);
+            line-height: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            opacity: 0;
+            /* starting point is 10px down from its original point */
+            transform: translateY(10/16rem);
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            transition: opacity .3s, transform .5s;
+            transition-delay: .3s;
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                height: (2/16rem);
+                width: 0%;
+                background: currentColor;
+                opacity: 1;
+                bottom: (-2/16rem);
+                left: 0;
+                transition: width .3s;
+            }
+
+            svg {
+                margin-right: (8/16rem);
+            }
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #gallery-46 {
+        .cs-item {
+            grid-column: span 3;
+        }
+
+        .cs-item-1 {
+            grid-column: 1 / span 6;
+        }
+
+        .cs-item-2 {
+            grid-column: 1 / span 3;
+            grid-row: 2;
+        }
+
+        .cs-item-3 {
+            grid-column: 4 / span 3;
+            grid-row: 2;
+        }
+
+        .cs-item-5 {
+            grid-column: 7 / span 3;
+            grid-row: 2;
+        }
+
+        .cs-item-6 {
+            grid-column: 10 / span 3;
+            grid-row: 1 / span 2;
+            aspect-ratio: initial;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #gallery-46 {
+            .cs-title, .cs-text {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-text {
+                opacity: .8;
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #E5572C;
+        --primaryLight: #001F3F;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #gallery-46 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        position: relative;
+
+        .cs-container {
+            width: 100%;
+            max-width: calc(1280 / 16 * 1rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: calc(4 / 16 * 1rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: calc(700 / 16 * 1rem);
+            margin: 0 0 calc(16 / 16 * 1rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: calc(650 / 16 * 1rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-image-group {
+            width: 100%;
+            margin: 0;
+            display: grid;
+            place-content: center;
+            grid-template-columns: repeat(12, 1fr);
+            /* 158px - 304px */
+            grid-template-rows: 1fr; 
+            /* 8px - 20px */
+            gap: clamp(.5rem, 1.5vw, 1.25rem);
+        }
+
+        .cs-item {
+            width: 100%;
+            margin: 0;
+            aspect-ratio: 1;
+            grid-column: span 6;
+            display: block;
+            position: relative;
+            /* prevents image from overflowing the container on hover */
+            overflow: hidden;
+
+            &:hover {
+                .cs-picture {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+
+                .cs-hover-box {
+                    opacity: 1;
+                    pointer-events: all;
+                }
+
+                .cs-heading3 {
+                    opacity: 1;
+                    /* Return to original position */
+                    transform: translateY(0);
+                }
+
+                .cs-subtitle {
+                    opacity: 1;
+                    /* Return to original position */
+                    transform: translateY(0);
+                }
+
+                .cs-link {
+                    opacity: 1;
+                    /* Return to original position */
+                    transform: translateY(0);
+                }
+            }
+        }
+
+        .cs-picture {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                transition: transform .6s;
+            }
+        }
+
+        .cs-item-1 {
+            grid-column: 1 / span 12;
+            grid-row: 1 / 2;
+            aspect-ratio: 328/158;
+        }
+
+        .cs-item-5 {
+            grid-column: 7 / span 6;
+            grid-row: 3 / span 2;
+            aspect-ratio: initial;
+        }
+
+        .cs-hover-box {
+            height: 100%;
+            width: 100%;
+            padding: calc(16 / 16 * 1rem) calc(10 / 16 * 1rem);
+            opacity: 0;
+            position: absolute;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            /* Prevents padding from adding to the height & width */
+            box-sizing: border-box;
+            transition: opacity .3s;
+            /* prevent it from interacting with the mouse so we can add a hover
+            effect on the cs-item parent */
+            pointer-events: none;
+            position: relative;
+
+            &:before {
+                /* top right box */
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: var(--primary);
+                opacity: .9;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .cs-heading3 {
+            /* 16px - 20px */
+            font-size: clamp(1rem, 5vw, 1.25rem);
+            line-height: 1.2em;
+            margin: 0;
+            margin-bottom: calc(12 / 16 * 1rem);
+            color: var(--bodyTextColorWhite);
+            opacity: 0;
+            /* starting point is 10px down from its original point */
+            transform: translateY(calc(10 / 16 * 1rem));
+            transition: opacity .3s, transform .5s;
+        }
+
+        .cs-subtitle {
+            /* 13px - 15px */
+            font-size: clamp(.8125rem, 5vw, .9375rem);
+            line-height: 1.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+            /* Pushes the link to the bottom of the flexbox */
+            margin-bottom: auto;
+            color: var(--bodyTextColorWhite);
+            opacity: 0;
+            /* starting point is 10px down from its original point */
+            transform: translateY(calc(10 / 16 * 1rem));
+            display: block;
+            transition: opacity .3s, transform .5s;
+            transition-delay: .1s;
+        }
+
+        .cs-link {
+            font-size: calc(15 / 16 * 1rem);
+            line-height: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            opacity: 0;
+            /* starting point is 10px down from its original point */
+            transform: translateY(calc(10 / 16 * 1rem));
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            transition: opacity .3s, transform .5s;
+            transition-delay: .3s;
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                height: calc(2 / 16 * 1rem);
+                width: 0%;
+                background: currentColor;
+                opacity: 1;
+                bottom: calc(-2 / 16 * 1rem);
+                left: 0;
+                transition: width .3s;
+            }
+
+            svg {
+                margin-right: calc(8 / 16 * 1rem);
+            }
+        }
+
+        .cs-button-solid {
+            font-size: calc(16 / 16 * 1rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+            font-weight: 700;
+            text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: calc(150 / 16 * 1rem);
+            padding: 0 calc(24 / 16 * 1rem);
+            background-color: var(--primary);
+            border-radius: calc(4 / 16 * 1rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+        
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: calc(4 / 16 * 1rem);
+                transition: width .3s;
+            }
+        
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #gallery-46 {
+        .cs-item {
+            grid-column: span 3;
+        }
+
+        .cs-item-1 {
+            grid-column: 1 / span 6;
+        }
+
+        .cs-item-2 {
+            grid-column: 1 / span 3;
+            grid-row: 2;
+        }
+
+        .cs-item-3 {
+            grid-column: 4 / span 3;
+            grid-row: 2;
+        }
+
+        .cs-item-5 {
+            grid-column: 7 / span 3;
+            grid-row: 2;
+        }
+
+        .cs-item-6 {
+            grid-column: 10 / span 3;
+            grid-row: 1 / span 2;
+            aspect-ratio: initial;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #E5572C;
+        --primaryLight: #001F3F;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #gallery-46 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        position: relative;
+
+        .cs-container {
+            width: 100%;
+            max-width: calc(1280 / 16 * 1rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: calc(4 / 16 * 1rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: calc(700 / 16 * 1rem);
+            margin: 0 0 calc(16 / 16 * 1rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: calc(650 / 16 * 1rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-image-group {
+            width: 100%;
+            margin: 0;
+            display: grid;
+            place-content: center;
+            grid-template-columns: repeat(12, 1fr);
+            /* 158px - 304px */
+            grid-template-rows: 1fr; 
+            /* 8px - 20px */
+            gap: clamp(.5rem, 1.5vw, 1.25rem);
+        }
+
+        .cs-item {
+            width: 100%;
+            margin: 0;
+            aspect-ratio: 1;
+            grid-column: span 6;
+            display: block;
+            position: relative;
+            /* prevents image from overflowing the container on hover */
+            overflow: hidden;
+
+            &:hover {
+                .cs-picture {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+
+                .cs-hover-box {
+                    opacity: 1;
+                    pointer-events: all;
+                }
+
+                .cs-heading3 {
+                    opacity: 1;
+                    /* Return to original position */
+                    transform: translateY(0);
+                }
+
+                .cs-subtitle {
+                    opacity: 1;
+                    /* Return to original position */
+                    transform: translateY(0);
+                }
+
+                .cs-link {
+                    opacity: 1;
+                    /* Return to original position */
+                    transform: translateY(0);
+                }
+            }
+        }
+
+        .cs-picture {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                transition: transform .6s;
+            }
+        }
+
+        .cs-item-1 {
+            grid-column: 1 / span 12;
+            grid-row: 1 / 2;
+            aspect-ratio: 328/158;
+        }
+
+        .cs-item-5 {
+            grid-column: 7 / span 6;
+            grid-row: 3 / span 2;
+            aspect-ratio: initial;
+        }
+
+        .cs-hover-box {
+            height: 100%;
+            width: 100%;
+            padding: calc(16 / 16 * 1rem) calc(10 / 16 * 1rem);
+            opacity: 0;
+            position: absolute;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            /* Prevents padding from adding to the height & width */
+            box-sizing: border-box;
+            transition: opacity .3s;
+            /* prevent it from interacting with the mouse so we can add a hover
+            effect on the cs-item parent */
+            pointer-events: none;
+            position: relative;
+
+            &:before {
+                /* top right box */
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: var(--primary);
+                opacity: .9;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .cs-heading3 {
+            /* 16px - 20px */
+            font-size: clamp(1rem, 5vw, 1.25rem);
+            line-height: 1.2em;
+            margin: 0;
+            margin-bottom: calc(12 / 16 * 1rem);
+            color: var(--bodyTextColorWhite);
+            opacity: 0;
+            /* starting point is 10px down from its original point */
+            transform: translateY(calc(10 / 16 * 1rem));
+            transition: opacity .3s, transform .5s;
+        }
+
+        .cs-subtitle {
+            /* 13px - 15px */
+            font-size: clamp(.8125rem, 5vw, .9375rem);
+            line-height: 1.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+            /* Pushes the link to the bottom of the flexbox */
+            margin-bottom: auto;
+            color: var(--bodyTextColorWhite);
+            opacity: 0;
+            /* starting point is 10px down from its original point */
+            transform: translateY(calc(10 / 16 * 1rem));
+            display: block;
+            transition: opacity .3s, transform .5s;
+            transition-delay: .1s;
+        }
+
+        .cs-link {
+            font-size: calc(15 / 16 * 1rem);
+            line-height: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            opacity: 0;
+            /* starting point is 10px down from its original point */
+            transform: translateY(calc(10 / 16 * 1rem));
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            transition: opacity .3s, transform .5s;
+            transition-delay: .3s;
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                height: calc(2 / 16 * 1rem);
+                width: 0%;
+                background: currentColor;
+                opacity: 1;
+                bottom: calc(-2 / 16 * 1rem);
+                left: 0;
+                transition: width .3s;
+            }
+
+            svg {
+                margin-right: calc(8 / 16 * 1rem);
+            }
+        }
+
+        .cs-button-solid {
+            font-size: calc(16 / 16 * 1rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+            font-weight: 700;
+            text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: calc(150 / 16 * 1rem);
+            padding: 0 calc(24 / 16 * 1rem);
+            background-color: var(--primary);
+            border-radius: calc(4 / 16 * 1rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+        
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: calc(4 / 16 * 1rem);
+                transition: width .3s;
+            }
+        
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #gallery-46 {
+        .cs-item {
+            grid-column: span 3;
+        }
+
+        .cs-item-1 {
+            grid-column: 1 / span 6;
+        }
+
+        .cs-item-2 {
+            grid-column: 1 / span 3;
+            grid-row: 2;
+        }
+
+        .cs-item-3 {
+            grid-column: 4 / span 3;
+            grid-row: 2;
+        }
+
+        .cs-item-5 {
+            grid-column: 7 / span 3;
+            grid-row: 2;
+        }
+
+        .cs-item-6 {
+            grid-column: 10 / span 3;
+            grid-row: 1 / span 2;
+            aspect-ratio: initial;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #gallery-46 {
+            .cs-title, .cs-text {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-text {
+                opacity: .8;
+            }
+        }
+    }
+}
+                                

@@ -626,3 +626,940 @@
   }
 }
                                 
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #007CFB;
+        --primaryLight: #4da3fc;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #gallery-406 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+    
+        .cs-container {
+            width: 100%;
+            /* changes to 955px at desktop */
+            max-width: (955/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+            position: relative;
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+
+        .cs-title {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            margin: 0 0 (24/16rem) 0;
+        }
+    
+        .cs-button-group {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            row-gap: (8/16rem);
+            column-gap: (32/16rem);
+        }
+
+        .cs-button {
+            font-size: (16/16rem);
+            line-height: 1.5em;
+            color: var(--bodyTextColor);
+            background-color: transparent;
+            border: none;
+            transition: color .3s;
+            &:hover {
+                color: var(--primary);
+                cursor: pointer;
+            }
+            &.cs-active {
+                color: var(--primary);
+            }
+        }
+
+        .cs-gallery {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            visibility: visible;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            /* 16px - 20px */
+            gap: clamp(1rem, 1.5vw, 1.25rem);
+            transition: transform .7s, opacity .3s, visibility .5s, top .3s, left .3s;
+            /* makes the transform scaling origin the top left corner, dictates the direction by which the scale transforms animate towards */
+            transform-origin: left top;
+
+            &.cs-hidden {
+                position: absolute;
+                /* by using visibility:hidden instead of display:none, we can see the animations from the opacity and transforms, display:none won't render animations. */
+                visibility: hidden;
+                /* prevents the mouse from interacting with it */
+                pointer-events: none;
+                /* hidden galleries have a 0 opacity, and we animate the opacity to 1 when they become active */
+                opacity: 0;
+                /* this top and left value help control the animation, by setting it to position absolute and left 0, the gallery won't fly off screen to the left, it will stop its position to be at the left edge of the .cs-container (left: 0). Same for the bottom:0 value, the gallery won't go past that position when it animates */
+                bottom: 0;
+                left: 0;
+                position: absolute;
+                /* prevents the hidden galleries from overflowing the section, and makes a nice animations to transition to and from */
+                transform: scaleY(0) scaleX(0);
+
+                .cs-image {
+                    /* when gallery is hidden, add these styles to the cs-image to animate from when cs-hidden is removed from the .cs-gallery */
+                    transform: translateY(35/16rem);
+                    opacity: 0;
+                }
+            }
+        }
+
+        .cs-image {
+            border-radius: (20/16rem);
+            width: 47%;
+            aspect-ratio: 1;
+            /* clips the image corners */
+            overflow: hidden;
+            display: block;
+            position: relative;
+            /* when .cs-hidden is removed from the .cs-gallery, reset these values and animate between their hidden styles */
+            transform: translateY(0/16rem);
+            opacity: 1;
+            transition: opacity .6s, transform .6s;
+
+            &:nth-of-type(1) {
+                /* these delays stagger the reveal of each image so they all go one after the other and not all at once */
+                transition-delay: .15s;
+            }
+            &:nth-of-type(2) {
+                transition-delay: .3s;
+            }
+            &:nth-of-type(3) {
+                transition-delay: .45s;
+            }
+            &:nth-of-type(4) {
+                transition-delay: .6s;
+            }
+            &:nth-of-type(5) {
+                transition-delay: .75s;
+            }
+            &:nth-of-type(6) {
+                transition-delay: .9s;
+            }
+            &:nth-of-type(7) {
+                transition-delay: 1.05s;
+            }
+            &:nth-of-type(8) {
+                transition-delay: 1.20s;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* makes it act like a background image */
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #gallery-406 {
+        .cs-container {
+            max-width: (955/16rem);
+        }
+        .cs-image {
+            width: 32.8%;
+            max-width: (305/16rem);
+            /* 300px - 400px */
+            height: clamp(18.75rem, 30vw, 25rem);
+            aspect-ratio: 1;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #007CFB;
+        --primaryLight: #4da3fc;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #gallery-406 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+    
+        .cs-container {
+            width: 100%;
+            /* changes to 955px at desktop */
+            max-width: (955/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+            position: relative;
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+
+        .cs-title {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            margin: 0 0 (24/16rem) 0;
+        }
+    
+        .cs-button-group {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            row-gap: (8/16rem);
+            column-gap: (32/16rem);
+        }
+
+        .cs-button {
+            font-size: (16/16rem);
+            line-height: 1.5em;
+            color: var(--bodyTextColor);
+            background-color: transparent;
+            border: none;
+            transition: color .3s;
+            &:hover {
+                color: var(--primary);
+                cursor: pointer;
+            }
+            &.cs-active {
+                color: var(--primary);
+            }
+        }
+
+        .cs-gallery {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            visibility: visible;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            /* 16px - 20px */
+            gap: clamp(1rem, 1.5vw, 1.25rem);
+            transition: transform .7s, opacity .3s, visibility .5s, top .3s, left .3s;
+            /* makes the transform scaling origin the top left corner, dictates the direction by which the scale transforms animate towards */
+            transform-origin: left top;
+
+            &.cs-hidden {
+                position: absolute;
+                /* by using visibility:hidden instead of display:none, we can see the animations from the opacity and transforms, display:none won't render animations. */
+                visibility: hidden;
+                /* prevents the mouse from interacting with it */
+                pointer-events: none;
+                /* hidden galleries have a 0 opacity, and we animate the opacity to 1 when they become active */
+                opacity: 0;
+                /* this top and left value help control the animation, by setting it to position absolute and left 0, the gallery won't fly off screen to the left, it will stop its position to be at the left edge of the .cs-container (left: 0). Same for the bottom:0 value, the gallery won't go past that position when it animates */
+                bottom: 0;
+                left: 0;
+                position: absolute;
+                /* prevents the hidden galleries from overflowing the section, and makes a nice animations to transition to and from */
+                transform: scaleY(0) scaleX(0);
+
+                .cs-image {
+                    /* when gallery is hidden, add these styles to the cs-image to animate from when cs-hidden is removed from the .cs-gallery */
+                    transform: translateY(35/16rem);
+                    opacity: 0;
+                }
+            }
+        }
+
+        .cs-image {
+            border-radius: (20/16rem);
+            width: 47%;
+            aspect-ratio: 1;
+            /* clips the image corners */
+            overflow: hidden;
+            display: block;
+            position: relative;
+            /* when .cs-hidden is removed from the .cs-gallery, reset these values and animate between their hidden styles */
+            transform: translateY(0/16rem);
+            opacity: 1;
+            transition: opacity .6s, transform .6s;
+
+            &:nth-of-type(1) {
+                /* these delays stagger the reveal of each image so they all go one after the other and not all at once */
+                transition-delay: .15s;
+            }
+            &:nth-of-type(2) {
+                transition-delay: .3s;
+            }
+            &:nth-of-type(3) {
+                transition-delay: .45s;
+            }
+            &:nth-of-type(4) {
+                transition-delay: .6s;
+            }
+            &:nth-of-type(5) {
+                transition-delay: .75s;
+            }
+            &:nth-of-type(6) {
+                transition-delay: .9s;
+            }
+            &:nth-of-type(7) {
+                transition-delay: 1.05s;
+            }
+            &:nth-of-type(8) {
+                transition-delay: 1.20s;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* makes it act like a background image */
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #gallery-406 {
+        .cs-container {
+            max-width: (955/16rem);
+        }
+        .cs-image {
+            width: 32.8%;
+            max-width: (305/16rem);
+            /* 300px - 400px */
+            height: clamp(18.75rem, 30vw, 25rem);
+            aspect-ratio: 1;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #gallery-406 {
+            .cs-topper {
+                color: var(--primaryLight);
+            }
+            .cs-title, .cs-text, .cs-button {
+                color: var(--bodyTextColorWhite);
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #007cfb;
+		--primaryLight: #4da3fc;
+		--secondary: #ffba43;
+		--secondaryLight: #ffba43;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#gallery-406 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+
+		.cs-container {
+			width: 100%;
+			/* changes to 955px at desktop */
+			max-width: calc(955 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+            position: relative;
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: center;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: center;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-title {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			margin: 0 0 calc(24 / 16 * 1rem) 0;
+		}
+
+		.cs-button-group {
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			row-gap: calc(8 / 16 * 1rem);
+			column-gap: calc(32 / 16 * 1rem);
+		}
+
+		.cs-button {
+			font-size: calc(16 / 16 * 1rem);
+			line-height: 1.5em;
+			color: var(--bodyTextColor);
+			background-color: transparent;
+			border: none;
+			transition: color 0.3s;
+			&:hover {
+				color: var(--primary);
+				cursor: pointer;
+			}
+			&.cs-active {
+				color: var(--primary);
+			}
+		}
+
+		.cs-gallery {
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			opacity: 1;
+			visibility: visible;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			/* 16px - 20px */
+			gap: clamp(1rem, 1.5vw, 1.25rem);
+			transition: transform 0.7s, opacity 0.3s, visibility 0.5s, top 0.3s, left 0.3s;
+			/* makes the transform scaling origin the top left corner, dictates the direction by which the scale transforms animate towards */
+			transform-origin: left top;
+
+			&.cs-hidden {
+				position: absolute;
+				/* by using visibility:hidden instead of display:none, we can see the animations from the opacity and transforms, display:none won't render animations. */
+				visibility: hidden;
+				/* prevents the mouse from interacting with it */
+				pointer-events: none;
+				/* hidden galleries have a 0 opacity, and we animate the opacity to 1 when they become active */
+				opacity: 0;
+				/* this top and left value help control the animation, by setting it to position absolute and left 0, the gallery won't fly off screen to the left, it will stop its position to be at the left edge of the .cs-container (left: 0). Same for the bottom:0 value, the gallery won't go past that position when it animates */
+				bottom: 0;
+				left: 0;
+				position: absolute;
+				/* prevents the hidden galleries from overflowing the section, and makes a nice animations to transition to and from */
+				transform: scaleY(0) scaleX(0);
+
+				.cs-image {
+					/* when gallery is hidden, add these styles to the cs-image to animate from when cs-hidden is removed from the .cs-gallery */
+					transform: translateY(calc(35 / 16 * 1rem));
+					opacity: 0;
+				}
+			}
+		}
+
+		.cs-image {
+			border-radius: calc(20 / 16 * 1rem);
+			width: 47%;
+			aspect-ratio: 1;
+			/* clips the image corners */
+			overflow: hidden;
+			display: block;
+			position: relative;
+			/* when .cs-hidden is removed from the .cs-gallery, reset these values and animate between their hidden styles */
+			transform: translateY(calc(0 / 16 * 1rem));
+			opacity: 1;
+			transition: opacity 0.6s, transform 0.6s;
+
+			&:nth-of-type(1) {
+				/* these delays stagger the reveal of each image so they all go one after the other and not all at once */
+				transition-delay: 0.15s;
+			}
+			&:nth-of-type(2) {
+				transition-delay: 0.3s;
+			}
+			&:nth-of-type(3) {
+				transition-delay: 0.45s;
+			}
+			&:nth-of-type(4) {
+				transition-delay: 0.6s;
+			}
+			&:nth-of-type(5) {
+				transition-delay: 0.75s;
+			}
+			&:nth-of-type(6) {
+				transition-delay: 0.9s;
+			}
+			&:nth-of-type(7) {
+				transition-delay: 1.05s;
+			}
+			&:nth-of-type(8) {
+				transition-delay: 1.2s;
+			}
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				/* makes it act like a background image */
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+	#gallery-406 {
+		.cs-container {
+			max-width: calc(955 / 16 * 1rem);
+		}
+		.cs-image {
+			width: 32.8%;
+			max-width: calc(305 / 16 * 1rem);
+			/* 300px - 400px */
+			height: clamp(18.75rem, 30vw, 25rem);
+			aspect-ratio: 1;
+		}
+	}
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #007cfb;
+		--primaryLight: #4da3fc;
+		--secondary: #ffba43;
+		--secondaryLight: #ffba43;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#gallery-406 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+
+		.cs-container {
+			width: 100%;
+			/* changes to 955px at desktop */
+			max-width: calc(955 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+            position: relative;
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: center;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: center;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-title {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			margin: 0 0 calc(24 / 16 * 1rem) 0;
+		}
+
+		.cs-button-group {
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			row-gap: calc(8 / 16 * 1rem);
+			column-gap: calc(32 / 16 * 1rem);
+		}
+
+		.cs-button {
+			font-size: calc(16 / 16 * 1rem);
+			line-height: 1.5em;
+			color: var(--bodyTextColor);
+			background-color: transparent;
+			border: none;
+			transition: color 0.3s;
+			&:hover {
+				color: var(--primary);
+				cursor: pointer;
+			}
+			&.cs-active {
+				color: var(--primary);
+			}
+		}
+
+		.cs-gallery {
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			opacity: 1;
+			visibility: visible;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			/* 16px - 20px */
+			gap: clamp(1rem, 1.5vw, 1.25rem);
+			transition: transform 0.7s, opacity 0.3s, visibility 0.5s, top 0.3s, left 0.3s;
+			/* makes the transform scaling origin the top left corner, dictates the direction by which the scale transforms animate towards */
+			transform-origin: left top;
+
+			&.cs-hidden {
+				position: absolute;
+				/* by using visibility:hidden instead of display:none, we can see the animations from the opacity and transforms, display:none won't render animations. */
+				visibility: hidden;
+				/* prevents the mouse from interacting with it */
+				pointer-events: none;
+				/* hidden galleries have a 0 opacity, and we animate the opacity to 1 when they become active */
+				opacity: 0;
+				/* this top and left value help control the animation, by setting it to position absolute and left 0, the gallery won't fly off screen to the left, it will stop its position to be at the left edge of the .cs-container (left: 0). Same for the bottom:0 value, the gallery won't go past that position when it animates */
+				bottom: 0;
+				left: 0;
+				position: absolute;
+				/* prevents the hidden galleries from overflowing the section, and makes a nice animations to transition to and from */
+				transform: scaleY(0) scaleX(0);
+
+				.cs-image {
+					/* when gallery is hidden, add these styles to the cs-image to animate from when cs-hidden is removed from the .cs-gallery */
+					transform: translateY(calc(35 / 16 * 1rem));
+					opacity: 0;
+				}
+			}
+		}
+
+		.cs-image {
+			border-radius: calc(20 / 16 * 1rem);
+			width: 47%;
+			aspect-ratio: 1;
+			/* clips the image corners */
+			overflow: hidden;
+			display: block;
+			position: relative;
+			/* when .cs-hidden is removed from the .cs-gallery, reset these values and animate between their hidden styles */
+			transform: translateY(calc(0 / 16 * 1rem));
+			opacity: 1;
+			transition: opacity 0.6s, transform 0.6s;
+
+			&:nth-of-type(1) {
+				/* these delays stagger the reveal of each image so they all go one after the other and not all at once */
+				transition-delay: 0.15s;
+			}
+			&:nth-of-type(2) {
+				transition-delay: 0.3s;
+			}
+			&:nth-of-type(3) {
+				transition-delay: 0.45s;
+			}
+			&:nth-of-type(4) {
+				transition-delay: 0.6s;
+			}
+			&:nth-of-type(5) {
+				transition-delay: 0.75s;
+			}
+			&:nth-of-type(6) {
+				transition-delay: 0.9s;
+			}
+			&:nth-of-type(7) {
+				transition-delay: 1.05s;
+			}
+			&:nth-of-type(8) {
+				transition-delay: 1.2s;
+			}
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				/* makes it act like a background image */
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+	#gallery-406 {
+		.cs-container {
+			max-width: calc(955 / 16 * 1rem);
+		}
+		.cs-image {
+			width: 32.8%;
+			max-width: calc(305 / 16 * 1rem);
+			/* 300px - 400px */
+			height: clamp(18.75rem, 30vw, 25rem);
+			aspect-ratio: 1;
+		}
+	}
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+	body.dark-mode {
+		#gallery-406 {
+			.cs-topper {
+				color: var(--primaryLight);
+			}
+			.cs-title,
+			.cs-text,
+			.cs-button {
+				color: var(--bodyTextColorWhite);
+			}
+		}
+	}
+}
+                                
+class CS_GalleryFilter {
+	filtersSelector = '.cs-button';
+	galleriesSelector = '.cs-gallery';
+	activeClass = 'cs-active';
+	hiddenClass = 'cs-hidden';
+
+	constructor() {
+		this.$galleries = document.querySelectorAll(this.galleriesSelector);
+		const $filters = document.querySelectorAll(this.filtersSelector);
+
+		this.onClick($filters[0]);
+
+		for (const $filter of $filters) {
+			$filter.addEventListener('click', () => this.onClick($filter));
+		}
+	}
+
+	onClick($filter) {
+		this.filter($filter.dataset.filter);
+
+		const { activeClass } = this;
+
+		this.$activeFilter?.classList.remove(activeClass);
+		$filter.classList.add(activeClass);
+
+		this.$activeFilter = $filter;
+	}
+
+	filter(filter) {
+		const showAll = filter == 'all';
+		const { hiddenClass } = this;
+
+		for (const $gallery of this.$galleries) {
+			const show = showAll || $gallery.dataset.category == filter;
+			$gallery.classList.toggle(hiddenClass, !show);
+		}
+	}
+}
+
+new CS_GalleryFilter();
+                                
