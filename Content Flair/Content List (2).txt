@@ -1,0 +1,279 @@
+<!--                   
+    These "Micro Stitches" are to be placed inside the .cs-content group of Side By Side Stitches.  Typically after the .cs-title or .cs-text. They are used to add more design flair to a Stitch as well as convey more information in a different way.
+-->
+
+<ul id="list-1113" class="cs-ul">
+    <li class="cs-li">
+        <h3 class="cs-h3">Mission Statement</h3>
+        <p class="cs-li-text">
+            Our Mission is to serve our customers and always deliver the highest level of customer service; to develop our team and strive to constantly improve; and to conduct ourselves in an environmentally responsible manner.
+        </p>
+    </li>
+    <li class="cs-li">
+        <h3 class="cs-h3">Our Vision</h3>
+        <p class="cs-li-text">
+            To be the world’s most exciting leader in automotive business intelligence solutions. We will generate excitement through implementing pioneering ideas, problem solving & going beyond our customers’ expectations.
+        </p>
+    </li>
+</ul>
+                                
+/* Mobile - 360px */
+/* you can copy and paste these styles into the section CSS where you placed the #list-1113 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+@media only screen and (min-width: 0rem) {
+  #list-1113 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  #list-1113 .cs-li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #list-1113 .cs-h3 {
+    /* 20px - 25px */
+    font-size: 1.25rem, 3vw, 1.5625rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0 0 0.75rem;
+  }
+  #list-1113 .cs-li-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 39.375rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+}
+                                
+/* Mobile - 360px */
+/* you can copy and paste these styles into the section CSS where you placed the #list-1113 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+@media only screen and (min-width: 0rem) {
+  #list-1113 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  #list-1113 .cs-li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #list-1113 .cs-h3 {
+    /* 20px - 25px */
+    font-size: 1.25rem, 3vw, 1.5625rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0 0 0.75rem;
+  }
+  #list-1113 .cs-li-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 39.375rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+}
+/* Dark Mode, copy and paste only the styles inside the #list-1113 brackets into your section's dark mode media query */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #list-1113 .cs-li-text,
+  body.dark-mode #list-1113 .cs-h3 {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #list-1113 .cs-li-text {
+    opacity: .8;
+  }
+}
+                                
+/* Mobile - 360px */
+/* you can copy and paste these styles into the section CSS where you placed the #list-1113 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+@media only screen and (min-width: 0rem) {
+
+    #list-1113 {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: (24/16rem);
+
+        .cs-li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .cs-h3 {
+            /* 20px - 25px */
+            font-size: 1.25rem, 3vw, 1.5625rem;
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0 0 (12/16rem);
+        }
+
+        .cs-li-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (630/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+    }
+}
+                                
+/* Mobile - 360px */
+/* you can copy and paste these styles into the section CSS where you placed the #list-1113 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+@media only screen and (min-width: 0rem) {
+
+    #list-1113 {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: (24/16rem);
+
+        .cs-li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .cs-h3 {
+            /* 20px - 25px */
+            font-size: 1.25rem, 3vw, 1.5625rem;
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0 0 (12/16rem);
+        }
+
+        .cs-li-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (630/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+    }
+}
+
+/* Dark Mode, copy and paste only the styles inside the #list-1113 brackets into your section's dark mode media query */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #list-1113 {
+            .cs-li-text, .cs-h3 {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-li-text {
+                opacity: .8;
+            }
+        }
+    }
+}
+                                
+/* Mobile - 360px */
+/* you can copy and paste these styles into the section CSS where you placed the #list-1113 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+@media only screen and (min-width: 0rem) {
+
+    #list-1113 {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: calc(24 / 16 * 1rem);
+
+        .cs-li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .cs-h3 {
+            /* 20px - 25px */
+            font-size: 1.25rem, 3vw, 1.5625rem;
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0 0 calc(12 / 16 * 1rem);
+        }
+
+        .cs-li-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: calc(630 / 16 * 1rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+    }
+}
+                                
+/* Mobile - 360px */
+/* you can copy and paste these styles into the section CSS where you placed the #list-1113 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+@media only screen and (min-width: 0rem) {
+
+    #list-1113 {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: calc(24 / 16 * 1rem);
+
+        .cs-li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .cs-h3 {
+            /* 20px - 25px */
+            font-size: 1.25rem, 3vw, 1.5625rem;
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0 0 calc(12 / 16 * 1rem);
+        }
+
+        .cs-li-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: calc(630 / 16 * 1rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+    }
+}
+
+/* Dark Mode, copy and paste only the styles inside the #list-1113 brackets into your section's dark mode media query */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #list-1113 {
+            .cs-li-text, .cs-h3 {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-li-text {
+                opacity: .8;
+            }
+        }
+    }
+}
+                                

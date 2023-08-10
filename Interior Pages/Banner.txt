@@ -1,0 +1,744 @@
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-843">
+    <div class="cs-container">
+        <span class="cs-int-title">Interior Page</span>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background" aria-hidden="true">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fyoga-m.jpg">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fyoga.jpg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fyoga.jpg" alt="yoga" width="1280" height="568">
+    </picture>
+    <!--Change the svg path fill color to whatever color the section below is so you can match it and create the illusion it is all one piece-->
+    <svg class="cs-wave" width="1920" height="179" viewBox="0 0 1920 179" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1920 179V91.3463C1835.33 91.3463 1715.47 76.615 1549.2 32.9521C1299.48 -32.3214 1132.77 12.1006 947.32 61.5167C810.762 97.9044 664.042 137 466.533 137C331.607 137 256.468 123.447 188.082 111.113C130.974 100.812 78.5746 91.3609 0 91.3609V179H1920Z" fill="white"/>
+    </svg>
+</div>
+                                
+/*-- -------------------------- -->
+<---          Banner            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #001F3F;
+    --primaryLight: #001F3F;
+    --secondary: #D98900;
+    --secondaryLight: #D98900;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #banner-843 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* 175px - 260px top */
+    padding: clamp(10.9375rem, 20vw, 16.25rem) 1rem clamp(6.25rem, 14vw, 12vw);
+    /* clips svg wave from causing overflow issues */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #banner-843 .cs-container {
+    text-align: center;
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #banner-843 .cs-int-title {
+    /* 39px - 61px */
+    font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    margin: 0;
+    color: var(--bodyTextColorWhite);
+    position: relative;
+  }
+  #banner-843 .cs-background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #banner-843 .cs-background:before {
+    /* background color overlay */
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #1a1a1a;
+    opacity: .64;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  #banner-843 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes img tag act as a background image */
+    object-fit: cover;
+  }
+  #banner-843 .cs-wave {
+    /* we're stretching the svg wider than the viewport so it's taller and has more of a presence */
+    width: 48rem;
+    height: auto;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #banner-843 .cs-wave {
+    width: 100%;
+    left: 0;
+    transform: none;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Banner            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #001F3F;
+        --primaryLight: #001F3F;
+        --secondary: #D98900;
+        --secondaryLight: #D98900;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #banner-843 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        /* 175px - 260px top */
+        padding: clamp(10.9375rem, 20vw, 16.25rem) (16/16rem) clamp(6.25rem, 14vw, 12vw);
+        /* clips svg wave from causing overflow issues */
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        
+        .cs-container {
+            text-align: center;
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: (16/16rem);
+        }
+    
+        .cs-int-title {
+            /* 39px - 61px */
+            font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            margin: 0;
+            color: var(--bodyTextColorWhite);
+            position: relative;
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            &:before {
+                /* background color overlay */
+                content: '';
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 100%;
+                background: #1a1a1a;
+                opacity: .64;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes img tag act as a background image */
+                object-fit: cover;
+            }
+        }
+
+        .cs-wave {
+            /* we're stretching the svg wider than the viewport so it's taller and has more of a presence */
+            width: (768/16rem);
+            height: auto;
+            display: block;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            z-index: -1;
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #banner-843 {
+        .cs-wave {
+            width: 100%;
+            left: 0;
+            transform: none;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---          Banner            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #001f3f;
+		--primaryLight: #001f3f;
+		--secondary: #d98900;
+		--secondaryLight: #d98900;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#banner-843 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: "Roboto", "Arial", sans-serif;
+		/* 175px - 260px top */
+		padding: clamp(10.9375rem, 20vw, 16.25rem) calc(16 / 16 * 1rem)
+			clamp(6.25rem, 14vw, 12vw);
+		position: relative;
+		z-index: 1;
+		/* clips svg wave from causing overflow issues */
+		overflow: hidden;
+
+		.cs-container {
+			text-align: center;
+			max-width: calc(1280 / 16 * 1rem);
+			width: 100%;
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+			gap: calc(16 / 16 * 1rem);
+		}
+
+		.cs-int-title {
+			/* 39px - 61px */
+			font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
+			line-height: 1.2em;
+			font-weight: 900;
+			text-align: inherit;
+			margin: 0;
+			color: var(--bodyTextColorWhite);
+			position: relative;
+		}
+
+		.cs-background {
+			width: 100%;
+			height: 100%;
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+
+			&:before {
+				/* background color overlay */
+				content: "";
+				width: 100%;
+				height: 100%;
+				background: #1a1a1a;
+				opacity: 0.64;
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 1;
+			}
+
+			img {
+				width: 100%;
+				height: 100%;
+				/* Makes img tag act as a background image */
+				object-fit: cover;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
+
+		.cs-wave {
+			/* we're stretching the svg wider than the viewport so it's taller and has more of a presence */
+			width: calc(768 / 16 * 1rem);
+			height: auto;
+			display: block;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			z-index: -1;
+			transform: translateX(-50%);
+		}
+	}
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	#banner-843 {
+		.cs-wave {
+			width: 100%;
+			left: 0;
+			transform: none;
+		}
+	}
+}
+                                
+/*-- -------------------------- -->
+<---          Banner            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #001F3F;
+    --primaryLight: #001F3F;
+    --secondary: #D98900;
+    --secondaryLight: #D98900;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #banner-843 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* 175px - 260px top */
+    padding: clamp(10.9375rem, 20vw, 16.25rem) 1rem clamp(6.25rem, 14vw, 12vw);
+    /* clips svg wave from causing overflow issues */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #banner-843 .cs-container {
+    text-align: center;
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #banner-843 .cs-int-title {
+    /* 39px - 61px */
+    font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    margin: 0;
+    color: var(--bodyTextColorWhite);
+    position: relative;
+  }
+  #banner-843 .cs-background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #banner-843 .cs-background:before {
+    /* background color overlay */
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #1a1a1a;
+    opacity: .64;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  #banner-843 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes img tag act as a background image */
+    object-fit: cover;
+  }
+  #banner-843 .cs-wave {
+    /* we're stretching the svg wider than the viewport so it's taller and has more of a presence */
+    width: 48rem;
+    height: auto;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #banner-843 .cs-wave {
+    width: 100%;
+    left: 0;
+    transform: none;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #banner-843 .cs-wave path {
+    fill: var(--dark);
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Banner            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #001F3F;
+        --primaryLight: #001F3F;
+        --secondary: #D98900;
+        --secondaryLight: #D98900;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #banner-843 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        /* 175px - 260px top */
+        padding: clamp(10.9375rem, 20vw, 16.25rem) (16/16rem) clamp(6.25rem, 14vw, 12vw);
+        /* clips svg wave from causing overflow issues */
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        
+        .cs-container {
+            text-align: center;
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: (16/16rem);
+        }
+    
+        .cs-int-title {
+            /* 39px - 61px */
+            font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            margin: 0;
+            color: var(--bodyTextColorWhite);
+            position: relative;
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            &:before {
+                /* background color overlay */
+                content: '';
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 100%;
+                background: #1a1a1a;
+                opacity: .64;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes img tag act as a background image */
+                object-fit: cover;
+            }
+        }
+
+        .cs-wave {
+            /* we're stretching the svg wider than the viewport so it's taller and has more of a presence */
+            width: (768/16rem);
+            height: auto;
+            display: block;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            z-index: -1;
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #banner-843 {
+        .cs-wave {
+            width: 100%;
+            left: 0;
+            transform: none;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #banner-843 {
+            .cs-wave {
+                path {
+                    fill: var(--dark);
+                }
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---          Banner            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #001f3f;
+		--primaryLight: #001f3f;
+		--secondary: #d98900;
+		--secondaryLight: #d98900;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#banner-843 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: "Roboto", "Arial", sans-serif;
+		/* 175px - 260px top */
+		padding: clamp(10.9375rem, 20vw, 16.25rem) calc(16 / 16 * 1rem)
+			clamp(6.25rem, 14vw, 12vw);
+		position: relative;
+		z-index: 1;
+		/* clips svg wave from causing overflow issues */
+		overflow: hidden;
+
+		.cs-container {
+			text-align: center;
+			max-width: calc(1280 / 16 * 1rem);
+			width: 100%;
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+			gap: calc(16 / 16 * 1rem);
+		}
+
+		.cs-int-title {
+			/* 39px - 61px */
+			font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
+			line-height: 1.2em;
+			font-weight: 900;
+			text-align: inherit;
+			margin: 0;
+			color: var(--bodyTextColorWhite);
+			position: relative;
+		}
+
+		.cs-background {
+			width: 100%;
+			height: 100%;
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+
+			&:before {
+				/* background color overlay */
+				content: "";
+				width: 100%;
+				height: 100%;
+				background: #1a1a1a;
+				opacity: 0.64;
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 1;
+			}
+
+			img {
+				width: 100%;
+				height: 100%;
+				/* Makes img tag act as a background image */
+				object-fit: cover;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
+
+		.cs-wave {
+			/* we're stretching the svg wider than the viewport so it's taller and has more of a presence */
+			width: calc(768 / 16 * 1rem);
+			height: auto;
+			display: block;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			z-index: -1;
+			transform: translateX(-50%);
+		}
+	}
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	#banner-843 {
+		.cs-wave {
+			width: 100%;
+			left: 0;
+			transform: none;
+		}
+	}
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+	body.dark-mode {
+		#banner-843 {
+			.cs-wave {
+				path {
+					fill: var(--dark);
+				}
+			}
+		}
+	}
+}
+                                

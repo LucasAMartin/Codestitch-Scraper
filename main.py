@@ -3,16 +3,7 @@ from selenium.webdriver.common.by import By
 import os
 
 
-def scrape(url, directory):
-    # Set your login credentials
-    username = 'lucasmartiniscool@gmail.com'
-    password = 'Seahawksarelit5'
-
-    # Check if the buttons directory exists
-    if not os.path.exists(directory):
-        # If not, create the buttons directory
-        os.makedirs(directory)
-
+def login(url, username, password):
     # Create a new instance of the Chrome driver
     driver = webdriver.Chrome()
 
@@ -29,6 +20,15 @@ def scrape(url, directory):
 
     # Submit the login form
     password_field.submit()
+
+    return driver
+
+
+def scrape(driver, url, directory):
+    # Check if the buttons directory exists
+    if not os.path.exists(directory):
+        # If not, create the buttons directory
+        os.makedirs(directory)
 
     driver.get(url)
 
@@ -81,45 +81,49 @@ def scrape(url, directory):
         # Switch back to the original window
         driver.switch_to.window(driver.window_handles[0])
 
-    # Close the driver
+
+if __name__ == '__main__':
+    url = 'https://codestitch.app/app/dashboard/catalog/sections/1'
+    username = 'lucasmartiniscool@gmail.com'
+    password = 'Seahawksarelit5'
+
+    driver = login(url, username, password)
+
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/1', 'Buttons')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/2', 'Hero')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/2?page=2', 'Hero')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/3', 'Services')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/3?page=2', 'Services')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/3?page=3', 'Services')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/3?page=4', 'Services')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/4', 'Side by Side')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/4?page=2', 'Side by Side')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/4?page=3', 'Side by Side')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/4?page=4', 'Side by Side')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/4?page=5', 'Side by Side')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/4?page=6', 'Side by Side')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/4?page=7', 'Side by Side')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/78', 'Content Flair')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/43', 'Meet Our Team')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/43?page=2', 'Meet Our Team')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/52', 'Steps')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/13', 'Stats')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/49', 'Pricing')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/50', 'FAQ')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/19', 'Why Choose Us')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/62', 'Quotes')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/56', 'Misc')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/20', 'Reviews')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/20?page=2', 'Reviews')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/94', 'Events')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/44', 'Forms and Contact')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/79', 'Blog')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/7', 'Call to Action')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/21', 'Footer')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/55', 'Interior Pages')
+    scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/23', 'Dark Mode')
     driver.close()
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/1', 'Buttons')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/2', 'Hero')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/2?page=2', 'Hero')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/3', 'Services')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/3?page=2', 'Services')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/3?page=3', 'Services')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/3?page=4', 'Services')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/4', 'Side by Side')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/4?page=2', 'Side by Side')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/4?page=3', 'Side by Side')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/4?page=4', 'Side by Side')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/4?page=5', 'Side by Side')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/4?page=6', 'Side by Side')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/4?page=7', 'Side by Side')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/78', 'Content Flair')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/43', 'Meet Our Team')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/43?page=2', 'Meet Our Team')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/52', 'Steps')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/13', 'Stats')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/49', 'Pricing')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/50', 'FAQ')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/19', 'Why Choose Us')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/62', 'Quotes')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/56', 'Misc')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/20', 'Reviews')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/20?page=2', 'Reviews')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/94', 'Events')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/44', 'Forms and Contact')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/79', 'Blog')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/7', 'Call to Action')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/21', 'Footer')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/55', 'Interior Pages')
-    scrape('https://codestitch.app/app/dashboard/catalog/sections/23', 'Dark Mode')
 
 
 

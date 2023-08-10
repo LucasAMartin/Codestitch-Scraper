@@ -1,0 +1,1897 @@
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="RPsbs-313">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-image-group">
+            <picture class="cs-picture cs-picture1">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/lawyers-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/lawyers.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/lawyers.jpg" alt="lawyers" width="522" height="581" aria-hidden="true">
+            </picture>
+            <picture class="cs-picture cs-picture2">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/gavel-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/gavel.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/gavel.jpg" alt="gavel" width="414" height="400" aria-hidden="true">
+            </picture>
+        </div>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">About Us</span>
+            <h2 class="cs-title">About Stitch Law</h2>
+            <p class="cs-text">
+                In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+            </p>
+            <div class="cs-quote">
+                <span class="cs-quote-text">
+                    In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
+                </span>
+                <span class="cs-name">Justin Time</span>
+                <span class="cs-job">CEO-Founder</span>
+                <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
+            </div>
+            <a href="" class="cs-button-solid">About Us</a>
+        </div>
+    </div>
+</section>
+                                
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-313">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-image-group">
+            <picture class="cs-picture cs-picture1">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/lawyers-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/lawyers.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/lawyers.jpg" alt="lawyers" width="522" height="581" aria-hidden="true">
+            </picture>
+            <picture class="cs-picture cs-picture2">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/gavel-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/gavel.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/gavel.jpg" alt="gavel" width="414" height="400" aria-hidden="true">
+            </picture>
+        </div>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">About Us</span>
+            <h2 class="cs-title">About Stitch Law</h2>
+            <p class="cs-text">
+                In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+            </p>
+            <div class="cs-quote">
+                <span class="cs-quote-text">
+                    In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
+                </span>
+                <span class="cs-name">Justin Time</span>
+                <span class="cs-job">CEO-Founder</span>
+                <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
+            </div>
+            <a href="" class="cs-button-solid">About Us</a>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #042925;
+    --primaryLight: #EDB86F;
+    --secondary: #A36814;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #RPsbs-313,
+  #RPsbsr-313 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #RPsbs-313 .cs-container,
+  #RPsbsr-313 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #RPsbs-313 .cs-content,
+  #RPsbsr-313 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 33.875rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #RPsbs-313 .cs-topper,
+  #RPsbsr-313 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #RPsbs-313 .cs-title,
+  #RPsbsr-313 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #RPsbs-313 .cs-text,
+  #RPsbsr-313 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-313 .cs-text,
+  #RPsbsr-313 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #RPsbs-313 .cs-text:last-of-type,
+  #RPsbsr-313 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #RPsbs-313 .cs-button-solid,
+  #RPsbsr-313 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #RPsbs-313 .cs-button-solid:before,
+  #RPsbsr-313 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #RPsbs-313 .cs-button-solid:hover:before,
+  #RPsbsr-313 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #RPsbs-313 .cs-quote,
+  #RPsbsr-313 .cs-quote {
+    margin: 0 0 2rem 0;
+    /* 16px - 32px */
+    padding: clamp(1rem, 3vw, 2rem);
+    background-color: #F7F7F7;
+    border-radius: 1rem;
+    position: relative;
+  }
+  #RPsbs-313 .cs-quote-text,
+  #RPsbsr-313 .cs-quote-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    margin: 0 0 1rem;
+    color: #767676;
+    display: block;
+  }
+  #RPsbs-313 .cs-name,
+  #RPsbsr-313 .cs-name {
+    font-size: 1rem;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 0.25rem;
+    color: var(--headerColor);
+    display: block;
+  }
+  #RPsbs-313 .cs-job,
+  #RPsbsr-313 .cs-job {
+    font-size: 0.875rem;
+    line-height: 1.5em;
+    color: #767676;
+    display: block;
+  }
+  #RPsbs-313 .cs-quote-icon,
+  #RPsbsr-313 .cs-quote-icon {
+    /* 60px - 136px */
+    width: clamp(3.75rem, 10vw, 8.5rem);
+    height: auto;
+    position: absolute;
+    bottom: 0rem;
+    /* 16px - 32px */
+    right: clamp(1rem, 4vw, 2rem);
+  }
+  #RPsbs-313 .cs-image-group,
+  #RPsbsr-313 .cs-image-group {
+    /* scaling the font size with the view width */
+    font-size: min(2.31vw, .7em);
+    /* using ems so we can use font size to scale the whole section */
+    width: 39.4375em;
+    height: 39.75em;
+    position: relative;
+  }
+  #RPsbs-313 .cs-picture,
+  #RPsbsr-313 .cs-picture {
+    border-radius: 1.5em;
+    /* clips img tag corners */
+    overflow: hidden;
+    position: absolute;
+    display: block;
+  }
+  #RPsbs-313 .cs-picture img,
+  #RPsbsr-313 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes image act like a background image */
+    object-fit: cover;
+  }
+  #RPsbs-313 .cs-picture1,
+  #RPsbsr-313 .cs-picture1 {
+    width: 32.625em;
+    height: 36.3125em;
+    left: 0;
+    top: 0;
+  }
+  #RPsbs-313 .cs-picture2,
+  #RPsbsr-313 .cs-picture2 {
+    width: 25.875em;
+    height: 25em;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+    /* 6px - 12px */
+    border: clamp(0.375em, 1.5vw, 0.75em) solid #ffffff;
+    right: 0;
+    bottom: 0;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #RPsbs-313 .cs-container,
+  #RPsbsr-313 .cs-container {
+    flex-flow: row;
+    justify-content: space-between;
+    gap: 3.25rem;
+  }
+  #RPsbs-313 .cs-image-group,
+  #RPsbsr-313 .cs-image-group {
+    font-size: min(1.2vw, 1em);
+    flex: none;
+  }
+  #RPsbs-313 .cs-content,
+  #RPsbsr-313 .cs-content {
+    margin: 0;
+  }
+}
+
+/*-- -------------------------- -->
+<---    Side By Side Reverse    -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #RPsbsr-313 {
+    background-color: #f7f7f7;
+  }
+  #RPsbsr-313 .cs-picture1 {
+    left: auto;
+    right: 0;
+  }
+  #RPsbsr-313 .cs-picture2 {
+    right: auto;
+    left: 0;
+  }
+  #RPsbsr-313 .cs-quote {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #RPsbsr-313 .cs-image-group {
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #042925;
+    --primaryLight: #EDB86F;
+    --secondary: #A36814;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #RPsbs-313,
+  #RPsbsr-313 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #RPsbs-313 .cs-container,
+  #RPsbsr-313 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #RPsbs-313 .cs-content,
+  #RPsbsr-313 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 33.875rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #RPsbs-313 .cs-topper,
+  #RPsbsr-313 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #RPsbs-313 .cs-title,
+  #RPsbsr-313 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #RPsbs-313 .cs-text,
+  #RPsbsr-313 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-313 .cs-text,
+  #RPsbsr-313 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #RPsbs-313 .cs-text:last-of-type,
+  #RPsbsr-313 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #RPsbs-313 .cs-button-solid,
+  #RPsbsr-313 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #RPsbs-313 .cs-button-solid:before,
+  #RPsbsr-313 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #RPsbs-313 .cs-button-solid:hover:before,
+  #RPsbsr-313 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #RPsbs-313 .cs-quote,
+  #RPsbsr-313 .cs-quote {
+    margin: 0 0 2rem 0;
+    /* 16px - 32px */
+    padding: clamp(1rem, 3vw, 2rem);
+    background-color: #F7F7F7;
+    border-radius: 1rem;
+    position: relative;
+  }
+  #RPsbs-313 .cs-quote-text,
+  #RPsbsr-313 .cs-quote-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    margin: 0 0 1rem;
+    color: #767676;
+    display: block;
+  }
+  #RPsbs-313 .cs-name,
+  #RPsbsr-313 .cs-name {
+    font-size: 1rem;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 0.25rem;
+    color: var(--headerColor);
+    display: block;
+  }
+  #RPsbs-313 .cs-job,
+  #RPsbsr-313 .cs-job {
+    font-size: 0.875rem;
+    line-height: 1.5em;
+    color: #767676;
+    display: block;
+  }
+  #RPsbs-313 .cs-quote-icon,
+  #RPsbsr-313 .cs-quote-icon {
+    /* 60px - 136px */
+    width: clamp(3.75rem, 10vw, 8.5rem);
+    height: auto;
+    position: absolute;
+    bottom: 0rem;
+    /* 16px - 32px */
+    right: clamp(1rem, 4vw, 2rem);
+  }
+  #RPsbs-313 .cs-image-group,
+  #RPsbsr-313 .cs-image-group {
+    /* scaling the font size with the view width */
+    font-size: min(2.31vw, .7em);
+    /* using ems so we can use font size to scale the whole section */
+    width: 39.4375em;
+    height: 39.75em;
+    position: relative;
+  }
+  #RPsbs-313 .cs-picture,
+  #RPsbsr-313 .cs-picture {
+    border-radius: 1.5em;
+    /* clips img tag corners */
+    overflow: hidden;
+    position: absolute;
+    display: block;
+  }
+  #RPsbs-313 .cs-picture img,
+  #RPsbsr-313 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes image act like a background image */
+    object-fit: cover;
+  }
+  #RPsbs-313 .cs-picture1,
+  #RPsbsr-313 .cs-picture1 {
+    width: 32.625em;
+    height: 36.3125em;
+    left: 0;
+    top: 0;
+  }
+  #RPsbs-313 .cs-picture2,
+  #RPsbsr-313 .cs-picture2 {
+    width: 25.875em;
+    height: 25em;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+    /* 6px - 12px */
+    border: clamp(0.375em, 1.5vw, 0.75em) solid #ffffff;
+    right: 0;
+    bottom: 0;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #RPsbs-313 .cs-container,
+  #RPsbsr-313 .cs-container {
+    flex-flow: row;
+    justify-content: space-between;
+    gap: 3.25rem;
+  }
+  #RPsbs-313 .cs-image-group,
+  #RPsbsr-313 .cs-image-group {
+    font-size: min(1.2vw, 1em);
+    flex: none;
+  }
+  #RPsbs-313 .cs-content,
+  #RPsbsr-313 .cs-content {
+    margin: 0;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #RPsbs-313 .cs-image-group:before,
+  body.dark-mode #RPsbsr-313 .cs-image-group:before,
+  body.dark-mode #RPsbs-313 .cs-image-group:after,
+  body.dark-mode #RPsbsr-313 .cs-image-group:after {
+    background: var(--accent);
+  }
+  body.dark-mode #RPsbs-313 .cs-picture2,
+  body.dark-mode #RPsbsr-313 .cs-picture2 {
+    background-color: var(--dark);
+    /* 6px - 12px */
+    border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
+  }
+  body.dark-mode #RPsbs-313 .cs-topper,
+  body.dark-mode #RPsbsr-313 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #RPsbs-313 .cs-title,
+  body.dark-mode #RPsbsr-313 .cs-title,
+  body.dark-mode #RPsbs-313 .cs-text,
+  body.dark-mode #RPsbsr-313 .cs-text,
+  body.dark-mode #RPsbs-313 .cs-h3,
+  body.dark-mode #RPsbsr-313 .cs-h3,
+  body.dark-mode #RPsbs-313 .cs-quote-text,
+  body.dark-mode #RPsbsr-313 .cs-quote-text,
+  body.dark-mode #RPsbs-313 .cs-name,
+  body.dark-mode #RPsbsr-313 .cs-name {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #RPsbs-313 .cs-quote,
+  body.dark-mode #RPsbsr-313 .cs-quote {
+    background-color: var(--accent);
+  }
+  body.dark-mode #RPsbs-313 .cs-job,
+  body.dark-mode #RPsbsr-313 .cs-job {
+    color: var(--bodyTextColorWhite);
+    opacity: .8;
+  }
+  body.dark-mode #RPsbs-313 .cs-quote-icon,
+  body.dark-mode #RPsbsr-313 .cs-quote-icon {
+    opacity: .2;
+  }
+}
+
+/*-- -------------------------- -->
+<---    Side By Side Reverse    -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #RPsbsr-313 {
+    background-color: #f7f7f7;
+  }
+  #RPsbsr-313 .cs-picture1 {
+    left: auto;
+    right: 0;
+  }
+  #RPsbsr-313 .cs-picture2 {
+    right: auto;
+    left: 0;
+  }
+  #RPsbsr-313 .cs-quote {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #RPsbsr-313 .cs-image-group {
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #RPsbsr-313 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #042925;
+        --primaryLight: #EDB86F;
+        --secondary: #A36814;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #RPsbs-313, #RPsbsr-313{
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            max-width: (542/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            margin-bottom: (16/16rem);
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-quote {
+            margin: 0 0 (32/16rem) 0;
+            /* 16px - 32px */
+            padding: clamp(1rem, 3vw, 2rem);
+            background-color: #F7F7F7;
+            border-radius: (16/16rem);
+            position: relative;
+        }
+
+        .cs-quote-text {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            margin: 0 0 (16/16rem);
+            color: #767676;
+            display: block;
+        }
+
+        .cs-name {
+            font-size: (16/16rem);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin: 0 0 (4/16rem);
+            color: var(--headerColor);
+            display: block;
+        }
+
+        .cs-job {
+            font-size: (14/16rem);
+            line-height: 1.5em;
+            color: #767676;
+            display: block;
+        }
+
+        .cs-quote-icon {
+            /* 60px - 136px */
+            width: clamp(3.75rem, 10vw, 8.5rem);
+            height: auto;
+            position: absolute;
+            bottom: (0/16rem);
+            /* 16px - 32px */
+            right: clamp(1rem, 4vw, 2rem);
+        }
+
+        .cs-image-group {
+            /* scaling the font size with the view width */
+            font-size:~"min(2.31vw, .7em)";
+            /* using ems so we can use font size to scale the whole section */
+            width: (631/16em);
+            height: (636/16em);
+            position: relative;
+        }
+
+        .cs-picture {
+            border-radius: (24/16em);
+            /* clips img tag corners */
+            overflow: hidden;
+            position: absolute;
+            display: block;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* makes image act like a background image */
+                object-fit: cover;
+            }
+        }
+
+        .cs-picture1 {
+            width: (522/16em);
+            height: (581/16em);
+            left: 0;
+            top: 0;
+        }
+
+        .cs-picture2 {
+            width: (414/16em);
+            height: (400/16em);
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+            /* 6px - 12px */
+            border: clamp(.375em, 1.5vw, .75em) solid #fff;
+            right: 0;
+            bottom: 0;
+        }
+    }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #RPsbs-313, #RPsbsr-313{
+        .cs-container {
+            flex-flow: row;
+            justify-content: space-between;
+            gap: (52/16rem);
+        }
+
+        .cs-image-group {
+            font-size:~"min(1.2vw, 1em)";
+            flex: none;
+        }
+
+        .cs-content {
+            margin: 0;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---    Side By Side Reverse    -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #RPsbsr-313 {
+        background-color: #f7f7f7;
+        .cs-picture1 {
+            left: auto;
+            right: 0;
+        }
+        
+        .cs-picture2 {
+            right: auto;
+            left: 0;
+        }
+
+        .cs-quote {
+            background-color: rgba(0, 0, 0, .05);
+        }
+    }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #RPsbsr-313 {
+        .cs-image-group {
+            /* sends it to the right in the 2nd position */
+            order: 2;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #042925;
+        --primaryLight: #EDB86F;
+        --secondary: #A36814;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #RPsbs-313, #RPsbsr-313{
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            max-width: (542/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            margin-bottom: (16/16rem);
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-quote {
+            margin: 0 0 (32/16rem) 0;
+            /* 16px - 32px */
+            padding: clamp(1rem, 3vw, 2rem);
+            background-color: #F7F7F7;
+            border-radius: (16/16rem);
+            position: relative;
+        }
+
+        .cs-quote-text {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            margin: 0 0 (16/16rem);
+            color: #767676;
+            display: block;
+        }
+
+        .cs-name {
+            font-size: (16/16rem);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin: 0 0 (4/16rem);
+            color: var(--headerColor);
+            display: block;
+        }
+
+        .cs-job {
+            font-size: (14/16rem);
+            line-height: 1.5em;
+            color: #767676;
+            display: block;
+        }
+
+        .cs-quote-icon {
+            /* 60px - 136px */
+            width: clamp(3.75rem, 10vw, 8.5rem);
+            height: auto;
+            position: absolute;
+            bottom: (0/16rem);
+            /* 16px - 32px */
+            right: clamp(1rem, 4vw, 2rem);
+        }
+
+        .cs-image-group {
+            /* scaling the font size with the view width */
+            font-size:~"min(2.31vw, .7em)";
+            /* using ems so we can use font size to scale the whole section */
+            width: (631/16em);
+            height: (636/16em);
+            position: relative;
+        }
+
+        .cs-picture {
+            border-radius: (24/16em);
+            /* clips img tag corners */
+            overflow: hidden;
+            position: absolute;
+            display: block;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* makes image act like a background image */
+                object-fit: cover;
+            }
+        }
+
+        .cs-picture1 {
+            width: (522/16em);
+            height: (581/16em);
+            left: 0;
+            top: 0;
+        }
+
+        .cs-picture2 {
+            width: (414/16em);
+            height: (400/16em);
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+            /* 6px - 12px */
+            border: clamp(.375em, 1.5vw, .75em) solid #fff;
+            right: 0;
+            bottom: 0;
+        }
+    }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #RPsbs-313, #RPsbsr-313{
+        .cs-container {
+            flex-flow: row;
+            justify-content: space-between;
+            gap: (52/16rem);
+        }
+
+        .cs-image-group {
+            font-size:~"min(1.2vw, 1em)";
+            flex: none;
+        }
+
+        .cs-content {
+            margin: 0;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #RPsbs-313, #RPsbsr-313{
+
+            .cs-image-group {
+                &:before, &:after {
+                    background: var(--accent);
+                }
+            }
+
+            .cs-picture2 {
+                background-color: var(--dark);
+                /* 6px - 12px */
+                border: clamp(.375em, 1.5vw, .75em) solid var(--dark);
+            }
+
+            .cs-topper {
+                color: var(--primaryLight)
+            }
+
+            .cs-title, .cs-text, .cs-h3, .cs-quote-text, .cs-name {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-quote {
+                background-color: var(--accent);
+            }
+
+            .cs-job {
+                color: var(--bodyTextColorWhite);
+                opacity: .8;
+            }
+
+            .cs-quote-icon {
+                opacity: .2;
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---    Side By Side Reverse    -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #RPsbsr-313 {
+        background-color: #f7f7f7;
+        .cs-picture1 {
+            left: auto;
+            right: 0;
+        }
+        
+        .cs-picture2 {
+            right: auto;
+            left: 0;
+        }
+
+        .cs-quote {
+            background-color: rgba(0, 0, 0, .05);
+        }
+    }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #RPsbsr-313 {
+        .cs-image-group {
+            /* sends it to the right in the 2nd position */
+            order: 2;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #RPsbsr-313 {
+            background-color: rgba(0, 0, 0, .2);
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #042925;
+		--primaryLight: #edb86f;
+		--secondary: #a36814;
+		--secondaryLight: #ffba43;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#RPsbs-313,
+	#RPsbsr-313 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+
+		.cs-container {
+			width: 100%;
+			max-width: calc(1280 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: left;
+			width: 100%;
+			max-width: calc(542 / 16 * 1rem);
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: flex-start;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-text {
+			font-size: var(--bodyFontSize);
+			line-height: 1.5em;
+			text-align: inherit;
+			width: 100%;
+			max-width: calc(650 / 16 * 1rem);
+			margin: 0;
+			color: var(--bodyTextColor);
+		}
+
+		.cs-text {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			margin-bottom: calc(16 / 16 * 1rem);
+			&:last-of-type {
+				margin-bottom: calc(32 / 16 * 1rem);
+			}
+		}
+
+		.cs-button-solid {
+			font-size: calc(16 / 16 * 1rem);
+			/* 46px - 56px */
+			line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+			text-decoration: none;
+			font-weight: 700;
+			text-align: center;
+			margin: 0;
+			color: #fff;
+			min-width: calc(150 / 16 * 1rem);
+			padding: 0 calc(24 / 16 * 1rem);
+			background-color: var(--primary);
+			border-radius: calc(4 / 16 * 1rem);
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			/* prevents padding from adding to the width */
+			box-sizing: border-box;
+
+			&:before {
+				content: '';
+				position: absolute;
+				height: 100%;
+				width: 0%;
+				background: #000;
+				opacity: 1;
+				top: 0;
+				left: 0;
+				z-index: -1;
+				border-radius: calc(4 / 16 * 1rem);
+				transition: width 0.3s;
+			}
+
+			&:hover {
+				&:before {
+					width: 100%;
+				}
+			}
+		}
+
+		.cs-quote {
+			margin: 0 0 calc(32 / 16 * 1rem) 0;
+			/* 16px - 32px */
+			padding: clamp(1rem, 3vw, 2rem);
+			background-color: #f7f7f7;
+			border-radius: calc(16 / 16 * 1rem);
+			position: relative;
+		}
+
+		.cs-quote-text {
+			/* 14px - 16px */
+			font-size: clamp(0.875rem, 1.5vw, 1rem);
+			line-height: 1.5em;
+			margin: 0 0 calc(16 / 16 * 1rem);
+			color: #767676;
+			display: block;
+		}
+
+		.cs-name {
+			font-size: calc(16 / 16 * 1rem);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			font-weight: bold;
+			margin: 0 0 calc(4 / 16 * 1rem);
+			color: var(--headerColor);
+			display: block;
+		}
+
+		.cs-job {
+			font-size: calc(14 / 16 * 1rem);
+			line-height: 1.5em;
+			color: #767676;
+			display: block;
+		}
+
+		.cs-quote-icon {
+			/* 60px - 136px */
+			width: clamp(3.75rem, 10vw, 8.5rem);
+			height: auto;
+			position: absolute;
+			bottom: calc(0 / 16 * 1rem);
+			/* 16px - 32px */
+			right: clamp(1rem, 4vw, 2rem);
+		}
+
+		.cs-image-group {
+			/* scaling the font size with the view width */
+			font-size: min(2.31vw, 0.7em);
+			/* using ems so we can use font size to scale the whole section */
+			width: calc(631 / 16 * 1em);
+			height: calc(636 / 16 * 1em);
+			position: relative;
+		}
+
+		.cs-picture {
+			border-radius: calc(24 / 16 * 1em);
+			/* clips img tag corners */
+			overflow: hidden;
+			position: absolute;
+			display: block;
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				/* makes image act like a background image */
+				object-fit: cover;
+			}
+		}
+
+		.cs-picture1 {
+			width: calc(522 / 16 * 1em);
+			height: calc(581 / 16 * 1em);
+			left: 0;
+			top: 0;
+		}
+
+		.cs-picture2 {
+			width: calc(414 / 16 * 1em);
+			height: calc(400 / 16 * 1em);
+			background-color: #fff;
+			box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+			/* 6px - 12px */
+			border: clamp(0.375em, 1.5vw, 0.75em) solid #fff;
+			right: 0;
+			bottom: 0;
+		}
+	}
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+	#RPsbs-313,
+	#RPsbsr-313 {
+		.cs-container {
+			flex-flow: row;
+			justify-content: space-between;
+			gap: calc(52 / 16 * 1rem);
+		}
+
+		.cs-image-group {
+			font-size: min(1.2vw, 1em);
+			flex: none;
+		}
+
+		.cs-content {
+			margin: 0;
+		}
+	}
+}
+
+/*-- -------------------------- -->
+<---    Side By Side Reverse    -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	#RPsbsr-313 {
+		background-color: #f7f7f7;
+		.cs-picture1 {
+			left: auto;
+			right: 0;
+		}
+
+		.cs-picture2 {
+			right: auto;
+			left: 0;
+		}
+
+		.cs-quote {
+			background-color: rgba(0, 0, 0, 0.05);
+		}
+	}
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+	#RPsbsr-313 {
+		.cs-image-group {
+			/* sends it to the right in the 2nd position */
+			order: 2;
+		}
+	}
+}
+                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #042925;
+		--primaryLight: #edb86f;
+		--secondary: #a36814;
+		--secondaryLight: #ffba43;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#RPsbs-313,
+	#RPsbsr-313 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+
+		.cs-container {
+			width: 100%;
+			max-width: calc(1280 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: left;
+			width: 100%;
+			max-width: calc(542 / 16 * 1rem);
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: flex-start;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-text {
+			font-size: var(--bodyFontSize);
+			line-height: 1.5em;
+			text-align: inherit;
+			width: 100%;
+			max-width: calc(650 / 16 * 1rem);
+			margin: 0;
+			color: var(--bodyTextColor);
+		}
+
+		.cs-text {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			margin-bottom: calc(16 / 16 * 1rem);
+			&:last-of-type {
+				margin-bottom: calc(32 / 16 * 1rem);
+			}
+		}
+
+		.cs-button-solid {
+			font-size: calc(16 / 16 * 1rem);
+			/* 46px - 56px */
+			line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+			text-decoration: none;
+			font-weight: 700;
+			text-align: center;
+			margin: 0;
+			color: #fff;
+			min-width: calc(150 / 16 * 1rem);
+			padding: 0 calc(24 / 16 * 1rem);
+			background-color: var(--primary);
+			border-radius: calc(4 / 16 * 1rem);
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			/* prevents padding from adding to the width */
+			box-sizing: border-box;
+
+			&:before {
+				content: '';
+				position: absolute;
+				height: 100%;
+				width: 0%;
+				background: #000;
+				opacity: 1;
+				top: 0;
+				left: 0;
+				z-index: -1;
+				border-radius: calc(4 / 16 * 1rem);
+				transition: width 0.3s;
+			}
+
+			&:hover {
+				&:before {
+					width: 100%;
+				}
+			}
+		}
+
+		.cs-quote {
+			margin: 0 0 calc(32 / 16 * 1rem) 0;
+			/* 16px - 32px */
+			padding: clamp(1rem, 3vw, 2rem);
+			background-color: #f7f7f7;
+			border-radius: calc(16 / 16 * 1rem);
+			position: relative;
+		}
+
+		.cs-quote-text {
+			/* 14px - 16px */
+			font-size: clamp(0.875rem, 1.5vw, 1rem);
+			line-height: 1.5em;
+			margin: 0 0 calc(16 / 16 * 1rem);
+			color: #767676;
+			display: block;
+		}
+
+		.cs-name {
+			font-size: calc(16 / 16 * 1rem);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			font-weight: bold;
+			margin: 0 0 calc(4 / 16 * 1rem);
+			color: var(--headerColor);
+			display: block;
+		}
+
+		.cs-job {
+			font-size: calc(14 / 16 * 1rem);
+			line-height: 1.5em;
+			color: #767676;
+			display: block;
+		}
+
+		.cs-quote-icon {
+			/* 60px - 136px */
+			width: clamp(3.75rem, 10vw, 8.5rem);
+			height: auto;
+			position: absolute;
+			bottom: calc(0 / 16 * 1rem);
+			/* 16px - 32px */
+			right: clamp(1rem, 4vw, 2rem);
+		}
+
+		.cs-image-group {
+			/* scaling the font size with the view width */
+			font-size: min(2.31vw, 0.7em);
+			/* using ems so we can use font size to scale the whole section */
+			width: calc(631 / 16 * 1em);
+			height: calc(636 / 16 * 1em);
+			position: relative;
+		}
+
+		.cs-picture {
+			border-radius: calc(24 / 16 * 1em);
+			/* clips img tag corners */
+			overflow: hidden;
+			position: absolute;
+			display: block;
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				/* makes image act like a background image */
+				object-fit: cover;
+			}
+		}
+
+		.cs-picture1 {
+			width: calc(522 / 16 * 1em);
+			height: calc(581 / 16 * 1em);
+			left: 0;
+			top: 0;
+		}
+
+		.cs-picture2 {
+			width: calc(414 / 16 * 1em);
+			height: calc(400 / 16 * 1em);
+			background-color: #fff;
+			box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+			/* 6px - 12px */
+			border: clamp(0.375em, 1.5vw, 0.75em) solid #fff;
+			right: 0;
+			bottom: 0;
+		}
+	}
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+	#RPsbs-313,
+	#RPsbsr-313 {
+		.cs-container {
+			flex-flow: row;
+			justify-content: space-between;
+			gap: calc(52 / 16 * 1rem);
+		}
+
+		.cs-image-group {
+			font-size: min(1.2vw, 1em);
+			flex: none;
+		}
+
+		.cs-content {
+			margin: 0;
+		}
+	}
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+	body.dark-mode {
+		#RPsbs-313,
+		#RPsbsr-313 {
+			.cs-image-group {
+				&:before,
+				&:after {
+					background: var(--accent);
+				}
+			}
+
+			.cs-picture2 {
+				background-color: var(--dark);
+				/* 6px - 12px */
+				border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
+			}
+
+			.cs-topper {
+				color: var(--primaryLight);
+			}
+
+			.cs-title,
+			.cs-text,
+			.cs-h3,
+			.cs-quote-text,
+			.cs-name {
+				color: var(--bodyTextColorWhite);
+			}
+
+			.cs-quote {
+				background-color: var(--accent);
+			}
+
+			.cs-job {
+				color: var(--bodyTextColorWhite);
+				opacity: 0.8;
+			}
+
+			.cs-quote-icon {
+				opacity: 0.2;
+			}
+		}
+	}
+}
+
+/*-- -------------------------- -->
+<---    Side By Side Reverse    -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	#RPsbsr-313 {
+		background-color: #f7f7f7;
+		.cs-picture1 {
+			left: auto;
+			right: 0;
+		}
+
+		.cs-picture2 {
+			right: auto;
+			left: 0;
+		}
+
+		.cs-quote {
+			background-color: rgba(0, 0, 0, 0.05);
+		}
+	}
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+	#RPsbsr-313 {
+		.cs-image-group {
+			/* sends it to the right in the 2nd position */
+			order: 2;
+		}
+	}
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+	body.dark-mode {
+		#RPsbsr-313 {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+	}
+}
+                                

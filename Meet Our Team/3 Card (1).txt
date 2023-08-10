@@ -1,0 +1,1295 @@
+<!-- ============================================ -->
+<!--                Meet The Team                 -->
+<!-- ============================================ -->
+
+<section id="meet-us-1021">
+    <div class="cs-container">
+        <div class="cs-content">
+            <img class="cs-graphic" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/Ornament.svg" alt="chef" width="456" height="31">
+            <h2 class="cs-title">Meet Our Team</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef1.jpg">
+                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef1.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef1.jpg" alt="chef" width="305" height="335">
+                </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Zaki Deanra</span>
+                    <span class="cs-job">Head Chef</span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef2.jpg">
+                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef2.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef2.jpg" alt="chef" width="305" height="335">
+                </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Zaki Deanra</span>
+                    <span class="cs-job">Head Chef</span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef3.jpg">
+                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef3.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef3.jpg" alt="chef" width="305" height="335">
+                </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Zaki Deanra</span>
+                    <span class="cs-job">Head Chef</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #AB661C;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #meet-us-1021 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #1a1a1a;
+  }
+  #meet-us-1021 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #meet-us-1021 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #meet-us-1021 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #meet-us-1021 .cs-graphic {
+    width: 100%;
+    max-width: 26.82352941rem;
+    margin: 0 0 1rem 0;
+  }
+  #meet-us-1021 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #meet-us-1021 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #meet-us-1021 .cs-title,
+  #meet-us-1021 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    color: var(--bodyTextColorWhite);
+  }
+  #meet-us-1021 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    opacity: .8;
+  }
+  #meet-us-1021 .cs-card-group {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* 16px - 20px */
+    gap: clamp(1rem, 2vw, 1.25rem);
+  }
+  #meet-us-1021 .cs-item {
+    list-style: none;
+    width: 100%;
+    max-width: 25.8125rem;
+    position: relative;
+    z-index: 1;
+  }
+  #meet-us-1021 .cs-item:hover .cs-picture {
+    background-color: #000;
+  }
+  #meet-us-1021 .cs-item:hover .cs-picture img {
+    transform: scale(1.1);
+    opacity: .6;
+  }
+  #meet-us-1021 .cs-info {
+    width: 85.5%;
+    /* 16px - 24px */
+    padding: clamp(1rem, 2vw, 1.5rem);
+    margin: -3.75rem auto 0;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    border-top: 4px solid var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+  }
+  #meet-us-1021 .cs-name {
+    /* 16px - 25px */
+    font-size: clamp(1rem, 2vw, 1.5625rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    /* 4px - 8px */
+    margin: 0 0 clamp(0.25rem, 1vw, 0.5rem);
+    color: var(--bodyTextColorWhite);
+    display: block;
+    transition: color .3s;
+  }
+  #meet-us-1021 .cs-job {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    color: var(--bodyTextColorWhite);
+    opacity: .8;
+    display: block;
+  }
+  #meet-us-1021 .cs-picture {
+    width: 100%;
+    /* 246px - 500px */
+    height: clamp(15.375rem, 40vw, 32.25rem);
+    overflow: hidden;
+    display: block;
+    position: relative;
+    transition: background-color 0.3s;
+    z-index: -1;
+  }
+  #meet-us-1021 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it behave like a background imahe */
+    object-fit: cover;
+    /* makes the image position itself at the top of the parent */
+    object-position: top;
+    transition: transform .6s, opacity .3s;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #meet-us-1021 .cs-card-group {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+  }
+  #meet-us-1021 .cs-item {
+    grid-column: span 4;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #AB661C;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #meet-us-1021 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    background-color: #1a1a1a;
+  }
+  #meet-us-1021 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #meet-us-1021 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #meet-us-1021 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #meet-us-1021 .cs-graphic {
+    width: 100%;
+    max-width: 26.82352941rem;
+    margin: 0 0 1rem 0;
+  }
+  #meet-us-1021 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #meet-us-1021 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #meet-us-1021 .cs-title,
+  #meet-us-1021 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    color: var(--bodyTextColorWhite);
+  }
+  #meet-us-1021 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    opacity: .8;
+  }
+  #meet-us-1021 .cs-card-group {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* 16px - 20px */
+    gap: clamp(1rem, 2vw, 1.25rem);
+  }
+  #meet-us-1021 .cs-item {
+    list-style: none;
+    width: 100%;
+    max-width: 25.8125rem;
+    position: relative;
+    z-index: 1;
+  }
+  #meet-us-1021 .cs-item:hover .cs-picture {
+    background-color: #000;
+  }
+  #meet-us-1021 .cs-item:hover .cs-picture img {
+    transform: scale(1.1);
+    opacity: .6;
+  }
+  #meet-us-1021 .cs-info {
+    width: 85.5%;
+    /* 16px - 24px */
+    padding: clamp(1rem, 2vw, 1.5rem);
+    margin: -3.75rem auto 0;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    border-top: 4px solid var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+  }
+  #meet-us-1021 .cs-name {
+    /* 16px - 25px */
+    font-size: clamp(1rem, 2vw, 1.5625rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    /* 4px - 8px */
+    margin: 0 0 clamp(0.25rem, 1vw, 0.5rem);
+    color: var(--bodyTextColorWhite);
+    display: block;
+    transition: color .3s;
+  }
+  #meet-us-1021 .cs-job {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    color: var(--bodyTextColorWhite);
+    opacity: .8;
+    display: block;
+  }
+  #meet-us-1021 .cs-picture {
+    width: 100%;
+    /* 246px - 500px */
+    height: clamp(15.375rem, 40vw, 32.25rem);
+    overflow: hidden;
+    display: block;
+    position: relative;
+    transition: background-color 0.3s;
+    z-index: -1;
+  }
+  #meet-us-1021 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it behave like a background imahe */
+    object-fit: cover;
+    /* makes the image position itself at the top of the parent */
+    object-position: top;
+    transition: transform .6s, opacity .3s;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #meet-us-1021 .cs-card-group {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+  }
+  #meet-us-1021 .cs-item {
+    grid-column: span 4;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #meet-us-1021 {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #AB661C;
+        --primaryLight: #d8673d;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #meet-us-1021 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        background-color: #1a1a1a;
+        
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+    
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+
+        .cs-graphic {
+            width: 100%;
+            max-width: (456/17rem);
+            margin: 0 0 (16/16rem) 0;
+        }
+        
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700 / 16) * 1rem;
+            margin: 0 0 (16 / 16) * 1rem 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-title, .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            color: var(--bodyTextColorWhite);
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            opacity: .8;
+        }
+
+        .cs-card-group {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            /* 16px - 20px */
+            gap: clamp(1rem, 2vw, 1.25rem);
+        }
+
+        .cs-item {
+            list-style: none;
+            width: 100%;
+            max-width: (413/16rem);
+            position: relative;
+            z-index: 1;
+
+            &:hover {
+                .cs-picture {
+                    background-color: #000;
+                    img {
+                        transform: scale(1.1);
+                        opacity: .6;
+                    }
+                }
+            }
+        }
+
+        .cs-info {
+            width: 85.5%;
+            /* 16px - 24px */
+            padding: clamp(1rem, 2vw, 1.5rem);
+            margin: (-60/16rem) auto 0;
+            box-sizing: border-box;
+            background-color: #1a1a1a;
+            border-top: 4px solid var(--primary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 10;
+        }
+
+        .cs-name {
+            /* 16px - 25px */
+            font-size: clamp(1rem, 2vw, 1.5625rem);
+            font-weight: 700;
+            line-height: 1.2em;
+            /* 4px - 8px */
+            margin: 0 0 clamp(.25rem, 1vw, .5rem);
+            color: var(--bodyTextColorWhite);
+            display: block;
+            transition: color .3s;
+        }
+
+        .cs-job {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            color: var(--bodyTextColorWhite);
+            opacity: .8;
+            display: block;
+        }
+
+        .cs-picture {
+            width: 100%;
+            /* 246px - 500px */
+            height: clamp(15.375rem, 40vw, 32.25rem);
+            overflow: hidden;
+            display: block;
+            position: relative;
+            transition: background-color .3s;
+            z-index: -1;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* makes it behave like a background imahe */
+                object-fit: cover;
+                /* makes the image position itself at the top of the parent */
+                object-position: top;
+                transition: transform .6s, opacity .3s;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #meet-us-1021 {
+        .cs-card-group {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            width: 100%;
+        }
+
+        .cs-item {
+            grid-column: span 4;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #AB661C;
+        --primaryLight: #d8673d;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #meet-us-1021 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        background-color: #1a1a1a;
+        
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+    
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+
+        .cs-graphic {
+            width: 100%;
+            max-width: (456/17rem);
+            margin: 0 0 (16/16rem) 0;
+        }
+        
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700 / 16) * 1rem;
+            margin: 0 0 (16 / 16) * 1rem 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-title, .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            color: var(--bodyTextColorWhite);
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            opacity: .8;
+        }
+
+        .cs-card-group {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            /* 16px - 20px */
+            gap: clamp(1rem, 2vw, 1.25rem);
+        }
+
+        .cs-item {
+            list-style: none;
+            width: 100%;
+            max-width: (413/16rem);
+            position: relative;
+            z-index: 1;
+
+            &:hover {
+                .cs-picture {
+                    background-color: #000;
+                    img {
+                        transform: scale(1.1);
+                        opacity: .6;
+                    }
+                }
+            }
+        }
+
+        .cs-info {
+            width: 85.5%;
+            /* 16px - 24px */
+            padding: clamp(1rem, 2vw, 1.5rem);
+            margin: (-60/16rem) auto 0;
+            box-sizing: border-box;
+            background-color: #1a1a1a;
+            border-top: 4px solid var(--primary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 10;
+        }
+
+        .cs-name {
+            /* 16px - 25px */
+            font-size: clamp(1rem, 2vw, 1.5625rem);
+            font-weight: 700;
+            line-height: 1.2em;
+            /* 4px - 8px */
+            margin: 0 0 clamp(.25rem, 1vw, .5rem);
+            color: var(--bodyTextColorWhite);
+            display: block;
+            transition: color .3s;
+        }
+
+        .cs-job {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            color: var(--bodyTextColorWhite);
+            opacity: .8;
+            display: block;
+        }
+
+        .cs-picture {
+            width: 100%;
+            /* 246px - 500px */
+            height: clamp(15.375rem, 40vw, 32.25rem);
+            overflow: hidden;
+            display: block;
+            position: relative;
+            transition: background-color .3s;
+            z-index: -1;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* makes it behave like a background imahe */
+                object-fit: cover;
+                /* makes the image position itself at the top of the parent */
+                object-position: top;
+                transition: transform .6s, opacity .3s;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #meet-us-1021 {
+        .cs-card-group {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            width: 100%;
+        }
+
+        .cs-item {
+            grid-column: span 4;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #meet-us-1021 {
+            background-color: rgba(0, 0, 0, .6);
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #AB661C;
+        --primaryLight: #d8673d;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #meet-us-1021 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        background-color: #1a1a1a;
+        
+        .cs-container {
+            width: 100%;
+            max-width: calc(1280 / 16 * 1rem);
+            margin: auto;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+    
+        .cs-container {
+            width: 100%;
+            max-width: calc(1280 / 16 * 1rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+
+        .cs-graphic {
+            width: 100%;
+            max-width: calc(456 / 16 * 1rem);
+            margin: 0 0 calc(16 / 16 * 1rem) 0;
+        }
+        
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: calc(700 / 16 * 1rem);
+            margin: 0 0 calc(16 / 16 * 1rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: calc(650 / 16 * 1rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-title, .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            color: var(--bodyTextColorWhite);
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            opacity: .8;
+        }
+
+        .cs-card-group {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            /* 16px - 20px */
+            gap: clamp(1rem, 2vw, 1.25rem);
+        }
+
+        .cs-item {
+            list-style: none;
+            width: 100%;
+            max-width: calc(413 / 16 * 1rem);
+            position: relative;
+            z-index: 1;
+
+            &:hover {
+                .cs-picture {
+                    background-color: #000;
+                    img {
+                        transform: scale(1.1);
+                        opacity: .6;
+                    }
+                }
+            }
+        }
+
+        .cs-info {
+            width: 85.5%;
+            /* 16px - 24px */
+            padding: clamp(1rem, 2vw, 1.5rem);
+            margin: calc(-60 / 16 * 1rem) auto 0;
+            box-sizing: border-box;
+            background-color: #1a1a1a;
+            border-top: 4px solid var(--primary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 10;
+        }
+
+        .cs-name {
+            /* 16px - 25px */
+            font-size: clamp(1rem, 2vw, 1.5625rem);
+            font-weight: 700;
+            line-height: 1.2em;
+            /* 4px - 8px */
+            margin: 0 0 clamp(.25rem, 1vw, .5rem);
+            color: var(--bodyTextColorWhite);
+            opacity: .8;
+            display: block;
+            transition: color .3s;
+        }
+
+        .cs-job {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            color: var(--bodyTextColorWhite);
+            display: block;
+        }
+
+        .cs-picture {
+            width: 100%;
+            /* 246px - 500px */
+            height: clamp(15.375rem, 40vw, 32.25rem);
+            overflow: hidden;
+            display: block;
+            position: relative;
+            transition: background-color .3s;
+            z-index: -1;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* makes it behave like a background imahe */
+                object-fit: cover;
+                /* makes the image position itself at the top of the parent */
+                object-position: top;
+                transition: transform .6s, opacity .3s;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #meet-us-1021 {
+        .cs-card-group {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            width: 100%;
+        }
+
+        .cs-item {
+            grid-column: span 4;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #AB661C;
+        --primaryLight: #d8673d;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #meet-us-1021 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        background-color: #1a1a1a;
+        
+        .cs-container {
+            width: 100%;
+            max-width: calc(1280 / 16 * 1rem);
+            margin: auto;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+    
+        .cs-container {
+            width: 100%;
+            max-width: calc(1280 / 16 * 1rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+
+        .cs-graphic {
+            width: 100%;
+            max-width: calc(456 / 16 * 1rem);
+            margin: 0 0 calc(16 / 16 * 1rem) 0;
+        }
+        
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: calc(700 / 16 * 1rem);
+            margin: 0 0 calc(16 / 16 * 1rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: calc(650 / 16 * 1rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-title, .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            color: var(--bodyTextColorWhite);
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            opacity: .8;
+        }
+
+        .cs-card-group {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            /* 16px - 20px */
+            gap: clamp(1rem, 2vw, 1.25rem);
+        }
+
+        .cs-item {
+            list-style: none;
+            width: 100%;
+            max-width: calc(413 / 16 * 1rem);
+            position: relative;
+            z-index: 1;
+
+            &:hover {
+                .cs-picture {
+                    background-color: #000;
+                    img {
+                        transform: scale(1.1);
+                        opacity: .6;
+                    }
+                }
+            }
+        }
+
+        .cs-info {
+            width: 85.5%;
+            /* 16px - 24px */
+            padding: clamp(1rem, 2vw, 1.5rem);
+            margin: calc(-60 / 16 * 1rem) auto 0;
+            box-sizing: border-box;
+            background-color: #1a1a1a;
+            border-top: 4px solid var(--primary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 10;
+        }
+
+        .cs-name {
+            /* 16px - 25px */
+            font-size: clamp(1rem, 2vw, 1.5625rem);
+            font-weight: 700;
+            line-height: 1.2em;
+            /* 4px - 8px */
+            margin: 0 0 clamp(.25rem, 1vw, .5rem);
+            color: var(--bodyTextColorWhite);
+            opacity: .8;
+            display: block;
+            transition: color .3s;
+        }
+
+        .cs-job {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            color: var(--bodyTextColorWhite);
+            display: block;
+        }
+
+        .cs-picture {
+            width: 100%;
+            /* 246px - 500px */
+            height: clamp(15.375rem, 40vw, 32.25rem);
+            overflow: hidden;
+            display: block;
+            position: relative;
+            transition: background-color .3s;
+            z-index: -1;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* makes it behave like a background imahe */
+                object-fit: cover;
+                /* makes the image position itself at the top of the parent */
+                object-position: top;
+                transition: transform .6s, opacity .3s;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #meet-us-1021 {
+        .cs-card-group {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            width: 100%;
+        }
+
+        .cs-item {
+            grid-column: span 4;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #meet-us-1021 {
+            background-color: rgba(0, 0, 0, .6);
+        }
+    }
+}
+                                

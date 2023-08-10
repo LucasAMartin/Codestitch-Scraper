@@ -1,0 +1,2630 @@
+<!-- ============================================ -->
+<!--                Meet The Team                 -->
+<!-- ============================================ -->
+
+<section id="meet-us-347">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex-group">
+                <span class="cs-topper">Meet Us</span>
+                <h2 class="cs-title">Our Team Members</h2>
+            </div>
+            <a href="" class="cs-button-solid">View All Members</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <!--Background Image-->
+                <picture class="cs-background">
+                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner1.png">
+                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner1.png">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner1.png" alt="cleaner" width="305" height="335">
+                    </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Esther Howard</span>
+                    <span class="cs-job">CEO</span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <!--Background Image-->
+                <picture class="cs-background">
+                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner2.png">
+                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner2.png">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner2.png" alt="cleaner" width="305" height="335">
+                    </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Roser Fetherer</span>
+                    <span class="cs-job">Project Manager</span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <!--Background Image-->
+                <picture class="cs-background">
+                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner3.png">
+                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner3.png">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner3.png" alt="cleaner" width="305" height="335">
+                    </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Needse Zedd</span>
+                    <span class="cs-job">Cleaner</span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <!--Background Image-->
+                <picture class="cs-background">
+                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner4.png">
+                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner4.png">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner4.png" alt="cleaner" width="305" height="335">
+                    </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Kaisa Alita</span>
+                    <span class="cs-job">CEO</span>
+                </div>
+            </li>
+        </ul>
+        <div class="cs-bubbles cs-bubbles-small" aria-hidden="true"></div>
+        <div class="cs-bubbles cs-bubbles-big" aria-hidden="true">
+            <span class="cs-bubbles-big2"></span>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #007CFB;
+    --primaryLight: #A36814;
+    --secondary: #A36814;
+    --secondaryLight: #EDB86F;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #meet-us-347 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* clips bubbles that go off screen */
+    overflow: hidden;
+    padding: var(--sectionPadding);
+    background-color: #F7F7F7;
+  }
+  #meet-us-347 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #meet-us-347 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #meet-us-347 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #meet-us-347 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #meet-us-347 .cs-title {
+    /* cs-title override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+    /* removed at tablet */
+    margin: 0 0 2rem 0;
+  }
+  #meet-us-347 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #meet-us-347 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #meet-us-347 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #meet-us-347 .cs-card-group {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #meet-us-347 .cs-item {
+    list-style: none;
+    width: 100%;
+    max-width: 21.5rem;
+    border-radius: 1rem;
+    /* clips corners */
+    overflow: hidden;
+    position: relative;
+  }
+  #meet-us-347 .cs-item:hover .cs-background {
+    background-color: var(--primary);
+  }
+  #meet-us-347 .cs-item:hover .cs-background img {
+    transform: scale(1.1);
+    opacity: .9;
+  }
+  #meet-us-347 .cs-item:hover .cs-name {
+    color: var(--secondaryLight);
+  }
+  #meet-us-347 .cs-info {
+    padding: 0.75rem 1rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+  }
+  #meet-us-347 .cs-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--headerColor);
+    line-height: 1.2em;
+    margin: 0;
+    display: block;
+    transition: color .3s;
+  }
+  #meet-us-347 .cs-job {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    color: var(--bodyTextColor);
+    display: block;
+  }
+  #meet-us-347 .cs-background {
+    width: 100%;
+    height: 21.25rem;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    transition: background-color 0.3s;
+  }
+  #meet-us-347 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it behave like a background imahe */
+    object-fit: cover;
+    /* makes the image position itself at the top of the parent */
+    object-position: top;
+    transition: transform .6s, opacity .3s;
+  }
+  #meet-us-347 .cs-bubbles {
+    display: none;
+  }
+}
+/* Tablet - 700px */
+@media only screen and (min-width: 43.75rem) {
+  #meet-us-347 .cs-content {
+    text-align: left;
+    width: 100%;
+    /* makes it match the max-width of the card group */
+    max-width: 44.25rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  #meet-us-347 .cs-title {
+    margin: 0;
+  }
+  #meet-us-347 .cs-card-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #meet-us-347 .cs-item {
+    width: 48.8%;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #meet-us-347 .cs-content {
+    max-width: 100%;
+  }
+  #meet-us-347 .cs-card-group {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  #meet-us-347 .cs-item {
+    /* stretch the list items as far as they can go, and the gap property on the parent will space them apart */
+    width: 100%;
+  }
+  #meet-us-347 .cs-background {
+    /* 250px - 335px */
+    height: clamp(15.625rem, 25vw, 20.9375rem);
+  }
+  #meet-us-347 .cs-bubbles {
+    display: block;
+    position: absolute;
+  }
+  #meet-us-347 .cs-bubbles-small {
+    width: 13.875rem;
+    height: 9.5rem;
+    left: -21.875rem;
+    top: -3.125rem;
+  }
+  #meet-us-347 .cs-bubbles-small:before {
+    /* circle 1 */
+    content: '';
+    width: 8.75rem;
+    height: 8.75rem;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    animation-name: floatAnimation2;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #meet-us-347 .cs-bubbles-small:after {
+    /* circle 2 */
+    content: '';
+    width: 7.3125rem;
+    height: 7.3125rem;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    animation-name: floatAnimation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #meet-us-347 .cs-bubbles-big {
+    width: 19.75rem;
+    height: 24.125rem;
+    right: -22.875rem;
+    bottom: -6.25rem;
+  }
+  #meet-us-347 .cs-bubbles-big:before {
+    /* circle 1 */
+    content: '';
+    width: 5.875rem;
+    height: 5.875rem;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    animation-name: floatAnimation2;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #meet-us-347 .cs-bubbles-big:after {
+    /* circle 2 */
+    content: '';
+    width: 5.875rem;
+    height: 5.875rem;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 4.375rem;
+    right: 3.75rem;
+    animation-name: floatAnimation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #meet-us-347 .cs-bubbles-big2 {
+    width: 13.1875rem;
+    height: 13.1875rem;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 1.4375rem;
+    left: 0.1875rem;
+    animation-name: floatAnimation;
+    animation-duration: 14s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #meet-us-347 .cs-bubbles-big2:before {
+    /* second bubble */
+    content: '';
+    width: 9.875rem;
+    height: 9.875rem;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: -4.6875rem;
+    right: -4.6875rem;
+    animation-name: floatAnimation2;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-2em);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes floatAnimation2 {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-1em);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #007CFB;
+    --primaryLight: #A36814;
+    --secondary: #A36814;
+    --secondaryLight: #EDB86F;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #meet-us-347 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* clips bubbles that go off screen */
+    overflow: hidden;
+    padding: var(--sectionPadding);
+    background-color: #F7F7F7;
+  }
+  #meet-us-347 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #meet-us-347 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #meet-us-347 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #meet-us-347 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #meet-us-347 .cs-title {
+    /* cs-title override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+    /* removed at tablet */
+    margin: 0 0 2rem 0;
+  }
+  #meet-us-347 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #meet-us-347 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #meet-us-347 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #meet-us-347 .cs-card-group {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #meet-us-347 .cs-item {
+    list-style: none;
+    width: 100%;
+    max-width: 21.5rem;
+    border-radius: 1rem;
+    /* clips corners */
+    overflow: hidden;
+    position: relative;
+  }
+  #meet-us-347 .cs-item:hover .cs-background {
+    background-color: var(--primary);
+  }
+  #meet-us-347 .cs-item:hover .cs-background img {
+    transform: scale(1.1);
+    opacity: .9;
+  }
+  #meet-us-347 .cs-item:hover .cs-name {
+    color: var(--secondaryLight);
+  }
+  #meet-us-347 .cs-info {
+    padding: 0.75rem 1rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+  }
+  #meet-us-347 .cs-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--headerColor);
+    line-height: 1.2em;
+    margin: 0;
+    display: block;
+    transition: color .3s;
+  }
+  #meet-us-347 .cs-job {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    color: var(--bodyTextColor);
+    display: block;
+  }
+  #meet-us-347 .cs-background {
+    width: 100%;
+    height: 21.25rem;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    transition: background-color 0.3s;
+  }
+  #meet-us-347 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it behave like a background imahe */
+    object-fit: cover;
+    /* makes the image position itself at the top of the parent */
+    object-position: top;
+    transition: transform .6s, opacity .3s;
+  }
+  #meet-us-347 .cs-bubbles {
+    display: none;
+  }
+}
+/* Tablet - 700px */
+@media only screen and (min-width: 43.75rem) {
+  #meet-us-347 .cs-content {
+    text-align: left;
+    width: 100%;
+    /* makes it match the max-width of the card group */
+    max-width: 44.25rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  #meet-us-347 .cs-title {
+    margin: 0;
+  }
+  #meet-us-347 .cs-card-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #meet-us-347 .cs-item {
+    width: 48.8%;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #meet-us-347 .cs-content {
+    max-width: 100%;
+  }
+  #meet-us-347 .cs-card-group {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  #meet-us-347 .cs-item {
+    /* stretch the list items as far as they can go, and the gap property on the parent will space them apart */
+    width: 100%;
+  }
+  #meet-us-347 .cs-background {
+    /* 250px - 335px */
+    height: clamp(15.625rem, 25vw, 20.9375rem);
+  }
+  #meet-us-347 .cs-bubbles {
+    display: block;
+    position: absolute;
+  }
+  #meet-us-347 .cs-bubbles-small {
+    width: 13.875rem;
+    height: 9.5rem;
+    left: -21.875rem;
+    top: -3.125rem;
+  }
+  #meet-us-347 .cs-bubbles-small:before {
+    /* circle 1 */
+    content: '';
+    width: 8.75rem;
+    height: 8.75rem;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    animation-name: floatAnimation2;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #meet-us-347 .cs-bubbles-small:after {
+    /* circle 2 */
+    content: '';
+    width: 7.3125rem;
+    height: 7.3125rem;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    animation-name: floatAnimation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #meet-us-347 .cs-bubbles-big {
+    width: 19.75rem;
+    height: 24.125rem;
+    right: -22.875rem;
+    bottom: -6.25rem;
+  }
+  #meet-us-347 .cs-bubbles-big:before {
+    /* circle 1 */
+    content: '';
+    width: 5.875rem;
+    height: 5.875rem;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    animation-name: floatAnimation2;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #meet-us-347 .cs-bubbles-big:after {
+    /* circle 2 */
+    content: '';
+    width: 5.875rem;
+    height: 5.875rem;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 4.375rem;
+    right: 3.75rem;
+    animation-name: floatAnimation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #meet-us-347 .cs-bubbles-big2 {
+    width: 13.1875rem;
+    height: 13.1875rem;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 1.4375rem;
+    left: 0.1875rem;
+    animation-name: floatAnimation;
+    animation-duration: 14s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #meet-us-347 .cs-bubbles-big2:before {
+    /* second bubble */
+    content: '';
+    width: 9.875rem;
+    height: 9.875rem;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: -4.6875rem;
+    right: -4.6875rem;
+    animation-name: floatAnimation2;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-2em);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes floatAnimation2 {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-1em);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #meet-us-347 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  body.dark-mode #meet-us-347 .cs-topper {
+    color: var(--secondaryLight);
+  }
+  body.dark-mode #meet-us-347 .cs-title,
+  body.dark-mode #meet-us-347 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #meet-us-347 .cs-info {
+    background-color: var(--accent);
+  }
+  body.dark-mode #meet-us-347 .cs-name,
+  body.dark-mode #meet-us-347 .cs-job {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #meet-us-347 .cs-bubbles:before,
+  body.dark-mode #meet-us-347 .cs-bubbles:after {
+    background-color: var(--accent);
+    opacity: .5;
+  }
+  body.dark-mode #meet-us-347 .cs-bubbles-big2 {
+    background-color: var(--accent);
+    opacity: .5;
+  }
+  body.dark-mode #meet-us-347 .cs-bubbles-big2:before {
+    background-color: var(--accent);
+    opacity: .9;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #007CFB;
+        --primaryLight: #A36814;
+        --secondary: #A36814;
+        --secondaryLight: #EDB86F;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #meet-us-347 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        /* clips bubbles that go off screen */
+        overflow: hidden;
+        padding: var(--sectionPadding);
+        background-color: #F7F7F7;
+    
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+
+        .cs-title {
+            /* cs-title override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+            /* removed at tablet */
+            margin: 0 0 (32/16rem) 0;
+        }
+    
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-card-group {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: (16/16rem);
+        }
+
+        .cs-item {
+            list-style: none;
+            width: 100%;
+            max-width: (344/16rem);
+            border-radius: (16/16rem);
+            /* clips corners */
+            overflow: hidden;
+            position: relative;
+
+            &:hover {
+                .cs-background {
+                    background-color: var(--primary);
+                    img {
+                        transform: scale(1.1);
+                        opacity: .9;
+                    }
+                }
+
+                .cs-name {
+                    color: var(--secondaryLight);
+                }
+            }
+        }
+
+        .cs-info {
+            padding: (12/16rem) (16/16rem);
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 10;
+        }
+
+        .cs-name {
+            font-size: (20/16rem);
+            font-weight: 700;
+            color: var(--headerColor);
+            line-height: 1.2em;
+            margin: 0;
+            display: block;
+            transition: color .3s;
+        }
+
+        .cs-job {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            color: var(--bodyTextColor);
+            display: block;
+        }
+
+        .cs-background {
+            width: 100%;
+            height: (340/16rem);
+            overflow: hidden;
+            display: block;
+            position: relative;
+            transition: background-color .3s;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* makes it behave like a background imahe */
+                object-fit: cover;
+                /* makes the image position itself at the top of the parent */
+                object-position: top;
+                transition: transform .6s, opacity .3s;
+            }
+        }
+
+        .cs-bubbles {
+            display: none;
+        }
+    }
+}
+
+/* Tablet - 700px */
+@media only screen and (min-width: 43.75rem) {
+    #meet-us-347 {
+        .cs-content {
+            text-align: left;
+            width: 100%;
+            /* makes it match the max-width of the card group */
+            max-width: (708/16rem);
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .cs-title {
+            margin: 0;
+        }
+
+        .cs-card-group {
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .cs-item {
+            width: 48.8%;
+        }
+    }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #meet-us-347 {
+        .cs-content {
+            max-width: 100%;
+        }
+
+        .cs-card-group {
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+
+        .cs-item {
+            /* stretch the list items as far as they can go, and the gap property on the parent will space them apart */ 
+            width: 100%;
+        }
+
+        .cs-background {
+            /* 250px - 335px */
+            height: clamp(15.625rem, 25vw, 20.9375rem);
+        }
+
+        .cs-bubbles {
+            display: block;
+            position: absolute;
+        }
+        
+        .cs-bubbles-small {
+            width: (222/16rem);
+            height: (152/16rem);
+            left: (-350/16rem);
+            top: (-50/16rem);
+
+            &:before {
+                /* circle 1 */
+                content: '';
+                width: (140/16rem);
+                height: (140/16rem);
+                border-radius: 50%;
+                background: #fff;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: 0;
+                right: 0;
+                animation-name: floatAnimation2;
+                animation-duration: 6s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+            }
+
+            &:after {
+                /* circle 2 */
+                content: '';
+                width: (117/16rem);
+                height: (117/16rem);
+                border-radius: 50%;
+                background: #fff;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                bottom: 0;
+                left: 0;
+                animation-name: floatAnimation;
+                animation-duration: 20s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+            }
+        }
+
+        .cs-bubbles-big {
+            width: (316/16rem);
+            height: (386/16rem);
+            right: (-366/16rem);
+            bottom: (-100/16rem);
+
+            &:before {
+                /* circle 1 */
+                content: '';
+                width: (94/16rem);
+                height: (94/16rem);
+                border-radius: 50%;
+                background: #fff;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                animation-name: floatAnimation2;
+                animation-duration: 6s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+            }
+
+            &:after {
+                /* circle 2 */
+                content: '';
+                width: (94/16rem);
+                height: (94/16rem);
+                border-radius: 50%;
+                background: #fff;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: (70/16rem);
+                right: (60/16rem);
+                animation-name: floatAnimation;
+                animation-duration: 20s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+            }
+        }
+
+        .cs-bubbles-big2 {
+            width: (211/16rem);
+            height: (211/16rem);
+            border-radius: 50%;
+            background: #fff;
+            opacity: 1;
+            position: absolute;
+            display: block;
+            bottom: (23/16rem);
+            left: (3/16rem);
+            animation-name: floatAnimation;
+            animation-duration: 14s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+
+            &:before {
+                /* second bubble */
+                content: '';
+                width: (158/16rem);
+                height: (158/16rem);
+                border-radius: 50%;
+                background: #fff;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                bottom: (-75/16rem);
+                right: (-75/16rem);
+                animation-name: floatAnimation2;
+                animation-duration: 6s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+            }
+        }
+
+        @keyframes floatAnimation {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-2em);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    
+        @keyframes floatAnimation2 {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-1em);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #007CFB;
+        --primaryLight: #A36814;
+        --secondary: #A36814;
+        --secondaryLight: #EDB86F;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #meet-us-347 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        /* clips bubbles that go off screen */
+        overflow: hidden;
+        padding: var(--sectionPadding);
+        background-color: #F7F7F7;
+            
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+
+        .cs-title {
+            /* cs-title override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+            /* removed at tablet */
+            margin: 0 0 (32/16rem) 0;
+        }
+    
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-card-group {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: (16/16rem);
+        }
+
+        .cs-item {
+            list-style: none;
+            width: 100%;
+            max-width: (344/16rem);
+            border-radius: (16/16rem);
+            /* clips corners */
+            overflow: hidden;
+            position: relative;
+
+            &:hover {
+                .cs-background {
+                    background-color: var(--primary);
+                    img {
+                        transform: scale(1.1);
+                        opacity: .9;
+                    }
+                }
+
+                .cs-name {
+                    color: var(--secondaryLight);
+                }
+            }
+        }
+
+        .cs-info {
+            padding: (12/16rem) (16/16rem);
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 10;
+        }
+
+        .cs-name {
+            font-size: (20/16rem);
+            font-weight: 700;
+            color: var(--headerColor);
+            line-height: 1.2em;
+            margin: 0;
+            display: block;
+            transition: color .3s;
+        }
+
+        .cs-job {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            color: var(--bodyTextColor);
+            display: block;
+        }
+
+        .cs-background {
+            width: 100%;
+            height: (340/16rem);
+            overflow: hidden;
+            display: block;
+            position: relative;
+            transition: background-color .3s;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* makes it behave like a background imahe */
+                object-fit: cover;
+                /* makes the image position itself at the top of the parent */
+                object-position: top;
+                transition: transform .6s, opacity .3s;
+            }
+        }
+
+        .cs-bubbles {
+            display: none;
+        }
+    }
+}
+
+/* Tablet - 700px */
+@media only screen and (min-width: 43.75rem) {
+    #meet-us-347 {
+        .cs-content {
+            text-align: left;
+            width: 100%;
+            /* makes it match the max-width of the card group */
+            max-width: (708/16rem);
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .cs-title {
+            margin: 0;
+        }
+
+        .cs-card-group {
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .cs-item {
+            width: 48.8%;
+        }
+    }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #meet-us-347 {
+        .cs-content {
+            max-width: 100%;
+        }
+
+        .cs-card-group {
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+
+        .cs-item {
+            /* stretch the list items as far as they can go, and the gap property on the parent will space them apart */ 
+            width: 100%;
+        }
+
+        .cs-background {
+            /* 250px - 335px */
+            height: clamp(15.625rem, 25vw, 20.9375rem);
+        }
+
+        .cs-bubbles {
+            display: block;
+            position: absolute;
+        }
+        
+        .cs-bubbles-small {
+            width: (222/16rem);
+            height: (152/16rem);
+            left: (-350/16rem);
+            top: (-50/16rem);
+
+            &:before {
+                /* circle 1 */
+                content: '';
+                width: (140/16rem);
+                height: (140/16rem);
+                border-radius: 50%;
+                background: #fff;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: 0;
+                right: 0;
+                animation-name: floatAnimation2;
+                animation-duration: 6s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+            }
+
+            &:after {
+                /* circle 2 */
+                content: '';
+                width: (117/16rem);
+                height: (117/16rem);
+                border-radius: 50%;
+                background: #fff;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                bottom: 0;
+                left: 0;
+                animation-name: floatAnimation;
+                animation-duration: 20s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+            }
+        }
+
+        .cs-bubbles-big {
+            width: (316/16rem);
+            height: (386/16rem);
+            right: (-366/16rem);
+            bottom: (-100/16rem);
+
+            &:before {
+                /* circle 1 */
+                content: '';
+                width: (94/16rem);
+                height: (94/16rem);
+                border-radius: 50%;
+                background: #fff;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                animation-name: floatAnimation2;
+                animation-duration: 6s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+            }
+
+            &:after {
+                /* circle 2 */
+                content: '';
+                width: (94/16rem);
+                height: (94/16rem);
+                border-radius: 50%;
+                background: #fff;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: (70/16rem);
+                right: (60/16rem);
+                animation-name: floatAnimation;
+                animation-duration: 20s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+            }
+        }
+
+        .cs-bubbles-big2 {
+            width: (211/16rem);
+            height: (211/16rem);
+            border-radius: 50%;
+            background: #fff;
+            opacity: 1;
+            position: absolute;
+            display: block;
+            bottom: (23/16rem);
+            left: (3/16rem);
+            animation-name: floatAnimation;
+            animation-duration: 14s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+
+            &:before {
+                /* second bubble */
+                content: '';
+                width: (158/16rem);
+                height: (158/16rem);
+                border-radius: 50%;
+                background: #fff;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                bottom: (-75/16rem);
+                right: (-75/16rem);
+                animation-name: floatAnimation2;
+                animation-duration: 6s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+            }
+        }
+
+        @keyframes floatAnimation {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-2em);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    
+        @keyframes floatAnimation2 {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-1em);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #meet-us-347 {
+            background-color: rgba(0, 0, 0, .2);
+            .cs-topper {
+                color: var(--secondaryLight);
+            }
+
+            .cs-title, .cs-text {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-info {
+                background-color: var(--accent);
+            }
+
+            .cs-name, .cs-job {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-bubbles {
+                &:before, &:after {
+                    background-color: var(--accent);
+                    opacity: .5;
+                }
+            }
+
+            .cs-bubbles-big2 {
+                background-color: var(--accent);
+                opacity: .5;
+                &:before {
+                    background-color: var(--accent);
+                    opacity: .9;
+                }
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #007cfb;
+		--primaryLight: #a36814;
+		--secondary: #a36814;
+		--secondaryLight: #edb86f;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#meet-us-347 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		/* clips bubbles that go off screen */
+		overflow: hidden;
+		padding: var(--sectionPadding);
+		background-color: #f7f7f7;
+
+		.cs-container {
+			width: 100%;
+			max-width: calc(1280 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: center;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: center;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-title {
+			/* cs-title override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+			/* removed at tablet */
+			margin: 0 0 calc(32 / 16 * 1rem) 0;
+		}
+
+		.cs-button-solid {
+			font-size: calc(16 / 16 * 1rem);
+			/* 46px - 56px */
+			line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+			text-decoration: none;
+			font-weight: 700;
+			text-align: center;
+			margin: 0;
+			color: #fff;
+			min-width: calc(150 / 16 * 1rem);
+			padding: 0 calc(24 / 16 * 1rem);
+			background-color: var(--primary);
+			border-radius: calc(4 / 16 * 1rem);
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			/* prevents padding from adding to the width */
+			box-sizing: border-box;
+
+			&:before {
+				content: '';
+				position: absolute;
+				height: 100%;
+				width: 0%;
+				background: #000;
+				opacity: 1;
+				top: 0;
+				left: 0;
+				z-index: -1;
+				border-radius: calc(4 / 16 * 1rem);
+				transition: width 0.3s;
+			}
+
+			&:hover {
+				&:before {
+					width: 100%;
+				}
+			}
+		}
+
+		.cs-card-group {
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			gap: calc(16 / 16 * 1rem);
+		}
+
+		.cs-item {
+			list-style: none;
+			width: 100%;
+			max-width: calc(344 / 16 * 1rem);
+			border-radius: calc(16 / 16 * 1rem);
+			/* clips corners */
+			overflow: hidden;
+			position: relative;
+
+			&:hover {
+				.cs-background {
+					background-color: var(--primary);
+					img {
+						transform: scale(1.1);
+						opacity: 0.9;
+					}
+				}
+
+				.cs-name {
+					color: var(--secondaryLight);
+				}
+			}
+		}
+
+		.cs-info {
+			padding: calc(12 / 16 * 1rem) calc(16 / 16 * 1rem);
+			background-color: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			z-index: 10;
+		}
+
+		.cs-name {
+			font-size: calc(20 / 16 * 1rem);
+			font-weight: 700;
+			color: var(--headerColor);
+			line-height: 1.2em;
+			margin: 0;
+			display: block;
+			transition: color 0.3s;
+		}
+
+		.cs-job {
+			/* 14px - 16px */
+			font-size: clamp(0.875rem, 1.5vw, 1rem);
+			line-height: 1.5em;
+			color: var(--bodyTextColor);
+			display: block;
+		}
+
+		.cs-background {
+			width: 100%;
+			height: calc(340 / 16 * 1rem);
+			overflow: hidden;
+			display: block;
+			position: relative;
+			transition: background-color 0.3s;
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				/* makes it behave like a background image */
+				object-fit: cover;
+				/* makes the image position itself at the top of the parent */
+				object-position: top;
+				transition: transform 0.6s, opacity 0.3s;
+			}
+		}
+
+		.cs-bubbles {
+			display: none;
+		}
+	}
+}
+
+/* Tablet - 700px */
+@media only screen and (min-width: 43.75rem) {
+	#meet-us-347 {
+		.cs-content {
+			text-align: left;
+			width: 100%;
+			/* makes it match the max-width of the card group */
+			max-width: calc(708 / 16 * 1rem);
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: flex-end;
+		}
+
+		.cs-title {
+			margin: 0;
+		}
+
+		.cs-card-group {
+			flex-direction: row;
+			flex-wrap: wrap;
+			width: 100%;
+		}
+
+		.cs-item {
+			width: 48.8%;
+		}
+	}
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+	#meet-us-347 {
+		.cs-content {
+			max-width: 100%;
+		}
+
+		.cs-card-group {
+			flex-wrap: nowrap;
+			justify-content: space-between;
+		}
+
+		.cs-item {
+			/* stretch the list items as far as they can go, and the gap property on the parent will space them apart */
+			width: 100%;
+		}
+
+		.cs-background {
+			/* 250px - 335px */
+			height: clamp(15.625rem, 25vw, 20.9375rem);
+		}
+
+		.cs-bubbles {
+			display: block;
+			position: absolute;
+		}
+
+		.cs-bubbles-small {
+			width: calc(222 / 16 * 1rem);
+			height: calc(152 / 16 * 1rem);
+			left: calc(-350 / 16 * 1rem);
+			top: calc(-50 / 16 * 1rem);
+
+			&:before {
+				/* circle 1 */
+				content: '';
+				width: calc(140 / 16 * 1rem);
+				height: calc(140 / 16 * 1rem);
+				border-radius: 50%;
+				background: #fff;
+				opacity: 1;
+				position: absolute;
+				display: block;
+				top: 0;
+				right: 0;
+				animation-name: floatAnimation2;
+				animation-duration: 6s;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: forwards;
+				animation-iteration-count: infinite;
+			}
+
+			&:after {
+				/* circle 2 */
+				content: '';
+				width: calc(117 / 16 * 1rem);
+				height: calc(117 / 16 * 1rem);
+				border-radius: 50%;
+				background: #fff;
+				opacity: 1;
+				position: absolute;
+				display: block;
+				bottom: 0;
+				left: 0;
+				animation-name: floatAnimation;
+				animation-duration: 20s;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: forwards;
+				animation-iteration-count: infinite;
+			}
+		}
+
+		.cs-bubbles-big {
+			width: calc(316 / 16 * 1rem);
+			height: calc(386 / 16 * 1rem);
+			right: calc(-366 / 16 * 1rem);
+			bottom: calc(-100 / 16 * 1rem);
+
+			&:before {
+				/* circle 1 */
+				content: '';
+				width: calc(94 / 16 * 1rem);
+				height: calc(94 / 16 * 1rem);
+				border-radius: 50%;
+				background: #fff;
+				opacity: 1;
+				position: absolute;
+				display: block;
+				top: 0;
+				left: 0;
+				animation-name: floatAnimation2;
+				animation-duration: 6s;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: forwards;
+				animation-iteration-count: infinite;
+			}
+
+			&:after {
+				/* circle 2 */
+				content: '';
+				width: calc(94 / 16 * 1rem);
+				height: calc(94 / 16 * 1rem);
+				border-radius: 50%;
+				background: #fff;
+				opacity: 1;
+				position: absolute;
+				display: block;
+				top: calc(70 / 16 * 1rem);
+				right: calc(60 / 16 * 1rem);
+				animation-name: floatAnimation;
+				animation-duration: 20s;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: forwards;
+				animation-iteration-count: infinite;
+			}
+		}
+
+		.cs-bubbles-big2 {
+			width: calc(211 / 16 * 1rem);
+			height: calc(211 / 16 * 1rem);
+			border-radius: 50%;
+			background: #fff;
+			opacity: 1;
+			position: absolute;
+			display: block;
+			bottom: calc(23 / 16 * 1rem);
+			left: calc(3 / 16 * 1rem);
+			animation-name: floatAnimation;
+			animation-duration: 14s;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: forwards;
+			animation-iteration-count: infinite;
+
+			&:before {
+				/* second bubble */
+				content: '';
+				width: calc(158 / 16 * 1rem);
+				height: calc(158 / 16 * 1rem);
+				border-radius: 50%;
+				background: #fff;
+				opacity: 1;
+				position: absolute;
+				display: block;
+				bottom: calc(-75 / 16 * 1rem);
+				right: calc(-75 / 16 * 1rem);
+				animation-name: floatAnimation2;
+				animation-duration: 6s;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: forwards;
+				animation-iteration-count: infinite;
+			}
+		}
+
+		@keyframes floatAnimation {
+			0% {
+				transform: translateY(0);
+			}
+			50% {
+				transform: translateY(-2em);
+			}
+			100% {
+				transform: translateY(0);
+			}
+		}
+
+		@keyframes floatAnimation2 {
+			0% {
+				transform: translateY(0);
+			}
+			50% {
+				transform: translateY(-1em);
+			}
+			100% {
+				transform: translateY(0);
+			}
+		}
+	}
+}
+                                
+/*-- -------------------------- -->
+<---       Meet The Team        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #007cfb;
+		--primaryLight: #a36814;
+		--secondary: #a36814;
+		--secondaryLight: #edb86f;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#meet-us-347 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		/* clips bubbles that go off screen */
+		overflow: hidden;
+		padding: var(--sectionPadding);
+		background-color: #f7f7f7;
+
+		.cs-container {
+			width: 100%;
+			max-width: calc(1280 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: center;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: center;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-title {
+			/* cs-title override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This second cs-text is a section specific override that stays inside this stitch */
+			/* removed at tablet */
+			margin: 0 0 calc(32 / 16 * 1rem) 0;
+		}
+
+		.cs-button-solid {
+			font-size: calc(16 / 16 * 1rem);
+			/* 46px - 56px */
+			line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+			text-decoration: none;
+			font-weight: 700;
+			text-align: center;
+			margin: 0;
+			color: #fff;
+			min-width: calc(150 / 16 * 1rem);
+			padding: 0 calc(24 / 16 * 1rem);
+			background-color: var(--primary);
+			border-radius: calc(4 / 16 * 1rem);
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			/* prevents padding from adding to the width */
+			box-sizing: border-box;
+
+			&:before {
+				content: '';
+				position: absolute;
+				height: 100%;
+				width: 0%;
+				background: #000;
+				opacity: 1;
+				top: 0;
+				left: 0;
+				z-index: -1;
+				border-radius: calc(4 / 16 * 1rem);
+				transition: width 0.3s;
+			}
+
+			&:hover {
+				&:before {
+					width: 100%;
+				}
+			}
+		}
+
+		.cs-card-group {
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			gap: calc(16 / 16 * 1rem);
+		}
+
+		.cs-item {
+			list-style: none;
+			width: 100%;
+			max-width: calc(344 / 16 * 1rem);
+			border-radius: calc(16 / 16 * 1rem);
+			/* clips corners */
+			overflow: hidden;
+			position: relative;
+
+			&:hover {
+				.cs-background {
+					background-color: var(--primary);
+					img {
+						transform: scale(1.1);
+						opacity: 0.9;
+					}
+				}
+
+				.cs-name {
+					color: var(--secondaryLight);
+				}
+			}
+		}
+
+		.cs-info {
+			padding: calc(12 / 16 * 1rem) calc(16 / 16 * 1rem);
+			background-color: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			z-index: 10;
+		}
+
+		.cs-name {
+			font-size: calc(20 / 16 * 1rem);
+			font-weight: 700;
+			color: var(--headerColor);
+			line-height: 1.2em;
+			margin: 0;
+			display: block;
+			transition: color 0.3s;
+		}
+
+		.cs-job {
+			/* 14px - 16px */
+			font-size: clamp(0.875rem, 1.5vw, 1rem);
+			line-height: 1.5em;
+			color: var(--bodyTextColor);
+			display: block;
+		}
+
+		.cs-background {
+			width: 100%;
+			height: calc(340 / 16 * 1rem);
+			overflow: hidden;
+			display: block;
+			position: relative;
+			transition: background-color 0.3s;
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				/* makes it behave like a background image */
+				object-fit: cover;
+				/* makes the image position itself at the top of the parent */
+				object-position: top;
+				transition: transform 0.6s, opacity 0.3s;
+			}
+		}
+
+		.cs-bubbles {
+			display: none;
+		}
+	}
+}
+
+/* Tablet - 700px */
+@media only screen and (min-width: 43.75rem) {
+	#meet-us-347 {
+		.cs-content {
+			text-align: left;
+			width: 100%;
+			/* makes it match the max-width of the card group */
+			max-width: calc(708 / 16 * 1rem);
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: flex-end;
+		}
+
+		.cs-title {
+			margin: 0;
+		}
+
+		.cs-card-group {
+			flex-direction: row;
+			flex-wrap: wrap;
+			width: 100%;
+		}
+
+		.cs-item {
+			width: 48.8%;
+		}
+	}
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+	#meet-us-347 {
+		.cs-content {
+			max-width: 100%;
+		}
+
+		.cs-card-group {
+			flex-wrap: nowrap;
+			justify-content: space-between;
+		}
+
+		.cs-item {
+			/* stretch the list items as far as they can go, and the gap property on the parent will space them apart */
+			width: 100%;
+		}
+
+		.cs-background {
+			/* 250px - 335px */
+			height: clamp(15.625rem, 25vw, 20.9375rem);
+		}
+
+		.cs-bubbles {
+			display: block;
+			position: absolute;
+		}
+
+		.cs-bubbles-small {
+			width: calc(222 / 16 * 1rem);
+			height: calc(152 / 16 * 1rem);
+			left: calc(-350 / 16 * 1rem);
+			top: calc(-50 / 16 * 1rem);
+
+			&:before {
+				/* circle 1 */
+				content: '';
+				width: calc(140 / 16 * 1rem);
+				height: calc(140 / 16 * 1rem);
+				border-radius: 50%;
+				background: #fff;
+				opacity: 1;
+				position: absolute;
+				display: block;
+				top: 0;
+				right: 0;
+				animation-name: floatAnimation2;
+				animation-duration: 6s;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: forwards;
+				animation-iteration-count: infinite;
+			}
+
+			&:after {
+				/* circle 2 */
+				content: '';
+				width: calc(117 / 16 * 1rem);
+				height: calc(117 / 16 * 1rem);
+				border-radius: 50%;
+				background: #fff;
+				opacity: 1;
+				position: absolute;
+				display: block;
+				bottom: 0;
+				left: 0;
+				animation-name: floatAnimation;
+				animation-duration: 20s;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: forwards;
+				animation-iteration-count: infinite;
+			}
+		}
+
+		.cs-bubbles-big {
+			width: calc(316 / 16 * 1rem);
+			height: calc(386 / 16 * 1rem);
+			right: calc(-366 / 16 * 1rem);
+			bottom: calc(-100 / 16 * 1rem);
+
+			&:before {
+				/* circle 1 */
+				content: '';
+				width: calc(94 / 16 * 1rem);
+				height: calc(94 / 16 * 1rem);
+				border-radius: 50%;
+				background: #fff;
+				opacity: 1;
+				position: absolute;
+				display: block;
+				top: 0;
+				left: 0;
+				animation-name: floatAnimation2;
+				animation-duration: 6s;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: forwards;
+				animation-iteration-count: infinite;
+			}
+
+			&:after {
+				/* circle 2 */
+				content: '';
+				width: calc(94 / 16 * 1rem);
+				height: calc(94 / 16 * 1rem);
+				border-radius: 50%;
+				background: #fff;
+				opacity: 1;
+				position: absolute;
+				display: block;
+				top: calc(70 / 16 * 1rem);
+				right: calc(60 / 16 * 1rem);
+				animation-name: floatAnimation;
+				animation-duration: 20s;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: forwards;
+				animation-iteration-count: infinite;
+			}
+		}
+
+		.cs-bubbles-big2 {
+			width: calc(211 / 16 * 1rem);
+			height: calc(211 / 16 * 1rem);
+			border-radius: 50%;
+			background: #fff;
+			opacity: 1;
+			position: absolute;
+			display: block;
+			bottom: calc(23 / 16 * 1rem);
+			left: calc(3 / 16 * 1rem);
+			animation-name: floatAnimation;
+			animation-duration: 14s;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: forwards;
+			animation-iteration-count: infinite;
+
+			&:before {
+				/* second bubble */
+				content: '';
+				width: calc(158 / 16 * 1rem);
+				height: calc(158 / 16 * 1rem);
+				border-radius: 50%;
+				background: #fff;
+				opacity: 1;
+				position: absolute;
+				display: block;
+				bottom: calc(-75 / 16 * 1rem);
+				right: calc(-75 / 16 * 1rem);
+				animation-name: floatAnimation2;
+				animation-duration: 6s;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: forwards;
+				animation-iteration-count: infinite;
+			}
+		}
+
+		@keyframes floatAnimation {
+			0% {
+				transform: translateY(0);
+			}
+			50% {
+				transform: translateY(-2em);
+			}
+			100% {
+				transform: translateY(0);
+			}
+		}
+
+		@keyframes floatAnimation2 {
+			0% {
+				transform: translateY(0);
+			}
+			50% {
+				transform: translateY(-1em);
+			}
+			100% {
+				transform: translateY(0);
+			}
+		}
+	}
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+	body.dark-mode {
+		#meet-us-347 {
+			background-color: rgba(0, 0, 0, 0.2);
+			.cs-topper {
+				color: var(--secondaryLight);
+			}
+
+			.cs-title,
+			.cs-text {
+				color: var(--bodyTextColorWhite);
+			}
+
+			.cs-info {
+				background-color: var(--accent);
+			}
+
+			.cs-name,
+			.cs-job {
+				color: var(--bodyTextColorWhite);
+			}
+
+			.cs-bubbles {
+				&:before,
+				&:after {
+					background-color: var(--accent);
+					opacity: 0.5;
+				}
+			}
+
+			.cs-bubbles-big2 {
+				background-color: var(--accent);
+				opacity: 0.5;
+				&:before {
+					background-color: var(--accent);
+					opacity: 0.9;
+				}
+			}
+		}
+	}
+}
+                                

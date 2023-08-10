@@ -1,0 +1,805 @@
+<!--SVG Circles-->
+<div id="stats-834">
+    <div class="cs-circle">
+        <!--Wrapped in a div so mobile positioning is easier-->
+        <div class="cs-ring-wrapper">
+            <span class="cs-number">90%</span>
+            <!--Change the --ratio to the decimal percentage of this circle-->
+            <svg class="cs-ring" style="--ratio: 0.90">
+                <circle cx="50%" cy="50%" r="50%"/>
+                <circle cx="50%" cy="50%" r="50%"/>
+            </svg>
+        </div>
+        <span class="cs-desc">Case Win</span>
+    </div>
+    <div class="cs-circle">
+        <div class="cs-ring-wrapper">
+            <span class="cs-number">75%</span>
+            <!--Change the --ratio to the decimal percentage of this circle-->
+            <svg class="cs-ring" style="--ratio: 0.75">
+                <circle cx="50%" cy="50%" r="50%"/>
+                <circle cx="50%" cy="50%" r="50%"/>
+            </svg>
+        </div>
+        <span class="cs-desc">Settle</span>
+    </div>
+    <div class="cs-circle">
+        <div class="cs-ring-wrapper">
+            <span class="cs-number">30%</span>
+            <!--Change the --ratio to the decimal percentage of this circle-->
+            <svg class="cs-ring" style="--ratio: 0.30">
+                <circle cx="50%" cy="50%" r="50%"/>
+                <circle cx="50%" cy="50%" r="50%"/>
+            </svg>
+        </div>
+        <span class="cs-desc">Case Pending</span>
+    </div>
+</div>
+                                
+/*-- -------------------------- -->
+<---       Content Stats        -->
+<--- -------------------------- -*/
+
+/* you can copy and paste these styles into the section CSS where you placed the #list-834 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #stats-834 {
+    width: 100%;
+    /* changes at desktop */
+    max-width: 23.375rem;
+    margin: auto auto 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+  #stats-834 .cs-circle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    aspect-ratio: 1;
+  }
+  #stats-834 .cs-ring-wrapper {
+    position: relative;
+    margin: 0 0 0.5rem 0;
+  }
+  #stats-834 .cs-number {
+    /* 20px - 39px */
+    font-size: clamp(1.25rem, 3vw, 2.4375rem);
+    font-weight: 900;
+    /* prevents mouse from interacting with it */
+    pointer-events: none;
+    line-height: 1.2em;
+    color: var(--headerColor);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #stats-834 .cs-desc {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.4vw, 1rem);
+    line-height: 1.5em;
+    text-align: center;
+    width: 100%;
+    color: var(--bodyTextColor);
+  }
+  #stats-834 .cs-ring {
+    --ring-width: 8px;
+    width: calc(100% - var(--ring-width));
+    aspect-ratio: 1;
+    overflow: visible;
+    pointer-events: none;
+    rotate: -90deg;
+    scale: 1 -1;
+  }
+  #stats-834 .cs-ring circle {
+    fill: none;
+    stroke: #F7F7F7;
+    stroke-width: var(--ring-width);
+  }
+  #stats-834 .cs-ring circle:last-of-type {
+    stroke: var(--secondaryLight);
+    stroke-linecap: round;
+    stroke-dasharray: calc(var(--ratio) * 314%) 314%;
+    transition: stroke-dasharray 1s;
+  }
+  #stats-834 .cs-circle:hover .cs-ring {
+    --ratio: 0 !important;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #stats-834 {
+    max-width: 100%;
+    max-width: 39.375rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #stats-834 .cs-ring-wrapper {
+    /* breaks the children out of the container.  They can now be arranged as if thy are all children of the cs-circle */
+    display: contents;
+  }
+  #stats-834 .cs-ring {
+    /* make the ring position absolute so it can sit on top of the other elements that are centered relatively in the cs-circle */
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #stats-834 .cs-number {
+    /* make the number relative positioning so it and the cs-desc can position themselves around each other */
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+  }
+  #stats-834 .cs-desc {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Content Stats        -->
+<--- -------------------------- -*/
+
+/* you can copy and paste these styles into the section CSS where you placed the #list-834 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #stats-834 {
+    width: 100%;
+    /* changes at desktop */
+    max-width: 23.375rem;
+    margin: auto auto 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+  #stats-834 .cs-circle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    aspect-ratio: 1;
+  }
+  #stats-834 .cs-ring-wrapper {
+    position: relative;
+    margin: 0 0 0.5rem 0;
+  }
+  #stats-834 .cs-number {
+    /* 20px - 39px */
+    font-size: clamp(1.25rem, 3vw, 2.4375rem);
+    font-weight: 900;
+    /* prevents mouse from interacting with it */
+    pointer-events: none;
+    line-height: 1.2em;
+    color: var(--headerColor);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #stats-834 .cs-desc {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.4vw, 1rem);
+    line-height: 1.5em;
+    text-align: center;
+    width: 100%;
+    color: var(--bodyTextColor);
+  }
+  #stats-834 .cs-ring {
+    --ring-width: 8px;
+    width: calc(100% - var(--ring-width));
+    aspect-ratio: 1;
+    overflow: visible;
+    pointer-events: none;
+    rotate: -90deg;
+    scale: 1 -1;
+  }
+  #stats-834 .cs-ring circle {
+    fill: none;
+    stroke: #F7F7F7;
+    stroke-width: var(--ring-width);
+  }
+  #stats-834 .cs-ring circle:last-of-type {
+    stroke: var(--secondaryLight);
+    stroke-linecap: round;
+    stroke-dasharray: calc(var(--ratio) * 314%) 314%;
+    transition: stroke-dasharray 1s;
+  }
+  #stats-834 .cs-circle:hover .cs-ring {
+    --ratio: 0 !important;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #stats-834 {
+    max-width: 100%;
+    max-width: 39.375rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #stats-834 .cs-ring-wrapper {
+    /* breaks the children out of the container.  They can now be arranged as if thy are all children of the cs-circle */
+    display: contents;
+  }
+  #stats-834 .cs-ring {
+    /* make the ring position absolute so it can sit on top of the other elements that are centered relatively in the cs-circle */
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #stats-834 .cs-number {
+    /* make the number relative positioning so it and the cs-desc can position themselves around each other */
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+  }
+  #stats-834 .cs-desc {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #stats-834 .cs-number,
+  body.dark-mode #stats-834 .cs-desc {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #stats-834 .cs-ring circle {
+    stroke: var(--accent);
+  }
+  body.dark-mode #stats-834 .cs-ring circle:last-of-type {
+    stroke: var(--secondaryLight);
+  }
+}
+                                
+/*-- -------------------------- -->
+<---       Content Stats        -->
+<--- -------------------------- -*/
+
+/* you can copy and paste these styles into the section CSS where you placed the #list-834 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #stats-834 {
+        width: 100%;
+        /* changes at desktop */
+        max-width: (374/16rem);
+        margin: auto auto (32/16rem);
+        display: flex;
+        align-items: flex-start;
+        gap: (20/16rem);
+    
+        .cs-circle {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex: 1;
+            aspect-ratio: 1;
+        }
+        
+        .cs-ring-wrapper {
+            position: relative;
+            margin: 0 0 (8/16rem) 0;
+        }
+        
+        .cs-number {
+            /* 20px - 39px */
+            font-size: clamp(1.25rem, 3vw, 2.4375rem);
+            font-weight: 900;
+            /* prevents mouse from interacting with it */
+            pointer-events: none;
+            line-height: 1.2em;
+            color: var(--headerColor);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .cs-desc {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.4vw, 1rem);
+            line-height: 1.5em;
+            text-align: center;
+            width: 100%;
+            color: var(--bodyTextColor);
+        }
+        
+        .cs-ring {
+            --ring-width: 8px;
+            
+            width: ~"calc(100% - var(--ring-width))";
+            aspect-ratio: 1;
+            overflow: visible;
+            pointer-events: none;
+            rotate: -90deg;
+            scale: 1 -1;
+        }
+        
+        .cs-ring circle {
+            fill: none;
+            stroke: #F7F7F7;
+            stroke-width: var(--ring-width);
+        }
+        
+        .cs-ring circle:last-of-type {
+            stroke: var(--secondaryLight);
+            stroke-linecap: round;
+            stroke-dasharray: ~"calc(var(--ratio) * 314%) 314%";
+            
+            transition: stroke-dasharray 1s;
+        }
+        
+        .cs-circle:hover .cs-ring {
+            --ratio: 0 !important;
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #stats-834 {
+        max-width: 100%;
+        max-width: (630/16rem);
+        margin-left: 0;
+        margin-right: 0;
+
+        .cs-ring-wrapper {
+            /* breaks the children out of the container.  They can now be arranged as if thy are all children of the cs-circle */
+            display: contents;
+        }
+
+        .cs-ring {
+            /* make the ring position absolute so it can sit on top of the other elements that are centered relatively in the cs-circle */
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .cs-number {
+            /* make the number relative positioning so it and the cs-desc can position themselves around each other */
+            position: relative;
+            top: auto;
+            left: auto;
+            transform: none;
+        }
+
+        .cs-desc {
+            position: relative;
+            bottom: auto;
+            left: auto;
+            transform: none;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---       Content Stats        -->
+<--- -------------------------- -*/
+
+/* you can copy and paste these styles into the section CSS where you placed the #list-834 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #stats-834 {
+        width: 100%;
+        /* changes at desktop */
+        max-width: (374/16rem);
+        margin: auto auto (32/16rem);
+        display: flex;
+        align-items: flex-start;
+        gap: (20/16rem);
+    
+        .cs-circle {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex: 1;
+            aspect-ratio: 1;
+        }
+        
+        .cs-ring-wrapper {
+            position: relative;
+            margin: 0 0 (8/16rem) 0;
+        }
+        
+        .cs-number {
+            /* 20px - 39px */
+            font-size: clamp(1.25rem, 3vw, 2.4375rem);
+            font-weight: 900;
+            /* prevents mouse from interacting with it */
+            pointer-events: none;
+            line-height: 1.2em;
+            color: var(--headerColor);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .cs-desc {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.4vw, 1rem);
+            line-height: 1.5em;
+            text-align: center;
+            width: 100%;
+            color: var(--bodyTextColor);
+        }
+        
+        .cs-ring {
+            --ring-width: 8px;
+            
+            width: ~"calc(100% - var(--ring-width))";
+            aspect-ratio: 1;
+            overflow: visible;
+            pointer-events: none;
+            rotate: -90deg;
+            scale: 1 -1;
+        }
+        
+        .cs-ring circle {
+            fill: none;
+            stroke: #F7F7F7;
+            stroke-width: var(--ring-width);
+        }
+        
+        .cs-ring circle:last-of-type {
+            stroke: var(--secondaryLight);
+            stroke-linecap: round;
+            stroke-dasharray: ~"calc(var(--ratio) * 314%) 314%";
+            
+            transition: stroke-dasharray 1s;
+        }
+        
+        .cs-circle:hover .cs-ring {
+            --ratio: 0 !important;
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #stats-834 {
+        max-width: 100%;
+        max-width: (630/16rem);
+        margin-left: 0;
+        margin-right: 0;
+
+        .cs-ring-wrapper {
+            /* breaks the children out of the container.  They can now be arranged as if thy are all children of the cs-circle */
+            display: contents;
+        }
+
+        .cs-ring {
+            /* make the ring position absolute so it can sit on top of the other elements that are centered relatively in the cs-circle */
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .cs-number {
+            /* make the number relative positioning so it and the cs-desc can position themselves around each other */
+            position: relative;
+            top: auto;
+            left: auto;
+            transform: none;
+        }
+
+        .cs-desc {
+            position: relative;
+            bottom: auto;
+            left: auto;
+            transform: none;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #stats-834 {
+            .cs-number, .cs-desc {
+                color: var(--bodyTextColorWhite);
+            }
+    
+            .cs-ring circle {
+                stroke: var(--accent);
+            }
+    
+            .cs-ring circle:last-of-type {
+                stroke: var(--secondaryLight);
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---       Content Stats        -->
+<--- -------------------------- -*/
+
+/* you can copy and paste these styles into the section CSS where you placed the #list-834 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #stats-834 {
+        width: 100%;
+        /* changes at desktop */
+        max-width: calc(374 / 16 * 1rem);
+        margin: auto auto calc(32 / 16 * 1rem);
+        display: flex;
+        align-items: flex-start;
+        gap: calc(20 / 16 * 1rem);
+    
+        .cs-circle {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex: 1;
+            aspect-ratio: 1;
+        }
+        
+        .cs-ring-wrapper {
+            position: relative;
+            margin: 0 0 calc(8 / 16 * 1rem) 0;
+        }
+        
+        .cs-number {
+            /* 20px - 39px */
+            font-size: clamp(1.25rem, 3vw, 2.4375rem);
+            font-weight: 900;
+            /* prevents mouse from interacting with it */
+            pointer-events: none;
+            line-height: 1.2em;
+            color: var(--headerColor);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .cs-desc {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.4vw, 1rem);
+            line-height: 1.5em;
+            text-align: center;
+            width: 100%;
+            color: var(--bodyTextColor);
+        }
+        
+        .cs-ring {
+            --ring-width: 8px;
+            
+            width: calc(100% - var(--ring-width));
+            aspect-ratio: 1;
+            overflow: visible;
+            pointer-events: none;
+            rotate: -90deg;
+            scale: 1 -1;
+        }
+        
+        .cs-ring circle {
+            fill: none;
+            stroke: #F7F7F7;
+            stroke-width: var(--ring-width);
+        }
+        
+        .cs-ring circle:last-of-type {
+            stroke: var(--secondaryLight);
+            stroke-linecap: round;
+            stroke-dasharray: calc(var(--ratio) * 314%) 314%;
+            transition: stroke-dasharray 1s;
+        }
+        
+        .cs-circle:hover .cs-ring {
+            --ratio: 0 !important;
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #stats-834 {
+        max-width: 100%;
+        max-width: calc(630 / 16 * 1rem);
+        margin-left: 0;
+        margin-right: 0;
+
+        .cs-ring-wrapper {
+            /* breaks the children out of the container.  They can now be arranged as if thy are all children of the cs-circle */
+            display: contents;
+        }
+
+        .cs-ring {
+            /* make the ring position absolute so it can sit on top of the other elements that are centered relatively in the cs-circle */
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .cs-number {
+            /* make the number relative positioning so it and the cs-desc can position themselves around each other */
+            position: relative;
+            top: auto;
+            left: auto;
+            transform: none;
+        }
+
+        .cs-desc {
+            position: relative;
+            bottom: auto;
+            left: auto;
+            transform: none;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---       Content Stats        -->
+<--- -------------------------- -*/
+
+/* you can copy and paste these styles into the section CSS where you placed the #list-834 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #stats-834 {
+        width: 100%;
+        /* changes at desktop */
+        max-width: calc(374 / 16 * 1rem);
+        margin: auto auto calc(32 / 16 * 1rem);
+        display: flex;
+        align-items: flex-start;
+        gap: calc(20 / 16 * 1rem);
+    
+        .cs-circle {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex: 1;
+            aspect-ratio: 1;
+        }
+        
+        .cs-ring-wrapper {
+            position: relative;
+            margin: 0 0 calc(8 / 16 * 1rem) 0;
+        }
+        
+        .cs-number {
+            /* 20px - 39px */
+            font-size: clamp(1.25rem, 3vw, 2.4375rem);
+            font-weight: 900;
+            /* prevents mouse from interacting with it */
+            pointer-events: none;
+            line-height: 1.2em;
+            color: var(--headerColor);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .cs-desc {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.4vw, 1rem);
+            line-height: 1.5em;
+            text-align: center;
+            width: 100%;
+            color: var(--bodyTextColor);
+        }
+        
+        .cs-ring {
+            --ring-width: 8px;
+            
+            width: calc(100% - var(--ring-width));
+            aspect-ratio: 1;
+            overflow: visible;
+            pointer-events: none;
+            rotate: -90deg;
+            scale: 1 -1;
+        }
+        
+        .cs-ring circle {
+            fill: none;
+            stroke: #F7F7F7;
+            stroke-width: var(--ring-width);
+        }
+        
+        .cs-ring circle:last-of-type {
+            stroke: var(--secondaryLight);
+            stroke-linecap: round;
+            stroke-dasharray: calc(var(--ratio) * 314%) 314%;
+            transition: stroke-dasharray 1s;
+        }
+        
+        .cs-circle:hover .cs-ring {
+            --ratio: 0 !important;
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #stats-834 {
+        max-width: 100%;
+        max-width: calc(630 / 16 * 1rem);
+        margin-left: 0;
+        margin-right: 0;
+
+        .cs-ring-wrapper {
+            /* breaks the children out of the container.  They can now be arranged as if thy are all children of the cs-circle */
+            display: contents;
+        }
+
+        .cs-ring {
+            /* make the ring position absolute so it can sit on top of the other elements that are centered relatively in the cs-circle */
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .cs-number {
+            /* make the number relative positioning so it and the cs-desc can position themselves around each other */
+            position: relative;
+            top: auto;
+            left: auto;
+            transform: none;
+        }
+
+        .cs-desc {
+            position: relative;
+            bottom: auto;
+            left: auto;
+            transform: none;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #stats-834 {
+            .cs-number, .cs-desc {
+                color: var(--bodyTextColorWhite);
+            }
+    
+            .cs-ring circle {
+                stroke: var(--accent);
+            }
+    
+            .cs-ring circle:last-of-type {
+                stroke: var(--secondaryLight);
+            }
+        }
+    }
+}
+                                

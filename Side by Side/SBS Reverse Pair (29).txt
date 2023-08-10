@@ -1,0 +1,1475 @@
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="RPsbs-94">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/city.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/city.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/city.jpg" alt="city" width="347" height="604" aria-hidden="true">
+        </picture>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">What We Do</span>
+            <h2 class="cs-title">Business Estate & Building</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu erat mattis adipiscing eu. Integer cras lorem pharetra elit fames. Donec pulvinar cras felis felis enim. Commodo, vitae euismod erat aenean elementum massa.
+            </p>
+            <a class="cs-button-solid" aria-label="read more about our services" href="">Read More</a>
+        </div>
+    </div>
+</section>                           
+
+<!-- ============================================ -->
+<!--              Side By Side Reverse            -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-94">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/city.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/city.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/city.jpg" alt="city" width="347" height="604" aria-hidden="true">
+        </picture>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">What We Do</span>
+            <h2 class="cs-title">Business Estate & Building</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu erat mattis adipiscing eu. Integer cras lorem pharetra elit fames. Donec pulvinar cras felis felis enim. Commodo, vitae euismod erat aenean elementum massa.
+            </p>
+            <a class="cs-button-solid" aria-label="read more about our services" href="">Read More</a>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #D98900;
+    --primaryLight: #FFBA43;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #RPsbs-94,
+  #RPsbsr-94 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #RPsbs-94 .cs-container,
+  #RPsbsr-94 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #RPsbs-94 .cs-content,
+  #RPsbsr-94 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 39.375rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #RPsbs-94 .cs-topper,
+  #RPsbsr-94 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #RPsbs-94 .cs-title,
+  #RPsbsr-94 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #RPsbs-94 .cs-text,
+  #RPsbsr-94 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-94 .cs-text,
+  #RPsbsr-94 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 35.125rem;
+    margin-bottom: 1rem;
+  }
+  #RPsbs-94 .cs-text:last-of-type,
+  #RPsbsr-94 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #RPsbs-94 .cs-button-solid,
+  #RPsbsr-94 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #RPsbs-94 .cs-button-solid:before,
+  #RPsbsr-94 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #RPsbs-94 .cs-button-solid:hover:before,
+  #RPsbsr-94 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #RPsbs-94 .cs-picture,
+  #RPsbsr-94 .cs-picture {
+    width: 90%;
+    /* pushes down the by the same amount as the yellow circle overflows the container */
+    /* 40px -88px */
+    margin: 0 clamp(2.5rem, 6.9vw, 5.5rem) 2.75rem 0;
+    position: relative;
+    display: block;
+    /* width divided by height */
+    aspect-ratio: 1.30909091;
+  }
+  #RPsbs-94 .cs-picture:before,
+  #RPsbsr-94 .cs-picture:before {
+    /* yellow circle */
+    content: '';
+    width: 13.5625rem;
+    height: 13.5625rem;
+    background: var(--primaryLight);
+    opacity: 1;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    bottom: -2.75rem;
+    /* wrapped in a clamp so we can have a negative clamp */
+    right: calc(clamp(2.5rem, 5.9vw + 1rem, 5.5rem)*-1);
+  }
+  #RPsbs-94 .cs-picture img,
+  #RPsbsr-94 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #RPsbs-94,
+  #RPsbsr-94 {
+    overflow: visible;
+  }
+  #RPsbs-94 .cs-container,
+  #RPsbsr-94 .cs-container {
+    max-width: 80rem;
+    justify-content: space-between;
+    align-items: center;
+    /* set flexbox back to the row orientation */
+    flex-direction: row;
+  }
+  #RPsbs-94 .cs-picture,
+  #RPsbsr-94 .cs-picture {
+    /* 300px - 455px */
+    width: clamp(18.75rem, 42.5vw, 28.4375rem);
+    height: 17.625rem;
+    /* prevent flexbox from squishing it */
+    flex: none;
+  }
+}
+
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #RPsbsr-94 {
+    background-color: #f7f7f7;
+  }
+  #RPsbsr-94 .cs-picture {
+    /* pushes down the by the same amount as the yellow circle overflows the container */
+    /* 40px -88px */
+    margin-left: clamp(2.5rem, 6.9vw, 5.5rem);
+    margin-right: 0;
+  }
+  #RPsbsr-94 .cs-picture:before {
+    right: auto;
+    left: calc(clamp(2.5rem, 5.9vw + 1rem, 5.5rem)*-1);
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #RPsbsr-94 .cs-picture {
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #D98900;
+    --primaryLight: #FFBA43;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #RPsbs-94,
+  #RPsbsr-94 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #RPsbs-94 .cs-container,
+  #RPsbsr-94 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #RPsbs-94 .cs-content,
+  #RPsbsr-94 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 39.375rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #RPsbs-94 .cs-topper,
+  #RPsbsr-94 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #RPsbs-94 .cs-title,
+  #RPsbsr-94 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #RPsbs-94 .cs-text,
+  #RPsbsr-94 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #RPsbs-94 .cs-text,
+  #RPsbsr-94 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 35.125rem;
+    margin-bottom: 1rem;
+  }
+  #RPsbs-94 .cs-text:last-of-type,
+  #RPsbsr-94 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #RPsbs-94 .cs-button-solid,
+  #RPsbsr-94 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #RPsbs-94 .cs-button-solid:before,
+  #RPsbsr-94 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #RPsbs-94 .cs-button-solid:hover:before,
+  #RPsbsr-94 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #RPsbs-94 .cs-picture,
+  #RPsbsr-94 .cs-picture {
+    width: 90%;
+    /* pushes down the by the same amount as the yellow circle overflows the container */
+    /* 40px -88px */
+    margin: 0 clamp(2.5rem, 6.9vw, 5.5rem) 2.75rem 0;
+    position: relative;
+    display: block;
+    /* width divided by height */
+    aspect-ratio: 1.30909091;
+  }
+  #RPsbs-94 .cs-picture:before,
+  #RPsbsr-94 .cs-picture:before {
+    /* yellow circle */
+    content: '';
+    width: 13.5625rem;
+    height: 13.5625rem;
+    background: var(--primaryLight);
+    opacity: 1;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    bottom: -2.75rem;
+    /* wrapped in a clamp so we can have a negative clamp */
+    right: calc(clamp(2.5rem, 5.9vw + 1rem, 5.5rem)*-1);
+  }
+  #RPsbs-94 .cs-picture img,
+  #RPsbsr-94 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #RPsbs-94,
+  #RPsbsr-94 {
+    overflow: visible;
+  }
+  #RPsbs-94 .cs-container,
+  #RPsbsr-94 .cs-container {
+    max-width: 80rem;
+    justify-content: space-between;
+    align-items: center;
+    /* set flexbox back to the row orientation */
+    flex-direction: row;
+  }
+  #RPsbs-94 .cs-picture,
+  #RPsbsr-94 .cs-picture {
+    /* 300px - 455px */
+    width: clamp(18.75rem, 42.5vw, 28.4375rem);
+    height: 17.625rem;
+    /* prevent flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #RPsbs-94 .cs-picture:before,
+  body.dark-mode #RPsbsr-94 .cs-picture:before {
+    background: var(--accent);
+  }
+  body.dark-mode #RPsbs-94 .cs-title,
+  body.dark-mode #RPsbsr-94 .cs-title,
+  body.dark-mode #RPsbs-94 .cs-text,
+  body.dark-mode #RPsbsr-94 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+}
+
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #RPsbsr-94 {
+    background-color: #f7f7f7;
+  }
+  #RPsbsr-94 .cs-picture {
+    /* pushes down the by the same amount as the yellow circle overflows the container */
+    /* 40px -88px */
+    margin-left: clamp(2.5rem, 6.9vw, 5.5rem);
+    margin-right: 0;
+  }
+  #RPsbsr-94 .cs-picture:before {
+    right: auto;
+    left: calc(clamp(2.5rem, 5.9vw + 1rem, 5.5rem)*-1);
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #RPsbsr-94 .cs-picture {
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #RPsbsr-94 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+                                
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #D98900;
+        --primaryLight: #FFBA43;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #RPsbs-94, #RPsbsr-94{
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at tablet */
+            max-width: (550/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            max-width: (630/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            max-width: (562/16rem);
+            margin-bottom: (16/16rem);
+    
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-picture {
+            width: 90%;
+            /* pushes down the by the same amount as the yellow circle overflows the container */
+            /* 40px -88px */
+            margin: 0 clamp(2.5rem, 5.9vw + 1rem, 5.5rem) (44/16rem) 0;
+            position: relative;
+            display: block;
+            /* width divided by height */
+            aspect-ratio: 288/220;
+
+            &:before {
+                /* yellow circle */
+                content: '';
+                width: (217/16rem);
+                height: (217/16rem);
+                background: var(--primaryLight);
+                opacity: 1;
+                border-radius: 50%;
+                position: absolute;
+                display: block;
+                bottom: (-44/16rem);
+                /* wrapped in a clamp so we can have a negative clamp */
+                right: ~"calc(clamp(2.5rem, 5.9vw + 1rem, 5.5rem)*-1)";
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #RPsbs-94, #RPsbsr-94{
+        overflow: visible;
+        .cs-container {
+            max-width: (1280/16rem);
+            justify-content: space-between;
+            align-items: center;
+            /* set flexbox back to the row orientation */
+            flex-direction: row;
+        }
+
+        .cs-picture {
+            /* 300px - 455px */
+            width: clamp(18.75rem, 42.5vw, 28.4375rem);
+            height: (282/16rem);
+            /* prevent flexbox from squishing it */
+            flex: none;
+        }
+    }
+}                        
+
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #RPsbsr-94 {
+        background-color: #f7f7f7;
+        .cs-picture {
+            /* pushes down the by the same amount as the yellow circle overflows the container */
+            /* 40px -88px */
+            margin-left: clamp(2.5rem, 5.9vw + 1rem, 5.5rem);
+            margin-right: 0;
+            &:before {
+                right: auto;
+                left: ~"calc(clamp(2.5rem, 5.9vw + 1rem, 5.5rem)*-1)";
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #RPsbsr-94 {
+        .cs-picture {
+            /* sends it to the right in the 2nd position */
+            order: 2;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #D98900;
+        --primaryLight: #FFBA43;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #RPsbs-94, #RPsbsr-94{
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at tablet */
+            max-width: (550/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            max-width: (630/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            max-width: (562/16rem);
+            margin-bottom: (16/16rem);
+    
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-picture {
+            width: 90%;
+            /* pushes down the by the same amount as the yellow circle overflows the container */
+            /* 40px -88px */
+            margin: 0 clamp(2.5rem, 5.9vw + 1rem, 5.5rem) (44/16rem) 0;
+            position: relative;
+            display: block;
+            /* width divided by height */
+            aspect-ratio: 288/220;
+
+            &:before {
+                /* yellow circle */
+                content: '';
+                width: (217/16rem);
+                height: (217/16rem);
+                background: var(--primaryLight);
+                opacity: 1;
+                border-radius: 50%;
+                position: absolute;
+                display: block;
+                bottom: (-44/16rem);
+                /* wrapped in a clamp so we can have a negative clamp */
+                right: ~"calc(clamp(2.5rem, 5.9vw + 1rem, 5.5rem)*-1)";
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #RPsbs-94, #RPsbsr-94{
+        overflow: visible;
+        .cs-container {
+            max-width: (1280/16rem);
+            justify-content: space-between;
+            align-items: center;
+            /* set flexbox back to the row orientation */
+            flex-direction: row;
+        }
+
+        .cs-picture {
+            /* 300px - 455px */
+            width: clamp(18.75rem, 42.5vw, 28.4375rem);
+            height: (282/16rem);
+            /* prevent flexbox from squishing it */
+            flex: none;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #RPsbs-94, #RPsbsr-94{
+            .cs-picture {
+                &:before {
+                    background: var(--accent);
+                }
+            }
+
+            .cs-title, .cs-text {
+                color: var(--bodyTextColorWhite);
+            }
+        }
+    }
+}                           
+
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #RPsbsr-94 {
+        background-color: #f7f7f7;
+        .cs-picture {
+            /* pushes down the by the same amount as the yellow circle overflows the container */
+            /* 40px -88px */
+            margin-left: clamp(2.5rem, 5.9vw + 1rem, 5.5rem);
+            margin-right: 0;
+            &:before {
+                right: auto;
+                left: ~"calc(clamp(2.5rem, 5.9vw + 1rem, 5.5rem)*-1)";
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #RPsbsr-94 {
+        .cs-picture {
+            /* sends it to the right in the 2nd position */
+            order: 2;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #RPsbsr-94 {
+            background-color: rgba(0, 0, 0, .2);
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #d98900;
+		--primaryLight: #ffba43;
+		--secondary: #ffba43;
+		--secondaryLight: #ffba43;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#RPsbs-94,
+	#RPsbsr-94 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+
+		.cs-container {
+			width: 100%;
+			/* changes to 1280px at tablet */
+			max-width: calc(550 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: left;
+			width: 100%;
+			max-width: calc(630 / 16 * 1rem);
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: flex-start;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-text {
+			font-size: var(--bodyFontSize);
+			line-height: 1.5em;
+			text-align: inherit;
+			width: 100%;
+			max-width: calc(650 / 16 * 1rem);
+			margin: 0;
+			color: var(--bodyTextColor);
+		}
+
+		.cs-text {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			max-width: calc(562 / 16 * 1rem);
+			margin-bottom: calc(16 / 16 * 1rem);
+
+			&:last-of-type {
+				margin-bottom: calc(32 / 16 * 1rem);
+			}
+		}
+
+		.cs-button-solid {
+			font-size: calc(16 / 16 * 1rem);
+			/* 46px - 56px */
+			line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+			text-decoration: none;
+			font-weight: 700;
+			text-align: center;
+			margin: 0;
+			color: #fff;
+			min-width: calc(150 / 16 * 1rem);
+			padding: 0 calc(24 / 16 * 1rem);
+			background-color: var(--primary);
+			border-radius: calc(4 / 16 * 1rem);
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			/* prevents padding from adding to the width */
+			box-sizing: border-box;
+
+			&:before {
+				content: '';
+				position: absolute;
+				height: 100%;
+				width: 0%;
+				background: #000;
+				opacity: 1;
+				top: 0;
+				left: 0;
+				z-index: -1;
+				border-radius: calc(4 / 16 * 1rem);
+				transition: width 0.3s;
+			}
+
+			&:hover {
+				&:before {
+					width: 100%;
+				}
+			}
+		}
+
+		.cs-picture {
+			width: 90%;
+			/* pushes down the by the same amount as the yellow circle overflows the container */
+			/* 40px -88px */
+			margin: 0 clamp(2.5rem, 5.9vw + 1rem, 5.5rem) calc(44 / 16 * 1rem) 0;
+			position: relative;
+			display: block;
+			/* width divided by height */
+			aspect-ratio: 288/220;
+
+			&:before {
+				/* yellow circle */
+				content: '';
+				width: calc(217 / 16 * 1rem);
+				height: calc(217 / 16 * 1rem);
+				background: var(--primaryLight);
+				opacity: 1;
+				border-radius: 50%;
+				position: absolute;
+				display: block;
+				bottom: calc(-44 / 16 * 1rem);
+				/* wrapped in a clamp so we can have a negative clamp */
+				right: calc(clamp(2.5rem, 5.9vw + 1rem, 5.5rem) * -1);
+			}
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	#RPsbs-94,
+	#RPsbsr-94 {
+		overflow: visible;
+		.cs-container {
+			max-width: calc(1280 / 16 * 1rem);
+			justify-content: space-between;
+			align-items: center;
+			/* set flexbox back to the row orientation */
+			flex-direction: row;
+		}
+
+		.cs-picture {
+			/* 300px - 455px */
+			width: clamp(18.75rem, 42.5vw, 28.4375rem);
+			height: calc(282 / 16 * 1rem);
+			/* prevent flexbox from squishing it */
+			flex: none;
+		}
+	}
+}
+
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	#RPsbsr-94 {
+		background-color: #f7f7f7;
+		.cs-picture {
+			/* pushes down the by the same amount as the yellow circle overflows the container */
+			/* 40px -88px */
+			margin-left: clamp(2.5rem, 5.9vw + 1rem, 5.5rem);
+			margin-right: 0;
+			&:before {
+				right: auto;
+				left: calc(clamp(2.5rem, 5.9vw + 1rem, 5.5rem) * -1);
+			}
+		}
+	}
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	#RPsbsr-94 {
+		.cs-picture {
+			/* sends it to the right in the 2nd position */
+			order: 2;
+		}
+	}
+}
+                                
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #d98900;
+		--primaryLight: #ffba43;
+		--secondary: #ffba43;
+		--secondaryLight: #ffba43;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#RPsbs-94,
+	#RPsbsr-94 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+
+		.cs-container {
+			width: 100%;
+			/* changes to 1280px at tablet */
+			max-width: calc(550 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: left;
+			width: 100%;
+			max-width: calc(630 / 16 * 1rem);
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: flex-start;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-text {
+			font-size: var(--bodyFontSize);
+			line-height: 1.5em;
+			text-align: inherit;
+			width: 100%;
+			max-width: calc(650 / 16 * 1rem);
+			margin: 0;
+			color: var(--bodyTextColor);
+		}
+
+		.cs-text {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			max-width: calc(562 / 16 * 1rem);
+			margin-bottom: calc(16 / 16 * 1rem);
+
+			&:last-of-type {
+				margin-bottom: calc(32 / 16 * 1rem);
+			}
+		}
+
+		.cs-button-solid {
+			font-size: calc(16 / 16 * 1rem);
+			/* 46px - 56px */
+			line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+			text-decoration: none;
+			font-weight: 700;
+			text-align: center;
+			margin: 0;
+			color: #fff;
+			min-width: calc(150 / 16 * 1rem);
+			padding: 0 calc(24 / 16 * 1rem);
+			background-color: var(--primary);
+			border-radius: calc(4 / 16 * 1rem);
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			/* prevents padding from adding to the width */
+			box-sizing: border-box;
+
+			&:before {
+				content: '';
+				position: absolute;
+				height: 100%;
+				width: 0%;
+				background: #000;
+				opacity: 1;
+				top: 0;
+				left: 0;
+				z-index: -1;
+				border-radius: calc(4 / 16 * 1rem);
+				transition: width 0.3s;
+			}
+
+			&:hover {
+				&:before {
+					width: 100%;
+				}
+			}
+		}
+
+		.cs-picture {
+			width: 90%;
+			/* pushes down the by the same amount as the yellow circle overflows the container */
+			/* 40px -88px */
+			margin: 0 clamp(2.5rem, 5.9vw + 1rem, 5.5rem) calc(44 / 16 * 1rem) 0;
+			position: relative;
+			display: block;
+			/* width divided by height */
+			aspect-ratio: 288/220;
+
+			&:before {
+				/* yellow circle */
+				content: '';
+				width: calc(217 / 16 * 1rem);
+				height: calc(217 / 16 * 1rem);
+				background: var(--primaryLight);
+				opacity: 1;
+				border-radius: 50%;
+				position: absolute;
+				display: block;
+				bottom: calc(-44 / 16 * 1rem);
+				/* wrapped in a clamp so we can have a negative clamp */
+				right: calc(clamp(2.5rem, 5.9vw + 1rem, 5.5rem) * -1);
+			}
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	#RPsbs-94,
+	#RPsbsr-94 {
+		overflow: visible;
+		.cs-container {
+			max-width: calc(1280 / 16 * 1rem);
+			justify-content: space-between;
+			align-items: center;
+			/* set flexbox back to the row orientation */
+			flex-direction: row;
+		}
+
+		.cs-picture {
+			/* 300px - 455px */
+			width: clamp(18.75rem, 42.5vw, 28.4375rem);
+			height: calc(282 / 16 * 1rem);
+			/* prevent flexbox from squishing it */
+			flex: none;
+		}
+	}
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+	body.dark-mode {
+		#RPsbs-94,
+		#RPsbsr-94 {
+			.cs-picture {
+				&:before {
+					background: var(--accent);
+				}
+			}
+
+			.cs-title,
+			.cs-text {
+				color: var(--bodyTextColorWhite);
+			}
+		}
+	}
+}
+
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	#RPsbsr-94 {
+		background-color: #f7f7f7;
+		.cs-picture {
+			/* pushes down the by the same amount as the yellow circle overflows the container */
+			/* 40px -88px */
+			margin-left: clamp(2.5rem, 5.9vw + 1rem, 5.5rem);
+			margin-right: 0;
+			&:before {
+				right: auto;
+				left: calc(clamp(2.5rem, 5.9vw + 1rem, 5.5rem) * -1);
+			}
+		}
+	}
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	#RPsbsr-94 {
+		.cs-picture {
+			/* sends it to the right in the 2nd position */
+			order: 2;
+		}
+	}
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+	body.dark-mode {
+		#RPsbsr-94 {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+	}
+}
+                                

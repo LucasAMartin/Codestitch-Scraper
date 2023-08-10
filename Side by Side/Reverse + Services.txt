@@ -1,0 +1,2285 @@
+<!-- ============================================ -->
+<!--            Side By Side Reverse              -->
+<!-- ============================================ -->
+
+<section id="sbsr-467">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/landscaping1.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/landscaping1.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/landscaping1.jpg" alt="leaf" width="522" height="551">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Small Group Training</span>
+            <h2 class="cs-title">Make your circle healthier Together</h2>
+            <p class="cs-text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, nam!
+            </p>
+            <a href="" class="cs-button-solid">Learn More</a>
+        </div>
+    </div>
+</section>                  
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-467">
+    <div class="cs-container">
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/geen1.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                <h3 class="cs-h3">Service 1</h3>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/green2.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                <h3 class="cs-h3">Service 2</h3>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/green3.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                <h3 class="cs-h3">Service 3</h3>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/green4.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                <h3 class="cs-h3">Service 4</h3>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/green5.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                <h3 class="cs-h3">Service 5</h3>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #176316;
+    --primaryLight: #229521;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbsr-467 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    /* clips the green box so it doesn't cause overflows */
+    overflow: hidden;
+    background-color: #FAFBFC;
+  }
+  #sbsr-467 .cs-container {
+    width: 100%;
+    /* changes to 1280px at 1024px */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #sbsr-467 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 39.375rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbsr-467 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbsr-467 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbsr-467 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbsr-467 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #sbsr-467 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbsr-467 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbsr-467 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbsr-467 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbsr-467 .cs-picture {
+    width: 100%;
+    max-width: 32.625rem;
+    height: auto;
+    /* same margin top as the top value for the :after to offset the amount it overlaps the container */
+    /* 56px - 100px */
+    margin: clamp(3.5rem, 7vw, 6.25rem) 0 0 0;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+  #sbsr-467 .cs-picture:before {
+    /* green shape */
+    content: '';
+    /* 80px - 164px, changes at 1024px */
+    width: clamp(5rem, 20vw, 10.2rem);
+    height: clamp(5rem, 20vw, 10.2rem);
+    background: var(--primaryLight);
+    border: clamp(6px, 2vw, 12px) solid #fafbfc;
+    border-radius: 2rem 2rem 2rem 100%;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    /* wrapped in a calc function to multiple the clamp value by -1 to get a negative number */
+    bottom: calc(clamp(6px, 2vw, 12px)*-1);
+    left: calc(clamp(6px, 2vw, 12px)*-1);
+    z-index: 10;
+  }
+  #sbsr-467 .cs-picture:after {
+    content: '';
+    width: 31.25rem;
+    /* changes at 1024px */
+    height: 70%;
+    border-radius: 2rem;
+    background: var(--primaryLight);
+    opacity: .16;
+    position: absolute;
+    display: block;
+    /* 56px - 100px */
+    top: calc(clamp(3.5rem, 7vw, 6.25rem)*-1);
+    left: 50%;
+    z-index: -1;
+  }
+  #sbsr-467 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #sbsr-467 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #sbsr-467 .cs-content {
+    width: clamp(46.6%, 45.7vw, 51%);
+  }
+  #sbsr-467 .cs-picture {
+    width: 41%;
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+  #sbsr-467 .cs-picture:before {
+    /* 125px - 164px */
+    width: clamp(7.8125rem, 13vw, 10.2rem);
+    height: clamp(7.8215rem, 13vw, 10.2rem);
+    border-radius: 2rem 2rem 2rem 50%;
+    bottom: -2.25rem;
+  }
+  #sbsr-467 .cs-picture:after {
+    height: 31.25rem;
+  }
+}
+
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #services-467 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    position: relative;
+  }
+  #services-467:before {
+    content: '';
+    width: 100%;
+    height: 50%;
+    background: #FAFBFC;
+    border-bottom: 1px solid #B4B2C7;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #services-467 .cs-container {
+    width: 100%;
+    /* changes to 1440px at 768px */
+    max-width: 34.375em;
+    margin: auto;
+  }
+  #services-467 .cs-card-group {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    /* 8px - 20px */
+    column-gap: clamp(0.5rem, 1.5vw, 1.25rem);
+    row-gap: 1.25rem;
+  }
+  #services-467 .cs-item {
+    width: 48.5%;
+    list-style: none;
+    /* 24px - 48px top and bottom */
+    padding: clamp(1.5rem, 4vw, 3rem) 1.5rem;
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    border: 1px solid #B4B2C7;
+    box-shadow: 0px 24px 54px rgba(87, 107, 147, 0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 12px - 24px */
+    gap: clamp(0.875rem, 2vw, 2rem);
+    position: relative;
+    transition: border-color 0.3s;
+  }
+  #services-467 .cs-item:before {
+    /* green border on hover */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    /* prevents mouse from interacting with it */
+    pointer-events: none;
+    border: 4px solid var(--primaryLight);
+    box-sizing: border-box;
+    /* prevents border from affecting height and width */
+    border-radius: 0.625rem;
+    opacity: 0;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    transition: opacity .3s;
+  }
+  #services-467 .cs-item:hover {
+    border-color: var(--primaryLight);
+  }
+  #services-467 .cs-item:hover:before {
+    opacity: 1;
+  }
+  #services-467 .cs-item:nth-of-type(5) {
+    width: 100%;
+  }
+  #services-467 .cs-icon {
+    /* 44px - 90px */
+    width: clamp(2.75rem, 6vw, 5.625rem);
+    height: auto;
+  }
+  #services-467 .cs-h3 {
+    /* 16px - 25px */
+    font-size: clamp(1rem, 2vw, 1.5625rem);
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0;
+    color: var(--headerColor);
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #services-467 .cs-container {
+    max-width: 90rem;
+  }
+  #services-467 .cs-card-group {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  #services-467 .cs-item {
+    width: 100%;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #176316;
+    --primaryLight: #229521;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbsr-467 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    /* clips the green box so it doesn't cause overflows */
+    overflow: hidden;
+    background-color: #FAFBFC;
+  }
+  #sbsr-467 .cs-container {
+    width: 100%;
+    /* changes to 1280px at 1024px */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #sbsr-467 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 39.375rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbsr-467 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbsr-467 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbsr-467 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbsr-467 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #sbsr-467 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbsr-467 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbsr-467 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbsr-467 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbsr-467 .cs-picture {
+    width: 100%;
+    max-width: 32.625rem;
+    height: auto;
+    /* same margin top as the top value for the :after to offset the amount it overlaps the container */
+    /* 56px - 100px */
+    margin: clamp(3.5rem, 7vw, 6.25rem) 0 0 0;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+  #sbsr-467 .cs-picture:before {
+    /* green shape */
+    content: '';
+    /* 80px - 164px, changes at 1024px */
+    width: clamp(5rem, 20vw, 10.2rem);
+    height: clamp(5rem, 20vw, 10.2rem);
+    background: var(--primaryLight);
+    border: clamp(6px, 2vw, 12px) solid #fafbfc;
+    border-radius: 2rem 2rem 2rem 100%;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    /* wrapped in a calc function to multiple the clamp value by -1 to get a negative number */
+    bottom: calc(clamp(6px, 2vw, 12px)*-1);
+    left: calc(clamp(6px, 2vw, 12px)*-1);
+    z-index: 10;
+  }
+  #sbsr-467 .cs-picture:after {
+    content: '';
+    width: 31.25rem;
+    /* changes at 1024px */
+    height: 70%;
+    border-radius: 2rem;
+    background: var(--primaryLight);
+    opacity: .16;
+    position: absolute;
+    display: block;
+    /* 56px - 100px */
+    top: calc(clamp(3.5rem, 7vw, 6.25rem)*-1);
+    left: 50%;
+    z-index: -1;
+  }
+  #sbsr-467 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #sbsr-467 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #sbsr-467 .cs-content {
+    width: clamp(46.6%, 45.7vw, 51%);
+  }
+  #sbsr-467 .cs-picture {
+    width: 41%;
+    /* sends it to the right in the 2nd position */
+    order: 2;
+  }
+  #sbsr-467 .cs-picture:before {
+    /* 125px - 164px */
+    width: clamp(7.8125rem, 13vw, 10.2rem);
+    height: clamp(7.8215rem, 13vw, 10.2rem);
+    border-radius: 2rem 2rem 2rem 50%;
+    bottom: -2.25rem;
+  }
+  #sbsr-467 .cs-picture:after {
+    height: 31.25rem;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #sbsr-467 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  body.dark-mode #sbsr-467 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #sbsr-467 .cs-title,
+  body.dark-mode #sbsr-467 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #sbsr-467 .cs-picture:before {
+    border-color: var(--dark);
+  }
+}
+
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #services-467 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    position: relative;
+  }
+  #services-467:before {
+    content: '';
+    width: 100%;
+    height: 50%;
+    background: #FAFBFC;
+    border-bottom: 1px solid #B4B2C7;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #services-467 .cs-container {
+    width: 100%;
+    /* changes to 1440px at 768px */
+    max-width: 34.375em;
+    margin: auto;
+  }
+  #services-467 .cs-card-group {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    /* 8px - 20px */
+    column-gap: clamp(0.5rem, 1.5vw, 1.25rem);
+    row-gap: 1.25rem;
+  }
+  #services-467 .cs-item {
+    width: 48.5%;
+    list-style: none;
+    /* 24px - 48px top and bottom */
+    padding: clamp(1.5rem, 4vw, 3rem) 1.5rem;
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    border: 1px solid #B4B2C7;
+    box-shadow: 0px 24px 54px rgba(87, 107, 147, 0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 12px - 24px */
+    gap: clamp(0.875rem, 2vw, 2rem);
+    position: relative;
+    transition: border-color 0.3s;
+  }
+  #services-467 .cs-item:before {
+    /* green border on hover */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    /* prevents mouse from interacting with it */
+    pointer-events: none;
+    border: 4px solid var(--primaryLight);
+    box-sizing: border-box;
+    /* prevents border from affecting height and width */
+    border-radius: 0.625rem;
+    opacity: 0;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    transition: opacity .3s;
+  }
+  #services-467 .cs-item:hover {
+    border-color: var(--primaryLight);
+  }
+  #services-467 .cs-item:hover:before {
+    opacity: 1;
+  }
+  #services-467 .cs-item:nth-of-type(5) {
+    width: 100%;
+  }
+  #services-467 .cs-icon {
+    /* 44px - 90px */
+    width: clamp(2.75rem, 6vw, 5.625rem);
+    height: auto;
+  }
+  #services-467 .cs-h3 {
+    /* 16px - 25px */
+    font-size: clamp(1rem, 2vw, 1.5625rem);
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0;
+    color: var(--headerColor);
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #services-467 .cs-container {
+    max-width: 90rem;
+  }
+  #services-467 .cs-card-group {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  #services-467 .cs-item {
+    width: 100%;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #services-467:before {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  body.dark-mode #services-467 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #services-467 .cs-item {
+    background-color: var(--accent);
+  }
+  body.dark-mode #services-467 .cs-icon {
+    /* makes icons turn grey and brighten them up */
+    filter: grayscale(1) brightness(1000%);
+  }
+  body.dark-mode #services-467 .cs-h3 {
+    color: var(--bodyTextColorWhite);
+  }
+}
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #176316;
+        --primaryLight: #229521;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #sbsr-467 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        /* clips the green box so it doesn't cause overflows */
+        overflow: hidden;
+        background-color: #FAFBFC;
+        
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at 1024px */
+            max-width: (550/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+    
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            max-width: (630/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            margin-bottom: (16/16rem);
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-picture {
+            width: 100%;
+            max-width: (522/16rem);
+            height: auto;
+            /* same margin top as the top value for the :after to offset the amount it overlaps the container */
+            /* 56px - 100px */
+            margin: clamp(3.5rem, 7vw, 6.25rem) 0 0 0;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            display: block;
+            position: relative;
+            z-index: 1;
+
+            &:before {
+                /* green shape */
+                content: '';
+                /* 80px - 164px, changes at 1024px */
+                width: clamp(5rem, 20vw, 10.2rem);
+                height: clamp(5rem, 20vw, 10.2rem);
+                background: var(--primaryLight);
+                border: clamp(6px, 2vw, 12px) solid #FAFBFC;
+                border-radius: (32/16rem) (32/16rem) (32/16rem) 100%;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                /* wrapped in a calc function to multiple the clamp value by -1 to get a negative number */
+                bottom: ~"calc(clamp(6px, 2vw, 12px)*-1)";
+                left: ~"calc(clamp(6px, 2vw, 12px)*-1)";
+                z-index: 10;
+            }
+
+            &:after {
+                content: '';
+                width: (500/16rem);
+                /* changes at 1024px */
+                height: 70%;
+                border-radius: (32/16rem);
+                background: var(--primaryLight);
+                opacity: .16;
+                position: absolute;
+                display: block;
+                /* 56px - 100px */
+                top: ~"calc(clamp(3.5rem, 7vw, 6.25rem)*-1)";
+                left: 50%;
+                z-index: -1;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #sbsr-467 {
+        .cs-container {
+            max-width: (1280/16rem);
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .cs-content {
+            width: clamp(46.6%, 45.7vw, 51%);
+        }
+
+        .cs-picture {
+            width: 41%;
+            /* sends it to the right in the 2nd position */
+            order: 2;
+            &:before {
+                /* 125px - 164px */
+                width: clamp(7.8125rem, 13vw, 10.2rem);
+                height: clamp(7.8215rem, 13vw, 10.2rem);
+                border-radius: (32/16rem) (32/16rem) (32/16rem) 50%;
+                bottom: (-36/16rem);
+            }
+
+            &:after {
+                height: (500/16rem);
+            }
+        }
+    }
+}                            
+
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #services-467 {
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        position: relative;
+
+        &:before {
+            content: '';
+            width: 100%;
+            height: 50%;
+            background: #FAFBFC;
+            border-bottom: 1px solid #B4B2C7;
+            opacity: 1;
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .cs-container {
+            width: 100%;
+            /* changes to 1440px at 768px */
+            max-width: (550/16em);
+            margin: auto;
+        }
+
+        .cs-card-group {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            flex-wrap: wrap;
+            /* 8px - 20px */
+            column-gap: clamp(.5rem, 1.5vw, 1.25rem);
+            row-gap: (20/16rem);
+        }
+
+        .cs-item {
+            width: 48.5%;
+            list-style: none;
+            /* 24px - 48px top and bottom */
+            padding: clamp(1.5rem, 4vw, 3rem) (24/16rem);
+            /* prevents padding from affecting height and width */
+            box-sizing: border-box;
+            border-radius: (12/16rem);
+            background-color: #fff;
+            border: 1px solid #B4B2C7;
+            box-shadow: 0px 24px 54px rgba(87, 107, 147, 0.12);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 12px - 24px */
+            gap: clamp(.875rem, 2vw, 2rem);
+            position: relative;
+            transition: border-color .3s;
+
+            &:before {
+                /* green border on hover */
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: transparent;
+                /* prevents mouse from interacting with it */
+                pointer-events: none;
+                border: 4px solid var(--primaryLight);
+                box-sizing: border-box;
+                /* prevents border from affecting height and width */
+                border-radius: (10/16rem);
+                opacity: 0;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                transition: opacity .3s;
+            }
+
+            &:hover {
+                border-color: var(--primaryLight);
+
+                &:before {
+                    opacity: 1;
+                }
+            }
+
+            &:nth-of-type(5) {
+                width: 100%;
+            }
+        }
+
+        .cs-icon {
+            /* 44px - 90px */
+            width: clamp(2.75rem, 6vw, 5.625rem);
+            height: auto;
+        }
+
+        .cs-h3 {
+            /* 16px - 25px */
+            font-size: clamp(1rem, 2vw, 1.5625rem);
+            line-height: 1.2em;
+            text-align: center;
+            margin: 0;
+            color: var(--headerColor);
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #services-467 {
+        .cs-container {
+            max-width: (1440/16rem);
+        }
+
+        .cs-card-group {
+            flex-wrap: nowrap;
+            flex-direction: row;
+        }
+
+        .cs-item {
+            width: 100%;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #176316;
+        --primaryLight: #229521;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #sbsr-467 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        /* clips the green box so it doesn't cause overflows */
+        overflow: hidden;
+        background-color: #FAFBFC;
+        
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at 1024px */
+            max-width: (550/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+    
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            max-width: (630/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            margin-bottom: (16/16rem);
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-picture {
+            width: 100%;
+            max-width: (522/16rem);
+            height: auto;
+            /* same margin top as the top value for the :after to offset the amount it overlaps the container */
+            /* 56px - 100px */
+            margin: clamp(3.5rem, 7vw, 6.25rem) 0 0 0;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            display: block;
+            position: relative;
+            z-index: 1;
+
+            &:before {
+                /* green shape */
+                content: '';
+                /* 80px - 164px, changes at 1024px */
+                width: clamp(5rem, 20vw, 10.2rem);
+                height: clamp(5rem, 20vw, 10.2rem);
+                background: var(--primaryLight);
+                border: clamp(6px, 2vw, 12px) solid #FAFBFC;
+                border-radius: (32/16rem) (32/16rem) (32/16rem) 100%;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                /* wrapped in a calc function to multiple the clamp value by -1 to get a negative number */
+                bottom: ~"calc(clamp(6px, 2vw, 12px)*-1)";
+                left: ~"calc(clamp(6px, 2vw, 12px)*-1)";
+                z-index: 10;
+            }
+
+            &:after {
+                content: '';
+                width: (500/16rem);
+                /* changes at 1024px */
+                height: 70%;
+                border-radius: (32/16rem);
+                background: var(--primaryLight);
+                opacity: .16;
+                position: absolute;
+                display: block;
+                /* 56px - 100px */
+                top: ~"calc(clamp(3.5rem, 7vw, 6.25rem)*-1)";
+                left: 50%;
+                z-index: -1;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #sbsr-467 {
+        .cs-container {
+            max-width: (1280/16rem);
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .cs-content {
+            width: clamp(46.6%, 45.7vw, 51%);
+        }
+
+        .cs-picture {
+            width: 41%;
+            /* sends it to the right in the 2nd position */
+            order: 2;
+            &:before {
+                /* 125px - 164px */
+                width: clamp(7.8125rem, 13vw, 10.2rem);
+                height: clamp(7.8215rem, 13vw, 10.2rem);
+                border-radius: (32/16rem) (32/16rem) (32/16rem) 50%;
+                bottom: (-36/16rem);
+            }
+
+            &:after {
+                height: (500/16rem);
+            }
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #sbsr-467 {
+            background-color: rgba(0, 0, 0, .2);
+            .cs-topper {
+                color: var(--primaryLight);
+            }
+
+            .cs-title, .cs-text {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-picture {
+                &:before {
+                    border-color: var(--dark);
+                }
+            }
+        }
+    }
+}                            
+
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #services-467 {
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        position: relative;
+
+        &:before {
+            content: '';
+            width: 100%;
+            height: 50%;
+            background: #FAFBFC;
+            border-bottom: 1px solid #B4B2C7;
+            opacity: 1;
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .cs-container {
+            width: 100%;
+            /* changes to 1440px at 768px */
+            max-width: (550/16em);
+            margin: auto;
+        }
+
+        .cs-card-group {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            flex-wrap: wrap;
+            /* 8px - 20px */
+            column-gap: clamp(.5rem, 1.5vw, 1.25rem);
+            row-gap: (20/16rem);
+        }
+
+        .cs-item {
+            width: 48.5%;
+            list-style: none;
+            /* 24px - 48px top and bottom */
+            padding: clamp(1.5rem, 4vw, 3rem) (24/16rem);
+            /* prevents padding from affecting height and width */
+            box-sizing: border-box;
+            border-radius: (12/16rem);
+            background-color: #fff;
+            border: 1px solid #B4B2C7;
+            box-shadow: 0px 24px 54px rgba(87, 107, 147, 0.12);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 12px - 24px */
+            gap: clamp(.875rem, 2vw, 2rem);
+            position: relative;
+            transition: border-color .3s;
+
+            &:before {
+                /* green border on hover */
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: transparent;
+                /* prevents mouse from interacting with it */
+                pointer-events: none;
+                border: 4px solid var(--primaryLight);
+                box-sizing: border-box;
+                /* prevents border from affecting height and width */
+                border-radius: (10/16rem);
+                opacity: 0;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                transition: opacity .3s;
+            }
+
+            &:hover {
+                border-color: var(--primaryLight);
+
+                &:before {
+                    opacity: 1;
+                }
+            }
+
+            &:nth-of-type(5) {
+                width: 100%;
+            }
+        }
+
+        .cs-icon {
+            /* 44px - 90px */
+            width: clamp(2.75rem, 6vw, 5.625rem);
+            height: auto;
+        }
+
+        .cs-h3 {
+            /* 16px - 25px */
+            font-size: clamp(1rem, 2vw, 1.5625rem);
+            line-height: 1.2em;
+            text-align: center;
+            margin: 0;
+            color: var(--headerColor);
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #services-467 {
+        .cs-container {
+            max-width: (1440/16rem);
+        }
+
+        .cs-card-group {
+            flex-wrap: nowrap;
+            flex-direction: row;
+        }
+
+        .cs-item {
+            width: 100%;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #services-467 {
+            &:before {
+                background-color: rgba(0, 0, 0, .2);
+            }
+            
+            .cs-topper {
+                color: var(--primaryLight);
+            }
+
+            .cs-item {
+                background-color: var(--accent);
+            }
+
+            .cs-icon {
+                /* makes icons turn grey and brighten them up */
+                filter: grayscale(1) brightness(1000%);
+            }
+            
+            .cs-h3 {
+                color: var(--bodyTextColorWhite);
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #176316;
+		--primaryLight: #229521;
+		--secondary: #ffba43;
+		--secondaryLight: #ffba43;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#sbsr-467 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+		/* clips the green box so it doesn't cause overflows */
+		overflow: hidden;
+		background-color: #fafbfc;
+
+		.cs-container {
+			width: 100%;
+			/* changes to 1280px at 1024px */
+			max-width: calc(550 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: left;
+			width: 100%;
+			max-width: calc(630 / 16 * 1rem);
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: flex-start;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-text {
+			font-size: var(--bodyFontSize);
+			line-height: 1.5em;
+			text-align: inherit;
+			width: 100%;
+			max-width: calc(650 / 16 * 1rem);
+			margin: 0;
+			color: var(--bodyTextColor);
+		}
+
+		.cs-text {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			margin-bottom: calc(16 / 16 * 1rem);
+			&:last-of-type {
+				margin-bottom: calc(32 / 16 * 1rem);
+			}
+		}
+
+		.cs-button-solid {
+			font-size: calc(16 / 16 * 1rem);
+			/* 46px - 56px */
+			line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+			text-decoration: none;
+			font-weight: 700;
+			text-align: center;
+			margin: 0;
+			color: #fff;
+			min-width: calc(150 / 16 * 1rem);
+			padding: 0 calc(24 / 16 * 1rem);
+			background-color: var(--primary);
+			border-radius: calc(4 / 16 * 1rem);
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			/* prevents padding from adding to the width */
+			box-sizing: border-box;
+
+			&:before {
+				content: '';
+				position: absolute;
+				height: 100%;
+				width: 0%;
+				background: #000;
+				opacity: 1;
+				top: 0;
+				left: 0;
+				z-index: -1;
+				border-radius: calc(4 / 16 * 1rem);
+				transition: width 0.3s;
+			}
+
+			&:hover {
+				&:before {
+					width: 100%;
+				}
+			}
+		}
+
+		.cs-picture {
+			width: 100%;
+			max-width: calc(522 / 16 * 1rem);
+			height: auto;
+			/* same margin top as the top value for the :after to offset the amount it overlaps the container */
+			/* 56px - 100px */
+			margin: clamp(3.5rem, 7vw, 6.25rem) 0 0 0;
+			aspect-ratio: 1;
+			border-radius: 50%;
+			display: block;
+			position: relative;
+			z-index: 1;
+
+			&:before {
+				/* green shape */
+				content: '';
+				/* 80px - 164px, changes at 1024px */
+				width: clamp(5rem, 20vw, 10.2rem);
+				height: clamp(5rem, 20vw, 10.2rem);
+				background: var(--primaryLight);
+				border: clamp(6px, 2vw, 12px) solid #fafbfc;
+				border-radius: calc(32 / 16 * 1rem) calc(32 / 16 * 1rem) calc(32 / 16 * 1rem) 100%;
+				opacity: 1;
+				position: absolute;
+				display: block;
+				/* wrapped in a calc function to multiple the clamp value by -1 to get a negative number */
+				bottom: calc(clamp(6px, 2vw, 12px) * -1);
+				left: calc(clamp(6px, 2vw, 12px) * -1);
+				z-index: 10;
+			}
+
+			&:after {
+				content: '';
+				width: calc(500 / 16 * 1rem);
+				/* changes at 1024px */
+				height: 70%;
+				border-radius: calc(32 / 16 * 1rem);
+				background: var(--primaryLight);
+				opacity: 0.16;
+				position: absolute;
+				display: block;
+				/* 56px - 100px */
+				top: calc(clamp(3.5rem, 7vw, 6.25rem) * -1);
+				left: 50%;
+				z-index: -1;
+			}
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				border-radius: 50%;
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+	#sbsr-467 {
+		.cs-container {
+			max-width: calc(1280 / 16 * 1rem);
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		.cs-content {
+			width: clamp(46.6%, 45.7vw, 51%);
+		}
+
+		.cs-picture {
+			width: 41%;
+			/* sends it to the right in the 2nd position */
+			order: 2;
+			&:before {
+				/* 125px - 164px */
+				width: clamp(7.8125rem, 13vw, 10.2rem);
+				height: clamp(7.8215rem, 13vw, 10.2rem);
+				border-radius: calc(32 / 16 * 1rem) calc(32 / 16 * 1rem) calc(32 / 16 * 1rem) 50%;
+				bottom: calc(-36 / 16 * 1rem);
+			}
+
+			&:after {
+				height: calc(500 / 16 * 1rem);
+			}
+		}
+	}
+}
+
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	#services-467 {
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+		position: relative;
+
+		&:before {
+			content: '';
+			width: 100%;
+			height: 50%;
+			background: #fafbfc;
+			border-bottom: 1px solid #b4b2c7;
+			opacity: 1;
+			position: absolute;
+			display: block;
+			top: 0;
+			left: 0;
+			z-index: -1;
+		}
+
+		.cs-container {
+			width: 100%;
+			/* changes to 1440px at 768px */
+			max-width: calc(550 / 16 * 1em);
+			margin: auto;
+		}
+
+		.cs-card-group {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: stretch;
+			flex-wrap: wrap;
+			/* 8px - 20px */
+			column-gap: clamp(0.5rem, 1.5vw, 1.25rem);
+			row-gap: calc(20 / 16 * 1rem);
+		}
+
+		.cs-item {
+			width: 48.5%;
+			list-style: none;
+			/* 24px - 48px top and bottom */
+			padding: clamp(1.5rem, 4vw, 3rem) calc(24 / 16 * 1rem);
+			/* prevents padding from affecting height and width */
+			box-sizing: border-box;
+			border-radius: calc(12 / 16 * 1rem);
+			background-color: #fff;
+			border: 1px solid #b4b2c7;
+			box-shadow: 0px 24px 54px rgba(87, 107, 147, 0.12);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 12px - 24px */
+			gap: clamp(0.875rem, 2vw, 2rem);
+			position: relative;
+			transition: border-color 0.3s;
+
+			&:before {
+				/* green border on hover */
+				content: '';
+				width: 100%;
+				height: 100%;
+				background: transparent;
+				/* prevents mouse from interacting with it */
+				pointer-events: none;
+				border: 4px solid var(--primaryLight);
+				box-sizing: border-box;
+				/* prevents border from affecting height and width */
+				border-radius: calc(10 / 16 * 1rem);
+				opacity: 0;
+				position: absolute;
+				display: block;
+				top: 0;
+				left: 0;
+				transition: opacity 0.3s;
+			}
+
+			&:hover {
+				border-color: var(--primaryLight);
+
+				&:before {
+					opacity: 1;
+				}
+			}
+
+			&:nth-of-type(5) {
+				width: 100%;
+			}
+		}
+
+		.cs-icon {
+			/* 44px - 90px */
+			width: clamp(2.75rem, 6vw, 5.625rem);
+			height: auto;
+		}
+
+		.cs-h3 {
+			/* 16px - 25px */
+			font-size: clamp(1rem, 2vw, 1.5625rem);
+			line-height: 1.2em;
+			text-align: center;
+			margin: 0;
+			color: var(--headerColor);
+		}
+	}
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	#services-467 {
+		.cs-container {
+			max-width: calc(1440 / 16 * 1rem);
+		}
+
+		.cs-card-group {
+			flex-wrap: nowrap;
+			flex-direction: row;
+		}
+
+		.cs-item {
+			width: 100%;
+		}
+	}
+}
+                                
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #176316;
+		--primaryLight: #229521;
+		--secondary: #ffba43;
+		--secondaryLight: #ffba43;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#sbsr-467 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+		/* clips the green box so it doesn't cause overflows */
+		overflow: hidden;
+		background-color: #fafbfc;
+
+		.cs-container {
+			width: 100%;
+			/* changes to 1280px at 1024px */
+			max-width: calc(550 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: left;
+			width: 100%;
+			max-width: calc(630 / 16 * 1rem);
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: flex-start;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-text {
+			font-size: var(--bodyFontSize);
+			line-height: 1.5em;
+			text-align: inherit;
+			width: 100%;
+			max-width: calc(650 / 16 * 1rem);
+			margin: 0;
+			color: var(--bodyTextColor);
+		}
+
+		.cs-text {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			margin-bottom: calc(16 / 16 * 1rem);
+			&:last-of-type {
+				margin-bottom: calc(32 / 16 * 1rem);
+			}
+		}
+
+		.cs-button-solid {
+			font-size: calc(16 / 16 * 1rem);
+			/* 46px - 56px */
+			line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+			text-decoration: none;
+			font-weight: 700;
+			text-align: center;
+			margin: 0;
+			color: #fff;
+			min-width: calc(150 / 16 * 1rem);
+			padding: 0 calc(24 / 16 * 1rem);
+			background-color: var(--primary);
+			border-radius: calc(4 / 16 * 1rem);
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			/* prevents padding from adding to the width */
+			box-sizing: border-box;
+
+			&:before {
+				content: '';
+				position: absolute;
+				height: 100%;
+				width: 0%;
+				background: #000;
+				opacity: 1;
+				top: 0;
+				left: 0;
+				z-index: -1;
+				border-radius: calc(4 / 16 * 1rem);
+				transition: width 0.3s;
+			}
+
+			&:hover {
+				&:before {
+					width: 100%;
+				}
+			}
+		}
+
+		.cs-picture {
+			width: 100%;
+			max-width: calc(522 / 16 * 1rem);
+			height: auto;
+			/* same margin top as the top value for the :after to offset the amount it overlaps the container */
+			/* 56px - 100px */
+			margin: clamp(3.5rem, 7vw, 6.25rem) 0 0 0;
+			aspect-ratio: 1;
+			border-radius: 50%;
+			display: block;
+			position: relative;
+			z-index: 1;
+
+			&:before {
+				/* green shape */
+				content: '';
+				/* 80px - 164px, changes at 1024px */
+				width: clamp(5rem, 20vw, 10.2rem);
+				height: clamp(5rem, 20vw, 10.2rem);
+				background: var(--primaryLight);
+				border: clamp(6px, 2vw, 12px) solid #fafbfc;
+				border-radius: calc(32 / 16 * 1rem) calc(32 / 16 * 1rem) calc(32 / 16 * 1rem) 100%;
+				opacity: 1;
+				position: absolute;
+				display: block;
+				/* wrapped in a calc function to multiple the clamp value by -1 to get a negative number */
+				bottom: calc(clamp(6px, 2vw, 12px) * -1);
+				left: calc(clamp(6px, 2vw, 12px) * -1);
+				z-index: 10;
+			}
+
+			&:after {
+				content: '';
+				width: calc(500 / 16 * 1rem);
+				/* changes at 1024px */
+				height: 70%;
+				border-radius: calc(32 / 16 * 1rem);
+				background: var(--primaryLight);
+				opacity: 0.16;
+				position: absolute;
+				display: block;
+				/* 56px - 100px */
+				top: calc(clamp(3.5rem, 7vw, 6.25rem) * -1);
+				left: 50%;
+				z-index: -1;
+			}
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				border-radius: 50%;
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+	#sbsr-467 {
+		.cs-container {
+			max-width: calc(1280 / 16 * 1rem);
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		.cs-content {
+			width: clamp(46.6%, 45.7vw, 51%);
+		}
+
+		.cs-picture {
+			width: 41%;
+			/* sends it to the right in the 2nd position */
+			order: 2;
+			&:before {
+				/* 125px - 164px */
+				width: clamp(7.8125rem, 13vw, 10.2rem);
+				height: clamp(7.8215rem, 13vw, 10.2rem);
+				border-radius: calc(32 / 16 * 1rem) calc(32 / 16 * 1rem) calc(32 / 16 * 1rem) 50%;
+				bottom: calc(-36 / 16 * 1rem);
+			}
+
+			&:after {
+				height: calc(500 / 16 * 1rem);
+			}
+		}
+	}
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+	body.dark-mode {
+		#sbsr-467 {
+			background-color: rgba(0, 0, 0, 0.2);
+			.cs-topper {
+				color: var(--primaryLight);
+			}
+
+			.cs-title,
+			.cs-text {
+				color: var(--bodyTextColorWhite);
+			}
+
+			.cs-picture {
+				&:before {
+					border-color: var(--dark);
+				}
+			}
+		}
+	}
+}
+
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	#services-467 {
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+		position: relative;
+
+		&:before {
+			content: '';
+			width: 100%;
+			height: 50%;
+			background: #fafbfc;
+			border-bottom: 1px solid #b4b2c7;
+			opacity: 1;
+			position: absolute;
+			display: block;
+			top: 0;
+			left: 0;
+			z-index: -1;
+		}
+
+		.cs-container {
+			width: 100%;
+			/* changes to 1440px at 768px */
+			max-width: calc(550 / 16 * 1em);
+			margin: auto;
+		}
+
+		.cs-card-group {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: stretch;
+			flex-wrap: wrap;
+			/* 8px - 20px */
+			column-gap: clamp(0.5rem, 1.5vw, 1.25rem);
+			row-gap: calc(20 / 16 * 1rem);
+		}
+
+		.cs-item {
+			width: 48.5%;
+			list-style: none;
+			/* 24px - 48px top and bottom */
+			padding: clamp(1.5rem, 4vw, 3rem) calc(24 / 16 * 1rem);
+			/* prevents padding from affecting height and width */
+			box-sizing: border-box;
+			border-radius: calc(12 / 16 * 1rem);
+			background-color: #fff;
+			border: 1px solid #b4b2c7;
+			box-shadow: 0px 24px 54px rgba(87, 107, 147, 0.12);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 12px - 24px */
+			gap: clamp(0.875rem, 2vw, 2rem);
+			position: relative;
+			transition: border-color 0.3s;
+
+			&:before {
+				/* green border on hover */
+				content: '';
+				width: 100%;
+				height: 100%;
+				background: transparent;
+				/* prevents mouse from interacting with it */
+				pointer-events: none;
+				border: 4px solid var(--primaryLight);
+				box-sizing: border-box;
+				/* prevents border from affecting height and width */
+				border-radius: calc(10 / 16 * 1rem);
+				opacity: 0;
+				position: absolute;
+				display: block;
+				top: 0;
+				left: 0;
+				transition: opacity 0.3s;
+			}
+
+			&:hover {
+				border-color: var(--primaryLight);
+
+				&:before {
+					opacity: 1;
+				}
+			}
+
+			&:nth-of-type(5) {
+				width: 100%;
+			}
+		}
+
+		.cs-icon {
+			/* 44px - 90px */
+			width: clamp(2.75rem, 6vw, 5.625rem);
+			height: auto;
+		}
+
+		.cs-h3 {
+			/* 16px - 25px */
+			font-size: clamp(1rem, 2vw, 1.5625rem);
+			line-height: 1.2em;
+			text-align: center;
+			margin: 0;
+			color: var(--headerColor);
+		}
+	}
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	#services-467 {
+		.cs-container {
+			max-width: calc(1440 / 16 * 1rem);
+		}
+
+		.cs-card-group {
+			flex-wrap: nowrap;
+			flex-direction: row;
+		}
+
+		.cs-item {
+			width: 100%;
+		}
+	}
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+	body.dark-mode {
+		#services-467 {
+			&:before {
+				background-color: rgba(0, 0, 0, 0.2);
+			}
+
+			.cs-topper {
+				color: var(--primaryLight);
+			}
+
+			.cs-item {
+				background-color: var(--accent);
+			}
+
+			.cs-icon {
+				/* makes icons turn grey and brighten them up */
+				filter: grayscale(1) brightness(1000%);
+			}
+
+			.cs-h3 {
+				color: var(--bodyTextColorWhite);
+			}
+		}
+	}
+}
+                                

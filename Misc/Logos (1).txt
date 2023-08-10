@@ -1,0 +1,216 @@
+<!-- ============================================ -->
+<!--                   Logos                      -->
+<!-- ============================================ -->
+
+<section id="logos-572">
+    <div class="cs-container">
+        <!--Ideally you want to use svg's for the file path image, which is why these aren't wrapped in picture elements for different screen sizes-->
+        <img class="cs-logo" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/logo1.png" alt="logo" width="287" height="65" loading="lazy" decoding="async">
+        <img class="cs-logo" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/logo2.png" alt="logo" width="229" height="55" loading="lazy" decoding="async">
+        <img class="cs-logo" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/logo3.png" alt="logo" width="235" height="53" loading="lazy" decoding="async">
+        <img class="cs-logo" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/logo4.png" alt="logo" width="228" height="61" loading="lazy" decoding="async">
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---           Logos            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #001F3F;
+    --primaryLight: #001F3F;
+    --secondary: #D98900;
+    --secondaryLight: #D98900;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+  }
+  #logos-572 {
+    /* 60px - 130px */
+    padding: clamp(3.75rem, 8vw, 8.125rem) 1rem;
+    background-color: var(--secondary);
+  }
+  #logos-572 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #logos-572 .cs-logo {
+    width: auto;
+    max-width: 90%;
+    height: auto;
+    margin: 0;
+    display: block;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #logos-572 .cs-container {
+    justify-content: space-between;
+  }
+  #logos-572 .cs-logo {
+    width: 20%;
+    /* the max width becomes whatever the actual width of the image is */
+    max-width: max-content;
+    height: auto;
+    display: block;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---           Logos            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #001F3F;
+        --primaryLight: #001F3F;
+        --secondary: #D98900;
+        --secondaryLight: #D98900;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #logos-572 {
+        /* 60px - 130px */
+        padding: clamp(3.75rem, 8vw, 8.125rem) (16/16rem);
+        background-color: var(--secondary);
+        
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-logo {
+            width: auto;
+            max-width: 90%;
+            height: auto;
+            margin: 0;
+            display: block;
+        }
+    }
+
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #logos-572 {
+        .cs-container {
+            justify-content: space-between;
+        }
+
+        .cs-logo {
+            width: 20%;
+            /* the max width becomes whatever the actual width of the image is */
+            max-width: max-content;
+            height: auto;
+            display: block;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---           Logos            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #001f3f;
+		--primaryLight: #001f3f;
+		--secondary: #d98900;
+		--secondaryLight: #d98900;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#logos-572 {
+		/* 60px - 130px */
+		padding: clamp(3.75rem, 8vw, 8.125rem) calc(16 / 16 * 1rem);
+		background-color: var(--secondary);
+
+		.cs-container {
+			width: 100%;
+			max-width: calc(1280 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+		}
+
+		.cs-logo {
+			width: auto;
+			max-width: 90%;
+			height: auto;
+			margin: 0;
+			display: block;
+		}
+	}
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	#logos-572 {
+		.cs-container {
+			justify-content: space-between;
+		}
+
+		.cs-logo {
+			width: 20%;
+			/* the max width becomes whatever the actual width of the image is */
+			max-width: max-content;
+			height: auto;
+			display: block;
+		}
+	}
+}
+                                

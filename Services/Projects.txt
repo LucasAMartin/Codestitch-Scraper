@@ -1,0 +1,1954 @@
+<!-- ============================================ -->
+<!--                  Projects                    -->
+<!-- ============================================ -->
+
+<section id="projects-605">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex-group">
+                <span class="cs-topper">Our Services</span>
+                <h2 class="cs-title">Some of our residential painting projects</h2>
+            </div>
+            <p class="cs-text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a class="cs-link" href="">
+                    <div class="cs-info">
+                        <picture class="cs-background">
+                            <!--Mobile Image-->
+                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/bathroom1.jpg">
+                            <!--Tablet and above Image-->
+                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/bathroom1.jpg">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/bathroom1.jpg" alt="bathroom" width="413" height="450" aria-hidden="true">
+                        </picture>
+                        <span class="cs-header">Project 1</span>
+                        <p class="cs-item-text">
+                            Lorem ipsum dolor sit ameet. Don nisi ligula eget dolor quam et. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes.
+                        </p>
+                        <span class="cs-number">01</span>
+                    </div>
+                    <h3 class="cs-h3">Granville Project</h3>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a class="cs-link" href="">
+                    <div class="cs-info">
+                        <picture class="cs-background">
+                            <!--Mobile Image-->
+                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/bathroom1.jpg">
+                            <!--Tablet and above Image-->
+                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/bathroom1.jpg">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/bathroom1.jpg" alt="bathroom" width="413" height="450" aria-hidden="true">
+                        </picture>
+                        <span class="cs-header">Project 1</span>
+                        <p class="cs-item-text">
+                            Lorem ipsum dolor sit ameet. Don nisi ligula eget dolor quam et. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes.
+                        </p>
+                        <span class="cs-number">02</span>
+                    </div>
+                    <h3 class="cs-h3">Granville Project</h3>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a class="cs-link" href="">
+                    <div class="cs-info">
+                        <picture class="cs-background">
+                            <!--Mobile Image-->
+                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/bathroom1.jpg">
+                            <!--Tablet and above Image-->
+                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/bathroom1.jpg">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/bathroom1.jpg" alt="bathroom" width="413" height="450" aria-hidden="true">
+                        </picture>
+                        <span class="cs-header">Project 1</span>
+                        <p class="cs-item-text">
+                            Lorem ipsum dolor sit ameet. Don nisi ligula eget dolor quam et. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes.
+                        </p>
+                        <span class="cs-number">03</span>
+                    </div>
+                    <h3 class="cs-h3">Granville Project</h3>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a class="cs-link" href="">
+                    <div class="cs-info">
+                        <picture class="cs-background">
+                            <!--Mobile Image-->
+                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/bathroom1.jpg">
+                            <!--Tablet and above Image-->
+                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/bathroom1.jpg">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/bathroom1.jpg" alt="bathroom" width="413" height="450" aria-hidden="true">
+                        </picture>
+                        <span class="cs-header">Project 1</span>
+                        <p class="cs-item-text">
+                            Lorem ipsum dolor sit ameet. Don nisi ligula eget dolor quam et. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes.
+                        </p>
+                        <span class="cs-number">04</span>
+                    </div>
+                    <h3 class="cs-h3">Granville Project</h3>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---          Projects          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #7F2923;
+    --primaryLight: #7F2923;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #projects-605 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #projects-605 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #projects-605 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #projects-605 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #projects-605 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #projects-605 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #projects-605 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 20ch;
+  }
+  #projects-605 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 16px - 20px */
+    gap: clamp(1rem, 1.8vw, 1.25rem);
+    row-gap: 2.5rem;
+  }
+  #projects-605 .cs-item {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #projects-605 .cs-info {
+    width: 100%;
+    /* 350px - 450px */
+    min-height: clamp(21.875rem, 38vw, 28.125rem);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* 32px - 100px top */
+    /* 16px - 24px left & right */
+    padding: clamp(2rem, 8vw, 6.25rem) clamp(1rem, 1.8vw, 1.5rem) 6.25rem;
+    border-radius: 0.5rem;
+    /* clips the img tag corners */
+    overflow: hidden;
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    position: relative;
+  }
+  #projects-605 .cs-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  #projects-605 .cs-link:hover .cs-header,
+  #projects-605 .cs-link:focus .cs-header,
+  #projects-605 .cs-link:hover .cs-item-text,
+  #projects-605 .cs-link:focus .cs-item-text {
+    visibility: visible;
+    transform: translateY(0);
+    opacity: 1;
+    height: 100%;
+    transition: transform .6s, visibility .3s, opacity .6s;
+  }
+  #projects-605 .cs-link:hover .cs-number,
+  #projects-605 .cs-link:focus .cs-number {
+    padding-bottom: 0.9375rem;
+  }
+  #projects-605 .cs-link:hover .cs-number:before,
+  #projects-605 .cs-link:focus .cs-number:before {
+    /* changes to 500px at tablet */
+    width: 50rem;
+    height: 31.25rem;
+    opacity: .9;
+  }
+  #projects-605 .cs-link:hover .cs-background img,
+  #projects-605 .cs-link:focus .cs-background img {
+    transform: scale(1.1);
+  }
+  #projects-605 .cs-header {
+    /* 28px - 40px */
+    font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    height: 0;
+    /* 16px - 24px bottom */
+    margin: 0 0 clamp(1rem, 1.8vw, 1.5rem);
+    color: var(--bodyTextColorWhite);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(2.5rem);
+    transition: transform .2s, visibility .1s, opacity .2s, height .4s;
+    transition-delay: .1s;
+  }
+  #projects-605 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    text-align: left;
+    width: 100%;
+    max-width: 25rem;
+    height: 0;
+    margin: 0;
+    color: var(--bodyTextColorWhite);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(6.25rem);
+    transition: transform .3s, visibility .3s, opacity .3s, height .4s;
+    transition-delay: .2s;
+  }
+  #projects-605 .cs-number {
+    /* 24px - 32px */
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    /* 60px - 80px */
+    line-height: clamp(3.75rem, 9vw, 5rem);
+    font-weight: 700;
+    width: clamp(3.75rem, 7vw, 5rem);
+    height: clamp(3.75rem, 7vw, 5rem);
+    margin: 0;
+    padding: 0;
+    color: var(--bodyTextColorWhite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: padding-bottom 0.3s;
+  }
+  #projects-605 .cs-number:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    transition: width .6s, height .6s, opacity .3s;
+    z-index: -1;
+  }
+  #projects-605 .cs-h3 {
+    /* 20px - 24px */
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: var(--headerColor);
+    display: block;
+  }
+  #projects-605 .cs-background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    /* clips img tag when it scales on hover */
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #projects-605 .cs-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform .8s;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #projects-605 .cs-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #projects-605 .cs-flex-group {
+    width: 45%;
+  }
+  #projects-605 .cs-text {
+    width: 48vw;
+  }
+  #projects-605 .cs-card-group {
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #projects-605 .cs-item {
+    width: clamp(48.87%, 46vw, 49.04%);
+  }
+  #projects-605 .cs-link:hover .cs-number:before,
+  #projects-605 .cs-link:focus .cs-number:before {
+    width: 31.25rem;
+  }
+}
+/* Desktop - 1300px */
+@media only screen and (min-width: 75rem) {
+  #projects-605 .cs-item {
+    /* we do this so it's stackable. You can add any number of reviews you want and they will stack and center in the middle. We dont use grid because if you have an odd number of cards, they don't stay centered, they align with their grid lines. This way its more FLEX-ible*/
+    width: clamp(23.7%, 23vw, 23.81%);
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Projects          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #7F2923;
+    --primaryLight: #7F2923;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #projects-605 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #projects-605 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #projects-605 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #projects-605 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #projects-605 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #projects-605 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #projects-605 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 20ch;
+  }
+  #projects-605 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 16px - 20px */
+    gap: clamp(1rem, 1.8vw, 1.25rem);
+    row-gap: 2.5rem;
+  }
+  #projects-605 .cs-item {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #projects-605 .cs-info {
+    width: 100%;
+    /* 350px - 450px */
+    min-height: clamp(21.875rem, 38vw, 28.125rem);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* 32px - 100px top */
+    /* 16px - 24px left & right */
+    padding: clamp(2rem, 8vw, 6.25rem) clamp(1rem, 1.8vw, 1.5rem) 6.25rem;
+    border-radius: 0.5rem;
+    /* clips the img tag corners */
+    overflow: hidden;
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    position: relative;
+  }
+  #projects-605 .cs-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  #projects-605 .cs-link:hover .cs-header,
+  #projects-605 .cs-link:focus .cs-header,
+  #projects-605 .cs-link:hover .cs-item-text,
+  #projects-605 .cs-link:focus .cs-item-text {
+    visibility: visible;
+    transform: translateY(0);
+    opacity: 1;
+    height: 100%;
+    transition: transform .6s, visibility .3s, opacity .6s;
+  }
+  #projects-605 .cs-link:hover .cs-number,
+  #projects-605 .cs-link:focus .cs-number {
+    padding-bottom: 0.9375rem;
+  }
+  #projects-605 .cs-link:hover .cs-number:before,
+  #projects-605 .cs-link:focus .cs-number:before {
+    /* changes to 500px at tablet */
+    width: 50rem;
+    height: 31.25rem;
+    opacity: .9;
+  }
+  #projects-605 .cs-link:hover .cs-background img,
+  #projects-605 .cs-link:focus .cs-background img {
+    transform: scale(1.1);
+  }
+  #projects-605 .cs-header {
+    /* 28px - 40px */
+    font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    height: 0;
+    /* 16px - 24px bottom */
+    margin: 0 0 clamp(1rem, 1.8vw, 1.5rem);
+    color: var(--bodyTextColorWhite);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(2.5rem);
+    transition: transform .2s, visibility .1s, opacity .2s, height .4s;
+    transition-delay: .1s;
+  }
+  #projects-605 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    text-align: left;
+    width: 100%;
+    max-width: 25rem;
+    height: 0;
+    margin: 0;
+    color: var(--bodyTextColorWhite);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(6.25rem);
+    transition: transform .3s, visibility .3s, opacity .3s, height .4s;
+    transition-delay: .2s;
+  }
+  #projects-605 .cs-number {
+    /* 24px - 32px */
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    /* 60px - 80px */
+    line-height: clamp(3.75rem, 9vw, 5rem);
+    font-weight: 700;
+    width: clamp(3.75rem, 7vw, 5rem);
+    height: clamp(3.75rem, 7vw, 5rem);
+    margin: 0;
+    padding: 0;
+    color: var(--bodyTextColorWhite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: padding-bottom 0.3s;
+  }
+  #projects-605 .cs-number:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    transition: width .6s, height .6s, opacity .3s;
+    z-index: -1;
+  }
+  #projects-605 .cs-h3 {
+    /* 20px - 24px */
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: var(--headerColor);
+    display: block;
+  }
+  #projects-605 .cs-background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    /* clips img tag when it scales on hover */
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #projects-605 .cs-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform .8s;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #projects-605 .cs-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #projects-605 .cs-flex-group {
+    width: 45%;
+  }
+  #projects-605 .cs-text {
+    width: 48vw;
+  }
+  #projects-605 .cs-card-group {
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #projects-605 .cs-item {
+    width: clamp(48.87%, 46vw, 49.04%);
+  }
+  #projects-605 .cs-link:hover .cs-number:before,
+  #projects-605 .cs-link:focus .cs-number:before {
+    width: 31.25rem;
+  }
+}
+/* Desktop - 1300px */
+@media only screen and (min-width: 75rem) {
+  #projects-605 .cs-item {
+    /* we do this so it's stackable. You can add any number of reviews you want and they will stack and center in the middle. We dont use grid because if you have an odd number of cards, they don't stay centered, they align with their grid lines. This way its more FLEX-ible*/
+    width: clamp(23.7%, 23vw, 23.81%);
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #projects-605 .cs-topper {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #projects-605 .cs-title,
+  body.dark-mode #projects-605 .cs-text,
+  body.dark-mode #projects-605 .cs-h3 {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #projects-605 .cs-text {
+    opacity: .8;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---          Projects          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #7F2923;
+        --primaryLight: #7F2923;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #projects-605 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-title {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            max-width: 20ch;
+        }
+
+        .cs-card-group {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 16px - 20px */
+            gap: clamp(1rem, 1.8vw, 1.25rem);
+            row-gap: (40/16rem);
+        }
+
+        .cs-item {
+            list-style: none;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cs-info {
+            width: 100%;
+            /* 350px - 450px */
+            min-height: clamp(21.875rem, 38vw, 28.125rem);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            /* 32px - 100px top */
+            /* 16px - 24px left & right */
+            padding: clamp(2rem, 8vw, 6.25rem) clamp(1rem, 1.8vw, 1.5rem) (100/16rem);
+            border-radius: (8/16rem);
+            /* clips the img tag corners */
+            overflow: hidden;
+            /* prevents padding from affecting height and width */
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .cs-link {
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            gap: (24/16rem);
+            &:hover, &:focus {
+                .cs-header, .cs-item-text {
+                    visibility: visible;
+                    transform: translateY(0);
+                    opacity: 1;
+                    height: 100%;
+                    transition: transform .6s, visibility .3s, opacity .6s;
+                }
+
+                .cs-number {
+                    padding-bottom: (15/16rem);
+                    &:before {
+                        /* changes to 500px at tablet */
+                        width: (800/16rem);
+                        height: (500/16rem);
+                        opacity: .9;
+                    }
+                }
+
+                .cs-background {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+
+        .cs-header {
+            /* 28px - 40px */
+            font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            height: 0;
+            /* 16px - 24px bottom */
+            margin: 0 0 clamp(1rem, 1.8vw, 1.5rem);
+            color: var(--bodyTextColorWhite);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(40/16rem);
+            transition: transform .2s, visibility .1s, opacity .2s, height .4s;
+            transition-delay: .1s;
+        }
+
+        .cs-item-text {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            text-align: left;
+            width: 100%;
+            max-width: (400/16rem);
+            height: 0;
+            margin: 0;
+            color: var(--bodyTextColorWhite);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(100/16rem);
+            transition: transform .3s, visibility .3s, opacity .3s, height .4s;
+            transition-delay: .2s;
+        }
+
+        .cs-number {
+            /* 24px - 32px */
+            font-size: clamp(1.5rem, 2vw, 2rem);
+            /* 60px - 80px */
+            line-height: clamp(3.75rem, 9vw, 5rem);
+            font-weight: 700;
+            width: clamp(3.75rem, 7vw, 5rem);
+            height: clamp(3.75rem, 7vw, 5rem);
+            margin: 0;
+            padding: 0;
+            color: var(--bodyTextColorWhite);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transition: padding-bottom .3s;
+
+            &:before {
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: var(--primary);
+                opacity: 1;
+                position: absolute;
+                display: block;
+                bottom: 0;
+                left: 0;
+                transition: width .6s, height .6s, opacity .3s;
+                z-index: -1;
+            }
+        }
+
+        .cs-h3 {
+            /* 20px - 24px */
+            font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+            color: var(--headerColor);
+            display: block;
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            /* clips img tag when it scales on hover */
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transition: transform .8s;
+            }
+        }
+    }
+
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #projects-605 {
+        .cs-content {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .cs-flex-group {
+            width: 45%;
+        }
+
+        .cs-text {
+            width: 48vw;
+        }
+
+        .cs-card-group {
+            flex-direction: row;
+            align-items: stretch;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .cs-item {
+            width: clamp(48.87%, 46vw, 49.04%);
+        }
+
+        .cs-link {
+            &:hover, &:focus {
+                .cs-number {
+                    &:before {
+                        width: (500/16rem);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Desktop - 1300px */
+@media only screen and (min-width: 75rem) {
+    #projects-605 {
+        .cs-item {
+            /* we do this so it's stackable. You can add any number of reviews you want and they will stack and center in the middle. We dont use grid because if you have an odd number of cards, they don't stay centered, they align with their grid lines. This way its more FLEX-ible*/
+            width: clamp(23.7%, 23vw, 23.81%);
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---          Projects          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #7F2923;
+        --primaryLight: #7F2923;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #projects-605 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-title {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            max-width: 20ch;
+        }
+
+        .cs-card-group {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 16px - 20px */
+            gap: clamp(1rem, 1.8vw, 1.25rem);
+            row-gap: (40/16rem);
+        }
+
+        .cs-item {
+            list-style: none;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cs-info {
+            width: 100%;
+            /* 350px - 450px */
+            min-height: clamp(21.875rem, 38vw, 28.125rem);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            /* 32px - 100px top */
+            /* 16px - 24px left & right */
+            padding: clamp(2rem, 8vw, 6.25rem) clamp(1rem, 1.8vw, 1.5rem) (100/16rem);
+            border-radius: (8/16rem);
+            /* clips the img tag corners */
+            overflow: hidden;
+            /* prevents padding from affecting height and width */
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .cs-link {
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            gap: (24/16rem);
+            &:hover, &:focus {
+                .cs-header, .cs-item-text {
+                    visibility: visible;
+                    transform: translateY(0);
+                    opacity: 1;
+                    height: 100%;
+                    transition: transform .6s, visibility .3s, opacity .6s;
+                }
+
+                .cs-number {
+                    padding-bottom: (15/16rem);
+                    &:before {
+                        /* changes to 500px at tablet */
+                        width: (800/16rem);
+                        height: (500/16rem);
+                        opacity: .9;
+                    }
+                }
+
+                .cs-background {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+
+        .cs-header {
+            /* 28px - 40px */
+            font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            height: 0;
+            /* 16px - 24px bottom */
+            margin: 0 0 clamp(1rem, 1.8vw, 1.5rem);
+            color: var(--bodyTextColorWhite);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(40/16rem);
+            transition: transform .2s, visibility .1s, opacity .2s, height .4s;
+            transition-delay: .1s;
+        }
+
+        .cs-item-text {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            text-align: left;
+            width: 100%;
+            max-width: (400/16rem);
+            height: 0;
+            margin: 0;
+            color: var(--bodyTextColorWhite);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(100/16rem);
+            transition: transform .3s, visibility .3s, opacity .3s, height .4s;
+            transition-delay: .2s;
+        }
+
+        .cs-number {
+            /* 24px - 32px */
+            font-size: clamp(1.5rem, 2vw, 2rem);
+            /* 60px - 80px */
+            line-height: clamp(3.75rem, 9vw, 5rem);
+            font-weight: 700;
+            width: clamp(3.75rem, 7vw, 5rem);
+            height: clamp(3.75rem, 7vw, 5rem);
+            margin: 0;
+            padding: 0;
+            color: var(--bodyTextColorWhite);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transition: padding-bottom .3s;
+
+            &:before {
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: var(--primary);
+                opacity: 1;
+                position: absolute;
+                display: block;
+                bottom: 0;
+                left: 0;
+                transition: width .6s, height .6s, opacity .3s;
+                z-index: -1;
+            }
+        }
+
+        .cs-h3 {
+            /* 20px - 24px */
+            font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+            color: var(--headerColor);
+            display: block;
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            /* clips img tag when it scales on hover */
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transition: transform .8s;
+            }
+        }
+    }
+
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #projects-605 {
+        .cs-content {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .cs-flex-group {
+            width: 45%;
+        }
+
+        .cs-text {
+            width: 48vw;
+        }
+
+        .cs-card-group {
+            flex-direction: row;
+            align-items: stretch;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .cs-item {
+            width: clamp(48.87%, 46vw, 49.04%);
+        }
+
+        .cs-link {
+            &:hover, &:focus {
+                .cs-number {
+                    &:before {
+                        width: (500/16rem);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Desktop - 1300px */
+@media only screen and (min-width: 75rem) {
+    #projects-605 {
+        .cs-item {
+            /* we do this so it's stackable. You can add any number of reviews you want and they will stack and center in the middle. We dont use grid because if you have an odd number of cards, they don't stay centered, they align with their grid lines. This way its more FLEX-ible*/
+            width: clamp(23.7%, 23vw, 23.81%);
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #projects-605 {
+            .cs-topper {
+                color: var(--bodyTextColorWhite);
+            }
+            .cs-title, .cs-text, .cs-h3 {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-text {
+                opacity: .8;
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---          Projects          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #7f2923;
+		--primaryLight: #7f2923;
+		--secondary: #ffba43;
+		--secondaryLight: #ffba43;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#projects-605 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+
+		.cs-container {
+			width: 100%;
+			max-width: calc(1280 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: left;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: flex-start;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-text {
+			font-size: var(--bodyFontSize);
+			line-height: 1.5em;
+			text-align: inherit;
+			width: 100%;
+			max-width: calc(650 / 16 * 1rem);
+			margin: 0;
+			color: var(--bodyTextColor);
+		}
+
+		.cs-title {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			max-width: 20ch;
+		}
+
+		.cs-card-group {
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 16px - 20px */
+			gap: clamp(1rem, 1.8vw, 1.25rem);
+			row-gap: calc(40 / 16 * 1rem);
+		}
+
+		.cs-item {
+			list-style: none;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+		.cs-info {
+			width: 100%;
+			/* 350px - 450px */
+			min-height: clamp(21.875rem, 38vw, 28.125rem);
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+			/* 32px - 100px top */
+			/* 16px - 24px left & right */
+			padding: clamp(2rem, 8vw, 6.25rem) clamp(1rem, 1.8vw, 1.5rem) calc(100 / 16 * 1rem);
+			border-radius: calc(8 / 16 * 1rem);
+			/* clips the img tag corners */
+			overflow: hidden;
+			/* prevents padding from affecting height and width */
+			box-sizing: border-box;
+			position: relative;
+		}
+
+		.cs-link {
+			text-decoration: none;
+			display: flex;
+			flex-direction: column;
+			gap: calc(24 / 16 * 1rem);
+			&:hover,
+			&:focus {
+				.cs-header,
+				.cs-item-text {
+					visibility: visible;
+					transform: translateY(0);
+					opacity: 1;
+					height: 100%;
+					transition: transform 0.6s, visibility 0.3s, opacity 0.6s;
+				}
+
+				.cs-number {
+					padding-bottom: calc(15 / 16 * 1rem);
+					&:before {
+                        /* changes to 500px at tablet */
+						width: calc(800 / 16 * 1rem);
+						height: calc(500 / 16 * 1rem);
+						opacity: 0.9;
+					}
+				}
+
+				.cs-background {
+					img {
+						transform: scale(1.1);
+					}
+				}
+			}
+		}
+
+		.cs-header {
+			/* 28px - 40px */
+			font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+			line-height: 1.2em;
+			font-weight: 700;
+			height: 0;
+			/* 16px - 24px bottom */
+			margin: 0 0 clamp(1rem, 1.8vw, 1.5rem);
+			color: var(--bodyTextColorWhite);
+			opacity: 0;
+			visibility: hidden;
+			transform: translateY(calc(40/16 * 1rem));
+			transition: transform 0.2s, visibility 0.1s, opacity 0.2s, height 0.4s;
+			transition-delay: 0.1s;
+		}
+
+		.cs-item-text {
+			/* 14px - 16px */
+			font-size: clamp(0.875rem, 1.5vw, 1rem);
+			line-height: 1.5em;
+			text-align: left;
+			width: 100%;
+			max-width: calc(400 / 16 * 1rem);
+			height: 0;
+			margin: 0;
+			color: var(--bodyTextColorWhite);
+			opacity: 0;
+			visibility: hidden;
+			transform: translateY(calc(100/16 * 1rem));
+			transition: transform 0.3s, visibility 0.3s, opacity 0.3s, height 0.4s;
+			transition-delay: 0.2s;
+		}
+
+		.cs-number {
+			/* 24px - 32px */
+			font-size: clamp(1.5rem, 2vw, 2rem);
+			/* 60px - 80px */
+			line-height: clamp(3.75rem, 9vw, 5rem);
+			font-weight: 700;
+			width: clamp(3.75rem, 7vw, 5rem);
+			height: clamp(3.75rem, 7vw, 5rem);
+			margin: 0;
+			padding: 0;
+			color: var(--bodyTextColorWhite);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			transition: padding-bottom 0.3s;
+
+			&:before {
+				content: '';
+				width: 100%;
+				height: 100%;
+				background: var(--primary);
+				opacity: 1;
+				position: absolute;
+				display: block;
+				bottom: 0;
+				left: 0;
+				transition: width 0.6s, height 0.6s, opacity 0.3s;
+				z-index: -1;
+			}
+		}
+
+		.cs-h3 {
+			/* 20px - 24px */
+			font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+			line-height: 1.2em;
+			font-weight: 700;
+			margin: 0;
+			padding: 0;
+			color: var(--headerColor);
+			display: block;
+		}
+
+		.cs-background {
+			width: 100%;
+			height: 100%;
+			display: block;
+			position: absolute;
+			/* clips img tag when it scales on hover */
+			overflow: hidden;
+			top: 0;
+			left: 0;
+			z-index: -1;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				position: absolute;
+				top: 0;
+				left: 0;
+				transition: transform 0.8s;
+			}
+		}
+	}
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	#projects-605 {
+		.cs-content {
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.cs-flex-group {
+			width: 45%;
+		}
+
+		.cs-text {
+			width: 48vw;
+		}
+
+		.cs-card-group {
+			flex-direction: row;
+			align-items: stretch;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		.cs-item {
+			width: clamp(48.87%, 46vw, 49.04%);
+		}
+
+        .cs-link {
+            &:hover, &:focus {
+                .cs-number {
+                    &:before {
+                        width: calc(500 / 16 * 1rem);
+                    }
+                }
+            }
+        }
+	}
+}
+
+/* Desktop - 1300px */
+@media only screen and (min-width: 75rem) {
+	#projects-605 {
+		.cs-item {
+			/* we do this so it's stackable. You can add any number of reviews you want and they will stack and center in the middle. We dont use grid because if you have an odd number of cards, they don't stay centered, they align with their grid lines. This way its more FLEX-ible*/
+			width: clamp(23.7%, 23vw, 23.81%);
+		}
+	}
+}
+                                
+/*-- -------------------------- -->
+<---          Projects          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #7f2923;
+		--primaryLight: #7f2923;
+		--secondary: #ffba43;
+		--secondaryLight: #ffba43;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#projects-605 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+
+		.cs-container {
+			width: 100%;
+			max-width: calc(1280 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: left;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: flex-start;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-text {
+			font-size: var(--bodyFontSize);
+			line-height: 1.5em;
+			text-align: inherit;
+			width: 100%;
+			max-width: calc(650 / 16 * 1rem);
+			margin: 0;
+			color: var(--bodyTextColor);
+		}
+
+		.cs-title {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			max-width: 20ch;
+		}
+
+		.cs-card-group {
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 16px - 20px */
+			gap: clamp(1rem, 1.8vw, 1.25rem);
+			row-gap: calc(40 / 16 * 1rem);
+		}
+
+		.cs-item {
+			list-style: none;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+		.cs-info {
+			width: 100%;
+			/* 350px - 450px */
+			min-height: clamp(21.875rem, 38vw, 28.125rem);
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+			/* 32px - 100px top */
+			/* 16px - 24px left & right */
+			padding: clamp(2rem, 8vw, 6.25rem) clamp(1rem, 1.8vw, 1.5rem) calc(100 / 16 * 1rem);
+			border-radius: calc(8 / 16 * 1rem);
+			/* clips the img tag corners */
+			overflow: hidden;
+			/* prevents padding from affecting height and width */
+			box-sizing: border-box;
+			position: relative;
+		}
+
+		.cs-link {
+			text-decoration: none;
+			display: flex;
+			flex-direction: column;
+			gap: calc(24 / 16 * 1rem);
+			&:hover,
+			&:focus {
+				.cs-header,
+				.cs-item-text {
+					visibility: visible;
+					transform: translateY(0);
+					opacity: 1;
+					height: 100%;
+					transition: transform 0.6s, visibility 0.3s, opacity 0.6s;
+				}
+
+				.cs-number {
+					padding-bottom: calc(15 / 16 * 1rem);
+					&:before {
+                        /* changes to 500px at tablet */
+						width: calc(800 / 16 * 1rem);
+						height: calc(500 / 16 * 1rem);
+						opacity: 0.9;
+					}
+				}
+
+				.cs-background {
+					img {
+						transform: scale(1.1);
+					}
+				}
+			}
+		}
+
+		.cs-header {
+			/* 28px - 40px */
+			font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+			line-height: 1.2em;
+			font-weight: 700;
+			height: 0;
+			/* 16px - 24px bottom */
+			margin: 0 0 clamp(1rem, 1.8vw, 1.5rem);
+			color: var(--bodyTextColorWhite);
+			opacity: 0;
+			visibility: hidden;
+			transform: translateY(calc(40/16 * 1rem));
+			transition: transform 0.2s, visibility 0.1s, opacity 0.2s, height 0.4s;
+			transition-delay: 0.1s;
+		}
+
+		.cs-item-text {
+			/* 14px - 16px */
+			font-size: clamp(0.875rem, 1.5vw, 1rem);
+			line-height: 1.5em;
+			text-align: left;
+			width: 100%;
+			max-width: calc(400 / 16 * 1rem);
+			height: 0;
+			margin: 0;
+			color: var(--bodyTextColorWhite);
+			opacity: 0;
+			visibility: hidden;
+			transform: translateY(calc(100/16 * 1rem));
+			transition: transform 0.3s, visibility 0.3s, opacity 0.3s, height 0.4s;
+			transition-delay: 0.2s;
+		}
+
+		.cs-number {
+			/* 24px - 32px */
+			font-size: clamp(1.5rem, 2vw, 2rem);
+			/* 60px - 80px */
+			line-height: clamp(3.75rem, 9vw, 5rem);
+			font-weight: 700;
+			width: clamp(3.75rem, 7vw, 5rem);
+			height: clamp(3.75rem, 7vw, 5rem);
+			margin: 0;
+			padding: 0;
+			color: var(--bodyTextColorWhite);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			transition: padding-bottom 0.3s;
+
+			&:before {
+				content: '';
+				width: 100%;
+				height: 100%;
+				background: var(--primary);
+				opacity: 1;
+				position: absolute;
+				display: block;
+				bottom: 0;
+				left: 0;
+				transition: width 0.6s, height 0.6s, opacity 0.3s;
+				z-index: -1;
+			}
+		}
+
+		.cs-h3 {
+			/* 20px - 24px */
+			font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+			line-height: 1.2em;
+			font-weight: 700;
+			margin: 0;
+			padding: 0;
+			color: var(--headerColor);
+			display: block;
+		}
+
+		.cs-background {
+			width: 100%;
+			height: 100%;
+			display: block;
+			position: absolute;
+			/* clips img tag when it scales on hover */
+			overflow: hidden;
+			top: 0;
+			left: 0;
+			z-index: -1;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				position: absolute;
+				top: 0;
+				left: 0;
+				transition: transform 0.8s;
+			}
+		}
+	}
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	#projects-605 {
+		.cs-content {
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.cs-flex-group {
+			width: 45%;
+		}
+
+		.cs-text {
+			width: 48vw;
+		}
+
+		.cs-card-group {
+			flex-direction: row;
+			align-items: stretch;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		.cs-item {
+			width: clamp(48.87%, 46vw, 49.04%);
+		}
+
+        .cs-link {
+            &:hover, &:focus {
+                .cs-number {
+                    &:before {
+                        width: calc(500 / 16 * 1rem);
+                    }
+                }
+            }
+        }
+	}
+}
+
+/* Desktop - 1300px */
+@media only screen and (min-width: 75rem) {
+	#projects-605 {
+		.cs-item {
+			/* we do this so it's stackable. You can add any number of reviews you want and they will stack and center in the middle. We dont use grid because if you have an odd number of cards, they don't stay centered, they align with their grid lines. This way its more FLEX-ible*/
+			width: clamp(23.7%, 23vw, 23.81%);
+		}
+	}
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+	body.dark-mode {
+		#projects-605 {
+			.cs-topper {
+				color: var(--bodyTextColorWhite);
+			}
+			.cs-title,
+			.cs-text,
+			.cs-h3 {
+				color: var(--bodyTextColorWhite);
+			}
+
+			.cs-text {
+				opacity: 0.8;
+			}
+		}
+	}
+}
+                                

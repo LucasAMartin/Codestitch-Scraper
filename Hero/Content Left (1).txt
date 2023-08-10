@@ -1,0 +1,2327 @@
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1033">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">
+                Welcome!
+                <img class="cs-graphic" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/ornament2.svg" decoding="async" alt="graphic" width="210" height="24">
+            </span>
+            <h2 class="cs-title">A Luxury Dining Experience</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <a href="" class="cs-button-solid">Reserve Your Table</a>
+            <div class="cs-spotlight">
+                <img class="cs-image" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef-small.jpg" decoding="async" alt="graphic" width="154" height="154">
+                <div class="cs-flex">
+                    <span class="cs-name">Renaldi Tan</span>
+                    <span class="cs-job">Head Chef</span>
+                    <p class="cs-flex-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="cs-image-group">
+            <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/top-rated.svg" decoding="async" alt="icon" width="116" height="124">
+            <span class="cs-tagline">Today's Special</span>
+            <h2 class="cs-h2">Seared Steak Special</h2>
+            <p class="cs-desc">
+                Lorem ipsum dolor sit amet, consectetur
+            </p>
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/steak.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/steak.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/steak.jpg" alt="steak" width="1280" height="568">
+            </picture>
+        </div>
+    </div>
+    <!--Background image-->
+    <!--Added background image in css at 1600px for parallax effect-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef7.jpg">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef7.jpg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef7.jpg" alt="chef" width="1290" height="1029">
+    </picture>
+</section>
+                                
+/*-- -------------------------- -->
+<---           Hero             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #AB661C;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #hero-1033 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    /* 160px - 250px */
+    padding-top: clamp(10rem, 18vw, 15.625rem);
+    position: relative;
+    z-index: 1;
+  }
+  #hero-1033 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #hero-1033 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #hero-1033 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--bodyTextColor);
+    margin-bottom: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    /* 8px - 16px */
+    gap: clamp(0.5rem, 1.5vw, 1rem);
+  }
+  #hero-1033 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    /* 16px - 24px */
+    margin: 0 0 clamp(1rem, 2vw, 1.5rem) 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #hero-1033 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    /* 32px - 38px */
+    margin: 0 0 clamp(2rem, 3.5vw, 3rem);
+    color: var(--bodyTextColor);
+  }
+  #hero-1033 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 2rem;
+    background-color: var(--primary);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #hero-1033 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width .3s;
+  }
+  #hero-1033 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #hero-1033 .cs-spotlight {
+    text-align: center;
+    /* 40px - 48px */
+    margin: clamp(2.5rem, 4vw, 3rem) 0 0 0;
+    padding: clamp(2.5rem, 4vw, 3rem) 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* 24px - 32px */
+    gap: clamp(1.5rem, 3vw, 2rem);
+  }
+  #hero-1033 .cs-spotlight:before {
+    /* dashed line */
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(90deg, #bababa, #bababa 75%, transparent 75%, transparent 100%);
+    background-size: 16px 16px;
+    border: none;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+  }
+  #hero-1033 .cs-image {
+    /* 120px - 156px */
+    width: clamp(7.5rem, 12vw, 9.75rem);
+    height: auto;
+    border: 4px solid var(--primary);
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: var(--primary);
+  }
+  #hero-1033 .cs-name {
+    /* 25px - 31px */
+    font-size: clamp(1.5625rem, 3vw, 1.9375rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: inherit;
+    margin: 0;
+    color: var(--headerColor);
+    display: block;
+  }
+  #hero-1033 .cs-job {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: inherit;
+    margin: 0 0 0.75rem 0;
+    color: var(--primary);
+    display: block;
+  }
+  #hero-1033 .cs-flex-text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: inherit;
+    max-width: 21rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+    display: block;
+  }
+  #hero-1033 .cs-image-group {
+    width: 100%;
+    /* 16px - 48px */
+    padding: clamp(1rem, 4.5vw, 3rem);
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    border: 1px solid var(--primary);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #hero-1033 .cs-icon {
+    /* 100px - 116px */
+    width: clamp(6.25rem, 8vw, 7.25rem);
+    height: auto;
+    margin: 0 0 1.75rem 0;
+  }
+  #hero-1033 .cs-tagline {
+    font-size: 1rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    /* 8px - 32px */
+    margin: 0 0 clamp(0.5rem, 2vw, 2rem);
+    color: var(--primary);
+  }
+  #hero-1033 .cs-h2 {
+    /* 25px - 31px */
+    font-size: clamp(1.5625rem, 3vw, 1.9375rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    text-align: inherit;
+    width: 70%;
+    max-width: 18.75rem;
+    margin: 0 0 0.5rem 0;
+    color: var(--headerColor);
+  }
+  #hero-1033 .cs-desc {
+    font-size: 1rem;
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 18.75rem;
+    /* 40px - 48px */
+    margin: 0 0 clamp(2.5rem, 5vw, 3rem);
+    color: var(--bodyTextColor);
+  }
+  #hero-1033 .cs-picture {
+    width: 100%;
+    /* 340px - 560px */
+    height: clamp(21.25rem, 43vw, 35rem);
+    display: block;
+    position: relative;
+  }
+  #hero-1033 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes img tag act as a background image */
+    object-fit: cover;
+  }
+  #hero-1033 .cs-background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #hero-1033 .cs-background:before {
+    /* background color overlay */
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    opacity: .9;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  #hero-1033 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes img tag act as a background image */
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #hero-1033 .cs-container {
+    max-width: 80rem;
+  }
+  #hero-1033 .cs-spotlight {
+    text-align: left;
+    width: 100%;
+    flex-direction: row;
+  }
+  #hero-1033 .cs-image-group {
+    text-align: left;
+    align-items: flex-start;
+    position: relative;
+  }
+  #hero-1033 .cs-icon {
+    margin: 0;
+    position: absolute;
+    /* 16px - 48px, same as cs-image-group padding clamp */
+    top: clamp(1rem, 4.5vw, 3rem);
+    right: clamp(1rem, 4.5vw, 3rem);
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #hero-1033 .cs-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #hero-1033 .cs-content {
+    max-width: 32.625rem;
+    text-align: left;
+    align-items: flex-start;
+  }
+  #hero-1033 .cs-topper {
+    flex-direction: row;
+    align-items: center;
+  }
+  #hero-1033 .cs-image-group {
+    max-width: 39.375rem;
+  }
+}
+/* Large Desktop 1600px */
+@media only screen and (min-width: 100rem) {
+  #hero-1033 {
+    background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #hero-1033 .cs-background img {
+    display: none;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---           Hero             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #AB661C;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #hero-1033 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    /* 160px - 250px */
+    padding-top: clamp(10rem, 18vw, 15.625rem);
+    position: relative;
+    z-index: 1;
+  }
+  #hero-1033 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #hero-1033 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #hero-1033 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--bodyTextColor);
+    margin-bottom: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    /* 8px - 16px */
+    gap: clamp(0.5rem, 1.5vw, 1rem);
+  }
+  #hero-1033 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    /* 16px - 24px */
+    margin: 0 0 clamp(1rem, 2vw, 1.5rem) 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #hero-1033 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    /* 32px - 38px */
+    margin: 0 0 clamp(2rem, 3.5vw, 3rem);
+    color: var(--bodyTextColor);
+  }
+  #hero-1033 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 2rem;
+    background-color: var(--primary);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #hero-1033 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width .3s;
+  }
+  #hero-1033 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #hero-1033 .cs-spotlight {
+    text-align: center;
+    /* 40px - 48px */
+    margin: clamp(2.5rem, 4vw, 3rem) 0 0 0;
+    padding: clamp(2.5rem, 4vw, 3rem) 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* 24px - 32px */
+    gap: clamp(1.5rem, 3vw, 2rem);
+  }
+  #hero-1033 .cs-spotlight:before {
+    /* dashed line */
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(90deg, #bababa, #bababa 75%, transparent 75%, transparent 100%);
+    background-size: 16px 16px;
+    border: none;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+  }
+  #hero-1033 .cs-image {
+    /* 120px - 156px */
+    width: clamp(7.5rem, 12vw, 9.75rem);
+    height: auto;
+    border: 4px solid var(--primary);
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: var(--primary);
+  }
+  #hero-1033 .cs-name {
+    /* 25px - 31px */
+    font-size: clamp(1.5625rem, 3vw, 1.9375rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: inherit;
+    margin: 0;
+    color: var(--headerColor);
+    display: block;
+  }
+  #hero-1033 .cs-job {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: inherit;
+    margin: 0 0 0.75rem 0;
+    color: var(--primary);
+    display: block;
+  }
+  #hero-1033 .cs-flex-text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: inherit;
+    max-width: 21rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+    display: block;
+  }
+  #hero-1033 .cs-image-group {
+    width: 100%;
+    /* 16px - 48px */
+    padding: clamp(1rem, 4.5vw, 3rem);
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    border: 1px solid var(--primary);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #hero-1033 .cs-icon {
+    /* 100px - 116px */
+    width: clamp(6.25rem, 8vw, 7.25rem);
+    height: auto;
+    margin: 0 0 1.75rem 0;
+  }
+  #hero-1033 .cs-tagline {
+    font-size: 1rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    /* 8px - 32px */
+    margin: 0 0 clamp(0.5rem, 2vw, 2rem);
+    color: var(--primary);
+  }
+  #hero-1033 .cs-h2 {
+    /* 25px - 31px */
+    font-size: clamp(1.5625rem, 3vw, 1.9375rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    text-align: inherit;
+    width: 70%;
+    max-width: 18.75rem;
+    margin: 0 0 0.5rem 0;
+    color: var(--headerColor);
+  }
+  #hero-1033 .cs-desc {
+    font-size: 1rem;
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 18.75rem;
+    /* 40px - 48px */
+    margin: 0 0 clamp(2.5rem, 5vw, 3rem);
+    color: var(--bodyTextColor);
+  }
+  #hero-1033 .cs-picture {
+    width: 100%;
+    /* 340px - 560px */
+    height: clamp(21.25rem, 43vw, 35rem);
+    display: block;
+    position: relative;
+  }
+  #hero-1033 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes img tag act as a background image */
+    object-fit: cover;
+  }
+  #hero-1033 .cs-background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #hero-1033 .cs-background:before {
+    /* background color overlay */
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    opacity: .9;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  #hero-1033 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes img tag act as a background image */
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #hero-1033 .cs-container {
+    max-width: 80rem;
+  }
+  #hero-1033 .cs-spotlight {
+    text-align: left;
+    width: 100%;
+    flex-direction: row;
+  }
+  #hero-1033 .cs-image-group {
+    text-align: left;
+    align-items: flex-start;
+    position: relative;
+  }
+  #hero-1033 .cs-icon {
+    margin: 0;
+    position: absolute;
+    /* 16px - 48px, same as cs-image-group padding clamp */
+    top: clamp(1rem, 4.5vw, 3rem);
+    right: clamp(1rem, 4.5vw, 3rem);
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #hero-1033 .cs-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #hero-1033 .cs-content {
+    max-width: 32.625rem;
+    text-align: left;
+    align-items: flex-start;
+  }
+  #hero-1033 .cs-topper {
+    flex-direction: row;
+    align-items: center;
+  }
+  #hero-1033 .cs-image-group {
+    max-width: 39.375rem;
+  }
+}
+/* Large Desktop 1600px */
+@media only screen and (min-width: 100rem) {
+  #hero-1033 {
+    background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #hero-1033 .cs-background img {
+    display: none;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #hero-1033 .cs-title,
+  body.dark-mode #hero-1033 .cs-text,
+  body.dark-mode #hero-1033 .cs-topper,
+  body.dark-mode #hero-1033 .cs-desc,
+  body.dark-mode #hero-1033 .cs-flex-text,
+  body.dark-mode #hero-1033 .cs-h2 {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #hero-1033 .cs-text,
+  body.dark-mode #hero-1033 .cs-flex-text,
+  body.dark-mode #hero-1033 .cs-desc {
+    opacity: .8;
+  }
+  body.dark-mode #hero-1033 .cs-image-group {
+    background-color: #1a1a1a;
+  }
+  body.dark-mode #hero-1033 .cs-icon {
+    filter: grayscale(1) brightness(1000%);
+  }
+  body.dark-mode #hero-1033 .cs-background:before {
+    background-color: #1a1a1a;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---           Hero             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #AB661C;
+        --primaryLight: #d8673d;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #hero-1033 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        /* 160px - 250px */
+        padding-top: clamp(10rem, 18vw, 15.625rem);
+        position: relative;
+        z-index: 1;
+        
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at tablet */
+            max-width: (550/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--bodyTextColor);
+            margin-bottom: (12/16rem);
+            display: flex;
+            flex-direction: column;
+            /* 8px - 16px */
+            gap: clamp(.5rem, 1.5vw, 1rem);
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            /* 16px - 24px */
+            margin: 0 0 clamp(1rem, 2vw, 1.5rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            /* 32px - 38px */
+            margin: 0 0 clamp(2rem, 3.5vw, 3rem);
+            color: var(--bodyTextColor);
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (32/16rem);
+            background-color: var(--primary);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-spotlight {
+            text-align: center;
+            /* 40px - 48px */
+            margin: clamp(2.5rem, 4vw, 3rem) 0 0 0;
+            padding: clamp(2.5rem, 4vw, 3rem) 0 0 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            /* 24px - 32px */
+            gap: clamp(1.5rem, 3vw, 2rem);
+
+            &:before {
+                /* dashed line */
+                content: '';
+                width: 100%;
+                height: 2px;
+                background-image: linear-gradient(90deg, #BABABA, #BABABA 75%, transparent 75%, transparent 100%);
+                background-size: 16px 16px;
+                border: none;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .cs-image {
+            /* 120px - 156px */
+            width: clamp(7.5rem, 12vw, 9.75rem);
+            height: auto;
+            border: 4px solid var(--primary);
+            box-sizing: border-box;
+            border-radius: 50%;
+            background-color: var(--primary);
+        }
+
+        .cs-name {
+            /* 25px - 31px */
+            font-size: clamp(1.5625rem, 3vw, 1.9375rem);
+            font-weight: 700;
+            line-height: 1.2em;
+            text-align: inherit;
+            margin: 0;
+            color: var(--headerColor);
+            display: block;
+        }
+
+        .cs-job {
+            font-size: (16/16rem);
+            font-weight: 400;
+            line-height: 1.5em;
+            text-align: inherit;
+            margin: 0 0 (12/16rem) 0;
+            color: var(--primary);
+            display: block;
+        }
+
+        .cs-flex-text {
+            font-size: (16/16rem);
+            font-weight: 400;
+            line-height: 1.5em;
+            text-align: inherit;
+            max-width: (336/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+            display: block;
+        }
+
+        .cs-image-group {
+            width: 100%;
+            /* 16px - 48px */
+            padding: clamp(1rem, 4.5vw, 3rem);
+            /* prevents padding from affecting height and width */
+            box-sizing: border-box;
+            border: 1px solid var(--primary);
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cs-icon {
+            /* 100px - 116px */
+            width: clamp(6.25rem, 8vw, 7.25rem);
+            height: auto;
+            margin: 0 0 (28/16rem) 0;
+        }
+
+        .cs-tagline {
+            font-size: (16/16rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            /* 8px - 32px */
+            margin: 0 0 clamp(.5rem, 2vw, 2rem);
+            color: var(--primary);
+        }
+
+        .cs-h2 {
+            /* 25px - 31px */
+            font-size: clamp(1.5625rem, 3vw, 1.9375rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            text-align: inherit;
+            width: 70%;
+            max-width: (300/16rem);
+            margin: 0 0 (8/16rem) 0;
+            color: var(--headerColor);
+        }
+
+        .cs-desc {
+            font-size: (16/16rem);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (300/16rem);
+            /* 40px - 48px */
+            margin: 0 0 (clamp(2.5rem, 5vw, 3rem));
+            color: var(--bodyTextColor);
+        }
+
+        .cs-picture {
+            width: 100%;
+            /* 340px - 560px */
+            height: clamp(21.25rem, 43vw, 35rem);
+            display: block;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes img tag act as a background image */
+                object-fit: cover;
+            }
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            &:before {
+                /* background color overlay */
+                content: '';
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 100%;
+                background: #fff;
+                opacity: .9;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes img tag act as a background image */
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #hero-1033 {
+        .cs-container {
+            max-width: (1280/16rem);
+        }
+
+        .cs-spotlight {
+            text-align: left;
+            width: 100%;
+            flex-direction: row;
+        }
+
+        .cs-image-group {
+            text-align: left;
+            align-items: flex-start;
+            position: relative;
+        }
+
+        .cs-icon {
+            margin: 0;
+            position: absolute;
+            /* 16px - 48px, same as cs-image-group padding clamp */
+            top: clamp(1rem, 4.5vw, 3rem);
+            right: clamp(1rem, 4.5vw, 3rem);
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #hero-1033 {
+        .cs-container {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .cs-content {
+            max-width: (522/16rem);
+            text-align: left;
+            align-items: flex-start;
+        }
+
+        .cs-topper {
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .cs-image-group {
+            max-width: (630/16rem);
+        }
+    }
+}
+
+/* Large Desktop 1600px */
+@media only screen and (min-width: 100rem) {
+    #hero-1033 {
+        background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef7.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+        .cs-background {
+            img {
+                display: none;
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---           Hero             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #AB661C;
+        --primaryLight: #d8673d;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #hero-1033 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        /* 160px - 250px */
+        padding-top: clamp(10rem, 18vw, 15.625rem);
+        position: relative;
+        z-index: 1;
+        
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at tablet */
+            max-width: (550/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--bodyTextColor);
+            margin-bottom: (12/16rem);
+            display: flex;
+            flex-direction: column;
+            /* 8px - 16px */
+            gap: clamp(.5rem, 1.5vw, 1rem);
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            /* 16px - 24px */
+            margin: 0 0 clamp(1rem, 2vw, 1.5rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            /* 32px - 38px */
+            margin: 0 0 clamp(2rem, 3.5vw, 3rem);
+            color: var(--bodyTextColor);
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (32/16rem);
+            background-color: var(--primary);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-spotlight {
+            text-align: center;
+            /* 40px - 48px */
+            margin: clamp(2.5rem, 4vw, 3rem) 0 0 0;
+            padding: clamp(2.5rem, 4vw, 3rem) 0 0 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            /* 24px - 32px */
+            gap: clamp(1.5rem, 3vw, 2rem);
+
+            &:before {
+                /* dashed line */
+                content: '';
+                width: 100%;
+                height: 2px;
+                background-image: linear-gradient(90deg, #BABABA, #BABABA 75%, transparent 75%, transparent 100%);
+                background-size: 16px 16px;
+                border: none;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .cs-image {
+            /* 120px - 156px */
+            width: clamp(7.5rem, 12vw, 9.75rem);
+            height: auto;
+            border: 4px solid var(--primary);
+            box-sizing: border-box;
+            border-radius: 50%;
+            background-color: var(--primary);
+        }
+
+        .cs-name {
+            /* 25px - 31px */
+            font-size: clamp(1.5625rem, 3vw, 1.9375rem);
+            font-weight: 700;
+            line-height: 1.2em;
+            text-align: inherit;
+            margin: 0;
+            color: var(--headerColor);
+            display: block;
+        }
+
+        .cs-job {
+            font-size: (16/16rem);
+            font-weight: 400;
+            line-height: 1.5em;
+            text-align: inherit;
+            margin: 0 0 (12/16rem) 0;
+            color: var(--primary);
+            display: block;
+        }
+
+        .cs-flex-text {
+            font-size: (16/16rem);
+            font-weight: 400;
+            line-height: 1.5em;
+            text-align: inherit;
+            max-width: (336/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+            display: block;
+        }
+
+        .cs-image-group {
+            width: 100%;
+            /* 16px - 48px */
+            padding: clamp(1rem, 4.5vw, 3rem);
+            /* prevents padding from affecting height and width */
+            box-sizing: border-box;
+            border: 1px solid var(--primary);
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cs-icon {
+            /* 100px - 116px */
+            width: clamp(6.25rem, 8vw, 7.25rem);
+            height: auto;
+            margin: 0 0 (28/16rem) 0;
+        }
+
+        .cs-tagline {
+            font-size: (16/16rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            /* 8px - 32px */
+            margin: 0 0 clamp(.5rem, 2vw, 2rem);
+            color: var(--primary);
+        }
+
+        .cs-h2 {
+            /* 25px - 31px */
+            font-size: clamp(1.5625rem, 3vw, 1.9375rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            text-align: inherit;
+            width: 70%;
+            max-width: (300/16rem);
+            margin: 0 0 (8/16rem) 0;
+            color: var(--headerColor);
+        }
+
+        .cs-desc {
+            font-size: (16/16rem);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (300/16rem);
+            /* 40px - 48px */
+            margin: 0 0 (clamp(2.5rem, 5vw, 3rem));
+            color: var(--bodyTextColor);
+        }
+
+        .cs-picture {
+            width: 100%;
+            /* 340px - 560px */
+            height: clamp(21.25rem, 43vw, 35rem);
+            display: block;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes img tag act as a background image */
+                object-fit: cover;
+            }
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            &:before {
+                /* background color overlay */
+                content: '';
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 100%;
+                background: #fff;
+                opacity: .9;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes img tag act as a background image */
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #hero-1033 {
+        .cs-container {
+            max-width: (1280/16rem);
+        }
+
+        .cs-spotlight {
+            text-align: left;
+            width: 100%;
+            flex-direction: row;
+        }
+
+        .cs-image-group {
+            text-align: left;
+            align-items: flex-start;
+            position: relative;
+        }
+
+        .cs-icon {
+            margin: 0;
+            position: absolute;
+            /* 16px - 48px, same as cs-image-group padding clamp */
+            top: clamp(1rem, 4.5vw, 3rem);
+            right: clamp(1rem, 4.5vw, 3rem);
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #hero-1033 {
+        .cs-container {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .cs-content {
+            max-width: (522/16rem);
+            text-align: left;
+            align-items: flex-start;
+        }
+
+        .cs-topper {
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .cs-image-group {
+            max-width: (630/16rem);
+        }
+    }
+}
+
+/* Large Desktop 1600px */
+@media only screen and (min-width: 100rem) {
+    #hero-1033 {
+        background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef7.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+        .cs-background {
+            img {
+                display: none;
+            }
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #hero-1033 {
+            .cs-title, .cs-text, .cs-topper, .cs-desc, .cs-flex-text, .cs-h2 {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-text, .cs-flex-text, .cs-desc {
+                opacity: .8;
+            }
+
+            .cs-image-group {
+                background-color: #1a1a1a;
+            }
+
+            .cs-icon {
+                filter: grayscale(1) brightness(1000%);
+            }
+
+            .cs-background {
+                &:before {
+                    background-color: #1a1a1a;
+                }
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---           Hero             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #AB661C;
+        --primaryLight: #d8673d;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #hero-1033 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        /* 160px - 250px */
+        padding-top: clamp(10rem, 18vw, 15.625rem);
+        position: relative;
+        z-index: 1;
+        
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at tablet */
+            max-width: calc(550 / 16 * 1rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--bodyTextColor);
+            margin-bottom: calc(12 / 16 * 1rem);
+            display: flex;
+            flex-direction: column;
+            /* 8px - 16px */
+            gap: clamp(.5rem, 1.5vw, 1rem);
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: calc(700 / 16 * 1rem);
+            /* 16px - 24px */
+            margin: 0 0 clamp(1rem, 2vw, 1.5rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: calc(650 / 16 * 1rem);
+            /* 32px - 38px */
+            margin: 0 0 clamp(2rem, 3.5vw, 3rem);
+            color: var(--bodyTextColor);
+        }
+
+        .cs-button-solid {
+            font-size: calc(16 / 16 * 1rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: calc(150 / 16 * 1rem);
+            padding: 0 calc(32 / 16 * 1rem);
+            background-color: var(--primary);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-spotlight {
+            text-align: center;
+            /* 40px - 48px */
+            margin: clamp(2.5rem, 4vw, 3rem) 0 0 0;
+            padding: clamp(2.5rem, 4vw, 3rem) 0 0 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            /* 24px - 32px */
+            gap: clamp(1.5rem, 3vw, 2rem);
+
+            &:before {
+                /* dashed line */
+                content: '';
+                width: 100%;
+                height: 2px;
+                background-image: linear-gradient(90deg, #BABABA, #BABABA 75%, transparent 75%, transparent 100%);
+                background-size: 16px 16px;
+                border: none;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .cs-image {
+            /* 120px - 156px */
+            width: clamp(7.5rem, 12vw, 9.75rem);
+            height: auto;
+            border: 4px solid var(--primary);
+            box-sizing: border-box;
+            border-radius: 50%;
+            background-color: var(--primary);
+        }
+
+        .cs-name {
+            /* 25px - 31px */
+            font-size: clamp(1.5625rem, 3vw, 1.9375rem);
+            font-weight: 700;
+            line-height: 1.2em;
+            text-align: inherit;
+            margin: 0;
+            color: var(--headerColor);
+            display: block;
+        }
+
+        .cs-job {
+            font-size: calc(16 / 16 * 1rem);
+            font-weight: 400;
+            line-height: 1.5em;
+            text-align: inherit;
+            margin: 0 0 calc(12 / 16 * 1rem) 0;
+            color: var(--primary);
+            display: block;
+        }
+
+        .cs-flex-text {
+            font-size: calc(16 / 16 * 1rem);
+            font-weight: 400;
+            line-height: 1.5em;
+            text-align: inherit;
+            max-width: calc(336 / 16 * 1rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+            display: block;
+        }
+
+        .cs-image-group {
+            width: 100%;
+            /* 16px - 48px */
+            padding: clamp(1rem, 4.5vw, 3rem);
+            /* prevents padding from affecting height and width */
+            box-sizing: border-box;
+            border: 1px solid var(--primary);
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cs-icon {
+            /* 100px - 116px */
+            width: clamp(6.25rem, 8vw, 7.25rem);
+            height: auto;
+            margin: 0 0 calc(28 / 16 * 1rem) 0;
+        }
+
+        .cs-tagline {
+            font-size: calc(16 / 16 * 1rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            /* 8px - 32px */
+            margin: 0 0 clamp(.5rem, 2vw, 2rem);
+            color: var(--primary);
+        }
+
+        .cs-h2 {
+            /* 25px - 31px */
+            font-size: clamp(1.5625rem, 3vw, 1.9375rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            text-align: inherit;
+            width: 70%;
+            max-width: calc(300 / 16 * 1rem);
+            margin: 0 0 calc(8 / 16 * 1rem) 0;
+            color: var(--headerColor);
+        }
+
+        .cs-desc {
+            font-size: calc(16 / 16 * 1rem);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: calc(300 / 16 * 1rem);
+            /* 40px - 48px */
+            margin: 0 0 (clamp(2.5rem, 5vw, 3rem));
+            color: var(--bodyTextColor);
+        }
+
+        .cs-picture {
+            width: 100%;
+            /* 340px - 560px */
+            height: clamp(21.25rem, 43vw, 35rem);
+            display: block;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes img tag act as a background image */
+                object-fit: cover;
+            }
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            &:before {
+                /* background color overlay */
+                content: '';
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 100%;
+                background: #fff;
+                opacity: .9;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes img tag act as a background image */
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #hero-1033 {
+        .cs-container {
+            max-width: calc(1280 / 16 * 1rem);
+        }
+
+        .cs-spotlight {
+            text-align: left;
+            width: 100%;
+            flex-direction: row;
+        }
+
+        .cs-image-group {
+            text-align: left;
+            align-items: flex-start;
+            position: relative;
+        }
+
+        .cs-icon {
+            margin: 0;
+            position: absolute;
+            /* 16px - 48px, same as cs-image-group padding clamp */
+            top: clamp(1rem, 4.5vw, 3rem);
+            right: clamp(1rem, 4.5vw, 3rem);
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #hero-1033 {
+        .cs-container {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .cs-content {
+            max-width: calc(522 / 16 * 1rem);
+            text-align: left;
+            align-items: flex-start;
+        }
+
+        .cs-topper {
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .cs-image-group {
+            max-width: calc(630 / 16 * 1rem);
+        }
+    }
+}
+
+/* Large Desktop 1600px */
+@media only screen and (min-width: 100rem) {
+    #hero-1033 {
+        background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef7.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+        .cs-background {
+            img {
+                display: none;
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---           Hero             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #AB661C;
+        --primaryLight: #d8673d;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #hero-1033 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        /* 160px - 250px */
+        padding-top: clamp(10rem, 18vw, 15.625rem);
+        position: relative;
+        z-index: 1;
+        
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at tablet */
+            max-width: calc(550 / 16 * 1rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--bodyTextColor);
+            margin-bottom: calc(12 / 16 * 1rem);
+            display: flex;
+            flex-direction: column;
+            /* 8px - 16px */
+            gap: clamp(.5rem, 1.5vw, 1rem);
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: calc(700 / 16 * 1rem);
+            /* 16px - 24px */
+            margin: 0 0 clamp(1rem, 2vw, 1.5rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: calc(650 / 16 * 1rem);
+            /* 32px - 38px */
+            margin: 0 0 clamp(2rem, 3.5vw, 3rem);
+            color: var(--bodyTextColor);
+        }
+
+        .cs-button-solid {
+            font-size: calc(16 / 16 * 1rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: calc(150 / 16 * 1rem);
+            padding: 0 calc(32 / 16 * 1rem);
+            background-color: var(--primary);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-spotlight {
+            text-align: center;
+            /* 40px - 48px */
+            margin: clamp(2.5rem, 4vw, 3rem) 0 0 0;
+            padding: clamp(2.5rem, 4vw, 3rem) 0 0 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            /* 24px - 32px */
+            gap: clamp(1.5rem, 3vw, 2rem);
+
+            &:before {
+                /* dashed line */
+                content: '';
+                width: 100%;
+                height: 2px;
+                background-image: linear-gradient(90deg, #BABABA, #BABABA 75%, transparent 75%, transparent 100%);
+                background-size: 16px 16px;
+                border: none;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .cs-image {
+            /* 120px - 156px */
+            width: clamp(7.5rem, 12vw, 9.75rem);
+            height: auto;
+            border: 4px solid var(--primary);
+            box-sizing: border-box;
+            border-radius: 50%;
+            background-color: var(--primary);
+        }
+
+        .cs-name {
+            /* 25px - 31px */
+            font-size: clamp(1.5625rem, 3vw, 1.9375rem);
+            font-weight: 700;
+            line-height: 1.2em;
+            text-align: inherit;
+            margin: 0;
+            color: var(--headerColor);
+            display: block;
+        }
+
+        .cs-job {
+            font-size: calc(16 / 16 * 1rem);
+            font-weight: 400;
+            line-height: 1.5em;
+            text-align: inherit;
+            margin: 0 0 calc(12 / 16 * 1rem) 0;
+            color: var(--primary);
+            display: block;
+        }
+
+        .cs-flex-text {
+            font-size: calc(16 / 16 * 1rem);
+            font-weight: 400;
+            line-height: 1.5em;
+            text-align: inherit;
+            max-width: calc(336 / 16 * 1rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+            display: block;
+        }
+
+        .cs-image-group {
+            width: 100%;
+            /* 16px - 48px */
+            padding: clamp(1rem, 4.5vw, 3rem);
+            /* prevents padding from affecting height and width */
+            box-sizing: border-box;
+            border: 1px solid var(--primary);
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cs-icon {
+            /* 100px - 116px */
+            width: clamp(6.25rem, 8vw, 7.25rem);
+            height: auto;
+            margin: 0 0 calc(28 / 16 * 1rem) 0;
+        }
+
+        .cs-tagline {
+            font-size: calc(16 / 16 * 1rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            /* 8px - 32px */
+            margin: 0 0 clamp(.5rem, 2vw, 2rem);
+            color: var(--primary);
+        }
+
+        .cs-h2 {
+            /* 25px - 31px */
+            font-size: clamp(1.5625rem, 3vw, 1.9375rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            text-align: inherit;
+            width: 70%;
+            max-width: calc(300 / 16 * 1rem);
+            margin: 0 0 calc(8 / 16 * 1rem) 0;
+            color: var(--headerColor);
+        }
+
+        .cs-desc {
+            font-size: calc(16 / 16 * 1rem);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: calc(300 / 16 * 1rem);
+            /* 40px - 48px */
+            margin: 0 0 (clamp(2.5rem, 5vw, 3rem));
+            color: var(--bodyTextColor);
+        }
+
+        .cs-picture {
+            width: 100%;
+            /* 340px - 560px */
+            height: clamp(21.25rem, 43vw, 35rem);
+            display: block;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes img tag act as a background image */
+                object-fit: cover;
+            }
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            &:before {
+                /* background color overlay */
+                content: '';
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 100%;
+                background: #fff;
+                opacity: .9;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes img tag act as a background image */
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #hero-1033 {
+        .cs-container {
+            max-width: calc(1280 / 16 * 1rem);
+        }
+
+        .cs-spotlight {
+            text-align: left;
+            width: 100%;
+            flex-direction: row;
+        }
+
+        .cs-image-group {
+            text-align: left;
+            align-items: flex-start;
+            position: relative;
+        }
+
+        .cs-icon {
+            margin: 0;
+            position: absolute;
+            /* 16px - 48px, same as cs-image-group padding clamp */
+            top: clamp(1rem, 4.5vw, 3rem);
+            right: clamp(1rem, 4.5vw, 3rem);
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #hero-1033 {
+        .cs-container {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .cs-content {
+            max-width: calc(522 / 16 * 1rem);
+            text-align: left;
+            align-items: flex-start;
+        }
+
+        .cs-topper {
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .cs-image-group {
+            max-width: calc(630 / 16 * 1rem);
+        }
+    }
+}
+
+/* Large Desktop 1600px */
+@media only screen and (min-width: 100rem) {
+    #hero-1033 {
+        background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef7.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+        .cs-background {
+            img {
+                display: none;
+            }
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #hero-1033 {
+            .cs-title, .cs-text, .cs-topper, .cs-desc, .cs-flex-text, .cs-h2 {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-text, .cs-flex-text, .cs-desc {
+                opacity: .8;
+            }
+
+            .cs-image-group {
+                background-color: #1a1a1a;
+            }
+
+            .cs-icon {
+                filter: grayscale(1) brightness(1000%);
+            }
+
+            .cs-background {
+                &:before {
+                    background-color: #1a1a1a;
+                }
+            }
+        }
+    }
+}
+                                

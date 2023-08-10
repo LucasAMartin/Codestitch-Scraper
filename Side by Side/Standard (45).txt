@@ -1,0 +1,1366 @@
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-83">
+    <div class="cs-container">
+        <!-- Left Section -->
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/outdoors-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/outdoors.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/outdoors.jpg" alt="people outside" width="254" height="262">
+            </picture>
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/pathway-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/pathway.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/[pathway].jpg" alt="people outside" width="254" height="262">
+            </picture>
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/planting-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/planting.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/planting.jpg" alt="person gardening" width="254" height="262">
+            </picture>
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/urban-environment-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/urban-environment.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/urban-environment.jpg" alt="urban environment in green" width="254" height="262">
+            </picture>
+        </div>
+        <!-- Right Section -->
+        <div class="cs-content">
+            <span class="cs-topper">What We Do</span>
+            <h2 class="cs-title">Good Design Good Business</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida faucibus pharetra id integer faucibus velit a ut. Fermentum tortor vulputate nec gravida mauris orci orci tristique. 
+            </p>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <span class="cs-number">100+</span>
+                    <h3 class="cs-h3">Happy Customers</h3>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-number">85+</span>
+                    <h3 class="cs-h3">Landscape Renovations</h3>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-number">95+</span>
+                    <h3 class="cs-h3">Fence Installations</h3>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #229521;
+    --primaryLight: #3bb73a;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbs-83 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #sbs-83 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #sbs-83 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 32.625rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbs-83 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbs-83 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbs-83 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbs-83 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 20ch;
+  }
+  #sbs-83 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #sbs-83 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbs-83 .cs-card-group {
+    width: 100%;
+    max-width: 25rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 0.75rem;
+  }
+  #sbs-83 .cs-item {
+    list-style: none;
+    width: 32%;
+    max-width: 9.375rem;
+    /* making flex so we can align a heading with 1 line to the bottom */
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-content: space-between;
+  }
+  #sbs-83 .cs-number {
+    /* 39px - 49px */
+    font-size: clamp(2.4375rem, 5vw, 3.0625rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    text-align: left;
+    color: var(--primary);
+    display: block;
+    /* 8px - 16px */
+    margin: 0 0 clamp(0.25rem, 0.5vw, 1rem);
+  }
+  #sbs-83 .cs-h3 {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.2em;
+    text-align: left;
+    /* auto margin top will push text to bottom if there's only one line */
+    margin: auto 0 0;
+    color: var(--headerColor);
+  }
+  #sbs-83 .cs-image-group {
+    width: 100%;
+    max-width: 33.875rem;
+    /* pushes down by the same amount the images overlap the image group */
+    margin: 0 0 2.5rem;
+    display: flex;
+    /* separate children to opposite sides of the room */
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: clamp(0.5rem, 2vw, 1.25rem);
+  }
+  #sbs-83 .cs-picture {
+    width: 48%;
+    /* 218px - 264px */
+    min-height: clamp(13.625rem, 25vw, 16.5rem);
+    aspect-ratio: 0.73394495;
+    position: relative;
+    display: block;
+  }
+  #sbs-83 .cs-picture:nth-of-type(2) {
+    /* move slightly down */
+    transform: translateY(2.5rem);
+  }
+  #sbs-83 .cs-picture:nth-of-type(4) {
+    /* move slightly up */
+    transform: translateY(2.5rem);
+  }
+  #sbs-83 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes image act as a background image to the picture element */
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbs-83 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* 44px - 108px */
+    column-gap: clamp(2.75rem, calc(6.4vw), 6.75rem);
+  }
+  #sbs-83 .cs-card-group {
+    max-width: 100%;
+  }
+  #sbs-83 .cs-image-group {
+    /* 318px - 542px */
+    width: clamp(19.875rem, 46.9vw, 33.875rem);
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #sbs-83 .cs-picture {
+    width: 47.8%;
+    aspect-ratio: initial;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #229521;
+    --primaryLight: #3bb73a;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #sbs-83 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+  }
+  #sbs-83 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #sbs-83 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 32.625rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbs-83 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #sbs-83 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbs-83 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  #sbs-83 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    max-width: 20ch;
+  }
+  #sbs-83 .cs-text {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin-bottom: 1rem;
+  }
+  #sbs-83 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbs-83 .cs-card-group {
+    width: 100%;
+    max-width: 25rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 0.75rem;
+  }
+  #sbs-83 .cs-item {
+    list-style: none;
+    width: 32%;
+    max-width: 9.375rem;
+    /* making flex so we can align a heading with 1 line to the bottom */
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-content: space-between;
+  }
+  #sbs-83 .cs-number {
+    /* 39px - 49px */
+    font-size: clamp(2.4375rem, 5vw, 3.0625rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    text-align: left;
+    color: var(--primary);
+    display: block;
+    /* 8px - 16px */
+    margin: 0 0 clamp(0.25rem, 0.5vw, 1rem);
+  }
+  #sbs-83 .cs-h3 {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.2em;
+    text-align: left;
+    /* auto margin top will push text to bottom if there's only one line */
+    margin: auto 0 0;
+    color: var(--headerColor);
+  }
+  #sbs-83 .cs-image-group {
+    width: 100%;
+    max-width: 33.875rem;
+    /* pushes down by the same amount the images overlap the image group */
+    margin: 0 0 2.5rem;
+    display: flex;
+    /* separate children to opposite sides of the room */
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: clamp(0.5rem, 2vw, 1.25rem);
+  }
+  #sbs-83 .cs-picture {
+    width: 48%;
+    /* 218px - 264px */
+    min-height: clamp(13.625rem, 25vw, 16.5rem);
+    aspect-ratio: 0.73394495;
+    position: relative;
+    display: block;
+  }
+  #sbs-83 .cs-picture:nth-of-type(2) {
+    /* move slightly down */
+    transform: translateY(2.5rem);
+  }
+  #sbs-83 .cs-picture:nth-of-type(4) {
+    /* move slightly up */
+    transform: translateY(2.5rem);
+  }
+  #sbs-83 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes image act as a background image to the picture element */
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbs-83 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* 44px - 108px */
+    column-gap: clamp(2.75rem, calc(6.4vw), 6.75rem);
+  }
+  #sbs-83 .cs-card-group {
+    max-width: 100%;
+  }
+  #sbs-83 .cs-image-group {
+    /* 318px - 542px */
+    width: clamp(19.875rem, 46.9vw, 33.875rem);
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #sbs-83 .cs-picture {
+    width: 47.8%;
+    aspect-ratio: initial;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #sbs-83 .cs-title,
+  body.dark-mode #sbs-83 .cs-text,
+  body.dark-mode #sbs-83 .cs-h3 {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #sbs-83 .cs-text {
+    opacity: .8;
+  }
+  body.dark-mode #sbs-83 .cs-h3 {
+    color: var(--bodyTextColorWhite);
+  }
+}
+                                
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #229521;
+        --primaryLight: #3bb73a;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #sbs-83 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at tablet */
+            max-width: (550/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            max-width: (522/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-title {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            max-width: 20ch;
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            margin-bottom: (16/16rem);
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-card-group {
+            width: 100%;
+            max-width: (400/16rem);
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            column-gap: (12/16rem);
+        }
+
+        .cs-item {
+            list-style: none;
+            width: 32%;
+            max-width: (150/16rem);
+            /* making flex so we can align a heading with 1 line to the bottom */
+            display: flex;
+            flex-direction: column;
+            align-self: stretch;
+            align-content: space-between;
+        }
+
+        .cs-number {
+            /* 39px - 49px */
+            font-size: clamp(2.4375rem, 5vw, 3.0625rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            text-align: left;
+            color: var(--primary);
+            display: block;
+            /* 8px - 16px */
+            margin: 0 0 clamp(.25rem, .5vw, 1rem);
+        }
+
+        .cs-h3 {
+            /* 16px - 20px */
+            font-size: clamp(1rem, 2vw, 1.25rem);
+            line-height: 1.2em;
+            text-align: left;
+            /* auto margin top will push text to bottom if there's only one line */
+            margin: auto 0 0;
+            color: var(--headerColor);
+        }
+
+        .cs-image-group {
+            width: 100%;
+            max-width: (542/16rem);
+            /* pushes down by the same amount the images overlap the image group */
+            margin: 0 0 (40/16rem);
+            display: flex;
+            /* separate children to opposite sides of the room */
+            justify-content: center;
+            align-content: space-between;
+            flex-wrap: wrap;
+            gap: clamp(.5rem, 2vw, 1.25rem);
+        }
+
+        .cs-picture {
+            width: 48%;
+            /* 218px - 264px */
+            min-height: clamp(13.625rem, 25vw, 16.5rem);
+            aspect-ratio: 160/218;
+            position: relative;
+            display: block;
+
+            &:nth-of-type(2) {
+                /* move slightly down */
+                transform: translateY(40/16rem);
+            }
+
+            &:nth-of-type(4) {
+                /* move slightly up */
+                transform: translateY(40/16rem);
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes image act as a background image to the picture element */
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #sbs-83 {
+        .cs-container {
+            max-width: (1280/16rem);
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            /* 44px - 108px */
+            column-gap: clamp(2.75rem, calc(4.5vw*1.2 + 1em), 6.75rem);
+        }
+
+        .cs-card-group {
+            max-width: 100%;
+        }
+
+        .cs-image-group {
+            /* 318px - 542px */
+            width: clamp(19.875rem, 46.9vw, 33.875rem);
+            /* prevents flexbox from squishing it */
+            flex: none;
+        }
+
+        .cs-picture {
+            width: 47.8%;
+            aspect-ratio: initial;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #229521;
+        --primaryLight: #3bb73a;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #sbs-83 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at tablet */
+            max-width: (550/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            max-width: (522/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+    
+        .cs-topper {
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: inherit;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: (4/16rem);
+            display: block;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+    
+        .cs-text {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            text-align: inherit;
+            width: 100%;
+            max-width: (650/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-title {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            max-width: 20ch;
+        }
+
+        .cs-text {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            margin-bottom: (16/16rem);
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-card-group {
+            width: 100%;
+            max-width: (400/16rem);
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            column-gap: (12/16rem);
+        }
+
+        .cs-item {
+            list-style: none;
+            width: 32%;
+            max-width: (150/16rem);
+            /* making flex so we can align a heading with 1 line to the bottom */
+            display: flex;
+            flex-direction: column;
+            align-self: stretch;
+            align-content: space-between;
+        }
+
+        .cs-number {
+            /* 39px - 49px */
+            font-size: clamp(2.4375rem, 5vw, 3.0625rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            text-align: left;
+            color: var(--primary);
+            display: block;
+            /* 8px - 16px */
+            margin: 0 0 clamp(.25rem, .5vw, 1rem);
+        }
+
+        .cs-h3 {
+            /* 16px - 20px */
+            font-size: clamp(1rem, 2vw, 1.25rem);
+            line-height: 1.2em;
+            text-align: left;
+            /* auto margin top will push text to bottom if there's only one line */
+            margin: auto 0 0;
+            color: var(--headerColor);
+        }
+
+        .cs-image-group {
+            width: 100%;
+            max-width: (542/16rem);
+            /* pushes down by the same amount the images overlap the image group */
+            margin: 0 0 (40/16rem);
+            display: flex;
+            /* separate children to opposite sides of the room */
+            justify-content: center;
+            align-content: space-between;
+            flex-wrap: wrap;
+            gap: clamp(.5rem, 2vw, 1.25rem);
+        }
+
+        .cs-picture {
+            width: 48%;
+            /* 218px - 264px */
+            min-height: clamp(13.625rem, 25vw, 16.5rem);
+            aspect-ratio: 160/218;
+            position: relative;
+            display: block;
+
+            &:nth-of-type(2) {
+                /* move slightly down */
+                transform: translateY(40/16rem);
+            }
+
+            &:nth-of-type(4) {
+                /* move slightly up */
+                transform: translateY(40/16rem);
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes image act as a background image to the picture element */
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #sbs-83 {
+        .cs-container {
+            max-width: (1280/16rem);
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            /* 44px - 108px */
+            column-gap: clamp(2.75rem, calc(4.5vw*1.2 + 1em), 6.75rem);
+        }
+
+        .cs-card-group {
+            max-width: 100%;
+        }
+
+        .cs-image-group {
+            /* 318px - 542px */
+            width: clamp(19.875rem, 46.9vw, 33.875rem);
+            /* prevents flexbox from squishing it */
+            flex: none;
+        }
+
+        .cs-picture {
+            width: 47.8%;
+            aspect-ratio: initial;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #sbs-83 {
+            .cs-title, .cs-text, .cs-h3 {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-text {
+                opacity: .8;
+            }
+
+            .cs-h3 {
+                color: var(--bodyTextColorWhite);
+            }
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #229521;
+		--primaryLight: #3bb73a;
+		--secondary: #ffba43;
+		--secondaryLight: #ffba43;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#sbs-83 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+
+		.cs-container {
+			width: 100%;
+			/* changes to 1280px at tablet */
+			max-width: calc(550 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: left;
+			width: 100%;
+			max-width: calc(522 / 16 * 1rem);
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: flex-start;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-text {
+			font-size: var(--bodyFontSize);
+			line-height: 1.5em;
+			text-align: inherit;
+			width: 100%;
+			max-width: calc(650 / 16 * 1rem);
+			margin: 0;
+			color: var(--bodyTextColor);
+		}
+
+		.cs-title {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			max-width: 20ch;
+		}
+
+		.cs-text {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			margin-bottom: calc(16 / 16 * 1rem);
+			&:last-of-type {
+				margin-bottom: calc(32 / 16 * 1rem);
+			}
+		}
+
+		.cs-card-group {
+			width: 100%;
+			max-width: calc(400 / 16 * 1rem);
+			padding: 0;
+			margin: 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			column-gap: calc(12 / 16 * 1rem);
+		}
+
+		.cs-item {
+			list-style: none;
+			width: 32%;
+			max-width: calc(150 / 16 * 1rem);
+			/* making flex so we can align a heading with 1 line to the bottom */
+			display: flex;
+			flex-direction: column;
+			align-self: stretch;
+			align-content: space-between;
+		}
+
+		.cs-number {
+			/* 39px - 49px */
+			font-size: clamp(2.4375rem, 5vw, 3.0625rem);
+			line-height: 1.2em;
+			font-weight: 700;
+			text-align: left;
+			color: var(--primary);
+			display: block;
+			/* 8px - 16px */
+			margin: 0 0 clamp(0.25rem, 0.5vw, 1rem);
+		}
+
+		.cs-h3 {
+			/* 16px - 20px */
+			font-size: clamp(1rem, 2vw, 1.25rem);
+			line-height: 1.2em;
+			text-align: left;
+			/* auto margin top will push text to bottom if there's only one line */
+			margin: auto 0 0;
+			color: var(--headerColor);
+		}
+
+		.cs-image-group {
+			width: 100%;
+			max-width: calc(542 / 16 * 1rem);
+			/* pushes down by the same amount the images overlap the image group */
+			margin: 0 0 calc(40 / 16 * 1rem);
+			display: flex;
+			/* separate children to opposite sides of the room */
+			justify-content: center;
+			align-content: space-between;
+			flex-wrap: wrap;
+			gap: clamp(0.5rem, 2vw, 1.25rem);
+		}
+
+		.cs-picture {
+			width: 48%;
+			/* 218px - 264px */
+			min-height: clamp(13.625rem, 25vw, 16.5rem);
+			aspect-ratio: 160/218;
+			position: relative;
+			display: block;
+
+			&:nth-of-type(2) {
+				/* move slightly down */
+				transform: translateY(calc(40 / 16 * 1rem));
+			}
+
+			&:nth-of-type(4) {
+				/* move slightly up */
+				transform: translateY(calc(40 / 16 * 1rem));
+			}
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				/* Makes image act as a background image to the picture element */
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	#sbs-83 {
+		.cs-container {
+			max-width: calc(1280 / 16 * 1rem);
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: center;
+			/* 44px - 108px */
+			column-gap: clamp(2.75rem, calc(4.5vw * 1.2 + 1em), 6.75rem);
+		}
+
+		.cs-card-group {
+			max-width: 100%;
+		}
+
+		.cs-image-group {
+			/* 318px - 542px */
+			width: clamp(19.875rem, 46.9vw, 33.875rem);
+			/* prevents flexbox from squishing it */
+			flex: none;
+		}
+
+		.cs-picture {
+			width: 47.8%;
+			aspect-ratio: initial;
+		}
+	}
+}
+                                
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #229521;
+		--primaryLight: #3bb73a;
+		--secondary: #ffba43;
+		--secondaryLight: #ffba43;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#sbs-83 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+
+		.cs-container {
+			width: 100%;
+			/* changes to 1280px at tablet */
+			max-width: calc(550 / 16 * 1rem);
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* 48px - 64px */
+			gap: clamp(3rem, 6vw, 4rem);
+		}
+
+		.cs-content {
+			/* set text align to left if content needs to be left aligned */
+			text-align: left;
+			width: 100%;
+			max-width: calc(522 / 16 * 1rem);
+			display: flex;
+			flex-direction: column;
+			/* centers content horizontally, set to flex-start to left align */
+			align-items: flex-start;
+		}
+
+		.cs-topper {
+			font-size: var(--topperFontSize);
+			line-height: 1.2em;
+			text-transform: uppercase;
+			text-align: inherit;
+			letter-spacing: 0.1em;
+			font-weight: 700;
+			color: var(--primary);
+			margin-bottom: calc(4 / 16 * 1rem);
+			display: block;
+		}
+
+		.cs-title {
+			font-size: var(--headerFontSize);
+			font-weight: 900;
+			line-height: 1.2em;
+			text-align: inherit;
+			max-width: calc(700 / 16 * 1rem);
+			margin: 0 0 calc(16 / 16 * 1rem) 0;
+			color: var(--headerColor);
+			position: relative;
+		}
+
+		.cs-text {
+			font-size: var(--bodyFontSize);
+			line-height: 1.5em;
+			text-align: inherit;
+			width: 100%;
+			max-width: calc(650 / 16 * 1rem);
+			margin: 0;
+			color: var(--bodyTextColor);
+		}
+
+		.cs-title {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			max-width: 20ch;
+		}
+
+		.cs-text {
+			/* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+			margin-bottom: calc(16 / 16 * 1rem);
+			&:last-of-type {
+				margin-bottom: calc(32 / 16 * 1rem);
+			}
+		}
+
+		.cs-card-group {
+			width: 100%;
+			max-width: calc(400 / 16 * 1rem);
+			padding: 0;
+			margin: 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			column-gap: calc(12 / 16 * 1rem);
+		}
+
+		.cs-item {
+			list-style: none;
+			width: 32%;
+			max-width: calc(150 / 16 * 1rem);
+			/* making flex so we can align a heading with 1 line to the bottom */
+			display: flex;
+			flex-direction: column;
+			align-self: stretch;
+			align-content: space-between;
+		}
+
+		.cs-number {
+			/* 39px - 49px */
+			font-size: clamp(2.4375rem, 5vw, 3.0625rem);
+			line-height: 1.2em;
+			font-weight: 700;
+			text-align: left;
+			color: var(--primary);
+			display: block;
+			/* 8px - 16px */
+			margin: 0 0 clamp(0.25rem, 0.5vw, 1rem);
+		}
+
+		.cs-h3 {
+			/* 16px - 20px */
+			font-size: clamp(1rem, 2vw, 1.25rem);
+			line-height: 1.2em;
+			text-align: left;
+			/* auto margin top will push text to bottom if there's only one line */
+			margin: auto 0 0;
+			color: var(--headerColor);
+		}
+
+		.cs-image-group {
+			width: 100%;
+			max-width: calc(542 / 16 * 1rem);
+			/* pushes down by the same amount the images overlap the image group */
+			margin: 0 0 calc(40 / 16 * 1rem);
+			display: flex;
+			/* separate children to opposite sides of the room */
+			justify-content: center;
+			align-content: space-between;
+			flex-wrap: wrap;
+			gap: clamp(0.5rem, 2vw, 1.25rem);
+		}
+
+		.cs-picture {
+			width: 48%;
+			/* 218px - 264px */
+			min-height: clamp(13.625rem, 25vw, 16.5rem);
+			aspect-ratio: 160/218;
+			position: relative;
+			display: block;
+
+			&:nth-of-type(2) {
+				/* move slightly down */
+				transform: translateY(calc(40 / 16 * 1rem));
+			}
+
+			&:nth-of-type(4) {
+				/* move slightly up */
+				transform: translateY(calc(40 / 16 * 1rem));
+			}
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				/* Makes image act as a background image to the picture element */
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	#sbs-83 {
+		.cs-container {
+			max-width: calc(1280 / 16 * 1rem);
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: center;
+			/* 44px - 108px */
+			column-gap: clamp(2.75rem, calc(4.5vw * 1.2 + 1em), 6.75rem);
+		}
+
+		.cs-card-group {
+			max-width: 100%;
+		}
+
+		.cs-image-group {
+			/* 318px - 542px */
+			width: clamp(19.875rem, 46.9vw, 33.875rem);
+			/* prevents flexbox from squishing it */
+			flex: none;
+		}
+
+		.cs-picture {
+			width: 47.8%;
+			aspect-ratio: initial;
+		}
+	}
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+	body.dark-mode {
+		#sbs-83 {
+			.cs-title,
+			.cs-text,
+			.cs-h3 {
+				color: var(--bodyTextColorWhite);
+			}
+
+			.cs-text {
+				opacity: 0.8;
+			}
+
+			.cs-h3 {
+				color: var(--bodyTextColorWhite);
+			}
+		}
+	}
+}
+                                

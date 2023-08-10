@@ -1,0 +1,714 @@
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<section id="cta-1094">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Subscribe For Newsletter</h2>
+            <form class="cs-form" name="Contact Form" method="post">
+                <input class="cs-input" type="email" id="cs-email-1094" name="find-us" placeholder="Email Address">
+                <button class="cs-button-solid cs-submit" type="submit">Subscribe Now</button>
+            </form>
+        </div>
+        <!--Background Image-->
+        <picture class="cs-background">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/engine.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/engine.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/engine.jpg" alt="engine" width="1920" height="486" aria-hidden="true">
+        </picture>
+    </div>
+</section>
+                                
+/*-- -------------------------- -->
+<---            CTA             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #D90429;
+    --primaryLight: #d8673d;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #cta-1094 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    position: relative;
+    z-index: 1;
+  }
+  #cta-1094 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    padding: var(--sectionPadding);
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+    position: relative;
+  }
+  #cta-1094 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    /* changes to 100% at tablet */
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #cta-1094 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #cta-1094 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    width: 100%;
+    font-size: 1.9375rem;
+    margin: 0 0 1.5rem;
+    color: var(--bodyTextColorWhite);
+  }
+  #cta-1094 .cs-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #cta-1094 .cs-input {
+    font-size: 1rem;
+    width: 100%;
+    height: clamp(2.875rem, 5.5vw, 3.5rem);
+    margin: 0;
+    padding: 0;
+    padding-left: 1.25rem;
+    border: none;
+    /* prevents padding from adding to width and height */
+    box-sizing: border-box;
+    display: block;
+  }
+  #cta-1094 .cs-input::placeholder {
+    color: #767676;
+  }
+  #cta-1094 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #cta-1094 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width .3s;
+  }
+  #cta-1094 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #cta-1094 .cs-submit {
+    width: 100%;
+    border: none;
+    transition: color .3s;
+  }
+  #cta-1094 .cs-submit:before {
+    background-color: #fff;
+  }
+  #cta-1094 .cs-submit:hover {
+    color: var(--primary);
+  }
+  #cta-1094 .cs-background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #cta-1094 .cs-background:before {
+    /* black overlay */
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #1a1a1a;
+    opacity: .88;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  #cta-1094 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #cta-1094 .cs-container {
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+  }
+  #cta-1094 .cs-content {
+    max-width: 100%;
+  }
+  #cta-1094 .cs-form {
+    flex-direction: row;
+  }
+  #cta-1094 .cs-input {
+    width: 100%;
+    max-width: 32.8125rem;
+  }
+  #cta-1094 .cs-submit {
+    width: auto;
+    min-width: 11.875rem;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Desktop - 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #cta-1094 .cs-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #cta-1094 .cs-title {
+    margin: 0;
+  }
+  #cta-1094 .cs-form {
+    width: 100%;
+    max-width: 45.625rem;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---            CTA             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #D90429;
+        --primaryLight: #d8673d;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #cta-1094 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        position: relative;
+        z-index: 1;
+        
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            padding: var(--sectionPadding);
+            /* prevents padding from affecting height and width */
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+            position: relative;
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            /* changes to 100% at tablet */
+            max-width: (400/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: (700/16rem);
+            margin: 0 0 (16/16rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+
+        .cs-title {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            width: 100%;
+            font-size: (31/16rem);
+            margin: 0 0 (24/16rem);
+            color: var(--bodyTextColorWhite);
+        }
+
+        .cs-form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: (16/16rem);
+            /* prevents flexbox from squishing it */
+            flex: none;
+        }
+
+        .cs-input {
+            font-size: (16/16rem);
+            width: 100%;
+            height: clamp(2.875rem, 5.5vw, 3.5rem);
+            margin: 0;
+            padding: 0;
+            padding-left: (20/16rem);
+            border: none;
+            /* prevents padding from adding to width and height */
+            box-sizing: border-box;
+            display: block;
+            &::placeholder {
+                color: #767676;
+            }
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-submit {
+            width: 100%;
+            border: none;
+            transition: color .3s;
+            &:before {
+                background-color: #fff;
+            }
+
+            &:hover {
+                color: var(--primary);
+            }
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            &:before {
+                /* black overlay */
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: #1a1a1a;
+                opacity: .88;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #cta-1094 {
+        .cs-container {
+            padding-left: (60/16rem);
+            padding-right: (60/16rem);
+        }
+        .cs-content {
+            max-width: 100%;
+        }
+
+        .cs-form {
+            flex-direction: row;
+        }
+
+        .cs-input {
+            width: 100%;
+            max-width: (525/16rem);
+        }
+
+        .cs-submit {
+            width: auto;
+            min-width: (190/16rem);
+            /* prevents flexbox from squishing it */
+            flex: none;
+        }
+    }
+}
+
+/* Desktop - 1300px */
+@media only screen and (min-width: 81.25rem) {
+    #cta-1094 {
+        .cs-content {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .cs-title {
+            margin: 0;
+        }
+
+        .cs-form {
+            width: 100%;
+            max-width: (730/16rem);
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---            CTA             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #D90429;
+        --primaryLight: #d8673d;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #cta-1094 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        position: relative;
+        z-index: 1;
+        
+        .cs-container {
+            width: 100%;
+            max-width: calc(1280 / 16 * 1rem);
+            margin: auto;
+            padding: var(--sectionPadding);
+            /* prevents padding from affecting height and width */
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+            position: relative;
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            /* changes to 100% at tablet */
+            max-width: calc(400 / 16 * 1rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-title {
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: inherit;
+            max-width: calc(700 / 16 * 1rem);
+            margin: 0 0 calc(16 / 16 * 1rem) 0;
+            color: var(--headerColor);
+            position: relative;
+        }
+
+        .cs-title {
+            /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+            width: 100%;
+            font-size: calc(31 / 16 * 1rem);
+            margin: 0 0 calc(24 / 16 * 1rem);
+            color: var(--bodyTextColorWhite);
+        }
+
+        .cs-form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: calc(16 / 16 * 1rem);
+            /* prevents flexbox from squishing it */
+            flex: none;
+        }
+
+        .cs-input {
+            font-size: calc(16 / 16 * 1rem);
+            width: 100%;
+            height: clamp(2.875rem, 5.5vw, 3.5rem);
+            margin: 0;
+            padding: 0;
+            padding-left: calc(20 / 16 * 1rem);
+            border: none;
+            /* prevents padding from adding to width and height */
+            box-sizing: border-box;
+            display: block;
+            &::placeholder {
+                color: #767676;
+            }
+        }
+
+        .cs-button-solid {
+            font-size: calc(16 / 16 * 1rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+	    	font-weight: 700;
+	        text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: calc(150 / 16 * 1rem);
+            padding: 0 calc(24 / 16 * 1rem);
+            background-color: var(--primary);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-submit {
+            width: 100%;
+            border: none;
+            transition: color .3s;
+            &:before {
+                background-color: #fff;
+            }
+
+            &:hover {
+                color: var(--primary);
+            }
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            &:before {
+                /* black overlay */
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: #1a1a1a;
+                opacity: .88;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #cta-1094 {
+        .cs-container {
+            padding-left: calc(60 / 16 * 1rem);
+            padding-right: calc(60 / 16 * 1rem);
+        }
+        .cs-content {
+            max-width: 100%;
+        }
+
+        .cs-form {
+            flex-direction: row;
+        }
+
+        .cs-input {
+            width: 100%;
+            max-width: calc(525 / 16 * 1rem);
+        }
+
+        .cs-submit {
+            width: auto;
+            min-width: calc(190 / 16 * 1rem);
+            /* prevents flexbox from squishing it */
+            flex: none;
+        }
+    }
+}
+
+/* Desktop - 1300px */
+@media only screen and (min-width: 81.25rem) {
+    #cta-1094 {
+        .cs-content {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .cs-title {
+            margin: 0;
+        }
+
+        .cs-form {
+            width: 100%;
+            max-width: calc(730 / 16 * 1rem);
+        }
+    }
+}
+                                

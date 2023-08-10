@@ -1,0 +1,479 @@
+<!-- ============================================ -->
+<!--                   Stats                      -->
+<!-- ============================================ -->
+
+<!-- No headers, so no section tag -->
+<div id="stats-340">
+    <ul class="cs-card-group">
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/person2-gold.svg" alt="icon" width="35" height="40" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">5840</span>
+                <span class="cs-desc">Cleaning Staff</span>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/mop-gold.svg" alt="icon" width="40" height="35" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">3140</span>
+                <span class="cs-desc">Projects Completed</span>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/thumbs-gold.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">2260</span>
+                <span class="cs-desc">Satisfied Clients</span>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/award2-gold.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">2365</span>
+                <span class="cs-desc">Awards Won</span>
+            </div>
+        </li>
+    </ul>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Stats/cleaning-products-m.jpg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Stats/cleaning-products.jpg">
+        <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/cleaning-products.jpg" alt="cleaning products" width="1920" height="283">
+    </picture>
+</div>
+                                
+/*-- -------------------------- -->
+<---           Stats            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  :root {
+    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+    --primary: #FFCC75;
+    --primaryLight: #001F3F;
+    --secondary: #FFBA43;
+    --secondaryLight: #FFBA43;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  #stats-340 {
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: var(--sectionPadding);
+    position: relative;
+    z-index: 1;
+  }
+  #stats-340 .cs-background {
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: -1;
+  }
+  #stats-340 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .16;
+    object-fit: cover;
+  }
+  #stats-340 .cs-card-group {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 37.5rem;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  #stats-340 .cs-item {
+    list-style: none;
+    min-width: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #stats-340 .cs-picture {
+    /* 60px - 80px */
+    width: clamp(3.75rem, 7.9vw, 5rem);
+    height: clamp(3.75rem, 7.9vw, 5rem);
+    margin-right: 1rem;
+    border-radius: 50%;
+    border: 1px solid #BABABA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* prevents border from adding to height and width */
+    box-sizing: border-box;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #stats-340 .cs-icon {
+    /* 28px - 40px */
+    width: clamp(1.75rem, 3.9vw, 2.5rem);
+    height: auto;
+  }
+  #stats-340 .cs-flex-group {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  #stats-340 .cs-number {
+    font-size: var(--headerFontSize);
+    color: var(--bodyTextColorWhite);
+    font-weight: 900;
+    line-height: 1.2em;
+    margin: 0;
+    display: block;
+  }
+  #stats-340 .cs-desc {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.4vw, 1rem);
+    line-height: 1.5em;
+    color: var(--bodyTextColorWhite);
+    display: block;
+  }
+}
+/* Tablet - 650px */
+@media only screen and (min-width: 40.625rem) {
+  #stats-340 .cs-card-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 3.125rem;
+    row-gap: 3.75rem;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #stats-340 .cs-card-group {
+    max-width: 80rem;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+}
+                                
+/*-- -------------------------- -->
+<---           Stats            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+        /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+        --primary: #FFCC75;
+        --primaryLight: #001F3F;
+        --secondary: #FFBA43;
+        --secondaryLight: #FFBA43;
+        --headerColor: #1a1a1a;
+        --bodyTextColor: #4E4B66;
+		--bodyTextColorWhite: #FAFBFC;
+
+        /* 13px - 16px */
+        --topperFontSize: clamp(.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+
+    #stats-340 {
+        /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+        font-family: 'Roboto', 'Arial', sans-serif;
+        padding: var(--sectionPadding);
+        position: relative;
+        z-index: 1;
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            background-color: #1a1a1a;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            z-index: -1;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                opacity: .16;
+                object-fit: cover;
+            }
+        }
+    
+        .cs-card-group {
+            width: 100%;
+            /* changes to 1280px at desktop */
+            max-width: (600/16rem);
+            margin: auto;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: (40/16rem);
+        }
+        
+        .cs-item {
+            list-style: none;
+            min-width: auto;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .cs-picture {
+            /* 60px - 80px */
+            width: clamp(3.75rem, 7.9vw, 5rem);
+            height: clamp(3.75rem, 7.9vw, 5rem);
+            margin-right: (16/16rem);
+            border-radius: 50%;
+            border: 1px solid #BABABA;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* prevents border from adding to height and width */
+            box-sizing: border-box;
+            /* prevents flexbox from squishing it */
+            flex: none;
+        }
+
+        .cs-icon {
+            /* 28px - 40px */
+            width: clamp(1.75rem, 3.9vw, 2.5rem);
+            height: auto;
+        }
+
+        .cs-flex-group {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+
+        .cs-number {
+            font-size: var(--headerFontSize);
+            color: var(--bodyTextColorWhite);
+            font-weight: 900;
+            line-height: 1.2em;
+            margin: 0;
+            display: block;
+        }
+
+        .cs-desc {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.4vw, 1rem);
+            line-height: 1.5em;
+            color: var(--bodyTextColorWhite);
+            display: block;
+        }
+    }
+
+}
+
+/* Tablet - 650px */
+@media only screen and (min-width: 40.625rem) {
+    #stats-340 {
+        .cs-card-group {
+            flex-direction: row;
+            flex-wrap: wrap;
+            column-gap: (50/16rem);
+            row-gap: (60/16rem);
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #stats-340 {
+        .cs-card-group {
+            max-width: (1280/16rem);
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---           Stats            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+	:root {
+		/* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+		--primary: #ffcc75;
+		--primaryLight: #001f3f;
+		--secondary: #ffba43;
+		--secondaryLight: #ffba43;
+		--headerColor: #1a1a1a;
+		--bodyTextColor: #4e4b66;
+		--bodyTextColorWhite: #fafbfc;
+
+		/* 13px - 16px */
+		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+		/* 31px - 49px */
+		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+		--bodyFontSize: 1rem;
+
+		/* 60px - 100px top and bottom */
+		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+	}
+
+	#stats-340 {
+		/* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+		font-family: 'Roboto', 'Arial', sans-serif;
+		padding: var(--sectionPadding);
+		position: relative;
+		z-index: 1;
+
+		.cs-background {
+			width: 100%;
+			height: 100%;
+			background-color: #1a1a1a;
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			z-index: -1;
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				opacity: 0.16;
+				object-fit: cover;
+			}
+		}
+
+		.cs-card-group {
+			width: 100%;
+			/* changes to 1280px at desktop */
+			max-width: calc(600 / 16 * 1rem);
+			margin: auto;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			gap: calc(40 / 16 * 1rem);
+		}
+
+		.cs-item {
+			list-style: none;
+			min-width: auto;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+		}
+
+		.cs-picture {
+			/* 60px - 80px */
+			width: clamp(3.75rem, 7.9vw, 5rem);
+			height: clamp(3.75rem, 7.9vw, 5rem);
+			margin-right: calc(16 / 16 * 1rem);
+			border-radius: 50%;
+			border: 1px solid #bababa;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			/* prevents border from adding to height and width */
+			box-sizing: border-box;
+			/* prevents flexbox from squishing it */
+			flex: none;
+		}
+
+		.cs-icon {
+			/* 28px - 40px */
+			width: clamp(1.75rem, 3.9vw, 2.5rem);
+			height: auto;
+		}
+
+		.cs-flex-group {
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+			flex-direction: column;
+		}
+
+		.cs-number {
+			font-size: var(--headerFontSize);
+			color: var(--bodyTextColorWhite);
+			font-weight: 900;
+			line-height: 1.2em;
+			margin: 0;
+			display: block;
+		}
+
+		.cs-desc {
+			/* 14px - 16px */
+			font-size: clamp(0.875rem, 1.4vw, 1rem);
+			line-height: 1.5em;
+			color: var(--bodyTextColorWhite);
+			display: block;
+		}
+	}
+}
+
+/* Tablet - 650px */
+@media only screen and (min-width: 40.625rem) {
+	#stats-340 {
+		.cs-card-group {
+			flex-direction: row;
+			flex-wrap: wrap;
+			column-gap: calc(50 / 16 * 1rem);
+			row-gap: calc(60 / 16 * 1rem);
+		}
+	}
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+	#stats-340 {
+		.cs-card-group {
+			max-width: calc(1280 / 16 * 1rem);
+			flex-wrap: nowrap;
+			justify-content: space-evenly;
+		}
+	}
+}
+                                
