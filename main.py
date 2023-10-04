@@ -85,10 +85,12 @@ def scrape(driver, url, directory):
 if __name__ == '__main__':
     url = 'https://codestitch.app/app/dashboard/catalog/sections/1'
     username = 'lucasmartiniscool@gmail.com'
+    # Password was changed before repository was made public
     password = 'Seahawksarelit5'
 
     driver = login(url, username, password)
 
+    # Add all the URLs to scrape. Could be made more efficient which I can work on.
     scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/22', 'Buttons')
     scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/1', 'Navigation')
     scrape(driver, 'https://codestitch.app/app/dashboard/catalog/sections/2', 'Hero')
